@@ -4,7 +4,7 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The initial snapshot is `2026-10-05-initial`, published October 5, 2026. The current snapshot, `2026-10-05-talent-pilot`, adds two numerical talent tables; their source-build attribution is unverified and recorded in `table_overrides`. The original 43 exports keep their prior attribution. On that date, the maintainer identified the source as Steam (PC), with the full displayed version string `1.05.01.01.27384 2026/06/16 #773b656a63`. The record separates the game version `1.05.01.01.27384`, displayed build date `2026-06-16`, and displayed revision marker `773b656a63`, while preserving the full string in `version_display`.
+The initial snapshot is `2026-10-05-initial`, published October 5, 2026. The current snapshot, `2026-10-05-talents-verified`, adds twelve numerical talent tables (312 talents across all released heroes), for 55 selected TSV files total. Their source-version attribution is maintainer-confirmed and recorded in `table_overrides`; all twelve wiki talent pages were published and verified on October 5. The original 43 exports keep their prior attribution. On that date, the maintainer identified the source as Steam (PC), with the full displayed version string `1.05.01.01.27384 2026/06/16 #773b656a63`. The record separates the game version `1.05.01.01.27384`, displayed build date `2026-06-16`, and displayed revision marker `773b656a63`, while preserving the full string in `version_display`.
 
 Its `version_status` is `maintainer-confirmed`, with that confirmation recorded as evidence. The Steam numeric build ID and extraction date remain unknown (`null`). The displayed build date is not an extraction or snapshot publication date.
 

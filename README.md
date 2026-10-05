@@ -2,13 +2,13 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository is the canonical source for 43 selected decoded TSV exports and six derived numerical talent tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for 43 selected decoded TSV exports and twelve derived numerical talent tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
 
 The initial 43 text and index exports come from **Steam (PC), version `1.05.01.01.27384`**, with the displayed build date `2026/06/16` and revision marker `#773b656a63`. This source attribution was confirmed by the maintainer on October 5, 2026. Its data snapshot ID is `2026-10-05-initial`; the Steam numeric build ID has not been recorded.
 
-[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The six numerical talent tables combine decoded tooltip values, maintainer compendium checks, and decoded unlock progression. Their source version is maintainer-confirmed as the version above. The current snapshot ID is `2026-10-05-talents-verified`. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
+[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The twelve numerical talent tables combine decoded tooltip values, maintainer compendium checks, and decoded unlock progression. Their source version is maintainer-confirmed as the version above. The current snapshot ID is `2026-10-05-talents-verified`. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
 
 ## Tables
 
@@ -20,9 +20,13 @@ The initial 43 text and index exports come from **Steam (PC), version `1.05.01.0
 | General and section text | 4 | Common UI, enemy, Magical Objects, and Melodies text |
 | Object and melody indexes | 2 | Entity-to-text-key mappings for the selected objects and melodies |
 | Magical Object sources | 1 | Rarity chances explicitly set on decoded source entities |
-| Numerical talents | 6 | Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine: 26 talents each, with effects, unlock ranks, and source traces |
+| Numerical talents | 12 | All twelve released heroes: 26 talents each, with effects, unlock ranks, and source traces |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
+
+## Talent publication status
+
+All twelve hero talent pages were published and verified on October 5, 2026 across four batches: 312 talent rows in total. Each page has Icon, Name, Unlocks at and Effect columns, 26 loaded 48px icons, and no table redlinks. All parent hero pages link to their talent pages. [TALENTS.md](TALENTS.md) lists the published pages and verification history. The repository contains 55 selected TSV files: 43 original decoded exports and 12 numerical talent tables.
 
 ## Reading the tables
 
