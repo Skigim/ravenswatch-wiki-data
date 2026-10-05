@@ -1,6 +1,6 @@
 # Selected tables
 
-The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent update adds six derived numerical tables (Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine), for 49 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
+The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent update adds nine derived numerical tables (Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine, Geppetto, Sun Wukong, Carmilla), for 52 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
@@ -50,7 +50,7 @@ The initial publication contains 43 decoded TSV exports, listed first below. The
 
 ## Derived numerical talent tables
 
-These tables publish the verified talent rows and their tooltip traces for Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, and Melusine. They include the October 5 maintainer compendium confirmations and decoded unlock ranks; source traces and interpretation history are retained in [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
+These tables publish the verified talent rows and their tooltip traces for Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine, Geppetto, Sun Wukong, and Carmilla. They include the October 5 maintainer compendium confirmations and decoded unlock ranks; source traces and interpretation history are retained in [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
@@ -59,4 +59,7 @@ These tables publish the verified talent rows and their tooltip traces for Scarl
 | [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `bc3c14a11768f1563796b2e2220fdb5cb435f0261da056328e83b07fb469f32b` |
 | [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `3d7e8be699d47875f0b42cdf5fbd968821373f6db86bfc657b7b3987de05a749` |
 | [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `5a7e4d3dcaf1010054d3cd83cf5920f49ebb04fc6f7578f1108890f72308aa88` |
+| [Hero_Geppetto_Talents.tsv](data/Hero_Geppetto_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `d1a038e65d5b9d5ecdf4a4b71a571c0f6631e4a39386b31d3098c4c81d6898cb` |
+| [Hero_SunWukong_Talents.tsv](data/Hero_SunWukong_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `70ee39953fa5a5f1464d80bdee95e0e44b192967813897da004e269045ca801d` |
+| [Hero_Carmilla_Talents.tsv](data/Hero_Carmilla_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `163332de7525af9d207c6b45a079f28c6c062fffb51718b9f582f7cf23e0e283` |
 | [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `f3a3aeb74e74581d6bd3ddf6a14c91482f0a7b78c5a007afb36ca7d343b73377` |
