@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-05-initial",
+  "snapshot_id": "2026-10-05-talent-pilot",
   "snapshot_published_on": "2026-10-05",
   "extracted_on": null,
   "game": "Ravenswatch",
@@ -21,8 +21,47 @@
   ],
   "internal_manifest": {
     "label": "LiveOps5",
-    "applies_to": ["data/Magical_Objects_Index.tsv"],
+    "applies_to": [
+      "data/Magical_Objects_Index.tsv"
+    ],
     "note": "Recorded provenance label for the selected object list; no verified mapping to a public game version or build ID."
   },
-  "table_overrides": {}
+  "table_overrides": {
+    "data/Hero_RED_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "source_hashes_and_wiki_revision",
+          "reference": "TALENTS.md; wiki pilot revision 755",
+          "note": "Numeric entity sources are pinned by SHA-256 but are not independently tied to a game build. Initial text-export attribution is retained for unchanged tables."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Snow_Queen_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "source_hashes_and_wiki_revision",
+          "reference": "TALENTS.md; wiki pilot revision 755",
+          "note": "Numeric entity sources are pinned by SHA-256 but are not independently tied to a game build. Initial text-export attribution is retained for unchanged tables."
+        }
+      ],
+      "extracted_on": null
+    }
+  }
 }

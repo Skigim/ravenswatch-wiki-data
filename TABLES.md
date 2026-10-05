@@ -1,6 +1,6 @@
 # Selected tables
 
-Exactly 43 TSV files are included in the initial publication. SHA-256 hashes identify their unchanged bytes; declared row counts come from the original file headers.
+The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent pilot adds two derived numerical tables, for 45 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
@@ -47,3 +47,12 @@ Exactly 43 TSV files are included in the initial publication. SHA-256 hashes ide
 | [Magical_Objects.LangEN.tsv](data/Magical_Objects.LangEN.tsv) | 334 | `Magical_Objects~GAM.xls` | `6b55434f642d7d608c681968d26fb9c149c8ca6d198c6c46fe9db72a1564bb82` |
 | [Melodies_Index.tsv](data/Melodies_Index.tsv) | 12 | `EntitySettings/Objects/Melodies!<Name>` | `a2d89ce5cfe3ca02c9ca15b4f4c9ea5e2be0de8fbd18f9a280d481b1ebce6205` |
 | [Melodies.LangEN.tsv](data/Melodies.LangEN.tsv) | 25 | `Melodies~GAM.xls` | `e977ea1557aa498834a7ad20ab16ecdfb6deee6b5817efb763f31b07f2e1b5ca` |
+
+## Derived numerical talent pilot
+
+These tables publish the 52 existing wiki pilot rows and their tooltip traces. They are interpreted drafts, with source exceptions and inferred rarity mapping retained; see [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | `User:Skigim/Talent_pilot` revision 755; Hero_Red tooltip bindings | `4f16245755a33d581316fdc847f82540d032aa2225400b9ead181e4fa11d2f29` |
+| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | `User:Skigim/Talent_pilot` revision 755; Hero_Snow_Queen tooltip bindings | `6ea3db58ea3987f2cfbb80acd02114f75e0f283c07b6cadc7336d1502419ca5d` |

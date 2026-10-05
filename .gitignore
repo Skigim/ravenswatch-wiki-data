@@ -52,3 +52,8 @@
 !/data/Magical_Objects.LangEN.tsv
 !/data/Melodies_Index.tsv
 !/data/Melodies.LangEN.tsv
+
+# User-authorized numerical talent pilot selection.
+!/TALENTS.md
+!/data/Hero_RED_Talents.tsv
+!/data/Hero_Snow_Queen_Talents.tsv
