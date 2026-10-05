@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-05-initial",
+  "snapshot_published_on": "2026-10-05",
+  "extracted_on": null,
+  "game": "Ravenswatch",
+  "game_version": "1.05.01.01.27384",
+  "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+  "platform": "PC",
+  "store": "Steam",
+  "build_id": null,
+  "build_date": "2026-06-16",
+  "build_revision": "773b656a63",
+  "version_status": "maintainer-confirmed",
+  "version_evidence": [
+    {
+      "kind": "maintainer_confirmation",
+      "reference": "Maintainer confirmation on 2026-10-05",
+      "note": "The maintainer identified the Steam version used for these exports as 1.05.01.01.27384 2026/06/16 #773b656a63. The displayed revision marker is not a Steam numeric build ID."
+    }
+  ],
+  "internal_manifest": {
+    "label": "LiveOps5",
+    "applies_to": ["data/Magical_Objects_Index.tsv"],
+    "note": "Recorded provenance label for the selected object list; no verified mapping to a public game version or build ID."
+  },
+  "table_overrides": {}
+}

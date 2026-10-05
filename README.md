@@ -2,7 +2,13 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository contains the 43 existing TSV tables selected from the wiki working folder, copied without changing their contents. It is a reference snapshot for writing and checking articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for the 43 selected decoded TSV tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+
+## Game version
+
+The initial snapshot comes from **Steam (PC), version `1.05.01.01.27384`**, with the displayed build date `2026/06/16` and revision marker `#773b656a63`. This source attribution was confirmed by the maintainer on October 5, 2026. Its data snapshot ID is `2026-10-05-initial`; the Steam numeric build ID has not been recorded.
+
+[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
 
 ## Tables
 
@@ -37,9 +43,9 @@ Replace markup with wiki formatting when drafting prose. Runtime placeholders ar
 
 ## Evidence limits
 
-The tables were already present in the wiki working folder when this repository was assembled on October 5, 2026. That date is the repository assembly date, not a game release or extraction date. The files do not establish a precise game build or patch version, and this repository does not claim to represent the latest game state.
+The initial data snapshot was published on October 5, 2026. That date is the snapshot publication date, not a game release or extraction date. See VERSION.json for version attribution; this repository does not claim to represent the latest game state.
 
-The Magical Object index records 58 selected objects and the melody index records 12 melodies. Text tables can also contain blank, unused, or retired entries; a text row alone does not establish that an entry ships. The saved index provenance describes a LiveOps5 manifest, which is not a precise public patch identifier.
+The Magical Object index records 58 selected objects and the melody index records 12 melodies. Text tables can also contain blank, unused, or retired entries; a text row alone does not establish that an entry ships. The recorded LiveOps5 manifest label applies to the Magical Object index and is distinct from the maintainer-confirmed game version.
 
 In `Magical_Objects_Sources.tsv`, numeric chances are fractions: `0.5` means 50%. A blank means the entity does not explicitly set that chance; it does not mean zero. Inherited values and Drop Chance Selectors are not decoded. Shops, the Sandman, and camp rewards are outside that table's coverage. Source rows include templates and do not establish which sources are active in-game.
 

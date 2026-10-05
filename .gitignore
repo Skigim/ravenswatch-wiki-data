@@ -5,6 +5,8 @@
 !/README.md
 !/CONTRIBUTING.md
 !/TABLES.md
+!/VERSION.json
+!/VERSIONING.md
 !/data/
 /data/*
 !/data/Common.LangEN.tsv
