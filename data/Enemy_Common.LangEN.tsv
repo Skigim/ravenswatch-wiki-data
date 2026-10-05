@@ -1,0 +1,22 @@
+# source_table	Enemy_Common~GAM.xls
+# rows	18
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Boss_Marsh_Ghoul	Mother Ghoul, Underground Terror
+1	Boss_White_Lady	Brigit, the White Lady
+2	Boss_Crab_Name	Karkinos, Scourge of the Reefs
+3	Boss_Ogre_Cyclop_Name	Steropes, the Cyclop
+4	Boss_Dullahan_Name	Arthur, the Fallen King
+5	Boss_Witch_Crone_Name	The Crone Witch
+6	Boss_Witch_Stake_Name	The Mother Witch
+7	Boss_Witch_Young_Name	The Young Witch
+8	Boss_Jinn_Name	Abu Al Jann, Father of all Jinns
+9	Boss_Wolf_Name	Melion, the Cursed Knight
+10	Boss_Nightmare_Tentacle_Master_Name	Tentacle Master Nightmare
+11	Boss_Nightmare_Faceless_Name	Faceless Master Nightmare
+12	Boss_Nightmare_Hands_Master_Caster_Name	Claws Master Nightmare
+13	Boss_Nightmare_Hands_Master_Melee_Name	Claws Master Nightmare
+14	Boss_Ogre_Wood_Name	The Ogre
+15	Boss_Mordred_Name	Mordred, the Usurper
+16	Boss_Roc_Name	Simurgh, Herald of the Skies
+17	Activity_Stingy_Jack	Stingy Jack

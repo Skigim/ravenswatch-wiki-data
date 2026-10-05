@@ -1,0 +1,79 @@
+# source_table	Hero_Juliet_Common~GAM.xls
+# rows	75
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Juliet
+1	Hero_Desc	Juliet's dreams of happily-ever-after were dashed when Romeo awakened, unable to form new memories, and "'til death do us part" took on a whole new meaning. Determined to make the most of their second shot at love, Juliet has honed her skills so her shooting is as devastating as her beauty.
+2	Ability_Trait_Name	Until death do us part
+3	Ability_Trait_Desc	• #Passive:@ If {0} definitely dies, {1} dies too\n• #Active:@ Consume Health equivalent to ${2}%* of Maximum Health to make {0} heal for &{3}%~ of the amount (healing above Maximum Health is converted into #SHIELD@)
+4	Ability_Attack_Name	Pistol Shot
+5	Ability_Attack_Desc	• Shoot with pistol, dealing &{0}~ damage\n• Shots consume \AMMO§ which reloads after a period of time without shooting\n• #DASH@ instantly reloads all \AMMO§
+6	Ability_Power_Name	Power Shot
+7	Ability_Power_Desc	• Hold then release to shoot a piercing bullet dealing &{0}~ damage (requires one \AMMO§)\n• Release at key moment to trigger a #PERFECT SHOT@ dealing #+{1}%@ damage\n• Shooting a {2}'s Rose makes it explode, dealing &{3}~ damage all around
+8	Ability_Special_Name	Passionate Kiss
+9	Ability_Special_Desc	• Call {0} during #{1}@ seconds or answer {0}'s call\n• Answering the call makes both heroes dash towards each other and kiss at half-distance dealing &{2}~ area damage, then they move back in opposite directions
+10	Ability_Defense_Name	Strafe 
+11	Ability_Defense_Desc	• {0} becomes #INTANGIBLE@ and triggers a barrage of #ATTACK@’s bullets on nearby enemies consuming all remaining \AMMO§
+12	Ability_Ultimate_1_Name	Wild Waltz
+13	Ability_Ultimate_1_Desc	• {2} rushes towards {0} to perform an #INTANGIBLE@ dance for #{1}@ seconds\n• Both Heroes influence moving direction during dance. The more identical the directions, the faster the movement\n• Deal between &{3}~ and &{4}~ area damage per second (according to their movement speed)
+14	Skill_Attack_Burst_Title	Volcanic Shots
+15	Skill_Attack_Burst_Desc	• #ATTACK@ triggered right after #DASH@ shoots &{0}~ times in a row, consuming only one \AMMO§
+16	Skill_Power_Quest_Explode_Title	Guns & Roses
+17	Skill_Power_Quest_Explode_Desc	• #Quest (x{0}):@ Hitting an enemy by exploding {4}'s Rose with a #PERFECT SHOT@ grants #+{1} DMG@\n• #Complete:@ Rose explosions triggered with a #PERFECT SHOT@ gain #+{2}%@ range and deals &+{3}%~ damage
+18	Skill_Passive_More_Ammo_Title	Large Chambers
+19	Skill_Passive_More_Ammo_Desc	• Maximum amount of \AMMO§ is increased by #{0}@\n• #ATTACK@ and #POWER@ damage are increased by &{1}%~ for each missing \AMMO§
+20	Skill_Attack_Ignite_Title	Hot Shots
+21	Skill_Attack_Ignite_Desc	• #ATTACKS@ triggered within #{0}@ second(s) after a #POWER@ apply #IGNITE@ to hit enemies and deal &+{1}%~ damage
+22	Skill_Attack_Rose_AOE_Title	Swirling Rose
+23	Skill_Attack_Rose_AOE_Desc	• #ATTACKS@ hitting {0}'s Roses make them spin, dealing &{1}%~ of {2}'s #ATTACK@ damage all around 
+24	Skill_Power_More_Range_Title	Longshot
+25	Skill_Power_More_Range_Desc	• #POWER@ gains #+{0}%@ range and deals &+{1}%~ damage to enemies hit beyond half the maximum range 
+26	Skill_Power_Vulnerable_Title	Shadow Round
+27	Skill_Power_Vulnerable_Desc	• #PERFECT SHOT@ applies #VULNERABLE@ for &{0}~ second(s) to hit enemies 
+28	Skill_Special_Heal_Title	Overflowing Passion
+29	Skill_Special_Heal_Desc	• #SPECIAL@ restores &{0}~ Health to all Heroes around whenever it hits at least an enemy
+30	Skill_Defense_More_Shots_Title	Blind Shots
+31	Skill_Defense_More_Shots_Desc	• #DEFENSE@ fires &{0}~ more shot(s) than the number of \AMMO§ remaining
+32	Skill_Defense_Ricochet_Title	Bullet Ballet
+33	Skill_Defense_Ricochet_Desc	• #DEFENSE@ shots can ricochet to hit nearby targets, dealing &{0}%~ #ATTACK@ damage 
+34	Skill_Defense_Reload_Title	Defensive Reload
+35	Skill_Defense_Reload_Desc	• Reload &{0}~ \AMMO§ after using #DEFENSE@
+36	Skill_Power_Cone_Damage_Title	Shrapnel
+37	Skill_Power_Cone_Damage_Desc	• Using #POWER@ also triggers a shrapnel burst dealing &{0}%~ damage in a cone
+38	Skill_Passive_Bonus_Object_Title	Wedding Gifts
+39	Skill_Passive_Bonus_Object_Desc	• Whenever they obtain a #Magical Object@, {0} and {1} have a &{2}%~/&{3}%~/&{4}%~ chance to gift the other the same common, rare or epic #Magical Object@
+40	Skill_Power_Double_Shot_Title	Double Tap
+41	Skill_Power_Double_Shot_Desc	• Hold #POWER@ to trigger #2@ shots in a row\n• The second shot deals &{0}%~ damage
+42	Skill_Power_Attack_Backstep_Title	Explosive Backstep
+43	Skill_Power_Attack_Backstep_Desc	• While holding #POWER@, using #ATTACK@ makes {0} step back and shoot to the ground, dealing &{1}%~ #POWER@’s damage in a zone
+44	Skill_Special_Projectile_Title	Love Sparks
+45	Skill_Special_Projectile_Desc	• #SPECIAL@ fires &{0}~ homing projectiles towards nearby enemies, each one dealing #{1}@ damage
+46	Book_Page_Hero_Locked_Condition	Available in the free DLC Romeo & Juliet
+47	Skill_Special_Quest_Dream_Shard_Title	Kiss the Groom
+48	Skill_Special_Quest_Dream_Shard_Desc	• #Quest (x{0}):@ Hitting at least one enemy with #SPECIAL@ grants #+{1}@ #Crit Chance@\n• #Complete:@ Any enemy hit by #SPECIAL@ has a &{4}%~ chance to grant {3} #{2}@ #Dream Shard(s)@
+49	Skill_Trait_Buff_Title	Valiant Hearts
+50	Skill_Trait_Buff_Desc	• #TRAIT@ grants both {0} and {1} #+{2}%@ #MOVE SPEED@ and #STRENGTH@ for &{3}~ second(s)
+51	Skill_Trait_AOE_Title	Heartbeat
+52	Skill_Trait_AOE_Desc	•  Using #TRAIT@ or receiving {0}’s #TRAIT@ triggers a sonic wave dealing &{2}~ damage all around {1}
+53	Skill_Attack_Power_Tilte	Lucky Shot
+54	Skill_Attack_Power_Desc	• #ATTACKS@ have a &{0}%~ chance to turn into a #POWER@ shot
+55	Skill_Attack_Close_Combat_Title	Knockout 
+56	Skill_Attack_Close_Combat_Desc	• When {0} is very close to an enemy, #ATTACK@ turns into a strike using her pistol's butt dealing &{1}%~ damage at close range without consuming \AMMO§ (#{2}@ seconds cooldown)
+57	Skill_Dash_Shield_Title	Comforting Presence
+58	Skill_Dash_Shield_Desc	• Crossing through a Hero using #DASH@ grants &{0}~ #SHIELD@ for #{1}@ seconds to {2} and all Heroes crossed
+59	Ability_Ultimate_2_Name	Poison Flask
+60	Ability_Ultimate_2_Desc	• Throw a poison flask in the air\n• Trigger #ULTIMATE@ again at the right time to shoot the flask and make it explode, dealing &{0}~ to &{1}~ damage in a wide area
+61	Skill_Ultimate_1_Heal_Title	Passion Dance
+62	Skill_Ultimate_1_Heal_Desc	• Restore between &{0}~ and &{1}~ Health per seconds to all Heroes nearby during #ULTIMATE@’s dance (depending on dance movement speed)
+63	Skill_Ultimate_1_End_AOE_Title	Flashy Ending
+64	Skill_Ultimate_1_End_AOE_Desc	• Dancing gauge can be filled up according to the synchronization of {0} and {1}'s movements during #ULTIMATE@\n• Trigger an explosion at the end of the dance dealing from &{2}~ to &{3}~ area damage (based on dancing gauge level)
+65	Skill_Ultimate_2_Marked_Title	Plague Flask
+66	Skill_Ultimate_2_Marked_Desc	• #ULTIMATE@’s explosion applies #MARKED@ to hit enemies for &{0}~ second(s)
+67	Skill_Ultimate_2_Dash_AOE_Title	Unstable Concoction
+68	Skill_Ultimate_2_Dash_AOE_Desc	• Using #DASH@ makes {0} drop a flask of poison to the ground, dealing &{1}~ damage in a zone
+69	Ability_Trait_Solo_Name	Broken Heart
+70	Ability_Trait_Solo_Desc	• Consume Health equivalent to ${0}%* of Maximum Health to gain &+{1}~ #REGENERATION@
+71	Skill_Ultimate_1_Name	Wild Waltz
+72	Skill_Ultimate_1_Desc	• {0} rushes towards {1} to perform an #INTANGIBLE@ dance dealing area damage
+73	Skill_Ultimate_2_Name	Poison Flask
+74	Skill_Ultimate_2_Desc	• Throw a poison flask in the air\n• Trigger #ULTIMATE@ again at the right time to shoot the flask and make it explode, dealing damage in a wide area

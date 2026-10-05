@@ -1,0 +1,52 @@
+# source_entities	EntitySettings/<Folder>/<Entity> that set Loot\<Rarity> Drop Chance values
+# rows	48
+# note	Drop chance per rarity as set on the entity itself. Blank means the entity doesn't set it; inherited values aren't decoded. Join to Magical_Objects_Index.tsv on rarity.
+source_entity	declared_by	common	rare	epic	legendary	cursed	power_up	total_set	note
+Avalon/Objects_Avalon!Avalon_Basic_Chest_T1	Basic_Chest_T1	0.6	0.4					1	
+Avalon/Objects_Avalon!Avalon_Basic_Chest_T2	Basic_Chest_T2	0.2	0.5	0.3				1	
+Avalon/Objects_Avalon!Avalon_Basic_Chest_T3	Basic_Chest_T3	0	0.2	0.8				1	
+Avalon/Objects_Avalon!Avalon_Grimoire_Of_Monsters_Reward_Spawner_T1	Magical_Object_Model	0	0	0	0	0	1	1	
+Avalon/Objects_Avalon!Avalon_Grimoire_Of_Monsters_Reward_Spawner_T2	Magical_Object_Model	0	0	0	0	0	1	1	
+Avalon/Objects_Avalon!Avalon_Grimoire_Of_Monsters_Reward_Spawner_T3	Magical_Object_Model	0	0	0	0	0	1	1	
+Avalon/Objects_Tree_Quest!Morgan_Tree_Quest_Reward_Spawner	Magical_Object_Model	0	0	0	1	0	0	1	
+DarkHills/Houses_3Pigs!Pig_House_Reward_Spawner	Magical_Object_Model	0	0	0	1	0	0	1	
+DarkHills/Jack!Jack_Reward_Spawner	Magical_Object_Model	0	0	0	1	0	0	1	
+DarkHills/Objects_DarkHills!Boss_Shrine_White_Lady_Reward	Magical_Object_Model	0	0	0	0	1	0	1	
+DarkHills/Objects_DarkHills!Dark_Hills_Basic_Chest_T1	Magical_Object_Model	0.8	0.2					1	
+DarkHills/Objects_DarkHills!Dark_Hills_Basic_Chest_T2	Magical_Object_Model	0.4	0.5	0.1				1	
+DarkHills/Objects_DarkHills!Dark_Hills_Basic_Chest_T3	Basic_Chest_T3;Magical_Object_Model	0.2	0.3	0.5				1	
+DarkHills/Objects_DarkHills!Dark_Hills_Grimoire_Of_Monsters_Reward_Spawner_T1	Magical_Object_Model	0	0	0	0	0	1	1	
+DarkHills/Objects_DarkHills!Dark_Hills_Grimoire_Of_Monsters_Reward_Spawner_T2	Magical_Object_Model	0	0	0	0	0	1	1	
+DarkHills/Objects_DarkHills!Dark_Hills_Grimoire_Of_Monsters_Reward_Spawner_T3	Magical_Object_Model	0	0	0	0	0	1	1	
+Enemies/Stingy_Jack!Stingy_Jack_Base_Reward	Stingy_Jack_Base_Reward	0.5	0.3	0.2				1	
+Enemies/Stingy_Jack!Stingy_Jack_Drop_Bag_Model	Magical_Object_Model	0.7	0.2	0.1	0	0	0	1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Avalon_T1	Stingy_Jack_Base_Reward	0.6	0.4	0				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Avalon_T2	Stingy_Jack_Base_Reward	0.2	0.5	0.3				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Avalon_T3	Stingy_Jack_Base_Reward	0	0.2	0.8				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Dark_Hills_T2	Stingy_Jack_Base_Reward	0.4	0.5	0.1				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Dark_Hills_T3	Stingy_Jack_Base_Reward	0.2	0.3	0.5				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Storm_Island_T1	Stingy_Jack_Base_Reward	0.7	0.3	0				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Storm_Island_T2	Stingy_Jack_Base_Reward	0.3	0.5	0.2				1	
+Enemies/Stingy_Jack!Stingy_Jack_Reward_Storm_Island_T3	Stingy_Jack_Base_Reward	0.1	0.25	0.65				1	
+Heroes/Hero_Aladdin!Hero_Aladdin_Wish_Special_Drop_Bag	Magical_Object_Model	0	0	0	0	0	1	1	
+Heroes/Hero_Common!Hero_Drop_Bag	Magical_Object_Model	0	0	0	0	0	1	1	
+Heroes/Hero_Geppetto!Hero_Geppetto_Drop_Bag	Magical_Object_Model	0.4	0.3	0.2	0.05	0.05	0	1	
+Objects_Common/Astrolab_Model	Magical_Object_Model	0	0	0	0	0	1	1	
+Objects_Common/Basic_Chest_T1		0.7	0.3	0	0	0		1	
+Objects_Common/Basic_Chest_T2		0.25	0.5	0.25	0	0		1	
+Objects_Common/Basic_Chest_T3		0	0.3	0.7	0	0		1	
+Objects_Common/GameModifier_Legendary_Drop_Bag	Magical_Object_Model	0	0	0	1	0	0	1	
+Objects_Common/Hourglass_Drop_Bag_Model	Magical_Object_Model	0.7	0.2	0.1	0	0	0	1	
+Objects_Common/Hourglass_Drop_Bag_Spawner	Hourglass_Drop_Bag_Model								chances come from Drop Chance Selectors; not decoded
+Objects_Common/Magical_Object_Model	Magical_Object_Model	0.7	0.2	0.1	0	0	0	1	
+Objects_Common/Rare_Chest	Magical_Object_Model	0	0	0	0.5	0.5	0	1	
+Objects_Common/Single_MO_Drop_Bag	Magical_Object_Model								chances come from Drop Chance Selectors; not decoded
+Objects_Common/Wishing_Well_Drop_Bag	Magical_Object_Model								chances come from Drop Chance Selectors; not decoded
+Storm_Island/Objects_Storm_Island!Boss_Shrine_Jinn_Reward	Magical_Object_Model	0	0	0	0	1	0	1	
+Storm_Island/Objects_Storm_Island!Storm_Island_Basic_Chest_T2	Basic_Chest_T2	0.3	0.5	0.2				1	
+Storm_Island/Objects_Storm_Island!Storm_Island_Basic_Chest_T3	Basic_Chest_T3	0.1	0.25	0.65				1	
+Storm_Island/Objects_Storm_Island!Storm_Island_Grimoire_Of_Monsters_Reward_Spawner_T1	Magical_Object_Model	0	0	0	0	0	1	1	
+Storm_Island/Objects_Storm_Island!Storm_Island_Grimoire_Of_Monsters_Reward_Spawner_T2	Magical_Object_Model	0	0	0	0	0	1	1	
+Storm_Island/Objects_Storm_Island!Storm_Island_Grimoire_Of_Monsters_Reward_Spawner_T3	Magical_Object_Model	0	0	0	0	0	1	1	
+Storm_Island/Quest_Sinbad!Quest_Cyclop!Sinbad_Cyclop_Quest_Reward_Spawner	Magical_Object_Model	0	0	0	1	0	0	1	
+Storm_Island/Quest_Sinbad!Quest_Roc!Roc_Quest_Reward_Spawner	Magical_Object_Model	0	0	0	1	0	0	1	

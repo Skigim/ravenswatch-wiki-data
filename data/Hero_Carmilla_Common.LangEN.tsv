@@ -1,0 +1,84 @@
+# source_table	Hero_Carmilla_Common~GAM.xls
+# rows	80
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Carmilla
+1	Hero_Desc	Separated from the love of her eternal life in the war against darkness, Carmilla now fights to extinguish those she holds responsible for destroying her happily-ever-after. She is a dhampir, a day-walking vampire, drinking blood to strengthen her powers while taking care to control the monster within. Carmilla is physically fast and ferocious – but her wit also has fangs of its own.
+2	Ability_Trait_Name	Dhampir
+3	Ability_Trait_Desc	• {0} uses $BLOOD* to fuel some of her abilities, or health when there is no more left\n• Activate to enter #Winged Form@, draining #{1}@ $BLOOD* per second to gain #+{2}% MOVE SPEED@ and $BLOOD*-free abilities\n• #DAY@: Every #{3}@ second(s), restore &{4}~ health to all nearby heroes\n• #NIGHT@: Gain &+{5}%~ #Crit Chance@
+4	Ability_Attack_Name	Tearing
+5	Ability_Attack_Desc	• Chain a series of #{0}@ attacks with clawed hands, with the last attack dealing #+{1}%@ damage\n• The combo overall deals a total of &{2}~ damage and earns #{3}@ $BLOOD point(s)*
+6	Ability_Power_Name	Blood Orb
+7	Ability_Power_Desc	• {0} sends a blood orb forward; holding the action consumes $BLOOD* to fuel it, dealing &{2}~ area damage per second\n• Upon release, the blood orb explodes and deals &{1}~ area damage
+8	Ability_Special_Name	Death Kiss
+9	Ability_Special_Desc	• Hold then release – {0} launches herself at the target location, then turns #INTANGIBLE@ and bites the closest enemy, dealing &{1}~ damage\n• Each successful bite earns #{2}@ $BLOOD point(s)*
+10	Ability_Defense_Name	Bat Swarm
+11	Ability_Defense_Desc	• {0} transforms into an #INTANGIBLE@ bat swarm, dealing &{1}~ damage to enemies passed through as #BLEED@\n• Holding the action consumes $BLOOD* to keep this form active for up to #{2}@ seconds
+12	Ability_Ultimate_1_Name	Impalement
+13	Ability_Ultimate_1_Desc	• Consume all $BLOOD* to launch a series of blood spikes errupting from the ground in front, dealing &{0}~ damage per second to enemies in the area\n• Each $BLOOD point* consumed increases damage by #{1}%@
+14	Ability_Ultimate_2_Name	Blood Lash
+15	Ability_Ultimate_2_Desc	• Summon a whip of blood, dealing &{0}~ area damage\n• Next &{1}~ #ATTACKS@ use the whip to strike in large areas, with the combo overall dealing a total of &{2}~ damage
+16	Ability_Attack_Ultimate_2_Desc	• Chain a series of #{0}@ attacks with the blood whip, with the last attack dealing #+{1}%@ damage\n• The combo overall deals a total of &{2}~ damage
+17	Skill_Passive_Blood_Reserve_Name	Blood Reserve
+18	Skill_Passive_Blood_Reserve_Desc	• Increase maximum $BLOOD* reserve by &{0}%~
+19	Skill_Passive_Life_Use_Regen_Name	Boiling Blood
+20	Skill_Passive_Life_Use_Regen_Desc	• After consuming Health for at least #{0}@ second(s) to fuel an ability, gain #REGENERATION@ &+{1}~
+21	Skill_Passive_Critical_Bleed_Name	Sadism 
+22	Skill_Passive_Critical_Bleed_Desc	• #Critical Hits@ deal &+{0}%~ damage on enemies affected by #BLEED@
+23	Skill_Passive_Taunt_Name	Seductive Provocation 
+24	Skill_Passive_Taunt_Desc	• In combat, standing still makes {0} seduce up to &{1}~ non-boss enemies in front of her, applying #WEAKENED@ and #VULNERABLE@ for #{2}@ seconds\n• Has a #{3}@-second cooldown 
+25	Skill_Dash_Taunt_Name	Seductive Provocation 
+26	Skill_Dash_Taunt_Desc	• Using #DASH@ without specifying a move direction makes {0} seduce up to &{1}~ non-boss enemies in front of her, applying #WEAKENED@ and #VULNERABLE@ to them for #{2}@ seconds
+27	Skill_Dash_Blood_Name	Puncture
+28	Skill_Dash_Blood_Desc	• Each enemy passed through by #DASH@ earns &{0}~ $BLOOD*
+29	Skill_Trait_Life_Tap_Name	Life Tap
+30	Skill_Trait_Life_Tap_Desc	• In #Winged Form@, activating #TRAIT@ again consumes health equivalent to #{0}%@ of max health to recover up to &{1}~ $BLOOD points*\n• This ability cannot be used when below health cost and has a #{2}@-second cooldown
+31	Skill_Trait_Push_Back_Name	Gust
+32	Skill_Trait_Push_Back_Desc	• #TRAIT@ pushes back nearby enemies and deals &{0}~ area damage 
+33	Skill_Trait_Heal_Buff_Name	Angel and Demon 
+34	Skill_Trait_Heal_Buff_Desc	• When using #TRAIT@:\n• #DAY@ : restore &{0}~ health to all nearby heroes\n• #NIGHT@ : Grants #STRENGTH@ to all nearby heroes for &{1}~ seconds 
+35	Skill_Attack_Bleed_Name	Razor Claws
+36	Skill_Attack_Bleed_Desc	• #ATTACK@ deals &+{0}%~ damage as #BLEED@
+37	Skill_Attack_Last_Combo_Move_Name	Cruel Strike 
+38	Skill_Attack_Last_Combo_Move_Desc	• After #DASH@ or #DEFENSE@, the next #ATTACK@ starts with a combo finishing move, dealing &+{0}%~ damage 
+39	Skill_Attack_Special_Rush_Name	Onslaught
+40	Skill_Attack_Special_Rush_Desc	• After a #SPECIAL@, the next #ATTACK@ makes {0} rush forward, dealing &{1}%~ #ATTACK@ damage to enemies passed through
+41	Skill_Power_Quest_Name	Blood Rage
+42	Skill_Power_Quest_Desc	• #Quest(x{0}):@ Hitting an enemy with the #POWER@ held for at least #{1}@ second to gain #+{2} DMG@\n• #Complete:@ Repeating this action increases #POWER@ explosion damage by &+{3}%~
+43	Skill_Power_Maintained_Damage_Name	Furious Tempest
+44	Skill_Power_Maintained_Damage_Desc	• Consuming $BLOOD* to fuel #POWER@ gradually increases its damage, up to &+{0}%~ after #{1}@ seconds of holding
+45	Skill_Power_Bleed_Crit_Name	Flesh Rip 
+46	Skill_Power_Bleed_Crit_Desc	• #POWER@ has &+{0}%~ Crit Chance on enemies affected by #BLEED@
+47	Skill_Power_Projectile_Name	Blood Shards 
+48	Skill_Power_Projectile_Desc	• #POWER@ explosion projects &{0}~ Blood Shards, each one dealing #{1}@ damage
+49	Skill_Power_Range_Name	Wild Heart
+50	Skill_Power_Range_Desc	• #POWER@'s orb move speed is increased by #{0}%@\n• #POWER@ explosion gains &+{1}%~ range
+51	Skill_Power_Special_Bomb_Name	Injection
+52	Skill_Power_Special_Bomb_Desc	• #SPECIAL@ implants a blood seed into the bitten enemy that shortly after triggers an explosion of #POWER@, dealing &{0}%~ area damage
+53	Skill_Special_Quest_Name	Life Essence
+54	Skill_Special_Quest_Desc	• #Quest (x{0}):@ Killing an enemy with #SPECIAL@'s bite earns #VITALITY +{1}@\n• #Complete:@ Repeating this action restores &{2}~ health to {3}
+55	Skill_Special_Marked_Name	Victimization 
+56	Skill_Special_Marked_Desc	• #SPECIAL@ applies #MARKED@ to bitten enemy for &{0}~ seconds\n• #MARKED@ targets take #+{1}%@ damage and spread this status to another nearby enemy when they die
+57	Skill_Special_Critical_Distance_Name	Go for the Throat 
+58	Skill_Special_Critical_Distance_Desc	• Distance covered before #SPECIAL@'s bite increases its damage and #Crit Chance@, up to &+{0}%~ 
+59	Skill_Special_Cross_Damage_Name	Tearing Slide 
+60	Skill_Special_Cross_Damage_Desc	• #SPECIAL@ deals &{0}%~ damage to enemies passed through before and after the bite
+61	Skill_Defense_Master_Name	Bat Master
+62	Skill_Defense_Master_Desc	• When not in combat, #DEFENSE@ grants #STEALTH@ and can be held without consuming $BLOOD*\n• #DEFENSE@ deals &+{0}%~ damage\n• #STEALTH@ make Carmilla undetectable by enemies 
+63	Skill_Defense_Projectile_Name	Aggressive Flock
+64	Skill_Defense_Projectile_Desc	• During #DEFENSE@, {0} casts a bat every &{1}~ second(s) that seeks out nearby enemies and pierces through them, dealing #{2}@ damage
+65	Skill_Defense_Aoe_Bleed_Name	Dispersion 
+66	Skill_Defense_Aoe_Bleed_Desc	• After #DEFENSE@, bats disperse around {0}, dealing &{1}~ area damage as #BLEED@
+67	Skill_Ultimate_1_Name	Impalement
+68	Skill_Ultimate_1_Desc	• Consume all $BLOOD* to launch a series of blood spikes errupting from the ground in front, dealing damage to enemies passed
+69	Skill_Ultimate_2_Name	Blood Lash
+70	Skill_Ultimate_2_Desc	• Summon a whip of blood, dealing area damage\n• Next &{0}~ #ATTACKS@ use the whip to strike in large areas
+71	Skill_Ultimate_1_Return_Name	Torture of the Pale
+72	Skill_Ultimate_1_Return_Desc	• At the end of their course, #ULTIMATE@ blood spikes return toward {0}, dealing &{1}%~ damage 
+73	Skill_Ultimate_1_Combo_Pike_Name	Heartbreak
+74	Skill_Ultimate_1_Combo_Pike_Desc	• Add a fourth move to #ATTACK@ combo, impaling enemies in front, dealing &{0}%~ #ULTIMATE@ damage 
+75	Skill_Ultimate_2_Increase_Max_Attack_Name	Mistress of Pain 
+76	Skill_Ultimate_2_Increase_Max_Attack_Desc	• Increase maximum number of #ATTACKS@ transformed by #ULTIMATE@ by &{0}~ 
+77	Skill_Ultimate_2_Add_Zone_Attack_Name	Mass Punishment 
+78	Skill_Ultimate_2_Add_Zone_Attack_Desc	• Add a fourth #ATTACK@ to #ULTIMATE@ combo, dealing &{0}%~ area damage 
+79	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with Aladdin, Melusine, Geppetto or Sun Wukong

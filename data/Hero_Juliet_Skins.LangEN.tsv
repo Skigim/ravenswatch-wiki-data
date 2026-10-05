@@ -1,0 +1,24 @@
+# source_table	Hero_Juliet_Skins~GAM.xls
+# rows	20
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Juliet_Signature_Skin_Title	Signature Outfit
+1	Juliet_Signature_Skin_Description	Unlocked by completing 'Kiss the Groom' Talent Quest 
+2	Juliet_Signature_Skin_UnlockCondition	Completed ‘Kiss the Groom' Talent Quest 
+3	Juliet_Traveler_Skin_Title	Traveler Outfit
+4	Juliet_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Juliet_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Juliet_Master_Skin_Title	Master Outfit
+7	Juliet_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Juliet_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Juliet_Hidden_Skin_Title	Hidden Outfit
+10	Juliet_Hidden_Skin_Description	Hidden Requirements
+11	Juliet_Hidden_Skin_UnlockCondition	Bull’s Eye
+12	Juliet_Romance_Skin_Title	Romance Outfit
+13	Juliet_Romance_Skin_Description	Available in the Romance Skin Pack
+14	Juliet_Romance_Skin_UnlockCondition	Romance Skin Pack Acquired
+15	Juliet_Raven_Skin_Title	Ravens Outfit
+16	Juliet_Nightmare_Skin_Title	Nightmares Outfit
+17	Juliet_Spectral_Skin_Title	Eternal Love Outfit
+18	Juliet_EternalLove_Skin_Description	Available in the Romeo & Juliet Skin Pack
+19	Juliet_EternalLove_Skin_UnlockCondition	Romeo & Juliet Skin Pack Acquired

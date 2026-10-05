@@ -1,0 +1,28 @@
+# source_table	Hero_RED_Skins~GAM.xls
+# rows	24
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Scarlet_Signature_Skin_Title	Signature Outfit
+1	Scarlet_Signature_Skin_Description	Unlocked by completing the 'Devourer' Talent Quest 
+2	Scarlet_Signature_Skin_UnlockCondition	Completed the 'Devourer' Talent Quest 
+3	Scarlet_Traveler_Skin_Title	Traveler Outfit
+4	Scarlet_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Scarlet_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Scarlet_Master_Skin_Title	Master Outfit
+7	Scarlet_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Scarlet_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Scarlet_Hidden_Skin_Title	Hidden Outfit
+10	Scarlet_Hidden_Skin_Description	Hidden Requirements
+11	Scarlet_Hidden_Skin_UnlockCondition	Human after all
+12	Scarlet_Raven_Skin_Title	Ravens Outfit
+13	Scarlet_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Scarlet_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Scarlet_Nightmares_Skin_Title	Nightmares Outfit
+16	Scarlet_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Scarlet_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Scarlet_Fairytales_Skin_Title	Fairytales Outfit
+19	Scarlet_Fairytales_Skin_Description	Available in the Fairytales Skin Pack
+20	Scarlet_Fairytales_Skin_UnlockCondition	Fairytales Skin Pack Acquired
+21	Scarlet_Timeless_Skin_Title	Timeless Outfit
+22	Scarlet_Timeless_Skin_Description	Available in the Timeless Skin Pack
+23	Scarlet_Timeless_Skin_UnlockCondition	Timeless Skin Pack Acquired

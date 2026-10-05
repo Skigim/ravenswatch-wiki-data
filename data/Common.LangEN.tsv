@@ -1,0 +1,532 @@
+# source_table	Common~GAM.xls
+# rows	528
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Common_GameName	Ravenswatch
+1	Common_Back	Back
+2	Skill_Choose_Menu	Choose a Talent
+3	Skill_Choose_Notification	Talent!
+4	Status_Leashed	Leashed!
+5	Status_Rooted	Trapped!
+6	Status_Weakened	Weakened!
+7	Status_Regeneration	Regeneration
+8	Status_Strength	Strength
+9	Status_MaxHealthUp	Max Health up!
+10	Status_Cursed	Cursed!
+11	Status_Disease	Diseased!
+12	Item_Quality_Common	Common
+13	Item_Quality_Rare	Rare
+14	Item_Quality_Epic	Epic
+15	Item_Quality_Legendary	Legendary
+16	Game_Revive	Use a Raven Feather
+17	Game_Token_Left	Feathers left: {0}
+18	Game_Deaths_Door	Death's Door
+19	Game_You_Died	You died
+20	Ability_Dash_Name	Dash
+21	Ability_Dash_Desc	Quickly dash forward
+22	Ability_Attack	Attack
+23	Ability_Power	Power
+24	Ability_Special	Special
+25	Ability_Defense	Defense
+26	Ability_Ultimate	Ultimate
+27	Ability_Trait	Trait
+28	Common_Loading	Loading
+29	Common_Baba_Yaga	Baba Yaga
+30	3Pigs_Straw	Cynric Swyne
+31	3Pigs_Wood	Godric Swyne
+32	3Pigs_Stone	Alaric Swyne
+33	Magical_Object_Choose_Menu	Choose a magical object
+34	Item_Quality_Currse	Cursed
+35	Notification_Tumor_Destroyed_Title	Tumor destroyed!
+36	Notification_Tumor_Destroyed_Desc	Master Nightmare has lost {}% of its health
+37	Sindbad_Name	Sinbad
+38	Book_Page_Select_Hero	Select Hero
+39	Book_Page_Validate_Hero	Confirm
+40	Book_Page_View_Ability	View ability
+41	Book_Page_View_Upgrade	View Talents
+42	Common_Start	Ready
+43	Common_Ready	Wait...
+44	Common_Not_Ready	Ready
+45	Common_Quit	Quit
+46	Common_Hero_Already_Selected	Hero already selected
+47	Common_Duo_Hero_Requested	Romeo & Juliet are recommended to be played together
+48	Book_Page_Switch_Hero	Switch Hero
+49	Book_Page_Join_With_Code	Join a session
+50	Book_Page_Code	Code:
+51	Book_Page_Random	Random
+52	Notification_Boss_Cycles_Left_Title	Warning
+53	Notification_Boss_Cycles_Left_Desc	Master Nightmare awakens in {} day(s)
+54	Common_Starting	Starting...
+55	Common_Ok	OK
+56	Book_Page_Enter_Code	Enter invite code
+57	Menu_Play	Play
+58	Menu_Discord	Discord
+59	Menu_Last_Update	Latest update: 05/31/2023
+60	Menu_Resume	Resume
+61	Menu_Settings	Settings
+62	Menu_Early_Access	Early Access
+63	Welcome_Message_Title	Welcome to the Early Access!
+64	Welcome_Message_Text	Thank you for participating in Ravenswatch's Early Access.\n\nThe game is still in development and your feedback will help us improve it. If you encounter bugs, please let us know and we'll fix them as soon as possible.\n\nWe update the game regularly with patches and new content. Follow our progress on the Early Access Roadmap and Steam forum announcements.\n\nIf you're not yet part of our Discord community, join us by clicking on the Discord button in the main menu.\n\nAre you ready to join the Ravenswatch?
+65	Welcome_Message_Signature	– The Passtech Team
+66	Stormancer_Connect_Fail	Unable to connect to server
+67	Session_Create_Fail	Unable to create game session
+68	Session_Join_Fail	Unable to join game session
+69	Session_Connection_Fail	Unable to connect to game session
+70	Session_Connection_To_Peer_Fail	Failed to establish a connection with a peer
+71	Session_Peer_Left_During_Connection	A peer left during session connection
+72	Session_Disconnected_Go_To_Lobby	Disconnected from game session
+73	Party_Create_Fail	Unable to create party
+74	Party_Join_Fail	Unable to join party
+75	Party_Connection_Error_Title	Party connection error
+76	Session_Connection_Error_Title	Game session connection error
+77	Session_Host_Abandon	The host has closed the game session
+78	Common_Victory	Victory
+79	Common_Defeat	Defeat
+80	Common_Difficulty	Difficulty
+81	Common_Playtime	Playtime
+82	Common_Level	Level
+83	Common_Level_Reached	Level reached
+84	Common_Multiplayer	Multiplayer
+85	Common_Score	Score:
+86	Common_End	End
+87	Notification_Grimoire_Activity_Title	Grimoire
+88	Notification_Grimoire_Activity_Active_Desc	Kill all enemies before the time runs out! 
+89	Notification_Grimoire_Activity_Fail_Desc	Fail! The grimoire has been destroyed.
+90	Notification_Grimoire_Activity_Victory_Desc	Success! The grimoire has been opened.
+91	Notification_Boss_Shrine_Title	Boss challenge
+92	Notification_Boss_Shrine_Time_Out_Desc	Fail! The boss has vanished.
+93	Notification_Boss_Shrine_Fight_Starts_Desc	A powerful enemy has appeared.
+94	Notification_Boss_Shrine_Success_Desc	Success! Boss defeated.
+95	Options_AudioCateg	Audio
+96	Options_GraphicsCateg	Graphics
+97	Options_KeyboardCateg	Keyboard
+98	Options_GamepadCateg	Controller
+99	Options_MiscCateg	Miscellaneous
+100	Options_ScreenShakes	Screen shakes
+101	Options_PauseDuringChoices	Pause game while making choices (solo games only)
+102	Options_HideSessionCode	Hide session code
+103	Options_SetDefault	Reset to defaults
+104	Options_MasterVolume	Master volume
+105	Options_MusicVolume	Music volume
+106	Options_SfxVolume	SFX volume
+107	Options_VoiceVolume	Voice volume
+108	Options_DisplayMode	Display mode
+109	Options_Fullscreen	Fullscreen
+110	Options_Windowed	Windowed
+111	Options_Monitor	Monitor
+112	Options_RenderResolution	Render resolution
+113	Options_RefreshRate	Refresh rate
+114	Options_Vsync	V-Sync
+115	Common_Story_Activities	Activities ({0})
+116	Book_Page_Compendium	Compendium
+117	Book_Page_Heroes	Heroes
+118	Book_Page_Confessions	Memoirs
+119	Book_Page_Bestiary	Bestiary
+120	Book_Page_Magical_Objects	Magical objects
+121	Book_Page_Achievements	Achievements
+122	Book_Page_Statistics	Statistics
+123	Book_Page_Skills	Talents
+124	Book_Page_Tier_I	Starting
+125	Book_Page_Tier_II	Standard
+126	Book_Page_Tier_III	Final
+127	Book_Page_Coming_Soon	Available in an upcoming update
+128	Book_Page_Skill_Unlock_Lvl	Unlocked at Rank ${0}*
+129	Common_Next	Next
+130	Book_Page_Level_Up	New rank reached!
+131	Book_Page_Skills_Unlocked	New talents
+132	Book_Page_MO_Unlocked	New objects
+133	Options_BasicAttack	Attack
+134	Options_PrimaryAbility	Power
+135	Options_SecondaryAbility	Special
+136	Options_DefensiveAbility	Defense
+137	Options_TraitAbility	Trait
+138	Options_UltimateAbility	Ultimate
+139	Options_DashAbility	Dash
+140	Options_PressAnyKey	Press any key
+141	Options_PressAnyButton	Press any button
+142	Options_Contextual	Contextual action
+143	Options_ShowMap	Show map
+144	Options_RestoreToDefault	Reset to default
+145	Options_ApplyGraphics	Apply
+146	Options_ApplyGraphicsModalTitle	Graphics settings
+147	Options_ApplyGraphicsModalDesc	Confirm changes?
+148	Options_Low_Setting_Value	Low
+149	Options_Medium_Setting_Value	Medium
+150	Options_High_Setting_Value	High
+151	Options_Ultra_Setting_Value	Ultra
+152	Options_Default_Setting_Value	Default
+153	Options_Custom_Setting_Value	Custom
+154	Options_On_Value	On
+155	Options_Off_Value	Off
+156	Options_Quality_Preset	Quality preset
+157	Options_Texture_Quality	Texture quality
+158	Options_SSAO_Quality	Ambient occlusion quality
+159	Options_Bloom_Quality	Bloom quality
+160	Options_Shadows_Quality	Shadow quality
+161	Options_Lighting_Quality	Lighting quality
+162	Options_Antialiasing	Antialiasing
+163	Options_Render_Scale	Render Scale
+164	Options_Brightness	Brightness
+165	Message_Hero_Unlocked_Title	{} has joined the Ravenswatch!
+166	Message_EA_End_Title	TO BE CONTINUED...
+167	Message_EA_End_Desc	You've defeated the Master Nightmare of #Storm Island@ on the game's highest difficulty level.\n\nCongratulations!\nBut the challenge doesn't end here...\n\nThe adventure continues #in the next Chapter@ of Ravenswatch, where you can explore a new area and level up your heroes even more. More updates are planned. Follow our progress on the Early Access Roadmap and Steam forum announcements.\n\nThanks for playing! Stay tuned for more!
+168	Message_Passtech_Signature	– Passtech Games
+169	Menu_Bug_Report	Report a bug
+170	Menu_Patch_Notes	Roadmap
+171	Common_Damage_Dealt	Damage dealt: {}
+172	Common_Damage_Taken	Damage taken: {}
+173	Common_Healing_Provided	Healing provided: {}
+174	Common_Deaths_Door	Death's Door
+175	Common_Crows_Feather	Raven Feathers used: {}
+176	Common_Dream_Shards_Collected	Dream Shards collected
+177	Common_Enter	Select
+178	Book_Page_Power_Ups	Dreams
+179	Item_Quality_Power_Up	Bonus
+180	Sandman_Title	The Sandman, Dream Dealer
+181	Sandman_Quote	I am the Sandman, sower of sleep and inspirer of dreams. It is a treasure to meet you.
+182	Book_Page_MO_Locked_Title	???
+183	Book_Page_MO_Locked_Desc	Find more Common, Rare or Epic objects to unlock
+184	Book_Page_MO_Locked_LegendaryAndCursed_Desc	Find more Legendary or Cursed objects to unlock
+185	Common_Chapter	Chapter {}
+186	Common_Map_Dark_Hills	Dark Hills
+187	Menu_Abandon_Run	Abandon
+188	Menu_Quit_To_Desktop	Quit to desktop
+189	Menu_Back_Main_Menu	Back to main menu
+190	Menu_Quit_Confirmation_Title	Confirmation
+191	Menu_Quit_Confirmation_Desc	Are you sure you want to quit? All progress in your current run will be lost.
+192	Menu_Next_Update_Title	Next Update
+193	Menu_Next_Update_Desc	May 2023
+194	Book_Page_New_Difficulty_Unlocked	{} difficulty unlocked!
+195	Game_Revive_Baba_Yaga	Use {}
+196	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with more Heroes
+197	Grimoire_Choose_Menu	Choose a chapter to read
+198	Consumable_Choose_Menu	Choose a consumable
+199	Options_Up	Move up
+200	Options_Left	Move left
+201	Options_Down	Move down
+202	Options_Right	Move right
+203	Options_Physic_Anim_Quality	Physics animations
+204	Game_FastTravel	Travel
+205	Stormancer_ConnectFail_BadGameVersion	The game is not up to date
+206	Menu_OpenInventory	Open map
+207	MinimapMarker_DreamShard	Large Dream Crystal
+208	MinimapMarker_Chest	Chest
+209	MinimapMarker_HealFountain	Healing Fountain
+210	MinimapMarker_WishingWell	Wishing Well
+211	MinimapMarker_BabaYagaEye	Vision Tower
+212	MinimapMarker_Grimoire	Grimoire
+213	MinimapMarker_MiniBoss	Optional Boss
+214	MinimapMarker_Tumor	Nightmare Tumor
+215	MinimapMarker_MasterNightmare	Master Nightmare
+216	MinimapMarker_Quest	Side Quest
+217	MinimapMarker_Straw	Straw reserve
+218	MinimapMarker_Wood	Wood reserve
+219	MinimapMarker_Stone	Stone reserve
+220	MinimapMarker_Altar_Of_Heroes	Altar of Heroes
+221	MinimapMarker_Stairs	Stairs
+222	Message_Save_And_Quit	Save and quit
+223	Message_Save_And_Quit_Title	End of chapter
+224	Message_Save_And_Quit_Description	You can choose to continue to the next chapter or save your progress and return to the main menu.
+225	Message_Load_Run_Title	Game in progress
+226	Message_Load_Run_Description	Do you want to continue your saved game or start a new one?
+227	Message_Delete	Start new game
+228	Message_Continue	Continue
+229	Message_Keep_Solo_Run_Title	Solo game in progress
+230	Message_Keep_Solo_Run_Description	Warning! A solo game has been saved. Joining a multiplayer game will erase your progress.
+231	Common_Map_Storm_Island	Storm Island
+232	Common_Skip	Skip {}/{}
+233	Common_Max_Level	Max level
+234	Status_Omnipotence	Omnipotence
+235	Loading_Screen_LoadingMap	Loading
+236	Loading_Screen_UnloadingMap	Unloading
+237	Loading_Screen_Downloading	Synchronizing
+238	Loading_Screen_GeneratingMap	Generating map
+239	Options_AudioOutput	Output device
+240	Difficulty_Normal_Title	Adventure
+241	Difficulty_Normal_Header	Venture into the world of Reverie, and fend off the invasion of the Nightmares
+242	Difficulty_Normal_Desc	Game rules set by default
+243	Difficulty_Hard_Title	Twilight
+244	Difficulty_Hard_Header	The shadow of the Nightmares is spreading, and the creatures bear their mark of despair
+245	Difficulty_Hard_Desc	Corrupted enemies can appear\nMaster Nightmares are stronger
+246	Difficulty_VeryHard_Title	Darkness
+247	Difficulty_VeryHard_Header	The dark hold of the Nightmares is absolute, draining the very essence of life itself
+248	Difficulty_VeryHard_Desc	Healing orbs heal less\nMaster Nightmares are even stronger!
+249	Difficulty_Nightmare_Title	Nightmare
+250	Difficulty_Nightmare_Header	Find the resolution you need to triumph over the Nightmares at the height of their power
+251	Difficulty_Nightmare_Desc	More high-rank enemies\nAll enemies are stronger!
+252	Book_Page_Public_Search	Public search
+253	Book_Page_Quit_Lobby	Leave group
+254	Book_Page_Cancel_Search	Cancel search
+255	Book_Page_Quit_Lobby_Confirmation_Title	Leave group
+256	Book_Page_Quit_Lobby_Confirmation_Desc	Are you sure you want to leave your current group?
+257	Options_MinimapPingShortcut	Quick ping
+258	Minimap_Ping	Ping on the map
+259	Matchmaking_Options	Public search options
+260	Matchmaking_Options_Player_Number	Number of players
+261	Options_ClampMouseCursor	Confine mouse to window
+262	Loading_Screen_WaitingForPlayers	Waiting for the other players 
+263	Morgan_Name	Morgan
+264	Notification_Quest_Complete	Quest complete!
+265	Options_BarksSubtitles	In-game voice subtitles
+266	Newly_Unlocked_Skill	New Talent: {}
+267	Newly_Unlocked_Object	New discovery: {}
+268	Newly_Unlocked_Biographie	New story: {}
+269	Book_Page_Rewards	Rewards
+270	Menu_Challenges	Customize
+271	Book_Page_SelectChallenge	Select challenge
+272	Book_Page_CustomizeChallenge	Custom Mode
+273	Book_Page_Challenge_Best_Dificulty	Highest difficulty complete
+274	Book_Page_NoChallenge_Title	No challenge
+275	Book_Page_Challenge_Total_Score_Modifier	Score modifier:
+276	Book_Page_Challenge_Total_Score_Modifier_Format	Score {0}
+277	Menu_Custom_Modifiers	Modifiers
+278	Common_Map_Avalon	Avalon
+279	Book_Page_MO_Hidden_Desc	Equip this item to reveal it
+280	Book_Page_Validate_Challenge	Validate
+281	Book_Page_Validate_GameModifier	Add/remove
+282	Book_Page_SwitchToCustomizeChallengeMode	Custom Mode
+283	Book_Page_SwitchToSelectChallengeMode	Challenges
+284	Book_Page_RemoveAllModifiers	Remove all
+285	Book_Page_Validate_CustomChallenge	Validate
+286	Options_PushToTalk	Push to talk
+287	Options_AudioInput	Input device
+288	Common_UniqueChapter	Single chapter
+289	Menu_Unknown_Entry	???
+290	Common_NowSaving	Now saving
+291	Book_Page_Validate_Skin	Confirm
+292	Notification_Collection_Complete	Collection complete!
+293	Book_Page_Cancel	Cancel
+294	Book_Page_Skins	Outfits
+295	Book_Page_Abilities	Abilities
+296	Book_Page_SwitchToSelectSkinMode	Browse outfits
+297	Book_Page_SwitchToSelectAbilitiesAndSkills	Browse abilities
+298	Book_Page_DefaultSkin_Title	Default outfit
+299	Book_Page_DefaultSkin_Desc	Unlocked by default
+300	Options_VoiceChatVolume	Voice chat volume
+301	Options_VoiceChatOpenMicrophone	Open mic
+302	Options_VoiceChatMuted	Muted
+303	Options_VoiceChatDisabled	Disabled
+304	Options_VoiceChatMode	Voice chat mode
+305	Options_CrossPlatform	Cross Platform
+306	Menu_VitalityTooltip_Title	Vitality
+307	Menu_VitalityTooltip_Desc	Increases Maximum Health by &{0}%~
+308	Menu_DmgTooltip_Title	Damage 
+309	Menu_DmgTooltip_Desc_Positive	Increases all damage dealt by &{0}%~
+310	Menu_DmgTooltip_Desc_Negative	Decreases all damage dealt by ${0}%*
+311	Menu_ArmorTooltip_Title	Armor
+312	Menu_ArmorTooltip_Desc_Positive	Reduces damage taken by &{0}%~
+313	Menu_ArmorTooltip_Desc_Negative	Increases damage taken by ${0}%* (negative armor)
+314	Menu_CritChanceTooltip_Title	Critical Chance
+315	Menu_CritChanceTooltip_Desc	Increases chances to land a Critical Hit by &{0}%~ (transforms into crit damage above 100%)
+316	Menu_CritDmgTooltip_Title	Critical Damage
+317	Menu_CritDmgTooltip_Desc	Increases damage dealt by Critical Hits by &{0}%~
+318	Menu_DreamShards_Title	Dream Shards
+319	Menu_DreamShards_Desc	Can be used at the Sandman or other activities to gain rewards
+320	Menu_Rerolls_Title	Stars of Fate
+321	Menu_Rerolls_Desc	Allows to change the options offered when choosing a Talent or a Magical Object
+322	Menu_Feathers_Title	Raven Feathers
+323	Menu_Feathers_Desc	Each feather allows a hero to get back on their feet when they are at death's door
+324	Menu_Keys_Title	Nightmare Keys
+325	Menu_Keys_Desc	Allows you to unlock an access restricted by a padlock
+326	Menu_HeroDetails	Details
+327	Book_Page_Social	Social
+328	Book_Page_News	News
+329	Book_Page_Friends	Friends
+330	Book_Page_Friend_Request	Invites
+331	Book_Page_Recent_Player	Recent player
+332	Book_Page_Blacklist	Blacklist
+333	Book_Page_My_Nacon	My Nacon
+334	System_InternetConnectionLost	Internet connection lost
+335	Social_Page_Report	Report
+336	Social_Page_Block	Block
+337	Social_Page_Unblock	Unblock
+338	Social_Page_Add	Add
+339	Social_Page_Remove	Remove
+340	Social_Page_Accept	Accept
+341	Social_Page_Refuse	Refuse
+342	Social_Page_Show_Offline	Show offline
+343	Social_Page_Hide_Offline	Hide offline
+344	Social_Page_Remove_Friend_Title	Remove friend
+345	Social_Page_Remove_Friend_Message	Are you sure you want to remove this player from your friend list?
+346	Social_Page_Add_Blacklist_Title	Add to blacklist
+347	Social_Page_Add_Blacklist_Message	Do you really want to add this player to your blacklist?\nYou won’t be matched with that player in  public games anymore.
+348	Social_Page_Invitation_Received_Msg	Invitation to join a party received
+349	Social_Page_Invitation_Sent_Msg	Invitation to join party sent
+350	Social_Page_Invitation_Received_Info	Party invitation
+351	Social_Page_Friend_Sent_Info	Pending
+352	Social_Page_Friend_Received_Info	Ask to be friend
+353	Social_Page_Blacklisted_Info	Blacklisted
+354	Score_Page_Base_Score	Base score: {0}
+355	Score_Page_Level_Score	Level: x{0}
+356	Score_Page_Victory_Score	Victory: +{0} %
+357	Score_Page_MultiplayerScore	Multiplayer: +{0} %
+358	Score_Page_EarlyBossAwakening	Early awakening of the boss
+359	Score_Page_Score_Details	Score details
+360	Options_CreditsCateg	Credits
+361	Main_Menu_Start	Start
+362	Main_Menu_Connect_Id	Connected as {0}
+363	Book_Page_Unlock_Progress_Epilogue	Unlocked when reaching the Epilog
+364	Book_Page_Unlock_Progress_End	Unlocked when victorious in Darkness difficulty or above
+365	Book_Page_Talent_Mo	Talents and magical objects
+366	Book_Page_Damage_Dealt	Damage dealt
+367	Book_Page_Support	Support
+368	Book_Page_Sufferings	Sufferings
+369	Book_Page_Resources	Resources
+370	Social_Page_Send_Friend_Request	Send friend request
+371	Social_Page_Mute	Mute
+372	Social_Page_Unmute	Unmute
+373	Social_Page_Show_Gamercards	Show profile
+374	Epilog_Loading_Screen_Title	Epilog
+375	Map_Baba_Yaga_Name	The house of Nightmares
+376	Map_Baba_Yaga_Inside_House_Name	At the heart of the Nightmare
+377	Book_Page_Total	Total
+378	Book_Page_From_Dash	From Dash
+379	Book_Page_From_Trait	From Trait
+380	Book_Page_From_Attack	From Attack
+381	Book_Page_From_Power	From Power
+382	Book_Page_From_Special	From Special
+383	Book_Page_From_Defense	From Defense
+384	Book_Page_From_Ultimate	From Ultimate
+385	Book_Page_Highest_Damage	Highest single damage
+386	Book_Page_Self_Healing	Self healing
+387	Book_Page_Healing_To_Allies	Healing to allies
+388	Book_Page_Self_Shield	Self Shield
+389	Book_Page_Shield_To_Allies	Shield to allies
+390	Book_Page_Damage_Blocked	Damage Blocked
+391	Book_Page_Number_Revive_Assists	Number of revive assists
+392	Book_Page_Damage_Taken	Damage Taken
+393	Book_Page_Number_Death_Door	Number of Death’s doors
+394	Book_Page_Number_Feather_Consumed	Number of Raven Feather consumed
+395	Book_Page_Dream_Shards_Amassed	Dream Shards amassed
+396	Book_Page_Dream_Shards_Spent	Dream Shards spent
+397	Book_Page_Number_Stars_Fate_Used	Number of Stars of Fate used
+398	Book_Page_Magical_Objects_Collected	Magical Objects collected
+399	Report_Offensive_Talk	Offensive talk / abusive voice chat
+400	Report_Cheating	Cheating / hacking
+401	Report_AFK	AFK / not playing at all
+402	Report_Other	Other
+403	Report_Title	Report player
+404	Report_Message	Choose a reason to report this player
+405	Modal_Invite_To_Party	Invite friend to party
+406	Social_Page_Remove_Blacklist_Title	Remove from Blacklist
+407	Social_Page_Remove_Blacklist_Message	Are you sure you want to remove this player from your Blacklist ?\nYou will be able to be matched with that player in public games again.
+408	Options_CrossPlatform_Title	Disable Cross Platform
+409	Options_CrossPlatform_Message	Are you sure you want to disable Cross Platform gameplay ?\nYou won’t be able to play with players who have activated this option nor those using a platform different from yours.
+410	Social_Page_Friend_Sent_Msg	Friend request sent
+411	Social_Page_Friend_Received_Msg	Friend request received
+412	Session_Party_Full	Unable to join party, it is full.
+413	Session_Crossplay_Mismatched	Unable to join party, it doesn’t match your cross platform settings.
+414	Thanks_Message_Title	Thank you for being an Early Access player!
+415	Thanks_Message_Description	Ravenswatch has left Early Access and is now entering a new era with version 1.0.\n\nThis Early Access has been extremely beneficial for the game, but also the studio. As a 'Thank You' for your support during this year and a half of development, Passtech Games and Nacon have unlocked the "Fairytales Skin Pack" bonus in your Steam Account.\n\nThose exclusive skins are available on Scarlet, The Pied Piper, Beowulf and Snow Queen in the heroes' pages.\n\nRavenswatch's Early Access is: \n• Over 600 000 players\n• 5 Major Updates\n• A ton of patches and hotfixes!\n• Almost 10 million runs played\n• And all this thanks to you!\n\nWe hope you'll enjoy this new adventure for Ravenswatch, and we cannot wait to share our next plans for the future of the game!\n\nThe Passtech & Nacon Teams
+416	Social_Page_Community_Title	Join the Community
+417	Social_Page_Community_Desc	Want to chat with the team? Or meet with other players? Join our ever-growing community on Discord for exclusive access to news, betas and Q&As!
+418	Social_Page_ReleaseVersion	Explore the changes and additions of version 1.0
+419	Social_Page_DeluxeEdition	Skin Packs, Official Soundtrack & Artbook
+420	Book_Page_From_Debuff	Other sources
+421	Book_Menu_Skip	Skip
+422	Score_Page_Heal_Shields	{0} heal and shields ({1}%)
+423	Score_Page_Dmg_Dealt	{0} damages dealt ({1}%)
+424	Score_Page_Death_Door	{0} death's doors
+425	Social_Page_Player_Reported	This player has been reported
+426	Social_Page_Player_Block	This player has been blacklisted
+427	Social_Page_Player_Unblock	This player has been removed from your blacklist
+428	Social_Page_Player_Friend_Added	This player is now your friend
+429	Social_Page_Player_Friend_Removed	This player has been removed from your friend list
+430	Skill_Choose_Ultimate	Choose an Ultimate
+431	Score_Page_Heal_Shields_Without_Percent	{0} heal and shields
+432	Score_Page_Dmg_Dealt_Without_Percent	{0} damages dealt
+433	Options_GamepadCateg_PS	Controller
+434	Newly_Unlocked_Skin	New outfit: {0}
+435	Options_Environment_Quality	Environment quality
+436	Options_RenderScale	Render scale
+437	Social_Page_Title_ReleaseVersion	Version 1.0
+438	Social_Page_Title_DeluxeEdition	Deluxe Edition
+439	Social_Page_Visit	Visit
+440	Session_Blacklisted	Unable to join party, you’ve been blacklisted by one of the players.
+441	Social_Page_Invite	Invite
+442	Options_PressAnyButton_PS	Press any button
+443	MinimapMarker_BloodFountain	Sacrificial Idol
+444	MinimapMarker_LockedChest	Locked Chest
+445	MinimapMarker_KeyKeeper	Blood Ritual
+446	MinimapMarker_Refugee	Corpse
+447	MinimapMarker_RefugeeCamp	Refugees’ Camp
+448	MinimapMarker_Astrolab	Astral Shrine
+449	Status_Vulnerable	Vulnerable
+450	Notification_KeyKeeper_Activity_Title	Blood Ritual
+451	Notification_KeyKeeper_Activity_Active_Desc	Kill all enemies without falling at death door.
+452	Notification_KeyKeeper_Activity_Fail_Desc	Failed! A hero of the Ravenswatch has fallen.
+453	Notification_KeyKeeper_Activity_Victory_Desc	Success! The ritual has been neutralized.
+454	Book_Page_Shop	Get
+455	Astrolab_Choose_Menu	Choose a vision
+456	SaveCompat_Title	Save Loading Error
+457	SaveCompat_Desc	An error has occurred while loading your save file. (Error code: {0})\nPlease check that the version of your game is properly up to date.\nThe auto-save feature has been disabled to prevent data loss.
+458	MinimapMarker_Key	Nightmare Key
+459	Social_Page_DLC_Title	DLC - Mercenaries Skin Pack
+460	Social_Page_DLC_Desc	Wear new Mercenaries Outfits – for The Pied Piper, Snow Queen, Aladdin, Geppetto, and Sun Wukong.
+461	Social_Page_PatchNote_Title	New Update - Songs of Thieves
+462	Social_Page_PatchNote_Desc	Thieves are coming to the land of Reverie in Ravenswatch's latest free update! Find out more about the new content in the full patch notes.
+463	Social_Page_Modal_Community_Desc	Join our community on Discord! 
+464	Social_Page_Modal_PatchNote_Desc	Read the full patch note here:
+465	Book_Page_News_Redirect_Title	NEW MAJOR UPDATE AVAILABLE
+466	Book_Page_News_Redirect_Desc	IT'S AN AMBUSH!\n\nThis new free update to Ravenswatch is shaking up the world of Reverie with the arrival of the Thieves and their formidable stashes. What could they be hiding in their treasure rooms filled with deadly traps? Complete the various Melodies to become even stronger, but watch out for any sticky fingers after your Dream Shards!\n\nMultiplayer pause has also been added, along with a new Mercenaries Skin Pack.\n\nLearn more about the new content in the official trailer and the full patch note.\n\n• The Passtech Games Team
+467	Status_DmgUp	Damage Increased!
+468	Status_PositiveOutcome	Positive Outcome!
+469	Status_NegativeOutcome	Negative Outcome!
+470	Options_EULACateg	License agreement
+471	Options_DashAtCursor	Dash toward cursor
+472	Options_ShowDamageAndHealingNumbers	Show damage and healing numbers
+473	Options_BackgroundVolume	Background volume
+474	Book_Page_ShowAlternativeAbilities	Show alternative abilities
+475	Book_Page_Change_Rarity	Change rarity
+476	Options_SelectRandomSkinOnRandomHeroes	Add skins in the random selection
+477	Newly_Unlocked_Ultimate	New Ultimate: {0}
+478	Options_PadAtlas_Title	Buttons Icons
+479	Options_PadAtlas_XBox	Xbox
+480	Options_PadAtlas_PS4	PlayStation®4
+481	Options_PadAtlas_PS5	PlayStation®5
+482	Options_PadAtlas_Switch	Nintendo Switch
+483	Book_Page_DLC	DLC
+484	Message_RJ_Unlocked_Title	Romeo & Juliet have joined the Ravenswatch!
+485	Book_Page_RJ_Solo_Locked	Available when playing Romeo and Juliet together
+486	Menu_Quit_Host_Confirmation_Desc	Are you sure you want to quit? The game session will be ended for all players. 
+487	Session_Disconnected	Disconnected 
+488	Session_Disconnected_From_Host_Go_To_Lobby	The host player has ended the game 
+489	Options_MuteInBackground	Mute in background
+490	Skill_Locked_In_Solo	Available only in multiplayer
+491	Jack_Name	Jack
+492	Notification_Boss_Overtime_Desc	The Master Nightmare has awakened and gains power!
+493	Notification_Cauldron_Activity_Title	Leprechaun's Cauldron
+494	Notification_Cauldron_Activity_Active_Desc	Kill all enemies before the cauldron is emptied!
+495	Notification_Cauldron_Activity_Fail_Desc	Failed! The cauldron is empty.
+496	Notification_Cauldron_Activity_Victory_Desc	Success! The cauldron has relinquished its treasures.
+497	MinimapMarker_Cauldron	Leprechaun's Cauldron
+498	Notification_Boss_Overtime_TimeProgress	The Master Nightmare has reached a critical stage of power!
+499	MinimapMarker_MasterNightmare_Travel	Travel to the Master Nightmare
+500	Notification_Reconnect_Title	Attempting to reconnect
+501	Notification_Reconnect_Desc	A player is no longer responding correctly. Please wait while we attempt to reconnect.
+502	MinimapMarker_Thieves_Stash	Thieves' Stash
+503	Menu_Note_Title	Notes
+504	Menu_Note_Desc	Collect enough Notes to compose a Melody
+505	MinimapMarker_Instrument	Dagda's Harp
+506	Thieves_Cursed_Roon_Notification_Title	Cursed!
+507	Thieves_Cursed_Roon_Notification_Desc	Kill all the enemies to lift the curse
+508	Notification_Stingy_Jack_Title	Stingy Jack 
+509	Notification_Stingy_Jack_Desc	Kill Stingy Jack before he escapes!
+510	Notification_Magic_Mirror_Desc	Objects to duplicate
+511	Notification_Magic_Mirror_Desc_No_Objects	No object to duplicate 
+512	Activity_Magic_Mirror	Magic Mirror
+513	Activity_Cursed_Room	Cursed room
+514	Menu_Pause	Pause
+515	Menu_Unpause	Resume
+516	MinimapMarker_Mirror_Room	Magic Mirror
+517	Menu_PauseAskerName	{0} has paused the game
+518	Session_Peer_Disconnect	{0} has been disconnected
+519	Session_Peer_Abandon	{0} has left the game
+520	Menu_PauseResumeName	{0} has resumed the game
+521	Thieves_Cursed_Roon_Notification_Success	The Curse has been lifted
+522	Notification_Stingy_Jack_Success	Stingy Jack has been cast down to hell!
+523	Notification_Stingy_Jack_Failed	Stingy Jack has escaped!
+524	Book_Page_Melody_Hidden_Description	Reconstruct this Melody to reveal it 
+525	Menu_Pause_Remaining	Pause(s) remaining: {}
+526	Menu_Pause_Delay_Time_Left	Please wait before resuming the game
+527	Book_Page_Melodies	Melodies

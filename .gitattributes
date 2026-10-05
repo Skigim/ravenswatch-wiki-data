@@ -1,0 +1,5 @@
+# Keep exported table bytes unchanged, including line endings.
+*.tsv -text
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

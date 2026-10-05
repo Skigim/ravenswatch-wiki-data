@@ -1,0 +1,80 @@
+# source_table	Hero_Beowulf_Common~GAM.xls
+# rows	76
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Beowulf
+1	Ability_Trait_Name	Last Wyrm
+2	Ability_Trait_Desc	• Call #Wyrm@ to empower next #POWER@, #SPECIAL@ or #DEFENSE@
+3	Ability_Attack_Name	Runic Sword
+4	Ability_Attack_Desc	• Chain together a series of attacks with the sword. Last attack deals #+{0}%@ damage\n• Whole combo deals a total of &{1}~ damage
+5	Ability_Power_Name	Shockwave
+6	Ability_Power_Desc	• Scrape the sword on the floor to project a shockwave in front that deals &{0}~ damage along its path\n• #+WYRM@: Deals #+{1}%@ damage and applies #IGNITE@ to all enemies hit
+7	Ability_Special_Name	Whirlwind
+8	Ability_Special_Desc	• Spin with the sword, briefly becoming #INTANGIBLE@ and dealing &{0}~ damage all around then finish with a swing that deals &{1}~ damage all around\n• #+WYRM@: Deals #+{2}%@ damage and finisher applies #IGNITE@ to all enemies hit
+9	Ability_Defense_Name	Shield
+10	Ability_Defense_Desc	• Hold to raise shield and block all incoming damage. Release to bash with shield and deal &{0}~ damage\n• #+WYRM@: Deals #+{1}%@ damage. Each attack blocked heals all nearby Heroes by #{2}%@ of damage blocked
+11	Ability_Ultimate_1_Name	Dragon Flight
+12	Ability_Ultimate_1_Desc	• Wyrm takes off and tracks enemies, continuously breathing fire during its flight and dealing &{0}~ damage per second and applying #IGNITE@ to all enemies hit\n• #TRAIT@ is disabled during this time
+13	Ability_Ultimate_2_Name	Raging Chain
+14	Ability_Ultimate_2_Desc	•  Rush forward, then chain together a series of attacks with the sword and Wyrm, dealing up to &{0}~ damage\n• {1} is #INTANGIBLE@ during the whole abillity
+15	Skill_Passive_Better_Ignite_Name	Furnace
+16	Skill_Passive_Better_Ignite_Desc	• #IGNITE@ effects last #{0}@ more seconds and deal &+{1}%~ damage
+17	Skill_Passive_Healing_Ignited_Name	
+18	Skill_Passive_Healing_Ignited_Desc	
+19	Skill_Passive_Ignite_Explosion_Name	Explosive Fire
+20	Skill_Passive_Ignite_Explosion_Desc	• #IGNITED@ enemies explode when they die, dealing &{0}~ damage and applying #IGNITE@ to all nearby enemies
+21	Skill_Dash_Attack_Name	Fiery Slash
+22	Skill_Dash_Attack_Desc	• #ATTACK@ triggered right after #DASH@ deals &{0}%~ damage and applies #IGNITE@ to enemies
+23	Skill_Trait_Quest_Name	Draconic Binds
+24	Skill_Trait_Quest_Desc	• #Quest (x{0}):@ Hitting #{1}@ enemies with a single #Wyrm ability@ grants #+{2} DMG@\n• #Complete@: #TRAIT@ cooldown #-{3}%@, #Wyrm abilities@ deal &+{4}%~ damage
+25	Skill_Trait_AOE_Name	Fire Wings
+26	Skill_Trait_AOE_Desc	• Activating #TRAIT@ deals &{0}~ damage all around and applies #IGNITE@ to all enemies hit
+27	Skill_Trait_Battlecry_Name	Battle Cry
+28	Skill_Trait_Battlecry_Desc	• Activating #TRAIT@ clears #POWER@ cooldown for all Heroes in the area and gives them a &{0}~ #SHIELD@ for #{1}@ seconds
+29	Skill_Attack_Speed_Name	Blademaster
+30	Skill_Attack_Speed_Desc	• After each #TRAIT@ activation, next #{0} ATTACKS@ gain #+{1}%@ Crit Chance\n• Permanently gain &+{2}%~ #ATTACK@ speed
+31	Skill_Attack_Wide_Name	Heavy Strikes
+32	Skill_Attack_Wide_Desc	• #ATTACK@ is slower but cleaves across a wide area and deals &+{0}%~ damage
+33	Skill_Attack_Flurry_Name	Retaliation
+34	Skill_Attack_Flurry_Desc	• After using #DEFENSE@, the next #ATTACK@ within #{0}@ seconds triggers a two-strike retaliation, with each one dealing &{1}%~ damage
+35	Skill_Attack_After_Special_Name	Furious Blows
+36	Skill_Attack_After_Special_Desc	• After a #SPECIAL@, the next #ATTACK@ triggers a series of #{0}@ strikes dealing &{1}%~ damage each\n• If the #SPECIAL@ was reinforced by the #Wyrm@, the attacks apply an #IGNITE@ status to enemies and inflict #+{2}%@ damage
+37	Skill_Attack_Fire_Cone_Name	Breath of Fire
+38	Skill_Attack_Fire_Cone_Desc	• Wyrm breathes a cone of fire during #ATTACK@ finisher, dealing &{0}%~ damage and applying #IGNITE@ to enemies hit
+39	Skill_Attack_Special_Crit_Name	Blazing Runes
+40	Skill_Attack_Special_Crit_Desc	• #ATTACK@ and #SPECIAL@ gain &+{0}%~ Crit Chance against #IGNITED@ enemies
+41	Skill_Power_Double_Name	Double Shock
+42	Skill_Power_Double_Desc	• #POWER@ sends out two successive shockwaves, each one dealing ${0}%* damage
+43	Skill_Power_Trail_Name	Scorched Earth
+44	Skill_Power_Trail_Desc	• #Wyrm POWER@ leaves a trail of fire that deals &{0}~ damage over time to enemies standing on it
+45	Skill_Power_End_AOE_Name	Eruption
+46	Skill_Power_End_AOE_Desc	• #POWER@'s shockwaves explode at the end and deal &{0}%~ additional damage all around
+47	Skill_Special_Loop_Name	Bladestorm
+48	Skill_Special_Loop_Desc	• #SPECIAL@ spins &{0}~ more time(s) for #{1}%@ damage each
+49	Skill_Special_Multi_Shock_Name	Fiery Seismo
+50	Skill_Special_Multi_Shock_Desc	• #Wyrm SPECIAL@'s finisher strikes #{0}@ times with a growing radius for &{1}%~ damage each
+51	Skill_Special_Sends_Power_Name	Secondary Tremor
+52	Skill_Special_Sends_Power_Desc	• #SPECIAL@ sends out a {0}, dealing &{1}%~ of #POWER@ damage
+53	Skill_Defense_Quest_Name	Rampart
+54	Skill_Defense_Quest_Desc	• #Quest (x{0}):@ Blocking at least one attack during #DEFENSE@ grants #+{1} ARMOR@\n• #Complete@: #Wyrm DEFENSE@ heals &{2}%~ more in a larger radius
+55	Skill_Defense_Dash_Name	Shield Charge
+56	Skill_Defense_Dash_Desc	• #DEFENSE@ makes {0} dash forward and deal &+{1}%~ damage along the path
+57	Skill_Defense_Better_Healing_Name	
+58	Skill_Defense_Better_Healing_Desc	
+59	Skill_Defense_Block_Deals_Damage_Name	Sparkling Shield
+60	Skill_Defense_Block_Deals_Damage_Desc	• Each attack blocked during #DEFENSE@ inflicts &{0}%~ of blocked damage to what is in front of {1}.
+61	Skill_Defense_Damage_Aura_Name	Runes of War
+62	Skill_Defense_Damage_Aura_Desc	• After hitting an enemy with #DEFENSE@, runes appear around {0} dealing &{1}~ area damage per second for #{2}@ seconds
+63	Skill_Ultimate_1_Name	Dragon Flight
+64	Skill_Ultimate_1_Desc	• #Wyrm@ takes off and flies around, continuously breathing fire\n• Deals damage and applies #IGNITE@ to all enemies hit. {0} can act at the same time
+65	Skill_Ultimate_2_Name	Raging Chain
+66	Skill_Ultimate_2_Desc	• Rush forward, then chain together a series of attacks with the sword and Wyrm
+67	Skill_Ultimate_1_Upgrade_Immolation_Name	Immolation
+68	Skill_Ultimate_1_Upgrade_Immolation_Desc	• During #ULTIMATE@, {0} deals &{1}~ damage per second to nearby enemies, and all abilities function as if they were #Wyrm Empowered@\n
+69	Skill_Ultimate_1_Upgrade_Big_Wyrm_Name	Sudden Growth 
+70	Skill_Ultimate_1_Upgrade_Big_Wyrm_Desc	• During #ULTIMATE@, the Wyrm grows and breathes fire in a wider zone, dealing &+{0}%~ damage 
+71	Skill_Ultimate_2_Upgrade_Volcanic_Name	Volcanic Rage
+72	Skill_Ultimate_2_Upgrade_Volcanic_Desc	• Each #ULTIMATE@ fireball throws &{0}~ fiery rocks into the surrounding area, dealing #{1}%@ damage each
+73	Skill_Ultimate_2_Upgrade_Fireball_Dash_Name	Fireball
+74	Skill_Ultimate_2_Upgrade_Fireball_Dash_Desc	• In Combat, #DASH@ makes the Wyrm throw a Fireball towards a close enemy, dealing &{0}~ area damage 
+75	Hero_Desc	Beowulf's renown was earned slaying the vile Grendel, Grendel's mother, and a dragon. Honour-bound to raise the spawn of his cursed victim, he trains his drake pup ward in the arts of war. Together a gruesome pair, the sword-and-shield warrior and the toddling fire breather are a force to be feared, even by Nightmares. Their bark is hotter than their bite.

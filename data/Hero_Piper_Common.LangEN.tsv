@@ -1,0 +1,86 @@
+# source_table	Hero_Piper_Common~GAM.xls
+# rows	82
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	The Pied Piper
+1	Ability_Trait_Name	Infestation
+2	Ability_Trait_Desc	• Rats spawn from the ground at regular intervals and follow the Hero (up to #{0}@ rats)\n• Activate to order all rats to attack enemies. They attack up to #{1}@ times for &{2}~ damage each and die afterwards
+3	Ability_Attack_Name	Flute
+4	Ability_Attack_Desc	• Hold to play the flute, sending notes that deal &{0}~ damage each\n• Does not prevent movement but reduces Move Speed
+5	Ability_Power_Name	Solo
+6	Ability_Power_Desc	• Play a solo on the flute, sending #{0}@ waves of #{1}@ notes, each one dealing &{2}~ damage\n• Does not prevent movement but reduces Move Speed
+7	Ability_Special_Name	Fortissimo
+8	Ability_Special_Desc	• Create a zone of power that makes all enemies inside #VULNERABLE@
+9	Ability_Defense_Name	Acoustic Blast
+10	Ability_Defense_Desc	• {0} briefly becomes #INTANGIBLE@ then creates an accoustic blast, stunning and pushing back all enemies around
+11	Ability_Ultimate_1_Name	Unchained Melody
+12	Ability_Ultimate_1_Desc	• Play notes continuously and rapidly, automatically targeting the closest enemy and dealing up to &{0}~ damage per second\n• During this ability, the Hero runs forward but the direction can be controlled
+13	Ability_Ultimate_2_Name	Plague of Rats
+14	Ability_Ultimate_2_Desc	• Channel a melody to control a swarm of rats that rushes forward and deals up to &{0}~ damage per second over a large area
+15	Skill_Dash_Trap_Name	Music of the Spheres
+16	Skill_Dash_Trap_Desc	• #DASH@ leaves a bubbled clef that explodes when hit, sending &{0}~ #POWER@ music notes to enemies around
+17	Skill_Trait_Big_Pets_Name	Giant Rats
+18	Skill_Trait_Big_Pets_Desc	• Rats' attacks #WEAKEN@ enemies and deal &+{0}%~ damage
+19	Skill_Trait_Explosive_Pets_Name	Explosive Rats
+20	Skill_Trait_Explosive_Pets_Desc	• Rats explode when they die and deal &{0}~ damage all around
+21	Skill_Trait_More_Controllable_Pets_Name	Horde
+22	Skill_Trait_More_Controllable_Pets_Desc	• Rats spawn in groups of #{0}@ (instead of {1})\n• Increase maximum controllable rats by &{2}~
+23	Skill_Trait_Damage_Per_Pet_Name	
+24	Skill_Trait_Damage_Per_Pet_Desc	
+25	Skill_Trait_Pets_Within_Special_Name	Stimulant Vibes
+26	Skill_Trait_Pets_Within_Special_Desc	• Rats attacking within #SPECIAL@'s zone cannot die, and deal &+{0}%~ damage
+27	Skill_Trait_Pets_Heal_Name	Leeching Charm
+28	Skill_Trait_Pets_Heal_Desc	• For every #{0}@ attacks that rats made on enemies, restore &{1}~ health to all nearby heroes
+29	Skill_Attack_Move_Speed_Name	Virtuoso
+30	Skill_Attack_Move_Speed_Desc	• Move Speed when using #ATTACK@ or #POWER@ is increased by #{0}%@\n• Gain &+{1}%~ #ATTACK@ Speed
+31	Skill_Attack_Big_Shots_Name	Low Notes
+32	Skill_Attack_Big_Shots_Desc	• #ATTACK@ sends bigger notes that deal &+{0}%~ damage in an area of effect but at a ${1}%* reduced frequency
+33	Skill_Attack_Ghost_Notes_Name	Ghost Notes
+34	Skill_Attack_Ghost_Notes_Desc	• For every &{0}~ notes played, a ghost note is sent towards the nearest enemy, dealing #{1}@ area damage
+35	Skill_Attack_Power_Long_Shots_Name	Sniper
+36	Skill_Attack_Power_Long_Shots_Desc	• Notes from #ATTACK@ and #POWER@ have a longer range and deal &+{0}%~ damage if they hit after halfway
+37	Skill_Power_More_Waves_After_Defense_Name	Extra Measure
+38	Skill_Power_More_Waves_After_Defense_Desc	• After hitting an enemy with #DEFENSE@, the next #POWER@ within #{0}@ seconds lasts longer (&+{1}~ waves of notes)
+39	Skill_Power_Wide_Spread_Name	Quintuplets
+40	Skill_Power_Wide_Spread_Desc	• #POWER@ plays #5@ notes each wave (instead of 3) but each note deals ${0}%* damage
+41	Skill_Power_Evasion_Name	Spinning Solo
+42	Skill_Power_Evasion_Desc	• #POWER@ triggered after #DASH@ makes Hero move quicker and has &+{0}%~ Crit Chance
+43	Skill_Power_Sends_Pets_Name	
+44	Skill_Power_Sends_Pets_Desc	
+45	Skill_Special_Explosive_Zone_Name	Grand Finale
+46	Skill_Special_Explosive_Zone_Desc	• When #SPECIAL@'s effect expires, the area of effect explodes and deals &{0}~ damage
+47	Skill_Special_Chill_Name	Freezing Trap
+48	Skill_Special_Chill_Desc	• Enemies within #SPECIAL@'s area of effect are #CHILLED@ and take &+{0}%~ damage
+49	Skill_Special_Recharge_Name	
+50	Skill_Special_Recharge_Desc	
+51	Skill_Special_DOT_Name	Acoustic Pulses
+52	Skill_Special_DOT_Desc	• #SPECIAL@ deals &{0}~ damage every second
+53	Skill_Special_Sends_Attacks_Name	Chorus
+54	Skill_Special_Sends_Attacks_Desc	• Every &{0}~ second(s), the #SPECIAL@ area of effect fires #{1}@ #ATTACK@ notes, targeting the closest enemies
+55	Skill_Defense_Armor_Quest_Name	Sound Barrier
+56	Skill_Defense_Armor_Quest_Desc	• #Quest (x{0}):@ Gain #+{1} ARMOR@ whenever #DEFENSE@ hits at least #{2}@ enemies\n• #Complete@: Doing so again grants &{3}~ #SHIELD@ to all nearby Heroes for #{4}@ seconds
+57	Skill_Defense_Deals_Damage_Name	Explosive Blast
+58	Skill_Defense_Deals_Damage_Desc	• #DEFENSE@ deals &{0}~ damage
+59	Skill_Defense_Heal_On_Hit_Name	Perfect Harmony
+60	Skill_Defense_Heal_On_Hit_Desc	• #DEFENSE@ restores &{0}~ Health to all nearby Heroes for each enemy hit (up to #{1}@)
+61	Skill_Defense_Echo_Name	Echoing Blast
+62	Skill_Defense_Echo_Desc	• #DEFENSE@ creates a sound bubble around Hero that explodes after #{0}@ seconds, dealing &{1}~ damage all around
+63	Skill_Defense_Spawn_Pets_Name	Invasive Blast
+64	Skill_Defense_Spawn_Pets_Desc	• Hitting at least one enemy with #DEFENSE@ spawns up to &{0}~ rats, which immediately attack nearby enemies
+65	Skill_Defense_Implosive_Name	Sforzando
+66	Skill_Defense_Implosive_Desc	• #SPECIAL@ triggers an implosive #DEFENSE@ (pulling enemies inwards) with its range increased by &{0}%~
+67	Skill_Ultimate_1_Name	Unchained Melody
+68	Skill_Ultimate_1_Desc	• Continuously play notes that target the closest enemy\n• Movement is FORCED but the direction can be controlled
+69	Skill_Ultimate_2_Name	Plague of Rats
+70	Skill_Ultimate_2_Desc	• Channel a melody to control a swarm of rats that rushes forward and deals damage over a large area
+71	Skill_Ultimate_1_Upgrade_Dash_Name	Jig
+72	Skill_Ultimate_1_Upgrade_Dash_Desc	• #DASH@ sends &{0}~ #ULTIMATE@ notes to nearby enemies
+73	Skill_Ultimate_1_Upgrade_Notes_Rain_Name	Rain of Notes
+74	Skill_Ultimate_1_Upgrade_Notes_Rain_Desc	• During #ULTIMATE@, &{0}~ notes per second fall from the sky in the surroundings, each dealing #{1}@ area damage
+75	Skill_Ultimate_2_Upgrade_Explosion_Name	Vermin Massacre
+76	Skill_Ultimate_2_Upgrade_Explosion_Desc	• When #ULTIMATE@ is channeled to completion, the swarm of rats explodes, dealing &{0}~ area damage
+77	Skill_Ultimate_2_Upgrade_Rat_King_Name	Rat King
+78	Skill_Ultimate_2_Upgrade_Rat_King_Desc	• Each rat summoned has a &{0}%~ chance to be a Rat King, capable of attacking twice as much and dealing #+{1}%@ damage 
+79	Hero_Desc	Once the greatest musician of his generation until cursed by Nightmares, Franz the Pied Piper's songs have become distorted melodies of mass destruction, only pleasant to the ears of the rats that gather round him. When overwhelmed, the critters can be called to the rescue, unleashing a swarm of gnashing teeth.
+80	Ability_Attack_Desc_Night	• Hold to play the flute, sending out piercing notes that deal &{0}~ damage each\n• Does not prevent movement but reduces movement speed
+81	Ability_Power_Desc_Night	• Play a solo note on the flute, sending out #{0}@ waves of #{1}@ piercing notes in a straight line, each one dealing &{2}~ damage\n• Does not prevent movement but reduces movement speed

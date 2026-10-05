@@ -1,0 +1,24 @@
+# source_table	Hero_Romeo_Skins~GAM.xls
+# rows	20
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Romeo_Signature_Skin_Title	Signature Outfit
+1	Romeo_Signature_Skin_Description	Unlocked by completing 'Kiss the Bride' Talent Quest 
+2	Romeo_Signature_Skin_UnlockCondition	Completed ‘Kiss the Bride' Talent Quest 
+3	Romeo_Traveler_Skin_Title	Traveler Outfit
+4	Romeo_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Romeo_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Romeo_Master_Skin_Title	Master Outfit
+7	Romeo_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Romeo_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Romeo_Hidden_Skin_Title	Hidden Outfit
+10	Romeo_Hidden_Skin_Description	Hidden Requirements
+11	Romeo_Hidden_Skin_UnlockCondition	Untouchable Duelist
+12	Romeo_Romance_Skin_Title	Romance Outfit
+13	Romeo_Romance_Skin_Description	Available in the Romance Skin Pack
+14	Romeo_Romance_Skin_UnlockCondition	Romance Skin Pack Acquired
+15	Romeo_Raven_Skin_Title	Ravens Outfit
+16	Romeo_Nightmare_Skin_Title	Nightmares Outfit
+17	Romeo_Spectral_Skin_Title	Eternal Love Outfit
+18	Romeo_EternalLove_Skin_Description	Available in the Romeo & Juliet Skin Pack
+19	Romeo_EternalLove_Skin_UnlockCondition	Romeo & Juliet Skin Pack Acquired

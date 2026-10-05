@@ -1,0 +1,107 @@
+# source_table	Hero_Merlin_Common~GAM.xls
+# rows	103
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Merlin
+1	Hero_Desc	Merlin's mysterious release from his eternal prison cell has him now using his wizardly magic to obliterate the darkness clouding both Reverie and his own mind. Bereft of his powers of prophecy, he relies on his druidly elemental powers to clear the world of monsters and find the missing Lady of the Lake.
+2	Ability_Trait_Name	Celestial Potency
+3	Ability_Trait_Desc	• #Passive:@ {0} can conjure runes of \POTENCY§ (up to #{1}@) that are consumed by his next Spell to enhance its effects\n• #Active:@ {0} briefly turns #INTANGIBLE@ and instantly conjures the maximum amount of runes of \POTENCY§
+4	Ability_Attack_Name	Magic Strikes
+5	Ability_Attack_Desc	• Chains a series of magic strikes, dealing a total of &{0}~ damage\n• The final attack conjures a rune of \POTENCY§ provided it hits at least one enemy
+6	Ability_Power_Name	Nature Spells
+7	Ability_Power_Desc	• Prepares a #Nature Spell@, to be cast as the next Ability used:\n• #POWER:@ {0}\n• #SPECIAL:@ {1}\n• #DEFENSE:@ {2}\n• Using #CONTEXTUAL ACTION@ will cancel this preparation action
+8	Ability_Power_Power_Name	Giant Brambles
+9	Ability_Power_Power_Desc	• Causes two giant brambles to grow and hit one another, dealing \{0}§ damage
+10	Ability_Power_Special_Name	Starfall
+11	Ability_Power_Special_Desc	• Causes stars to fall from the sky on up to \{0}§ nearby enemies, with each one dealing \{1}§ damage
+12	Ability_Power_Defense_Name	Stone Shield
+13	Ability_Power_Defense_Desc	• {0} surrounds himself with stones to #BLOCK@ any incoming damage\n• Stones deal \{1}§ damage per second then explode after a short duration, dealing \{2}§ damage all around
+14	Ability_Special_Name	Arcane Spells
+15	Ability_Special_Desc	• Prepares an #Arcane Spell@, to be cast as the next Ability used:\n• #POWER:@ {0}\n• #SPECIAL:@ {1}\n• #DEFENSE:@ {2}\n• Using #CONTEXTUAL ACTION@ will cancel this preparation action
+16	Ability_Special_Power_Name	Fork of Lightning
+17	Ability_Special_Power_Desc	• Channels a lightning attack for up to #{0}@ seconds, dealing \{1}§ damage per second to all enemies passed through
+18	Ability_Special_Special_Name	Fireball
+19	Ability_Special_Special_Desc	• Launches a fireball that explodes on contact or after a small delay, dealing \{0}§ area damage each and applying #IGNITE@ to enemies hit\n• Damage increases based on distance traveled, up to a maximum of \+{1}%§
+20	Ability_Special_Defense_Name	Frost Orb
+21	Ability_Special_Defense_Desc	• Sends out a Frost Orb that tracks nearby enemies for \{0}§ seconds\n• The orb deals \{1}§ damage every #{2}@ seconds and applies #CHILLED@ to enemies hit
+22	Ability_Defense_Name	Sacred Spells
+23	Ability_Defense_Desc	• Prepares a #Sacred Spell@, to be cast as the next Ability used:\n• #POWER:@ {0}\n• #SPECIAL:@ {1}\n• #DEFENSE:@ {2}\n• Using #CONTEXTUAL ACTION@ will cancel this preparation action
+24	Ability_Defense_Power_Name	Blessing
+25	Ability_Defense_Power_Desc	• Grants #REGENERATION@ \+{0}§ to the most heavily wounded nearby Hero
+26	Ability_Defense_Special_Name	Light Nova
+27	Ability_Defense_Special_Desc	• Unleashes a burst of light, stunning enemies or inflicting \{0}§ points of stagger to them\n• If the burst hits at least one enemy, it also applies a \{1}§ #SHIELD@ to all nearby Heroes for #{2}@ seconds
+28	Ability_Defense_Defense_Name	Blink
+29	Ability_Defense_Defense_Desc	• {0} turns #INTANGIBLE@ and quickly teleports forward at a medium range\n• Does not consume runes of \POTENCY§
+30	Ability_Ultimate_1_Name	Standing Stone
+31	Ability_Ultimate_1_Desc	• Pulls a standing stone out of the ground, drawing the attention of enemies\n• The stone passively loses health and explodes when this reaches zero, dealing &{0}~ area damage
+32	Skill_Ultimate_1_Desc	• Pulls a standing stone out of the ground, drawing the attention of enemies\n• The stone passively loses health and explodes when this reaches zero
+33	Ability_Ultimate_2_Name	Forbidden Spells
+34	Ability_Ultimate_2_Desc	• Prepares a #Forbidden Spell@, to be cast as the next Ability used:\n• #POWER:@ {0}\n• #SPECIAL:@ {1}\n• #DEFENSE:@ {2}\n• Using #CONTEXTUAL ACTION@ will cancel this preparation action
+35	Skill_Ultimate_2_Desc	• Grants access to three forbidden spells, to be cast as the next Ability used:\n• #POWER:@ {0}\n• #SPECIAL:@ {1}\n• #DEFENSE:@ {2}
+36	Ability_Ultimate_2_Power_Name	Cataclysm
+37	Ability_Ultimate_2_Power_Desc	• Summons a meteorite from the sky, the impact area of which can be moved around for a short time before it hits\n• The meteorite then strikes the targeted location, dealing &{0}~ damage in a large area surrounding it
+38	Ability_Ultimate_2_Special_Name	Unholy Strikes
+39	Ability_Ultimate_2_Special_Desc	• The next #{0}@ #ATTACKS@ send out a corrupted projectile, piercing through enemies and dealing &{1}~ damage\n• Each one that hits at least one enemy conjures a rune of \POTENCY§
+40	Ability_Ultimate_2_Defense_Name	Blood Ritual
+41	Ability_Ultimate_2_Defense_Desc	• Sacrifices health equivalent to ${0}%* of maximum health, resulting in other nearby Heroes being revived and healed for #{1}%@ of the amount of health lost\n• Nearby enemies take damage equivalent to #{2}@ times the amount of health lost
+42	Book_Page_Hero_Locked_Condition	Available in the Merlin DLC
+43	Skill_Passive_Quest_Crit_Chance_Name	Runic Might
+44	Skill_Passive_Quest_Crit_Chance_Desc	• #Quest (x{0}):@ In combat, casting a Spell that consumes #{1}@ runes of \POTENCY§ earns #+{2}@ #DMG@\n• #Complete:@ Repeating this action makes the Spell cast gain &{3}%~ #Crit Chance@
+45	Skill_Passive_Repeatable_Quest_Gain_DS_Name	Eternal Dream
+46	Skill_Passive_Repeatable_Quest_Gain_DS_Desc	• Each time {0} casts his nine different Spells, he gains &{1}~ #Dream Shards@\n• Does not work within a Safe Zone or during Chapter Boss fights
+47	Skill_Passive_Crit_Chance_On_Status_Name	Elemental Affinity
+48	Skill_Passive_Crit_Chance_On_Status_Desc	• All of {0}'s Abilities have &+{1}%~ #Crit Chance@ on enemies affected by #IGNITE@ or #CHILLED@ status (both can stack) 
+49	Skill_Dash_Damage_After_Special_Name	Quickening
+50	Skill_Dash_Damage_After_Special_Desc	• After casting an Arcane Spell (#SPECIAL@), next #DASH@ can be held up to #{0}@ second to deal &{1}~ damage to enemies passed through 
+51	Skill_Trait_Lightning_Name	Celestial Wrath
+52	Skill_Trait_Lightning_Desc	• #TRAIT@ triggers a lightning strike on up to &{0}~ nearby enemies\n• Lightning strikes deal #{1}@ damage each and are stronger if fewer enemies are hit
+53	Skill_Trait_Reduce_Cooldown_After_Defense_Name	Grace of Heaven
+54	Skill_Trait_Reduce_Cooldown_After_Defense_Desc	• Casting a Sacred Spell (#DEFENSE@) reduces #TRAIT@ cooldown by &{0}~ seconds 
+55	Skill_Attack_Bleed_After_Power_Name	Wild Magic
+56	Skill_Attack_Bleed_After_Power_Desc	• After casting a Nature Spell (#POWER@), the next #{0}@ #ATTACKS@ also project thorns, dealing &{1}%~ damage as #BLEED@
+57	Skill_Power_Power_AOE_Name	Brambles Whirlwind
+58	Skill_Power_Power_AOE_Desc	• When casting the #{0}@ Spell, {1} makes the brambles spin around him, dealing &+{2}%~ damage all around
+59	Skill_Special_Special_Single_Fireball_Name	Pyromancer
+60	Skill_Special_Special_Single_Fireball_Desc	• #Fireball@ now sends a single projectile, each rune of \POTENCY§ spent increases damage by &{0}%~ and explosion radius by #{1}%@
+61	Skill_Defense_Defense_DMG_Buff_Zone_Name	Sacred Ground
+62	Skill_Defense_Defense_DMG_Buff_Zone_Desc	• After casting the #{0}@ Spell, a sacred area will appear on the ground for #{1}@ seconds\n• All Heroes inside the area will gain &+{2}~ #DMG@
+63	Skill_Trait_Quest_Gain_Charge_Name	Trinity
+64	Skill_Trait_Quest_Gain_Charge_Desc	• #Quest (x{0}):@ Collect {1}, the {2} or {3} to gain #+{4}@ #Star(s) of Fate@\n• #Complete:@ Gain #+1 TRAIT charge@ and all critical damage will increase by &{5}%~
+65	Skill_Trait_Quest_Gain_Charge_Object_Collected_Desc	&{}~
+66	Skill_Trait_Quest_Gain_Charge_Object_NotFound_Desc	{}
+67	Skill_Power_Special_Vulnerable_Name	Shooting Stars
+68	Skill_Power_Special_Vulnerable_Desc	• The #{0}@ Spell applies #VULNERABLE@ to enemies hit for &{1}~ seconds
+69	Skill_Power_Defense_Chilled_Name	Freezing Stones
+70	Skill_Power_Defense_Chilled_Desc	• The #{0}@ Spell applies #CHILLED@ to enemies hit, and its final explosion deals &+{1}%~ damage
+71	Skill_Special_Power_Lightning_Name	Lightning Storm
+72	Skill_Special_Power_Lightning_Desc	• Every #{0}@ times the #{1}@ Spell hits an enemy, a lightning strike will hit a nearby enemy, dealing &{2}~ damage
+73	Skill_Special_Defense_Attack_AOE_Name	Frost Arcane
+74	Skill_Special_Defense_Attack_AOE_Desc	• Whenever #{0}@ is touched by {1}'s #ATTACK@, it emits a blast dealing &{2}~ damage all around
+75	Skill_Defense_Power_Shield_Name	Retaliation
+76	Skill_Defense_Power_Shield_Desc	• The #{0}@ Spell also applies #{1}@ #SHIELD@ for #{2}@ seconds to the Hero affected\n• When this expires or is destroyed, it deals &{3}~ area damage
+77	Skill_Defense_Special_Ignite_Name	Holy Fire
+78	Skill_Defense_Special_Ignite_Desc	• The #{0}@ Spell deals &{1}~ damage (#+{2}%@ per rune of \POTENCY§ spent) to enemies hit and applies #IGNITE@
+79	Skill_Passive_Gain_Reroll_High_Talent_Name	Astrology
+80	Skill_Passive_Gain_Reroll_High_Talent_Desc	• Gain #+{0} Star(s) of Fate@\n• Future Talents have a &+{1}%~ chance of being Rare or above
+81	Skill_Power_Heal_Name	Natural Harmony
+82	Skill_Power_Heal_Desc	• Hitting at least one enemy with a Nature Spell (#POWER@) restores &{0}~ health to all nearby Heroes
+83	Skill_Special_Gain_Potency_Name	Arcanic Rune
+84	Skill_Special_Gain_Potency_Desc	• Hitting at least one enemy with an Arcane Spell (#SPECIAL@) conjures a rune of \POTENCY§\n• Arcane Spells (#SPECIAL@) deal &+{0}%~ damage
+85	Skill_Defense_Attack_Finisher_Name	Sacred Strike
+86	Skill_Defense_Attack_Finisher_Desc	• After casting a Sacred Spell (#DEFENSE@), {0}'s next #ATTACK@ will be a finisher that conjures a rune of \POTENCY§ if it hits an enemy and deals &{1}%~ damage
+87	Skill_Dash_Heal_Name	Life Seed
+88	Skill_Dash_Heal_Desc	• When in combat, #DASH@ creates a life seed that sprouts shortly after to restore &{0}~ health points to the most heavily injured nearby Hero
+89	Skill_Special_Block_Name	Arcane Shield
+90	Skill_Special_Block_Desc	• Casting an Arcane Spell (#SPECIAL@) surrounds {0} with protection that blocks any attack for &{1}~ seconds
+91	Skill_Special_Missiles_Name	Fire Barrage
+92	Skill_Special_Missiles_Desc	• The #{0}@ Spell also sends #{1}@ fire missiles (#+{2}@ per Rune of \POTENCY§ spent) to nearby enemies, dealing &{3}~ damage each
+93	Skill_Ultimate_1_AOE_Name	Energy Stone
+94	Skill_Ultimate_1_AOE_Desc	• For every #{0}%@ health lost, Standing Stone emits a blast of energy toward a nearby enemy, dealing &{1}~ damage
+95	Skill_Ultimate_1_Multi_Stone_Name	Megalithic Site
+96	Skill_Ultimate_1_Multi_Stone_Desc	• {0} extracts #{1}@ standing stones from the ground around him, with each one dealing &{2} %~ damage when destroyed
+97	Skill_Ultimate_2_Dash_Name	Dark Swiftness
+98	Skill_Ultimate_2_Dash_Desc	• #DASH@ can be held for up to #{0}@ second(s) to deal &{1}~ damage to enemies passed through
+99	Skill_Ultimate_2_Replace_Defense_Name	Demon Form
+100	Skill_Ultimate_2_Replace_Defense_Desc	• Permanently replaces Sacred Spells (#DEFENSE@) by Forbidden Spells with a reduced cooldown of &{0}%~\n• #ULTIMATE@ can no longer be triggered
+101	Skill_Ultimate_2_Dmg_Per_Cursed_Name	Corrupted Arts
+102	Skill_Ultimate_2_Dmg_Per_Cursed_Desc	• Forbidden Spells (#ULTIMATE@) deal &+{0}%~ damage per #Cursed Magical Object@ owned (currently: &+{1}%~)

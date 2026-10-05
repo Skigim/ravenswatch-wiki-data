@@ -1,0 +1,100 @@
+# source_table	Hero_RED_Common~GAM.xls
+# rows	96
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Scarlet
+1	Ability_Trait_Name	Lycanthrope
+2	Ability_Trait_Desc	• #NIGHT@: At nightfall, transform into a werewolf with new abilities\n• #DAY@: At dawn, regain human form
+3	Ability_Human_Attack_Name	Daggers
+4	Ability_Human_Attack_Desc	• Chain together a series of dagger slashes, each one dealing &{0}~ damage\n• Every two consecutive attacks that hit an enemy, one #COMBO POINT@ is generated (up to #{1}@ can be stored)
+5	Ability_Human_Power_Name	Swift Strike
+6	Ability_Human_Power_Desc	• Rush forward while #INTANGIBLE@, dealing &{0}~ damage along the way\n• Spends all #COMBO POINTS@. Damage is increased by #{1}%@ for each point spent
+7	Ability_Human_Special_Name	Bomb
+8	Ability_Human_Special_Desc	• Drops a bomb that triggers a delayed explosion\n• Deals &{0}~ damage to enemies and stuns {1} if she is within the area of effect
+9	Ability_Human_Defense_Name	Cloak
+10	Ability_Human_Defense_Desc	• Hide under the cloak and turn #INTANGIBLE@ for #{0}@ second(s)\n• #ATTACK@ or #POWER@ triggered during this effect gain #+{1}%~ Crit Chance\n• While hidden Scarlet gain #STEALTH@
+11	Ability_Human_Ultimate_1_Name	Hunter's Souvenir
+12	Ability_Human_Ultimate_1_Desc	• Shoot with the shotgun, dealing &{0}~ damage in a wide cone\n• Stores #{1} charges@
+13	Ability_Human_Ultimate_2_Name	Grandmother's Souvenir
+14	Ability_Human_Ultimate_2_Desc	• Throw a pinch of ashes that creates a clouded area lasting #{0}@ seconds\n• During this time, all Heroes standing in the area of effect are #INTANGIBLE@
+15	Ability_Wolf_Attack_Name	Claws
+16	Ability_Wolf_Attack_Desc	• Chain together a series of claw swipes, each one dealing &{0}~ damage\n• Every two consecutive attacks that hit an enemy, one #COMBO POINT@ is generated (up to #{1}@ can be stored)
+17	Ability_Wolf_Power_Name	Bite
+18	Ability_Wolf_Power_Desc	• Rush towards the closest enemy while #INTANGIBLE@ to bite it and deal &{0}~ damage\n• Spends all #COMBO POINTS@. Damage is increased by #{1}%@ for each point spent
+19	Ability_Wolf_Special_Name	Leap
+20	Ability_Wolf_Special_Desc	• An #INTANGIBLE@ jump followed by a ground strike, dealing &{0}~ damage around the landing zone
+21	Ability_Wolf_Defense_Name	Howl
+22	Ability_Wolf_Defense_Desc	• Gain #{0} ARMOR@. #ATTACK@ and #POWER@ gain &{1}%~ #LIFE ON HIT@\n• Lasts #{2}@ seconds
+23	Ability_Wolf_Ultimate_1_Name	Gusting Roar
+24	Ability_Wolf_Ultimate_1_Desc	• Deal &{0}~ damage per second in a wide cone for #{1}@ seconds
+25	Ability_Wolf_Ultimate_2_Name	In the Belly
+26	Ability_Wolf_Ultimate_2_Desc	• Eat the closest non-boss enemy, instantly killing it\n• Cooldown is proportional to the eaten enemy's level
+27	Skill_Passive_Combo_Points_Heal_Name	
+28	Skill_Passive_Combo_Points_Heal_Desc	
+29	Skill_Passive_Combo_On_Kill_Name	Savagery
+30	Skill_Passive_Combo_On_Kill_Desc	• Each Kill grants one #COMBO POINT@\n• Each #COMBO POINT@ spent increases damage by an additional &+{0}%~
+31	Skill_Passive_Combo_Use_Bonus_Name	Adrenaline
+32	Skill_Passive_Combo_Use_Bonus_Desc	• Each time you spend #COMBO POINTS@, each point spent:\n• #Human:@ restores &{0}~ health\n• #Werewolf:@ increases #ATTACK SPEED@ by &{1}%~ for #{2}@ seconds
+33	Skill_Passive_Combo_Chain_Name	Savagery
+34	Skill_Passive_Combo_Chain_Desc	• Each time {0} earns or spends #COMBO POINTS@, she gains a charge of Savagery (up to #{1}@), each granting &+{2}~ #DMG@\n• Savagery stacks disappear after #{3}@ seconds if no new stacks are gained
+35	Skill_Dash_Attack_Name	Double Strike
+36	Skill_Dash_Attack_Desc	• #ATTACK@ triggered right after #DASH@ triggers a double strike, dealing &{0}%~ damage and generating one Combo Point
+37	Skill_Dash_Projectiles_Name	Fan of Spikes
+38	Skill_Dash_Projectiles_Desc	• When in combat, #DASH@ can consume a #COMBO POINT@ to send &{0}~ spikes, with each one dealing #{1}%@ #ATTACK@ damage to enemies hit
+39	Skill_Trait_Active_Name	Shapeshifter
+40	Skill_Trait_Active_Desc	• #TRAIT@ becomes active (with a &{0}~ seconds cooldown) and #heals@ #{1}%@ of Maximum Health when used\n• Maximum Health is reduced by ${2}%*
+41	Skill_Trait_Better_Forms_Name	True Instincts
+42	Skill_Trait_Better_Forms_Desc	• In #Human@ Form, gain &+{0}%~ Move Speed\n• In #Werewolf@ Form, gain &+{1}%~ Maximum Health
+43	Skill_Attack_Cleave_Name	Cleave
+44	Skill_Attack_Cleave_Desc	• #ATTACK@ has a #{0}%@ chance to cleave all around and deal &+{1}%~ damage
+45	Skill_Attack_Crit_Chance_With_Combo_Points_Name	
+46	Skill_Attack_Crit_Chance_With_Combo_Points_Desc	
+47	Skill_Attack_Wide_Attacks_Name	Wide Attacks
+48	Skill_Attack_Wide_Attacks_Desc	• #ATTACK@ gains #+{0}%@ range and deals &+{1}%~ damage
+49	Skill_Attack_Flurry_Name	Slash Flurry
+50	Skill_Attack_Flurry_Desc	• After using #POWER@, the next #ATTACK@ within #{0}@ seconds delivers a flurry of #{1}@ slashes with &+{2}%~ increased damage
+51	Skill_Power_Clear_Cooldown_On_Kill_Name	
+52	Skill_Power_Clear_Cooldown_On_Kill_Desc	
+53	Skill_Power_Extra_Combo_Points_Name	Energy
+54	Skill_Power_Extra_Combo_Points_Desc	• Maximum Combo Points is increased by #2@\n• #POWER@ has &+{0}%~ Crit Chance per Combo Point stored
+55	Skill_Power_Wolf_Quest_Name	Devourer
+56	Skill_Power_Wolf_Quest_Desc	• #Quest (x{0}):@ Each kill with #Werewolf POWER@ earns #+{1} DMG@\n• #Complete@: #POWER@ has a &{2}%~ chance to have no cooldown if it kills an enemy (for both forms)
+57	Skill_Power_Bleed_Name	Evisceration
+58	Skill_Power_Bleed_Desc	• Each Combo Point spent by #POWER@ applies &{0}%~ damage dealt in the form of #BLEED@
+59	Skill_Power_Finisher_Name	
+60	Skill_Power_Finisher_Desc	
+61	Skill_Power_Triggers_Special_Name	Explosive Rush
+62	Skill_Power_Triggers_Special_Desc	• When at #{0}@ Combo Points or above, #POWER@ triggers #SPECIAL@ effect upon use, dealing &{1}%~ of its normal damage amount
+63	Skill_Special_Can_Hold_Name	Distant Explosions
+64	Skill_Special_Can_Hold_Desc	• #SPECIAL@ now targets a farther location and deals &+{0}%~ damage
+65	Skill_Special_Reduce_Armor_Name	Armor Break
+66	Skill_Special_Reduce_Armor_Desc	• #SPECIAL@ applies #VULNERABLE@ to all enemies hit for &{0}~ seconds
+67	Skill_Special_Use_Combo_Points_Name	Pulverize
+68	Skill_Special_Use_Combo_Points_Desc	• #SPECIAL@ hits enemies #{0}%@ farther\n• #SPECIAL@ can consume a #COMBO POINT@ to deal &+{1}%~ damage
+69	Skill_Special_Ignite_Name	Pyromania
+70	Skill_Special_Ignite_Desc	• #SPECIAL@ applies #IGNITE@ to all enemies hit and gains &+{0}%~ Crit Chance
+71	Skill_Special_Quick_Bombs_Name	Short Wick
+72	Skill_Special_Quick_Bombs_Desc	• #Human@: #SPECIAL@ no longer affects {0} and bomb explodes as soon as it hits the ground\n• #SPECIAL@ recharges &{1}%~ faster in both forms
+73	Skill_Defense_Human_Quest_Name	Shadow Strikes
+74	Skill_Defense_Human_Quest_Desc	• #Quest (x{0}):@ #ATTACK@ or #POWER@ triggered during #Human DEFENSE@ gain #+{1}%@ Crit Chance per enemy hit\n• #Complete@: &+{2}%~ Crit Damage
+75	Skill_Defense_AOE_On_Trigger_Name	Aggressive Defense
+76	Skill_Defense_AOE_On_Trigger_Desc	• Deal &{0}~ damage all around when triggering #DEFENSE@
+77	Skill_Defense_Clear_Secondary_CD_Name	
+78	Skill_Defense_Clear_Secondary_CD_Desc	
+79	Skill_Defense_Combo_Name	Murderous Intent
+80	Skill_Defense_Combo_Desc	• #DEFENSE@ instantly bestows #{0}@ Combo Points and lasts &{1}%~ longer
+81	Skill_Defense_Mark_Name	On the Hunt
+82	Skill_Defense_Mark_Desc	• #DEFENSE@ applies #MARKED@ to the nearest enemy for &{0}~ seconds\n• #MARKED@ targets take #+{1}%@ damage and spread this status to another nearby enemy when they die
+83	Skill_Ultimate_1_Name	Hunter's Souvenir / Gusting Roar
+84	Skill_Ultimate_1_Desc	• #Human@: Shoot with the shotgun, dealing damage in a wide cone (has #{0}@ charges)\n• #Werewolf@: Deal continuous damage in a wide cone for #{1}@ seconds
+85	Skill_Ultimate_2_Name	Grandmother's Souvenir / In the Belly
+86	Skill_Ultimate_2_Desc	• #Human@: Create an ash cloud that makes any Hero within it #INTANGIBLE@\n• #Werewolf@: Eat the closest non-boss enemy, instantly killing it
+87	Skill_Ultimate_1_Fire_Name	Fiery Maw
+88	Skill_Ultimate_1_Fire_Desc	• #ULTIMATE@ gains #+{0}%@ range, deals &+{1}%~ damage and applies #IGNITE@ to enemies hit
+89	Skill_Ultimate_1_Reload_Name	Reload
+90	Skill_Ultimate_1_Reload_Desc	• Every &{0}~ times #POWER@, #SPECIAL@ or #DEFENSE@ is used, clear #ULTIMATE@ cooldown
+91	Skill_Ultimate_2_Explosif_Name	Bone Cracker
+92	Skill_Ultimate_2_Explosif_Desc	• #Human@: Ash cloud deals &{0}~ damage per second to enemies inside\n• #Werewolf@: Devouring an enemy causes it to explode, dealing &{1}~ to &{2}~ area damage (depending on its size)
+93	Skill_Ultimate_2_Heal_Name	Pack Leader 
+94	Skill_Ultimate_2_Heal_Desc	• #Human@: Ash cloud restores &{0}~ hit points per second to all Heroes within\n• #Werewolf@: Eating an enemy applies a &{1}~ to &{2}~ #SHIELD@ to all heroes around (depending on its size)
+95	Hero_Desc	Scarlet discovered she was cursed with lycanthropy while covered in her grandmother's remains. The Little Red of legend grew up in the blink of two very big eyes. A revenge-seeking hunter by day, wielding an arsenal of knives and the occasional bomb, at night she is a brutal monster whose pounce is just as mean as her bite. Oh, what big claws she has.

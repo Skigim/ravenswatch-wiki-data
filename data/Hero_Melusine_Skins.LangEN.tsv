@@ -1,0 +1,25 @@
+# source_table	Hero_Melusine_Skins~GAM.xls
+# rows	21
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Melusine_Signature_Skin_Title	Signature Outfit
+1	Melusine_Signature_Skin_Description	Unlocked by Healing 4 times or more in a single activation of Singing Stance with 'Sea Dance' Talent 
+2	Melusine_Signature_Skin_UnlockCondition	Healed 4 times or more in a single activation of Singing Stance with 'Sea Danse' Talent 
+3	Melusine_Traveler_Skin_Title	Traveler Outfit
+4	Melusine_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Melusine_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Melusine_Master_Skin_Title	Master Outfit
+7	Melusine_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Melusine_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Melusine_Hidden_Skin_Title	Hidden Outfit
+10	Melusine_Hidden_Skin_Description	Hidden Requirements
+11	Melusine_Hidden_Skin_UnlockCondition	Water Brings Life
+12	Melusine_Raven_Skin_Title	Ravens Outfit
+13	Melusine_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Melusine_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Melusine_Nightmares_Skin_Title	Nightmares Outfit
+16	Melusine_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Melusine_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Melusine_Timeless_Skin_Title	Timeless Outfit
+19	Melusine_Timeless_Skin_Description	Available in the Timeless Skin Pack
+20	Melusine_Timeless_Skin_UnlockCondition	Timeless Skin Pack Acquired

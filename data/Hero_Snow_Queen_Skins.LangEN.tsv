@@ -1,0 +1,31 @@
+# source_table	Hero_Snow_Queen_Skins~GAM.xls
+# rows	27
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Snow_Queen_Signature_Skin_Title	Signature Outfit
+1	Snow_Queen_Signature_Skin_Description	Unlocked by completing the 'Rupture' Talent Quest 
+2	Snow_Queen_Signature_Skin_UnlockCondition	Completed the 'Rupture' Talent Quest 
+3	Snow_Queen_Traveler_Skin_Title	Traveler Outfit
+4	Snow_Queen_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Snow_Queen_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Snow_Queen_Master_Skin_Title	Master Outfit
+7	Snow_Queen_Master_Skin_Description	Unlocked by completing the game on Darkness Difficulty
+8	Snow_Queen_Master_Skin_UnlockCondition	Completed the game on Darkness Difficulty
+9	Snow_Queen_Hidden_Skin_Title	Hidden Outfit
+10	Snow_Queen_Hidden_Skin_Description	Hidden Requirements
+11	Snow_Queen_Hidden_Skin_UnlockCondition	Ice Breaker
+12	Snow_Queen_Raven_Skin_Title	Ravens Outfit
+13	Snow_Queen_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Snow_Queen_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Snow_Queen_Nightmares_Skin_Title	Nightmares Outfit
+16	Snow_Queen_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Snow_Queen_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Snow_Queen_Fairytales_Skin_Title	Fairytales Outfit
+19	Snow_Queen_Fairytales_Skin_Description	Available in the Fairytales Skin Pack
+20	Snow_Queen_Fairytales_Skin_UnlockCondition	Fairytales Skin Pack Acquired
+21	Snow_Queen_UpdateOne_Skin_Title	Unleashed Outfit
+22	Snow_Queen_UpdateOne_Skin_Description	Available in the Unleashed Skin Pack
+23	Snow_Queen_UpdateOne_Skin_UnlockCondition	Unleashed Skin Pack Acquired
+24	Snow_Queen_Mercenaries_Skin_Title	Mercenaries Outfit
+25	Snow_Queen_Mercenaries_Skin_Description	Available in the Mercenaries Skin Pack
+26	Snow_Queen_Mercenaries_Skin_UnlockCondition	Mercenaries Skin Pack Acquired

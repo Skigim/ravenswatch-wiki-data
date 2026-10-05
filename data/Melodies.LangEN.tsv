@@ -1,0 +1,29 @@
+# source_table	Melodies~GAM.xls
+# rows	25
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Pause_Hourglass_Flow_Name	Otohime Melody
+1	Pause_Hourglass_Flow_Description	The Hourglass of Dreams empties #{0}%@ slower
+2	Refill_Sandman_Dreams_Name	Sheherazad Melody
+3	Refill_Sandman_Dreams_Description	Dreams obtained from the Sandman are restocked #{0}@ time(s) after being purchased
+4	Remove_Key_Requirement_Name	Merry Men Melody
+5	Remove_Key_Requirement_Description	The locks no longer need keys to be opened; keys now grant #{0} Dream Shards@ each
+6	Reduce_MO_Per_Collection_Name	Lucky Hans Melody
+7	Reduce_MO_Per_Collection_Description	Magical Object collections require #{0}@ item less to be considered completed
+8	Instant_Level_Up_Name	Fairy Godmother Melody 
+9	Instant_Level_Up_Description	The group of heroes instantly levels up
+10	Increase_POI_Reveal_Radius_Name	Long John Silver Melody
+11	Increase_POI_Reveal_Radius_Description	Reveals all Raven Marks on the map
+12	Increase_Fountain_Effect_Name	Lady of the Lake Melody
+13	Increase_Fountain_Effect_Description	Healing Foutains and Sacrificial Idols grant #+{0}%@ #VITALITY@ or #DMG@
+14	Increase_Move_Speed_At_Day_Name	Tortoise Melody
+15	Increase_Move_Speed_At_Day_Description	Increases move speed for all Heroes by #{0}%@ 
+16	Notification_Melody_Complete	Reconstructed Melody!
+17	Deal_Damage_Around_Name	The Goose Girl Melody
+18	Deal_Damage_Around_Description	In combat, every #{0}@ seconds, each hero unleashes a powerful wind that blows around them, dealing #{1}@ area damage
+19	FullyHeal_Name	Galahad Melody
+20	FullyHeal_Description	Grants #{0}@ Raven's Feather(s) and fully heals all Heroes at the start of each day or night
+21	GrantDamageOvertime_Name	Hansel and Gretel Melody
+22	GrantDamageOvertime_Description	When the Master Nightmare is awakened, grants #{0}@ #DMG@ every #{1}@ seconds until the final showdown begins
+23	PowerUpLevelMax_Name	The Little Tailor Melody
+24	PowerUpLevelMax_Description	Grants #{0}@ consumables each time the group of Heroes reaches a level above {1}

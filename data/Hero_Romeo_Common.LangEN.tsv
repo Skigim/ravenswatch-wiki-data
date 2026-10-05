@@ -1,0 +1,77 @@
+# source_table	Hero_Romeo_Common~GAM.xls
+# rows	73
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Romeo
+1	Hero_Desc	Awakening every day with no memories of the day before, Romeo still remembers that he is in love with Juliet who quickly informs him that they are intrepid agents of the Ravenswatch. Quick with his rapier and quicker with his verse, the legendary hero of clan Montague is most powerful when marrying his skills with his equally deadly paramour.
+2	Ability_Trait_Name	Until death do us part 
+3	Ability_Trait_Desc	• #Passive:@ If {0} definitely dies, {1} dies too\n• #Active:@ Consume Health equivalent to ${2}%* of Maximum Health to make {0} heal for &{3}%~ of the amount (healing above Maximum Health is converted into #SHIELD@)
+4	Ability_Attack_Name	Rapier 
+5	Ability_Attack_Desc	• Chain together a series of attacks with the rapier, last attack deals #+{0}%@ damage\n• Whole combo deals a total of &{2}~ damage\n• Use #DASH@ during or right after #ATTACK@ to perform a dash attack dealing &{1}~ damage
+6	Ability_Power_Name	Red Rose 
+7	Ability_Power_Desc	• Hold then release to throw a Rose that deals damage along path, then stops to spin dealing area damage for #{0}@ seconds\n• The Rose can deal up to &{1}~ damage in total \n• {2} can use #POWER@ to shoot the Rose and make it explode, dealing damage all around
+8	Ability_Special_Name	Passionate Kiss
+9	Ability_Special_Desc	• Call {0} during #{1}@ seconds or answer {0}'s call\n• Answering the call makes both heroes dash towards each other and kiss at half-distance dealing &{2}~ area damage, then they move back in opposite directions
+10	Ability_Defense_Name	Deflect
+11	Ability_Defense_Desc	• Perform an #INTANGIBLE@ series of deflections, blocking any enemy attack\n• #ATTACK@ used during or right after #DEFENSE@ triggers an #INTANGIBLE@ #Ripost@ launching a flurry of attacks, dealing up to &{1}~ damage
+12	Ability_Ultimate_1_Name	Wild Waltz
+13	Ability_Ultimate_1_Desc	• {2} rushes towards {0} to perform an #INTANGIBLE@ dance for #{1}@ seconds\n• Both Heroes influence moving direction during dance. The more identical the directions, the faster the movement\n• Deal between &{3}~ and &{4}~ area damage per second (according to their movement speed)
+14	Ability_Ultimate_2_Name	Black Roses
+15	Ability_Ultimate_2_Desc	• Send #{0}@ black Roses, piercing through enemies and dealing &{1}~ damage each
+16	Skill_Passive_Attack_Block_Name	Fencing Reflex
+17	Skill_Passive_Attack_Block_Desc	• Basic #ATTACKS@ can turn into a block when {2} gets hit (every #{0}@ seconds max)\n• After it blocks, {2} gains &+{1}%~ #Crit Chance@ for #{3}@ second(s)
+18	Skill_Dash_Attack_Return_Name	Flash of Steel
+19	Skill_Dash_Attack_Return_Desc	• Holding #DASH@ during a dash attack makes {1} rush back towards his starting location, dealing &{0}%~ damage on its path
+20	Skill_Dash_AOE_Attack_Name	Broad Stroke
+21	Skill_Dash_AOE_Attack_Desc	• #ATTACK@ used right after #DASH@ triggers a broad stroke, dealing &{0}%~ damage all around
+22	Skill_Trait_Beam_Name	Love Thread
+23	Skill_Trait_Beam_Desc	• Using #TRAIT@ casts a beam towards {2} for #{0}@ second(s), dealing &{1}~ damage per second to crossed enemies
+24	Skill_Trait_AOE_Name	Thorns Aura
+25	Skill_Trait_AOE_Desc	• After using #TRAIT@ or receiving {2}'s #TRAIT@, an aura of thorns appears around {3}, dealing &{0}~ area damage per second for #{1}@ seconds
+26	Skill_Attack_Panache_Name	Panache
+27	Skill_Attack_Panache_Desc	• Hitting an enemy with any additional #ATTACK@ move, such as #DASH@ attack or #DEFENSE@'s #Ripost@, grants one #Panache token@ (up to #{0}@) \n• Each #Panache token@ grants #+{3} DMG@ and &+{1}%~ #ATTACK SPEED@, all #Panache tokens@ are lost when {2} is hit
+28	Skill_Attack_Kick_Name	Kick
+29	Skill_Attack_Kick_Desc	• Adds a kick to #ATTACK@ combo, dealing &{0}%~ damage and pushing light enemies back
+30	Skill_Attack_Rose_Seed_Name	Deadly Brambles
+31	Skill_Attack_Rose_Seed_Desc	• 4th strike of #ATTACK@ combo implants brambles on enemies, dealing &{0}~ damage over #{1}@ seconds\n• Brambles explode when {3} implants again on affected enemy or on enemy death, dealing &{2}%~ area damage
+32	Skill_Attack_Power_Ripost_Name	Relentless Assaults
+33	Skill_Attack_Power_Ripost_Desc	• #ATTACK@ used right after #POWER@ triggers #DEFENSE@'s #Ripost@ launching a flurry of attacks, dealing up to &{0}~ damage
+34	Skill_Power_Chilled_Name	Ice Rose
+35	Skill_Power_Chilled_Desc	• #POWER@ now throws ice Roses, applying #CHILLED@ to hit enemies\n• #POWER@ deals &+{0}%~ damage
+36	Skill_Power_Trail_Name	Thorny Rose
+37	Skill_Power_Trail_Desc	• When #POWER@ Rose blooms, #{0}@ paths of thorns spread around, dealing &{1}~ damage per second to enemies crossing through
+38	Skill_Power_Heal_Name	Healing Rose
+39	Skill_Power_Heal_Desc	• Every #{0}@ times the #POWER@ Rose hits an enemy, it restores &{1}~ Health to all Heroes around 
+40	Skill_Power_Burst_Name	Bursting Bloom
+41	Skill_Power_Burst_Desc	•  When #POWER@ Rose blooms, trigger a burst of petals dealing &{0}%~ area damage
+42	Skill_Power_Cone_Attack_Name	Swarm of Petals
+43	Skill_Power_Cone_Attack_Desc	• Using #POWER@ also launches a swarm of petals in a cone, pushing back light enemies and dealing &{0}%~ damage
+44	Skill_Special_Quest_Dream_Shard_Name	Kiss the Bride
+45	Skill_Special_Quest_Dream_Shard_Desc	• #Quest (x{0}):@ Hitting at least one enemy with #SPECIAL@ grants #+{1}@ #Crit Chance@\n• #Complete:@ Any enemy hit by #SPECIAL@ has a &{4}%~ chance to grant {3} #{2}@ #Dream Shard(s)@
+46	Skill_Special_Ignite_Name	Burning Kiss
+47	Skill_Special_Ignite_Desc	• #SPECIAL@'s area of effect gains #+{0}%@ range, &+{1}%~ damage and applies #IGNITE@ to hit enemies
+48	Skill_Special_Invulnerable_Name	Love Shield
+49	Skill_Special_Invulnerable_Desc	• After #SPECIAL@'s kiss, {1} and {2} are surrounded by a Love Shield, making them #INVINCIBLE@ for #{0}@ seconds (every &{3}~ seconds max)
+50	Skill_Special_Buff_Attack_Name	Surge of bravery
+51	Skill_Special_Buff_Attack_Desc	• After #SPECIAL@'s kiss, next &{0}~ #ATTACKS@ gain #+{1}%@ range and deal #+{2}%@ damage
+52	Skill_Defense_Quest_Name	Secret Weapon
+53	Skill_Defense_Quest_Desc	• #Quest(x{0}):@ Blocking at least once during #DEFENSE@ grants #+{1} DMG@\n• #Complete:@ #Ripost ATTACK@ after #DEFENSE@ deals &+{2}%~ damage per successful block (up to #{3}@ times)
+54	Skill_Defense_Power_Name	Floral Dodge
+55	Skill_Defense_Power_Desc	• #DEFENSE@ now creates a #POWER@ Rose dealing &{0}%~ damage
+56	Skill_Defense_Shield_Name	Selfless Defender
+57	Skill_Defense_Shield_Desc	• Blocking at least one attack during #DEFENSE@ grants &{0}~ #SHIELD@ for #{1}@ second(s) to all Heroes around
+58	Skill_Defense_AOE_Name	Wind Spiral
+59	Skill_Defense_AOE_Desc	• #DEFENSE@ creates a wind spiral around {1} dealing up to &{0}~ area damage
+60	Skill_Ultimate_1_Ignite_Name	Burning Dance
+61	Skill_Ultimate_1_Ignite_Desc	• #ULTIMATE@ applies #IGNITE@ to hit enemies and deals &+{0}%~ damage
+62	Skill_Ultimate_1_Projectile_Name	Explosive Performance
+63	Skill_Ultimate_1_Projectile_Desc	• During #ULTIMATE@'s dance, launch &{0}~ firework rockets all around, exploding on impact and dealing #{1}@ damage each
+64	Skill_Ultimate_2_Attack_Rose_Name	Funeral Bouquet
+65	Skill_Ultimate_2_Attack_Rose_Desc	• #ATTACKS@ throw #ULTIMATE@'s Black Roses, dealing &{0}~ damage each
+66	Skill_Ultimate_2_Wide_And_AOE_Name	Tempestuous Roses
+67	Skill_Ultimate_2_Wide_And_AOE_Desc	• {2} throws &{0}~ Black Roses in a wide cone dealing #{3}@ damage each and is now surrounded by a tempest dealing &{1}~ area damage per second
+68	Book_Page_Hero_Locked_Condition	Available in the free DLC Romeo & Juliet
+69	Skill_Ultimate_1_Name	Wild Waltz
+70	Skill_Ultimate_1_Desc	• {0} rushes towards {1} to perform an #INTANGIBLE@ dance dealing area damage
+71	Skill_Ultimate_2_Name	Black Roses
+72	Skill_Ultimate_2_desc	• Send a swarm of black Roses piercing through enemies

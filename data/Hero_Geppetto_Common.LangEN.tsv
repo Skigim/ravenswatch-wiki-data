@@ -1,0 +1,89 @@
+# source_table	Hero_Geppetto_Common~GAM.xls
+# rows	85
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Geppetto
+1	Ability_Trait_Name	Dummy
+2	Ability_Trait_Desc	• Build a #DUMMY@ that draws enemies' attention and attacks them for &{0}~ damage\n• {1} can have up to #{2} DUMMIES@ built at the same time\n• #DUMMIES@ can be dismantled using #Contextual Action@ and will self destroy if they are too far from {3}
+3	Ability_Attack_Name	Hammer
+4	Ability_Attack_Desc	• Attack with a hammer at close quarters, dealing &{0}~ damage\n• #DUMMIES@ hit are healed for &{1}%~ of their Maximum Health
+5	Ability_Power_Name	Uppercut
+6	Ability_Power_Desc	• Perform a powerful hammer strike that deals &{0}~ damage\n• Closest #DUMMY@ hit is displaced and deals &{1}~ damage along its path
+7	Ability_Special_Name	Cogsplosion
+8	Ability_Special_Desc	• Hold then release to roll a bomb that explodes after a short duration, dealing &{0}~ damage all around\n• #DUMMIES@ hit are healed for &{1}%~ of their Maximum Health
+9	Ability_Defense_Name	Defibrillation
+10	Ability_Defense_Desc	• Apply a &{0}~ #SHIELD@ on {1} and all #DUMMIES@ for #{2}@ seconds\n• Briefly grants #INTANGIBLE@ at the start of the ability
+11	Ability_Ultimate_1_Name	Meca-Puppet
+12	Ability_Ultimate_1_Desc	• Create an autonomous #PUPPET@ that will attack the closest target and deal up to &{0}~ damage per second\n• #PUPPET@ follows {1} if no target is nearby and lasts up to #{2}@ seconds
+13	Ability_Ultimate_2_Name	Overclock
+14	Ability_Ultimate_2_Desc	• Make all #DUMMIES@ spin around and track nearby enemies, each one dealing &{0}~ damage per second all around
+15	Skill_Passive_Create_Object_Name	Flash of Genius
+16	Skill_Passive_Create_Object_Desc	• First time this Talent is chosen, instantly create &{0}~ #random magical object(s)@ \n• Each upgrade to this Talent will create an additional item once
+17	Skill_Dash_Deals_Damage_Name	Rocket Science
+18	Skill_Dash_Deals_Damage_Desc	• #DASH@ can be held for up to #{0}@ second(s), dealing &{1}~ damage along its path and applying #IGNITE@ to all enemies hit.\n• Crossed #DUMMIES@ catch fire and their attacks deal &+{2}%~ damage for #{3}@ seconds
+19	Skill_Trait_Random_Resistance_Name	Mad Experiments
+20	Skill_Trait_Random_Resistance_Desc	• When built, #DUMMIES@ have a &{0}%~ chance to gain #STRENGTH@ but a ${1}%* chance to become #VULNERABLE@
+21	Skill_Trait_Attack_Move_Name	Pogo-Hoppers
+22	Skill_Trait_Attack_Move_Desc	• #DUMMIES@ move &{0}%~ farther when attacking
+23	Skill_Trait_Dismantle_Explosion_Name	Red Button
+24	Skill_Trait_Dismantle_Explosion_Desc	• #Dismantling@ a #DUMMY@ makes it explode after a short duration and deal &{0}~ damage all around
+25	Skill_Trait_Max_Health_Name	Heart Ties
+26	Skill_Trait_Max_Health_Desc	• #DUMMIES@ gain &{0}%~ of {1}'s #VITALITY@\n• {2} gains #+{3} ARMOR@ per active #DUMMY@
+27	Skill_Trait_Twins_Name	Twin Dummies
+28	Skill_Trait_Twins_Desc	• #TRAIT@ has a &{0}%~ chance to build two #DUMMIES@ at once
+29	Skill_Trait_Share_Damage_Name	Family Bonds
+30	Skill_Trait_Share_Damage_Desc	• {0} and #DUMMIES@ share &{1}%~ of the damage they take with other #DUMMIES@
+31	Skill_Trait_Extra_Charge_Name	Large Family
+32	Skill_Trait_Extra_Charge_Desc	• Increase maximum active #DUMMIES@ by #1@\n• #TRAIT@ has a &{0}%~ reduced cooldown
+33	Skill_Trait_Buff_On_Dummy_Death_Name	Mourning Rage
+34	Skill_Trait_Buff_On_Dummy_Death_Desc	• Whenever a #DUMMY@ is destroyed, {0} and other #DUMMIES@ gain #STRENGTH@ for &{1}~ seconds
+35	Skill_Trait_Missiles_Name	Fireworks
+36	Skill_Trait_Missiles_Desc	• Each time a #DUMMY@ regains &{0}%~ of its Maximum Health, it shoots a homing missile that deals #{1}@ damage to a nearby enemy
+37	Skill_Trait_Nose_Attack_Name	Sharp Noses
+38	Skill_Trait_Nose_Attack_Desc	• #DUMMIES@ have a #{0}%@ chance of attacking with their nose, dealing &{1}%~ damage on all enemies they hit
+39	Skill_Trait_Suicide_All_Name	Red Button
+40	Skill_Trait_Suicide_All_Desc	• Triggering #TRAIT@ when all #DUMMIES@ are active causes them to self-destruct, with each one dealing &{0}~ area damage
+41	Skill_Trait_Blast_Construction_Name	Explosive Builds
+42	Skill_Trait_Blast_Construction_Desc	• When built by #TRAIT@, #DUMMIES@ emit a blast, dealing &{0}~ area damage
+43	Skill_Attack_Finisher_Name	Nailing Strike
+44	Skill_Attack_Finisher_Desc	• Adds an additional strike to the #ATTACK@ combo, dealing &{0}%~ damage
+45	Skill_Attack_Makes_Dummies_Attack_Name	Oiled Mechanisms
+46	Skill_Attack_Makes_Dummies_Attack_Desc	• #DUMMIES@ hit by #{0}@'s #ATTACK@ immediately attack in their current position, dealing &{1}%~ damage
+47	Skill_Attack_Group_Speed_Name	Family Meeting
+48	Skill_Attack_Group_Speed_Desc	• When three or more #DUMMIES@ are active, {0} and #DUMMIES@ gain &+{1}%~ #ATTACK SPEED@
+49	Skill_Power_Regeneration_Name	Burst of Energy
+50	Skill_Power_Regeneration_Desc	• #DUMMIES@ hit by #POWER@ when below #{0}%@ health gain &+{1}~ #REGENERATION@
+51	Skill_Power_Unstable_Name	Unstable Cores
+52	Skill_Power_Unstable_Desc	• #{0}@ seconds after their creation, #DUMMIES@ become unstable\n• If an unstable #DUMMY@ is hit with #POWER@ - or if it is destroyed or dismantled - this will cause it to explode, dealing &{1}~ area damage
+53	Skill_Power_Overcharge_Name	Flux Capacitor
+54	Skill_Power_Overcharge_Desc	• While {0} has #SHIELD@, #POWER@ affects all #DUMMIES@ within range and deals &+{1}%~ damage
+55	Skill_Power_Magnet_Name	Magnetic Hammer
+56	Skill_Power_Magnet_Desc	• Holding #POWER@ allows {0} to pull in a #DUMMY@ in front of him\n• Upon release, the #DUMMY@ that has been pulled in deals &+{1}%~ damage across a #{2}%@ wider area
+57	Skill_Special_Improve_Next_Name	Spare Parts
+58	Skill_Special_Improve_Next_Desc	• #Dismantling@ a #DUMMY@ clears #SPECIAL@'s cooldown and makes next #SPECIAL@ within #{0}@ seconds deal &+{1}%~ damage
+59	Skill_Special_Creates_Dummy_Name	Dummyball
+60	Skill_Special_Creates_Dummy_Desc	• #SPECIAL@ creates a #DUMMY@ when it explodes and deals &{0}%~ damage\n• Has no effect if max number of #DUMMIES@ are already active
+61	Skill_Special_Regeneration_Name	Clockwork Medicine
+62	Skill_Special_Regeneration_Desc	• #DUMMIES@ healed by #SPECIAL@ also gain &+{0}~ #REGENERATION@
+63	Skill_Special_Pushback_Name	Vacuum Capsule
+64	Skill_Special_Pushback_Desc	• #DUMMIES@ hit by #SPECIAL@ are jerked toward the center of the explosion, dealing &{0}%~ of #POWER@ damage along the way
+65	Skill_Defense_Lightning_Name	Forked Lightning
+66	Skill_Defense_Lightning_Desc	• #DEFENSE@ sends bolts of lightning toward #DUMMIES@, each dealing &{0}~ damage
+67	Skill_Defense_Laser_Attack_Name	Laser Lenses
+68	Skill_Defense_Laser_Attack_Desc	• When the #DEFENSE@ effect is applied, #DUMMIES'@ next attack shoots lasers from their eyes, dealing &{0}%~ ranged damage
+69	Skill_Defense_AOE_Name	Lightning Rod Dummies
+70	Skill_Defense_AOE_Desc	• A short time after the #DEFENSE@ effect is applied, #DUMMIES@ are struck by lightning and deal &{0}~ damage around
+71	Skill_Ultimate_1_Name	Meca-Puppet
+72	Skill_Ultimate_1_Desc	• Create an autonomous #PUPPET@ that will attack close targets or follow {0} if there are no nearby enemies
+73	Skill_Ultimate_2_Name	Overclock
+74	Skill_Ultimate_2_Desc	• Make all #DUMMIES@ spin around and track nearby enemies, dealing continuous damage all around
+75	Skill_Ultimate_1_Bomber_Name	Bomb Reserve
+76	Skill_Ultimate_1_Bomber_Desc	• When in combat, the {0} sends a bomb around itself every #{1}@ second(s), dealing &{2}~ area damage
+77	Skill_Ultimate_1_Big_Meca_Puppet_Name	Master Puppet
+78	Skill_Ultimate_1_Big_Meca_Puppet_Desc	• When the Meca-Puppet is built, it consumes any #DUMMY@ built around to gain &{0}%~ max. health and deal &{1}%~ more damage per #DUMMY@ consumed
+79	Skill_Ultimate_2_Overclock_Hit_Name	High Voltage
+80	Skill_Ultimate_2_Overclock_Hit_Desc	• After a #DUMMY@ is displaced by #POWER@, it activates the {0} effect of the #ULTIMATE@ for &{1}~ second(s)
+81	Skill_Ultimate_2_Overclock_Ignite_Name	Hyperclock
+82	Skill_Ultimate_2_Overclock_Ignite_Desc	• #DUMMIES@ under the {0} effect overheat, applying #IGNITE@ to hit enemies, and lastly explode to deal &{1}~ area damage
+83	Hero_Desc	After losing his son to Nightmares, Geppetto set his mind to the invention of deadly automatons: squadrons of killing machines, messengers of booming doom. The once-upon-a-time puppet maker now works to bring about the destruction of the horrors invading Reverie as efficiently as possible. Geppetto's minions know no fear and never tell lies. 
+84	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with Beowulf

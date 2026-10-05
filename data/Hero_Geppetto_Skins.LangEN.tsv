@@ -1,0 +1,28 @@
+# source_table	Hero_Geppetto_Skins~GAM.xls
+# rows	24
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Geppetto_Signature_Skin_Title	Signature Outfit
+1	Geppetto_Signature_Skin_Description	Unlocked by Blowing up 3 dummies in less than a second with 'Unstable Cores' talent in combat
+2	Geppetto_Signature_Skin_UnlockCondition	Blew up 3 dummies in less than a second with 'Unstable Cores' talent in combat
+3	Geppetto_Traveler_Skin_Title	Traveler Outfit
+4	Geppetto_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Geppetto_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Geppetto_Master_Skin_Title	Master Outfit
+7	Geppetto_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Geppetto_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Geppetto_Hidden_Skin_Title	Hidden Outfit
+10	Geppetto_Hidden_Skin_Description	Hidden Requirements
+11	Geppetto_Hidden_Skin_UnlockCondition	One Man Army
+12	Geppetto_Raven_Skin_Title	Ravens Outfit
+13	Geppetto_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Geppetto_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Geppetto_Nightmares_Skin_Title	Nightmares Outfit
+16	Geppetto_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Geppetto_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Geppetto_Timeless_Skin_Title	Timeless Outfit
+19	Geppetto_Timeless_Skin_Description	Available in the Timeless Skin Pack
+20	Geppetto_Timeless_Skin_UnlockCondition	Timeless Skin Pack Acquired
+21	Geppetto_Mercenaries_Skin_Title	Mercenaries Outfit
+22	Geppetto_Mercenaries_Skin_Description	Available in the Mercenaries Skin Pack
+23	Geppetto_Mercenaries_Skin_UnlockCondition	Mercenaries Skin Pack Acquired

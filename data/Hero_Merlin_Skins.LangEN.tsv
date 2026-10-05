@@ -1,0 +1,25 @@
+# source_table	Hero_Merlin_Skins~GAM.xls
+# rows	21
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Merlin_Signature_Skin_Title	Signature Outfit
+1	Merlin_Signature_Skin_Description	Unlocked by completing the 'Runic Might' Talent Quest
+2	Merlin_Signature_Skin_UnlockCondition	Completed the 'Runic Might' Talent Quest 
+3	Merlin_Traveler_Skin_Title	Traveler Outfit
+4	Merlin_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Merlin_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Merlin_Master_Skin_Title	Master Outfit
+7	Merlin_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Merlin_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Merlin_Hidden_Skin_Title	Hidden Outfit
+10	Merlin_Hidden_Skin_Description	Hidden Requirements
+11	Merlin_Hidden_Skin_UnlockCondition	Morgan's Blessing 
+12	Merlin_Raven_Skin_Title	Ravens Outfit
+13	Merlin_Raven_Skin_Description	Available in the Merlin Hero DLC
+14	Merlin_Raven_Skin_UnlockCondition	Merlin Hero DLC acquired
+15	Merlin_Nightmare_Skin_Title	Nightmares Outfit
+16	Merlin_Nightmare_Skin_Description	Available in the Merlin Hero DLC
+17	Merlin_Nightmare_Skin_UnlockCondition	Merlin Hero DLC acquired
+18	Merlin_Royal_Skin_Title	Royal Counselor Outfit
+19	Merlin_Royal_Skin_Description	Available in the Merlin Hero DLC
+20	Merlin_Royal_Skin_UnlockCondition	Merlin Hero DLC acquired

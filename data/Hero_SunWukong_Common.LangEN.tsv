@@ -1,0 +1,77 @@
+# source_table	Hero_SunWukong_Common~GAM.xls
+# rows	73
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Sun Wukong
+1	Ability_Trait_Name	Taiji
+2	Ability_Trait_Desc	• Switch between \YIN STANCE§ and $YANG STANCE*\n• \YIN:§ All abilities gain &{0}%~ #LIFE ON HIT@, all heroes around gain &{1}~ #SHIELD@ for #{2}@ seconds\n• $YANG:* {3} Deals $and takes* &{4}%~ more damage, all heroes around gain #STRENGTH@ for #{5}@ seconds
+3	Ability_Attack_Name	Ruyi Jingu Bang
+4	Ability_Attack_Desc	• Chain attacks with the staff, with each successive move increasing its range as well as its power\n• The full chain deals a total of &{0}~ damage
+5	Ability_Power_Name	Jindou Yun
+6	Ability_Power_Desc	• Rush toward a nearby enemy then strike it for &{0}~ damage\n• If other enemies are nearby, {1} can follow up with #{2}@ other targets while being #INTANGIBLE@
+7	Ability_Special_Name	Mantra
+8	Ability_Special_Desc	• Launch prayer beads that orbit {0} for #{1}@ second(s), dealing &{2}~ damage per second to enemies affected
+9	Ability_Defense_Name	Empty Palm
+10	Ability_Defense_Desc	• Block any attack for #{0}@ second(s)\n• If an attack is blocked, the blocking time is reset and {1} has no cooldown
+11	Ability_Ultimate_1_Name	Monkey Clones
+12	Ability_Ultimate_1_Desc	• Summons #{0}@ clones in the area, which will fight nearby enemies and attract their attention\n• Clones copy {1}'s #VITALITY@ and #DMG@ and disappear after #{2}@ seconds
+13	Ability_Ultimate_2_Name	Transfiguration
+14	Ability_Ultimate_2_Desc	• {0} transforms for #{1}@ seconds into a copy of another random hero, with all their standard Talents activated, of Epic quality
+15	Skill_Passive_Objects_Quest_Name	Thirst for Immortality
+16	Skill_Passive_Objects_Quest_Desc	• #Quest (x{0}):@ Obtaining a Magical Object with a Rare quality or better grants #+{1} DMG@\n• #Complete:@ Grants &+{2}~ #VITALITY@ but now $only Hero or Magical Object heals* are effective
+17	Skill_Passive_Reveal_Name	Fiery Golden Eyes
+18	Skill_Passive_Reveal_Desc	• At the start of each #DAY@ or #NIGHT@, reveal #{0}@ point(s) of interest on the map\n• Personal #Dream Shards@ gains are increased by &{1}%~
+19	Skill_Trait_Frost_Name	Frost Tiger
+20	Skill_Trait_Frost_Desc	• Adds an explosion of frost to the activation effects of \YIN STANCE§, dealing &{0}~ area damage and inflicting enemies with #CHILLED@
+21	Skill_Trait_Fire_Name	Fiery Dragon
+22	Skill_Trait_Fire_Desc	• Adds an explosion of fire to the activation effects of $YANG STANCE*, dealing &{0}~ area damage and inflicting enemies with #IGNITE@
+23	Skill_Dash_Sprint_Name	Sprint
+24	Skill_Dash_Sprint_Desc	• Bestows &+{0}%~ Move Speed\n• #DASH@ can be held for up to #{1}@ seconds to sprint at high speed
+25	Skill_Trait_Longer_Effects_Name	Mind Fortress
+26	Skill_Trait_Longer_Effects_Desc	• #SHIELD@ and #STRENGTH@ effects triggered upon #TRAIT@ activation last &{0}%~ longer
+27	Skill_Trait_Better_Stances_Name	Supreme Polarity
+28	Skill_Trait_Better_Stances_Desc	• Switching #STANCE@ increases the power of the new #STANCE@ for #{0}@ seconds:\n• \YIN:§ &+{1}%~ #LIFE ON HIT@\n• $YANG:* deals &+{2}%~ damage
+29	Skill_Trait_Awakened_Name	Way of Awakening
+30	Skill_Trait_Awakened_Desc	• After #{0}@ successful #DEFENSE@ actions, the next #TRAIT@ activates #AWAKENED STANCE@ for &{1}~ seconds\n• #AWAKENED STANCE@ grants both \YIN§ and $YANG* effects, without taking any additional damage
+31	Skill_Attack_Finisher_Name	Celestial Pillar
+32	Skill_Attack_Finisher_Desc	• Adds a crushing blow to the #ATTACK@ combo, dealing &{0}~ damage around the point of impact
+33	Skill_Attack_After_Dash_Name	Stick Twirl
+34	Skill_Attack_After_Dash_Desc	• #ATTACK@ triggered after a #DASH@ launches a rapid series of #{0}@ strikes, each dealing &{1}%~ area damage
+35	Skill_Attack_Beam_Name	Ch'i Outburst
+36	Skill_Attack_Beam_Desc	• After #POWER@ hits at least one enemy, the next #ATTACK@ can be held down to store power then released to deliver an energy beam dealing up to &{0}%~ #POWER@ damage to all enemies it passes through
+37	Skill_Power_Extra_Targets_Name	Airbender
+38	Skill_Power_Extra_Targets_Desc	• #POWER@ can strike up to &{0}~ more time(s)
+39	Skill_Power_Lightning_Name	Thundercloud
+40	Skill_Power_Lightning_Desc	• Enemies hit by #POWER@ are soon afterwards struck by lightning, dealing &{0}%~ damage all around the point of impact
+41	Skill_Power_Hold_Name	Focused Strikes
+42	Skill_Power_Hold_Desc	• #POWER@ can be held down to deliver the next strike to the same target and deals &+{0}%~ damage
+43	Skill_Special_Triggers_Stance_Name	Resonance
+44	Skill_Special_Triggers_Stance_Desc	• When the #SPECIAL@ effect expires, all the activation effects of the current #STANCE@ are restarted\n• #SPECIAL@ deals &+{0}%~ damage
+45	Skill_Special_Attack_AOE_Name	Ringing Beads
+46	Skill_Special_Attack_AOE_Desc	• While #SPECIAL@ is active, #ATTACK@ makes beads ring, dealing &{0}%~ #ATTACK@ damage all around
+47	Skill_Special_Debuff_Name	Mantra of Balance
+48	Skill_Special_Debuff_Desc	• When #SPECIAL@ is triggered, it applies a negative status effect to enemies within range:\n• \YIN:§ #VULNERABLE@ for &{0}~ second(s)\n• $YANG:* #WEAKENED@ for &{1}~ second(s)
+49	Skill_Special_Explosion_Name	Sacred Seal
+50	Skill_Special_Explosion_Desc	• When #SPECIAL@ ends, orbs sink into the ground to draw a sacred pattern that explodes after a short time, dealing &{0}~ area damage
+51	Skill_Special_Beads_Increase_Name	Ōm
+52	Skill_Special_Beads_Increase_Desc	• While #SPECIAL@ is active, beads gradually increase their action radius, up to &+{0}%~, and hit all enemies present in the area
+53	Skill_Defense_Quest_Name	Stone Monkey
+54	Skill_Defense_Quest_Desc	• #Quest (x{0}):@ Each successful #DEFENSE@ grants #+{1} ARMOR@\n• #Complete@: Each block triggers an attack dealing &{2}%~ of the blocked damage as area damage
+55	Skill_Defense_Retaliate_Name	One-Inch Punch
+56	Skill_Defense_Retaliate_Desc	• #ATTACK@ triggered after a successful #DEFENSE@ launches a powerful punch, dealing &{0}%~ damage
+57	Skill_Defense_Perfect_Name	Divine Palm
+58	Skill_Defense_Perfect_Desc	• Blocking with #DEFENSE@ less than #{0}@ second(s) after its activation triggers a perfect block:\n• \YIN:§ restores &{1}~ health to all nearby heroes\n• $YANG:* deals &{2}~ area damage
+59	Skill_Ultimate_1_Name	Monkey Clones
+60	Skill_Ultimate_1_Desc	• Summons #{0}@ clones in the area, which will fight nearby enemies and attract their attention
+61	Skill_Ultimate_2_Name	Transfiguration
+62	Skill_Ultimate_2_Desc	• {0} transforms into a copy of another random hero, with ALL their standard Talents activated, of Epic quality
+63	Skill_Ultimate_1_More_Monkeys_Name	Army of Monkeys
+64	Skill_Ultimate_1_More_Monkeys_Desc	• #ULTIMATE@ summons &{0}~ additional clones
+65	Skill_Ultimate_1_Special_Monkey_Name	Mantra of Replication 
+66	Skill_Ultimate_1_Special_Monkey_Desc	• Whenever #SPECIAL@ is casted, summon #{0}@ Monkey Clone that fight for &{1}~ seconds 
+67	Skill_Ultimate_2_Perfect_Copy_Name	Perfect Copy
+68	Skill_Ultimate_2_Perfect_Copy_Desc	• During the #ULTIMATE@ transformation, {0} can use a random #ULTIMATE@ ability of the Hero copied\n• Transfiguration lasts &{1}~ more seconds
+69	Skill_Ultimate_2_Omnipotence_Name	Divine Beverage 
+70	Skill_Ultimate_2_Omnipotence_Desc	• #ULTIMATE@ transformation grants all heroes around #OMNIPOTENCE@ for &{0}~ seconds\n• During #OMNIPOTENCE@, Heroes' #POWER@, #SPECIAL@ and #DEFENSE@ have a #{1}@ second cooldown
+71	Hero_Desc	Sun Wukong, the Monkey King and Heaven's Equal, lost his power of immortality during a great celebration at the hands of uninvited Nightmares. Still formidable, he relies on his alternating postures, embracing a balanced strategy of Yin and Yang to pound out all ideas of resistance from his foolish foes. One should expect no less from a god.
+72	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with The Snow Queen

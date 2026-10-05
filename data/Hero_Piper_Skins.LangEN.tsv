@@ -1,0 +1,31 @@
+# source_table	Hero_Piper_Skins~GAM.xls
+# rows	27
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Piper_Signature_Skin_Title	Signature Outfit
+1	Piper_Signature_Skin_Description	Unlocked by completing 'Sound Barrier' Talent Quest 
+2	Piper_Signature_Skin_UnlockCondition	Completed 'Sound Barrier' Talent Quest 
+3	Piper_Traveler_Skin_Title	Traveler Outfit
+4	Piper_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Piper_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Piper_Master_Skin_Title	Master Outfit
+7	Piper_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Piper_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Piper_Hidden_Skin_Title	Hidden Outfit
+10	Piper_Hidden_Skin_Description	Hidden Requirements
+11	Piper_Hidden_Skin_UnlockCondition	Rats Lover
+12	Piper_Raven_Skin_Title	Ravens Outfit
+13	Piper_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Piper_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Piper_Nightmares_Skin_Title	Nightmares Outfit
+16	Piper_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Piper_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Piper_Fairytales_Skin_Title	Fairytales Outfit
+19	Piper_Fairytales_Skin_Description	Available in the Fairytales Skin Pack
+20	Piper_Fairytales_Skin_UnlockCondition	Fairytales Skin Pack Acquired
+21	Piper_UpdateOne_Skin_Title	Unleashed Outfit
+22	Piper_UpdateOne_Skin_Description	Available from the Unleashed Skin Pack
+23	Piper_UpdateOne_Skin_UnlockCondition	Unleashed Skin Pack acquired
+24	Piper_Mercenaries_Skin_Title	Mercenaries Outfit
+25	Piper_Mercenaries_Skin_Description	Available in the Mercenaries Skin Pack
+26	Piper_Mercenaries_Skin_UnlockCondition	Mercenaries Skin Pack Acquired

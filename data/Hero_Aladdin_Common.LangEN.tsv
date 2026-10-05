@@ -1,0 +1,85 @@
+# source_table	Hero_Aladdin_Common~GAM.xls
+# rows	81
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Aladdin
+1	Ability_Trait_Name	Jinniya of the Lamp
+2	Ability_Trait_Desc	• Call Jinniya of the lamp for a wish. Next ability grants the wish\n• #POWER@: Deals &{0}~ damage all around\n• #SPECIAL@: Makes #{1}@ to #{2} Dream Shards@ and #{3} Consumable(s)@ appear\n• #DEFENSE@: Revives all nearby Heroes or fully heals them with a permanent #{4} SHIELD@
+3	Ability_Attack_Name	Scimitars
+4	Ability_Attack_Desc	• Chain together a series of attacks with the scimitars, each one dealing &{0}~ damage. Last attack hits all around\n• Each attack can consume #ENCHANTMENT@ points so you can strike twice with increased damage
+5	Ability_Power_Name	Ring Jinn
+6	Ability_Power_Desc	• Summon Jinn of the Ring to fly forward and deliver a powerful blow that deals &{0}~ damage\n• Can be held to move farther and increase damage up to #+{1}%@
+7	Ability_Special_Name	Enchanted Blades
+8	Ability_Special_Desc	• Throw scimitars: They move forward, stop to spin, then return to {0}, dealing up to &{1}~ damage\n• Scimitars gain #ENCHANTMENT@ points for each enemy hit
+9	Ability_Defense_Name	Somersault
+10	Ability_Defense_Desc	• Jump quickly to turn #INTANGIBLE@\n• Enemies passed become #VULNERABLE@ for #{0}@ second(s)
+11	Ability_Ultimate_1_Name	Dream Wish
+12	Ability_Ultimate_1_Desc	• Consume #{0} Dream Shards@ to earn an additional #TRAIT@ charge
+13	Ability_Ultimate_2_Name	Magic Carpet
+14	Ability_Ultimate_2_Desc	• Ride the Magic Carpet, turning #INTANGIBLE@ and dealing &{0}~ damage to enemies passed\n• Movement is forced but the direction can be controlled
+15	Skill_Passive_Energy_Name	Major Enchantment
+16	Skill_Passive_Energy_Desc	• While #NOT@ using #ATTACK@, passively generate #{0} ENCHANTMENT@ points every &{1}~ seconds
+17	Skill_Passive_Enchantment_Damage_Name	Sacred Enchantment
+18	Skill_Passive_Enchantment_Damage_Desc	• #ATTACK@ and #SPECIAL@ deal more damage, proportionally to the #ENCHANTMENT@ of blades, up to &+{0}%~
+19	Skill_Passive_Extra_MO_Name	Master Thief
+20	Skill_Passive_Extra_MO_Desc	• Whenever you choose a Common, Rare or Epic #Magical Object@, you have a &{0}%~/&{1}%~/&{2}%~ chance to get another copy of it 
+21	Skill_Dash_Attack_Name	Leaping Strike
+22	Skill_Dash_Attack_Desc	• #ATTACK@ used right after #DASH@ deals &{0}%~ damages and strikes twice with #ENCHANTMENT@
+23	Skill_Trait_Extra_Wish_Name	Jinniya's Gift
+24	Skill_Trait_Extra_Wish_Desc	• Gain #+1 TRAIT charge@\n• Future Talents have a &+{0}%~ chance of being Rare or above
+25	Skill_Trait_Fourth_Wish_Name	Wish of Omnipotence
+26	Skill_Trait_Fourth_Wish_Desc	• Adds a fourth wish to #TRAIT@, granting all nearby Heroes #OMNIPOTENCE@ for &{0}~ seconds\n• During #OMNIPOTENCE@, Heroes' #POWER@, #SPECIAL@ and #DEFENSE@ have a #{1}@ second cooldown
+27	Skill_Attack_No_Weapon_Name	Slide Attack
+28	Skill_Attack_No_Weapon_Desc	• Using #ATTACK@ while the blades are flying makes you slide and deal &{0}%~ of #ATTACK@'s damage along the path
+29	Skill_Attack_Spawns_DS_Name	Dream Scimitars
+30	Skill_Attack_Spawns_DS_Desc	• While #ENCHANTMENT@ is active on blades, #ATTACK@ has a &{0}%~ chance of earning {1} a #Dream Shard@ upon enemy hit
+31	Skill_Attack_Dive_Name	Dive
+32	Skill_Attack_Dive_Desc	• Using #ATTACK@ during #DEFENSE@'s jump makes {0} dive to the ground, dealing &{1}%~ of #ATTACK@'s damage all around
+33	Skill_Attack_Flurry_Name	Spinning Strikes
+34	Skill_Attack_Flurry_Desc	• After retrieving #SPECIAL@'s blades, next #ATTACK@ within #{0}@ second(s) spins #{1}@ times (twice as many with #ENCHANTMENT@) and deals &+{2}%~ damage
+35	Skill_Attack_Wide_Name	Shard Blades
+36	Skill_Attack_Wide_Desc	• While #ENCHANTMENT@ is active on blades, #ATTACKS@ have their range increased by &{0}%~ and deal #+{1}%@ damage
+37	Skill_Power_Start_AOE_Name	Cyclonic Appearance
+38	Skill_Power_Start_AOE_Desc	• When triggering #POWER@, Jinn hits all nearby enemies and deals &{0}%~ of #POWER@'s damage
+39	Skill_Power_Multi_Hit_Name	Jinn's Fury
+40	Skill_Power_Multi_Hit_Desc	• #POWER@ strikes #3@ times, each one dealing &{0}%~ damage
+41	Skill_Power_Quest_Name	Jinn's Might
+42	Skill_Power_Quest_Desc	• #Quest (x{0}):@ Hitting an enemy with #POWER@ at maximum charge grants #+{1} DMG@\n• #Complete:@ Increases #POWER@'s bonus damage from charge by &{2}%~
+43	Skill_Power_Blades_Name	Swordjinn
+44	Skill_Power_Blades_Desc	• #POWER@ Jinn can catch #SPECIAL@'s blades and deal &+{0}%~ damage in a wider range
+45	Skill_Power_Energy_Name	Enchanted Jinn
+46	Skill_Power_Energy_Desc	• #POWER@ can consume up to #{0} ENCHANTMENT@ points to increase its Crit Chance by #{1}%@ per point\n• The maximum number of #ENCHANTMENT@ points is increased by &{2}~
+47	Skill_Special_Quest_Name	Aerial Catch
+48	Skill_Special_Quest_Desc	• #Quest (x{0}):@ After they hit an enemy, retrieving #SPECIAL@'s blades during #DEFENSE@ grants #+{1} ARMOR@\n• #Complete@: Doing it again grants &{2}~ #SHIELD@ to all nearby Heroes for #{3}@ seconds
+49	Skill_Special_Tracking_Name	
+50	Skill_Special_Tracking_Desc	
+51	Skill_Special_Swirling_Name	
+52	Skill_Special_Swirling_Desc	
+53	Skill_Special_Healing_Name	Healing Blades
+54	Skill_Special_Healing_Desc	• When retrieved, #SPECIAL@'s blades heal #all Heroes@ nearby for each enemy hit, up to &{0}~ Health
+55	Skill_Special_Extra_Spins_Name	Dancing Blades
+56	Skill_Special_Extra_Spins_Desc	• Spin duration of #SPECIAL@'s blades is increased by &{0}%~\n• Blades can be recalled sooner by triggering #SPECIAL@ again
+57	Skill_Special_Vacuum_Name	Sand Vortex
+58	Skill_Special_Vacuum_Desc	• #SPECIAL@'s blades, when stationary, pull in enemies around them\n• #SPECIAL@ deals &+{0}%~ damage
+59	Skill_Defense_Energy_Name	Acrobatics
+60	Skill_Defense_Energy_Desc	• Each enemy passed during #DEFENSE@ grants &{0}~ #ENCHANTMENT@ points
+61	Skill_Defense_Dash_Name	Air Dash
+62	Skill_Defense_Dash_Desc	• #DASH@ can be triggered during #DEFENSE@'s air time \n• Doing so increases #ATTACK@ speed by #{0}%~ for &{1}~ second(s)
+63	Skill_Defense_Tornado_Name	Tornado Jump
+64	Skill_Defense_Tornado_Desc	• #DEFENSE@ casts a tornado that moves toward {0} and deals &{1}~ damage per second for #{2}@ seconds
+65	Skill_Ultimate_1_Name	Dream Wish
+66	Skill_Ultimate_1_Desc	• Consume #{0} Dream Shards@ to earn an additional #TRAIT@ charge
+67	Skill_Ultimate_2_Name	Magic Carpet
+68	Skill_Ultimate_2_Desc	• Ride the Magic Carpet, turning #INTANGIBLE@ and dealing damage to enemies passed
+69	Skill_Ultimate_1_Better_Wish_Name	Wondrous Wishes
+70	Skill_Ultimate_1_Better_Wish_Desc	• All wishes are improved:\n• #POWER@: deals &+{0}%~ damage\n• #SPECIAL@: &{1}%~ chance to generate #2@ consumables\n• #DEFENSE@: &+{2}%~ #SHIELD@ gained
+71	Skill_Ultimate_1_More_Wish_Name	Infinite Wishes 
+72	Skill_Ultimate_1_More_Wish_Desc	• Gain #+{0} TRAIT charges@\n• #Dream Shards@ cost for #ULTIMATE@ is reduced by &{1}%~
+73	Skill_Ultimate_2_Carpet_DS_Name	Dream Stride
+74	Skill_Ultimate_2_Carpet_DS_Desc	• Each time #ULTIMATE@ hits an enemy, {0} gains &{1}~ #Dream Shards@\n• #ULTIMATE@ has no cooldown if no enemies are hit
+75	Skill_Ultimate_2_Carpet_Dash_Name	Quick Ride
+76	Skill_Ultimate_2_Carpet_Dash_Desc	• #DASH@ uses Magic Carpet to deal &{0}~ damage to enemies passed and can be held for up to #{1}@ second(s)
+77	Hero_Desc	Once a happy-go-lucky thief until his happily-ever-after princess got stuck in a lamp, Aladdin now pledges his rogue skills to the protection of Reverie. A master thief, sporting formidable magical powers from his ring and lamp, Aladdin makes for quite the sneaky and unpredictable guardian. Funny things can happen on the way to one's potential.
+78	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with Scarlet
+79	Skill_Trait_Wish_Omnipotence_Name	Wish of Omnipotence
+80	Skill_Trait_Wish_Omnipotence_Desc	• Casting wishes grant #OMNIPOTENCE@ to all nearby Heroes for &{0}~ seconds\n• During #OMNIPOTENCE@, Heroes #POWER@, #SPECIAL@ and #DEFENSE@ have a #{1}@ second(s) cooldown

@@ -1,0 +1,338 @@
+# source_table	Magical_Objects~GAM.xls
+# rows	334
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Armour_Per_Health_Name	Dragon Hide
+1	Armour_Per_Health_Description	• &+{0}~ #ARMOR@ for each #{1}%@ of missing Health
+2	AP_Per_Curse_Name	
+3	AP_Per_Curse_Description	
+4	Healing_Effect_Name	Mermaid Tears
+5	Healing_Effect_Description	• &+{}%~ to any healing effect provided or received
+6	Armour_Name	Adamant
+7	Armour_Description	• &+{}~ #ARMOR@
+8	Armour_Per_CD_Name	
+9	Armour_Per_CD_Description	
+10	Counter_Attack_Name	
+11	Counter_Attack_Description	
+12	Damage_If_Low_Life_Name	
+13	Damage_If_Low_Life_Description	
+14	Damage_Per_Debuff_Name	Eternal Rose
+15	Damage_Per_Debuff_Description	• Deal &+{}%~ damage to enemies for each #Negative Status@ they have
+16	Regeneration_Damage_Taken_Name	
+17	Regeneration_Damage_Taken_Description	
+18	Regeneration_On_Low_Life_Name	Unicorn Horn
+19	Regeneration_On_Low_Life_Description	• At #Critical Health@, gain &+{}~ #REGENERATION@ (max every #{}@ seconds)
+20	Upgrade_Rnd_Skill_Name	Read Mastery Chapter
+21	Upgrade_Rnd_Skill_Description	• Improve a random #TALENT@ #{}@ times
+22	Increase_Damage_Name	Silver Bullets
+23	Increase_Damage_Description	• &+{}~ #DMG@
+24	Increase_Vitality_Name	Golden Apple
+25	Increase_Vitality_Description	• &+{}~ #VITALITY@
+26	Max_Health_Per_MO_Name	Horn of Plenty
+27	Max_Health_Per_MO_Description	• #+{}%@ Maximum Health for each #MAGICAL OBJECT@
+28	Better_MO_Skill_Quality_Name	
+29	Better_MO_Skill_Quality_Description	
+30	Primary_Charge_Gain_Name	Flaming Pearl
+31	Primary_Charge_Gain_Description	• #POWER@ gains &+{}~ charge(s)
+32	Secondary_Charge_Gain_Name	Thunderstone
+33	Secondary_Charge_Gain_Description	• #SPECIAL@ gains &+{}~ charge(s)
+34	Defensive_Charge_Gain_Name	Adder Stone
+35	Defensive_Charge_Gain_Description	• #DEFENSE@ gains &+{}~ charge(s)
+36	Ultimate_Charge_Gain_Name	Nibelungen Ring
+37	Ultimate_Charge_Gain_Description	• #ULTIMATE@ gains an extra charge
+38	Fully_Health_Day_Night_Name	Water of Life
+39	Killing_Grant_Haste_Name	
+40	Killing_Grant_Haste_Description	
+41	Curse_Revive_Name	
+42	Curse_Revive_Description	
+43	Reduce_Price_Name	Dreamcatcher
+44	Reduce_Price_Description	• Reduces Sandman's #Dream Shard@ prices by &{}%~
+45	Dream_Shard_Loot_Name	
+46	Dream_Shard_Loot_Description	
+47	Pickup_Dream_Shard_Name	Read Dream Chapter
+48	Pickup_Dream_Shard_Description	• Gain #+{} DREAM SHARDS@
+49	Dream_Shards_Stack_AP_Name	Golden Egg
+50	Dream_Shards_Stack_AP_Description	• &+{}~ #DMG@ for each #{} Dream Shard@ in stock
+51	Dream_Shards_Heal_Name	
+52	Dream_Shards_Heal_Description	
+53	Haste_Aura_Name	
+54	Haste_Aura_Description	 
+55	Curse_Dream_Shard_Name	
+56	Curse_Dream_Shard_Description	
+57	Health_Globe_Drop_Rate_Name	
+58	Health_Globe_Drop_Rate_Description	
+59	Unbreakable_Action_Name	
+60	Unbreakable_Action_Description	
+61	Shards_Revive_Name	
+62	Shards_Revive_Description	
+63	Armour_Into_Damage_Name	Bloody Mary’s Mirror
+64	Armour_Into_Damage_Description	• Any positive $ARMOR* is removed and transformed into &DMG~
+65	Critical_Bleed_Name	
+66	Critical_Bleed_Description	
+67	Curse_Bleed_Name	
+68	Curse_Bleed_Description	
+69	Full_Heal_Name	
+70	Full_Heal_Description	
+71	Heal_Name	Gingerbread Man
+72	Heal_Description	Heal #{}%@ of your Maximum Health
+73	Max_Health_Name	
+74	Max_Health_Description	
+75	XP_Gain_Name	Read Knowledge Chapter
+76	XP_Gain_Description	• Gain #+{}@ XP
+77	Crit_Damage_Name	Whetstone
+78	Crit_Damage_Description	• Critical hits deal &+{}%~ damage
+79	Crit Chance_Name	Four-Leaf Clover
+80	Crit Chance_Description	• Gain &+{}%~ #Crit Chance@
+81	Damage_At_Full_Health_Name	Goldilocks' Porridge
+82	Damage_At_Full_Health_Description	• &+{}~ #DMG@ when at full Health
+83	Attack_Damage_Name	Ace of Spades Card
+84	Attack_Damage_Description	• #ATTACK@ deals &+{}%~ damage
+85	Power_Damage_Name	King of Clubs Card
+86	Power_Damage_Description	• #POWER@ deals &+{}%~ damage
+87	Special_Damage_Name	Jack of Diamonds Card
+88	Special_Damage_Description	• #SPECIAL@ deals &+{}%~ damage
+89	Damage_To_Boss_Name	Voodoo Doll
+90	Damage_To_Boss_Description	• Deal &+{}%~ damage to bosses
+91	Crit_Chance_After_Damage_Taken_Name	Little Thumb Pebbles
+92	Crit_Chance_After_Damage_Taken_Description	• After taking damage, gain &+{}%~ #Crit Chance@ for #{}@ seconds
+93	Critical_Health_Explosion_Name	
+94	Critical_Health_Explosion_Description	
+95	Heal_When_Exit_Combat_Name	
+96	Heal_When_Exit_Combat_Description	
+97	Elite_Drop_Magical_Object_Name	
+98	Elite_Drop_Magical_Object_Description	
+99	Elite_Drop_Dream_Shards_Name	
+100	Elite_Drop_Dream_Shards_Description	
+101	Spawn_Crows_On_Dash_Name	
+102	Spawn_Crows_On_Dash_Description	
+103	Increase_Shield_Name	Fairy Dust
+104	Increase_Shield_Description	• &+{}%~ to any #SHIELD@ applied or received
+105	Reduce_Ultimate_CD_Name	Raven Eye
+106	Reduce_Ultimate_CD_Description	• Reduces #ULTIMATE@'s cooldown by &{}%~
+107	Reduce_Power_CD_Name	Raven Claw
+108	Reduce_Power_CD_Description	• Reduces #POWER@'s cooldown by &{}%~
+109	Reduce_Special_CD_Name	Raven Beak
+110	Reduce_Special_CD_Description	• Reduces #SPECIAL@'s cooldown by &{}%~
+111	Reduce_Defense_CD_Name	Raven Skull
+112	Reduce_Defense_CD_Description	• Reduces #DEFENSE@'s cooldown by &{}%~
+113	Reduce_Dash_CD_Name	Raven Wing
+114	Reduce_Dash_CD_Description	• Reduces #DASH@'s cooldown by &{}%~
+115	Curse_Increase_Power_Damage_And_Cooldown_Name	Nightmare Thorn
+116	Curse_Increase_Power_Damage_And_Cooldown_Description	• #POWER@ deals &+{}%~ damage but has a $+{}%* increased cooldown
+117	Curse_Increase_Special_Damage_And_Cooldown_Name	Nightmare Ichor
+118	Curse_Increase_Special_Damage_And_Cooldown_Description	• #SPECIAL@ deals &+{}%~ damage but has a $+{}%* increased cooldown
+119	Dash_Heal_For_Damage_Taken_Name	Swan Cloak
+120	Dash_Heal_For_Damage_Taken_Description	• #DASH@ heals for &{0}%~ of damage taken over the last #{1}@ second(s)
+121	Damage_Per_Dreamshard_Given_To_Sandman_Name	
+122	Damage_Per_Dreamshard_Given_To_Sandman_Description	
+123	Increase_Damage_Reduce_Armor_Name	
+124	Increase_Damage_Reduce_Armor_Description	
+125	Infinite_Shield_Name	
+126	Infinite_Shield_Description	
+127	Curse_Baba_Yaga_Revive_Name	Baba Yaga's Mortar
+128	Curse_Baba_Yaga_Revive_Description	• Baba Yaga will now revive you with permanent &STRENGTH~ and $VULNERABLE*
+129	Increase_Damage_Night_Increase_Taken_Damage_Day_Name	
+130	Increase_Damage_Night_Increase_Taken_Damage_Day_Description	
+131	Increase_Vitality_Reduce_Crit_Chance_Name	Cauldron of Dyrnwch
+132	Increase_Vitality_Reduce_Crit_Chance_Description	• &+{}~ #VITALITY@ but $-{}%* #Crit Chance@
+133	Lose_Dream_Shards_Instead_Of_Health_Name	Mad Hat
+134	Lose_Dream_Shards_Instead_Of_Health_Description	• Lose ${} Dream Shard(s)~ first for each damage taken &instead of Health~
+135	Clamp_High_Damage_Name	Golden Coat of Chainmail
+136	Clamp_High_Damage_Description	• Damage taken within #{}@ second(s) cannot exceed #{}%@ of your Maximum Health
+137	Damage_Per_Legendary_Object_Name	Excalibur
+138	Damage_Per_Legendary_Object_Description	• &+{}~ #DMG@ for each #Legendary Talent@ you have{1}
+139	Damage_Per_Cursed_Over_Legendary_Name	Oni Mask
+140	Damage_Per_Cursed_Over_Legendary_Description	• #+{} DMG@ for each #Cursed Magical Object@ more than your #Legendary Magical Objects@
+141	Increase_Stagger_Name	
+142	Increase_Stagger_Description	
+143	Clear_Dash_Cooldown_On_Defense_Name	Seven-league Boots
+144	Clear_Dash_Cooldown_On_Defense_Description	• Remove #DASH@'s cooldown whenever you use #POWER@, #SPECIAL@ or #DEFENSE@
+145	Vitality_Per_Health_Globe_Name	Philosopher's Stone
+146	Vitality_Per_Health_Globe_Description	• Gain &+{0}~ #VITALITY@ each time you collect a #Healing Orb@{1}
+147	Abilities_Cooldown_Reduction_Per_Missing_Health_Name	Father Time's Hourglass
+148	Abilities_Cooldown_Reduction_Per_Missing_Health_Description	• #POWER@, #SPECIAL@ and #DEFENSE@ have a #{}%@ reduced cooldown for each #{}%@ of Health missing
+149	Extra_MO_Choice_Name	Tamatebako
+150	Extra_MO_Choice_Description	• When obtaining #Magical Objects@, you get &+1~ extra choice
+151	Double_Shard_Name	Hope Diamond
+152	Double_Shard_Description	• Increases all #Dream Shard@ gains by &+{0}%~ but $lose all* #Dream Shards@ at Death's Door
+153	Damage_To_Enemy_Around_Name	
+154	Damage_To_Enemy_Around_Description	
+155	Curse_Life_On_Hit_Name	Black Lotus
+156	Curse_Life_On_Hit_Description	• #ATTACK@ gains &+{}%~ #Lifesteal@ but $Healing Orbs* don't heal you anymore
+157	Kill_Low_Life_Enemies_Name	Vorpal Blade
+158	Kill_Low_Life_Enemies_Description	• Any damage you deal kills standard enemies below #{}%@ Health or elite enemies below #{}%@ Health
+159	Prevent_Negative_Status_Name	
+160	Prevent_Negative_Status_Description	
+161	Damage_Per_Vitality_Name	Ogre Blood
+162	Damage_Per_Vitality_Description	• &+{0}~ #DMG@ for each #{1} VITALITY@ you have{2}
+163	Shield_On_Enter_Combat_Name	
+164	Shield_On_Enter_Combat_Description	
+165	Vitality_Per_Magical_Object_Name	Horn of Plenty
+166	Vitality_Per_Magical_Object_Description	• &+{}~ #VITALITY@ for each #Magical Object@ carried
+167	Duplicate_Random_Magical_Object_Name	Magic Mirror
+168	Duplicate_Random_Magical_Object_Description	Gain a copy of a random #Common@, #Rare@, or #Epic@ #Magical Object@ already owned
+169	Vitality_Per_Object_Name	Horn of Plenty
+170	Vitality_Per_Object_Description	• &+{}~ #VITALITY@ for each #Magical Object@ carried
+171	Dash_Deal_Damage_Name	Vajra
+172	Dash_Deal_Damage_Description	• #DASH@ deals &+{}~ damage to all enemies passed
+173	Dash_Intangible_Name	Witch's Broom
+174	Dash_Intangible_Description	• #DASH@ makes the Hero &INTANGIBLE~ but any damage taken is increased by $+{}%*
+175	Grimoire_Vitality_Name	Chapter on Health
+176	Grimoire_Vitality_Description	• #VITALITY@ &+{0}~
+177	Grimoire_Damage_Name	Chapter on War
+178	Grimoire_Damage_Description	• #DMG@ &+{0}~
+179	Grimoire_Armor_Name	Chapter on Protection
+180	Grimoire_Armor_Description	• #ARMOR@ &+{0}~
+181	Grimoire_Crit_Chance_Name	Chapter on Luck
+182	Grimoire_Crit_Chance_Description	• #Crit Chance@ &+{0}%~
+183	Grimoire_Crit_Damage_Name	Chapter on Anatomy
+184	Grimoire_Crit_Damage_Description	• #Critical Hits@ deal &+{0}%~ damage
+185	Grimoire_Rerolls_Name	Chapter on Astronomy
+186	Grimoire_Rerolls_Description	• &+{0}~ #Stars of Fate@
+187	Grimoire_Dream_Shards_Name	Chapter of Dreams
+188	Grimoire_Dream_Shards_Description	• &+{0}~ #Dream Shards@
+189	Sandman_Heal_Name	Gingerbread Man
+190	Sandman_Heal_Description	• Heal #{}%@ of your Maximum Health
+191	Sandman_Reroll_Name	Star Fragment
+192	Sandman_Reroll_Description	• &+{0}~ #Star(s) of Fate@
+193	Sandman_RelearnTalent_Name	Sand of Oblivion
+194	Sandman_RelearnTalent_Description	• Relearn all #Talents@ (to the same quality)
+195	Sandman_Strength_Name	Dream of Power
+196	Sandman_Strength_Description	• Gain #STRENGTH@ for &+{0}~ seconds
+197	Sandman_Shield_Name	Dream of Invulnerability
+198	Sandman_Shield_Description	• Gain a #SHIELD@ equivalent to &{0}%~ of Max Health
+199	Sandman_DuplicateObject_Name	Rapid Shaping
+200	Sandman_DuplicateObject_Description	• Gain a copy of a random #Common@, #Rare@, or #Epic@ #Magical Object@ already owned
+201	Sandman_DuplicateCommonObject2_Name	Minor Shaping
+202	Sandman_DuplicateCommonObject2_Description	• Gain a copy of a random #Common Magical Object@ that you already own
+203	Sandman_DuplicateRareObject_Name	Major Shaping
+204	Sandman_DuplicateRareObject_Description	• Gain a copy of a random #Rare Magical Object@ that you already own
+205	Sandman_Upgrade2Talent_Name	Sand of Knowledge
+206	Sandman_Upgrade2Talent_Description	• Upgrade two different randomly chosen #Talents@
+207	Sandman_DuplicateEpicObject_Name	Grandiose Shaping
+208	Sandman_DuplicateEpicObject_Description	• Gain a copy of a random #Epic Magical Object@ that you already own
+209	Sandman_UpgradeTalentToLegendary_Name	Sand of Enlightenment
+210	Sandman_UpgradeTalentToLegendary_Description	• Upgrade a lower quality #TALENT@ to #Legendary@ quality
+211	Execute_Boss_SuperEffect	Any damage kills Bosses once they have less than &{0}~% health
+212	Gain_Shield_When_FullHealth_SuperEffect	
+213	Crit_Chance_SuperEffect	#Crit Chance@ &+{0}%~
+214	Vitality_SuperEffect	#VITALITY@ &+{0}~
+215	Shield_Effect_SuperEffect	&+{}%~ to any #SHIELD@ applied or received
+216	Next_Sandman_Free_SuperEffect	One free purchase at the #Sandman@ per chapter
+217	Armor_Per_Rare_Object_SuperEffect	#Rare Objects@ also count
+218	One_Free_Reroll_SuperEffect	Rerolling a choice is free the first time
+219	Attack_Speed_SuperEffect	#ATTACK@ speed &+{0}%~
+220	Power_Crit_Chance_SuperEffect	#POWER@ has &+{0}%~ #Crit Chance@
+221	Special_Crit_Chance_SuperEffect	#SPECIAL@ has &+{0}%~ #Crit Chance@
+222	Dream_Shard_Effect_SuperEffect	&+{0}%~ to any #Dream Shard@ gains
+223	Dash_Lightning Strike_SuperEffect	#DASH@ casts a lightning strike at the starting location
+224	Passive_Heal_SuperEffect	• When not in combat, passively heal &{0}%~ Max Health every #{1}@ seconds
+225	Pickup_Object_Heal_SuperEffect	Heal &{0}%~ Max Health when obtaining a new magical object
+226	Armor_To_Damage_SuperEffect	#ARMOR@ grants &+{0}%~ of its value as #DMG@
+227	Regeneration_To_Damage_SuperEffect	#DMG@ &+{0}~ when under a #REGENERATION@ effect
+228	Ultimate_Heal_Heroes_SuperEffect	#ULTIMATE@ heals all nearby heroes for &{0}%~ of their Max Health
+229	Special_Defense_Charge_SuperEffect	#SPECIAL@ and #DEFENSE@ gain &+{0}~ charge(s)
+230	Power_Defense_Charge_SuperEffect	#POWER@ and #DEFENSE@ gain &+{0}~ charge(s)
+231	Power_Special_Charge_SuperEffect	#POWER@ and #SPECIAL@ gain &+{0}~ charge(s)
+232	Move_Speed_SuperEffect	Move Speed &+{0}%~
+233	Power_Damage_SuperEffect	#POWER@ deals &+{0}%~ damage
+234	Special_Damage_SuperEffect	#SPECIAL@ deals &+{0}%~ damage
+235	Armor_SuperEffect	#ARMOR@ &+{0}~
+236	Ultimate_Clear_CD_SuperEffect	#ULTIMATE@ clears #POWER@, #SPECIAL@ and #DEFENSE@ cooldowns
+237	Ultimate_Charge_SuperEffect	#ULTIMATE@ gains &+{0}~ charge(s)
+238	Dmg_While_Strength_SuperEffect	#DMG@ &+{0}~ while #STRENGTH@ status is active
+239	Crit_Damage_SuperEffect	#Critical Hits@ deal &+{0}%~ damage
+240	Damage_At_Full_Health_SuperEffect	&+{}~ #DMG@ when at full Health
+241	Shield_Gain_When_Hit_Description	• When taking damage, gain &{0}~ #SHIELD@ (at most every #{1}@ seconds)
+242	Armor_Per_Object_Name	Green Armor
+243	Armor_Per_Object_Description	• #ARMOR@ &+{0}~ for each #Common Magical Object@{1}
+244	Reroll_To_Dreamshard_Name	Leprechaun Coin
+245	Reroll_To_Dreamshard_Description	• For each #Star of Fate@ spent, gain &+{0}~ #Dream Shards@
+246	Dream_Shards_To_Damage_Description	• Gain &+{0}~ #DMG@ per #{1} Dream Shards@ spent during the game{2}
+247	Defense_Regeneration_Name	Queen of Hearts Card
+248	Defense_Regeneration_Description	In Combat, DEFENSE grants REGENERATION &+{0}~
+249	Ultimate_Damage_Name	Joker card
+250	Ultimate_Damage_Description	Ultimate deals &+{0}%~ damage
+251	Dash_Charge_Gain_Name	Charmstone
+252	Dash_Charge_Gain_Description	• #DASH@ gains &+{0}~ charge(s)
+253	Fully_Health_Day_Night_Description	• #VITALITY@ &+{0}~\n• Fully heal at the start of each #DAY@ or #NIGHT@
+254	Extra_MO_Choice_And_Reroll_Description	• &+{0}~ #Stars of Fate@\n• Get &+1~ choice when obtaining #Magical Objects@
+255	Ability_Charge_Name	Raven Effigy
+256	Ability_Charge_Description	• #POWER@ and #SPECIAL@ gain &+{0}~ charge(s)
+257	Dash_Vulnerable_Name	Ring of Dispel
+258	Dash_Vulnerable_Description	• #DASH@ applies #VULNERABLE@ for &{0}~ seconds to enemies hit
+259	Power_No_Resist_Name	Solar Crown
+260	Power_No_Resist_Description	POWER ignores enemy resistance
+261	Special_Weakened_Name	Carnwennan
+262	Special_Weakened_Description	SPECIAL applies WEAKENED
+263	Defense_Heal_Nearby_Name	Holy Grail
+264	Defense_Heal_Nearby_Description	• When in combat, #DEFENSE@ restores &{0}~ health to all nearby heroes (at most every #{1}@ seconds)
+265	Armor_To_Damage_Description	• #DMG@ now counts as #ARMOR@ and vice versa
+266	Curse_Damage_Minus_Leg_Vitality_Description	• #DMG@ &+{0}~ for each #Cursed Magical Object@{2}\n• #ARMOR@ ${1}* for each #Legendary Magical Object@{3}
+267	Full_Heal_On_Death_Description	• Prevents lethal damage and restores all health instead (only works once)
+268	Double_Vitality_Description	• &Double~ #VITALITY@, all heals are reduced by ${0}%*
+269	Damage_To_Dream_Shards_Description	• Taking damage earns &{0}%~ of their value as #Dream Shards@
+270	Ultimate_No_Cooldown_Name	Hungry Grass
+271	Ultimate_No_Cooldown_Description	ULTIMATE has no cooldown but hurts for &{0}%~ of maximum health (cannot use if below)
+272	Charge_To_Damage_Name	Balor's Eye
+273	Charge_To_Damage_Description	• #POWER@ and #SPECIAL@ extra charges are $removed* to get &+{0}%~ damage per extra charge to those abilities
+274	Move_Speed_Name	Fast-walker Boots
+275	Move_Speed_Description	• &+{0}%~ Move Speed, ${1}* #ARMOR@
+276	Orbs_Grant_Strength_Description	• #Healing Orbs@ grant #STRENGTH@ for #{0}@ seconds and heal &{1}%~ more
+277	Dash_Crit_Chance_Description	• After #DASH@, gain &+{0}%~ #Crit Chance@ for #{1}@ seconds
+278	Temp_Dmg_Per_Health_Globe_Description	• #Healing Orbs@ grant #DMG@ &+{0}~{1}\n• $Stacks are lost* at Death's Door
+279	Increase_Vitality_Decrease_Heal_Description	• #VITALITY@ &+{0}~, all healings are reduced by ${1}%*
+280	Spawn_Consumables_Description	• Spawns #{0}@ consumables when picked up
+281	Dmg_Vitality_Armor_SuperEffect	#DMG@ &+{0}~, #VITALITY@ &+{1}, #ARMOR@ &+{2}~
+282	Power_Dmg_Per_Negative_Status_SuperEffect	#POWER@ deals &+{}%~ damage to enemies for each #Negative Status@ they have
+283	Special_Casts_Lighning_Strike_SuperEffect	#SPECIAL@ casts a Lightning Strike upon up to &{0}~ close enemies
+284	Defense_Decaying_Move_Speed_SuperEffect	After a #DEFENSE@, gain &+{0}%~ Move Speed decaying over #{1}@ seconds
+285	Dash_Grants_Shield_SuperEffect	#DASH@ grants a &{0}~ #SHIELD@ for #{1}@ seconds
+286	Astrolab_RelearnTalents_Name	Vision of Renewal
+287	Astrolab_RelearnTalents_Low_Description	• Relearn all #Talents@ except starting one (to the same quality)
+288	Astrolab_RelearnTalents_Medium_Description	• Relearn all #Talents@ except starting one with &+{0}%~ chances of having #Talents@ of higher quality
+289	Astrolab_RelearnTalents_High_Description	• Relearn all #Talents@ except starting one with &+{0}%~ chances of having #Talents@ of higher quality
+290	Astrolab_UpgradeTalents_Name	Vision of Enlightment
+291	Astrolab_UpgradeTalents_Low_Description	• Upgrade one of the lower-quality #Talents@
+292	Astrolab_UpgradeTalents_Medium_Description	• Upgrade one randomly chosen #Talent@
+293	Astrolab_UpgradeTalents_High_Description	• Upgrade two different randomly chosen #Talents@
+294	Astrolab_Rerolls_Name	Vision of Fate
+295	Astrolab_Rerolls_Description	• &+{0}~ #Stars of Fate@
+296	Convert_Vitality_Into_Damage_Description	• Gain &+{0}~ #DMG@ per #VITALITY@ point{1}\n• #VITALITY@ now increases maximum health by only ${2}%* per point (from #1%@)
+297	UpgradeTalents_Single_Description	• Upgrade one randomly chosen #Talent@
+298	UpgradeTalents_Scalable_Description	• Upgrade #{0}@ different randomly chosen #Talents@
+299	Gain_Shield_From_Orbs_Description	• #Healing Orbs@ grant &{0}~ #SHIELD@ when picked up
+300	Damage_From_Shield_SuperEffect	#DMG@ &+{0}~ while a #SHIELD@ is active
+301	Damage_Ignore_Resistance_SuperEffect	&{0}%~ of damage dealt ignores enemies' armor
+302	Reduce_All_DS_Price_Description	• Reduces all #Dream Shards@ prices by &{0}%~ 
+303	Gain_Passive_Heal_Description	• Passively heals &{0}%~ Max Health every #{1}@ seconds
+304	Gain_Armor_From_Talents_Rarity_Description	• &+{0}~/&+{1}~/&+{2}~/&+{3}~ #ARMOR@ for each Common, Rare, Epic or Legendary #Talent@{4}
+305	Increase_Ultimate_Damage_SuperEffect	#ULTIMATE@ deals &+{0}%~ damage
+306	Reduce_All_Abilities_CD_Description	• Reduces #POWER@, #SPECIAL@ and #DEFENSE@ cooldowns by &{0}%~
+307	Avoid_Death_Once_Per_Chapter _Description	• #VITALITY@ &+{0}~\n• Prevents lethal damage and restores all health instead (once per chapter)
+308	Upgrade_All_Talents_Once _Name	Sun Crown
+309	Upgrade_All_Talents_Once _Description	• Improves the rarity of all #Talents@ already learned and all future #Talents@ once selected
+310	Stack_Shards_Name	Devil's Pocket
+311	Stack_Shards_Description	• ${0}%* of collected dream fragments are absorbed by the Devil's Pocket until it is full (#{1}@ required)\n• Once full, increases #crit chance@ by &{2}%~
+312	Curse_Lose_Life_Gain_Damage_Description	• #DMG@ &+{0}~ \n• Every #{1}@ seconds, $inflicts damage* equal to ${2}%* of maximum health
+313	Collection_To_Damage_Name	Cryptic Prophecy
+314	Collection_To_Damage_Description	• &+{0}~ #Star(s) of Fate@\n• #DMG@ &+{1}~ for each complete collection of #Common@ or #Rare@ Magical Objects{2}
+315	Collection_To_Damage_SuperEffect	#Epic@ collections also count toward this
+316	Destroy_Legendary_To_Damage_Description	• All current and future #Legendary Magical Objects@ are $destroyed* \n• #DMG@ &+{0}~ for each object destroyed in this way{1}
+317	Current_Description	 (current: &+{0}~)
+318	Defense_To_Damage_Name	Moonstone
+319	Defense_To_Damage_Description	• #DMG@ &+{0}~ for every other #Magical Object@ or #Talent@ referring to #DEFENSE@{1}
+320	Defense_To_Damage_SuperEffect	#DEFENSE@ deals &+{0}%~ damage
+321	Copy_Cards_Name	Joker Card
+322	Copy_Cards_Description	• Grants the effects of other #card types@ owned
+323	Copy_Cards_SuperEffect	Critical hits deal &+{0}%~ damage per other #card type@ owned{1}
+324	Copy_Cards_DescriptionCurrent	• Grants the effects of other #card types@ owned\n• Current: {0}, {1}, {2}, {3}
+325	Copy_Cards_DescriptionCurrentAttack	&+{0}%~ #ATTACK@ damage
+326	Copy_Cards_DescriptionCurrentNoAttack	+0% #ATTACK@ damage
+327	Copy_Cards_DescriptionCurrentPower	&+{0}%~ #POWER@ damage
+328	Copy_Cards_DescriptionCurrentNoPower	+0% #POWER@ damage
+329	Copy_Cards_DescriptionCurrentSpecial	&+{0}%~ #SPECIAL@ damage
+330	Copy_Cards_DescriptionCurrentNoSpecial	+0% #SPECIAL@ damage
+331	Copy_Cards_DescriptionCurrentHeal	&{0}%~ #Passive Healing@
+332	Copy_Cards_DescriptionCurrentNoHeal	0% #Passive Healing@
+333	Negative_Current_Description	 (current: ${0}*)

@@ -1,0 +1,28 @@
+# source_table	Hero_Beowulf_Skins~GAM.xls
+# rows	24
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Beowulf_Signature_Skin_Title	Signature Outfit
+1	Beowulf_Signature_Skin_Description	Unlocked by completing the  'Rampart' Talent Quest 
+2	Beowulf_Signature_Skin_UnlockCondition	Completed 'Rampart' Talent Quest 
+3	Beowulf_Traveler_Skin_Title	Traveler Outfit
+4	Beowulf_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Beowulf_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Beowulf_Master_Skin_Title	Master Outfit
+7	Beowulf_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Beowulf_Master_Skin_UnlockCondition	Completed the game  in Darkness Difficulty
+9	Beowulf_Hidden_Skin_Title	Hidden Outfit
+10	Beowulf_Hidden_Skin_Description	Hidden Requirements
+11	Beowulf_Hidden_Skin_UnlockCondition	Bringer of Boom
+12	Beowulf_Raven_Skin_Title	Ravens Outfit
+13	Beowulf_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Beowulf_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Beowulf_Nightmares_Skin_Title	Nightmares Outfit
+16	Beowulf_Nightmares_Skin_Description	Available in the Nightmares Skin Pack
+17	Beowulf_Nightmares_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Beowulf_Fairytales_Skin_Title	Fairytales Outfit
+19	Beowulf_Fairytales_Skin_Description	Available in the Fairytales Skin Pack
+20	Beowulf_Fairytales_Skin_UnlockCondition	Fairytales Skin Pack Acquired
+21	Beowulf_UpdateOne_Skin_Title	Unleashed Outfit
+22	Beowulf_UpdateOne_Skin_Description	Available from the Unleashed Skin Pack
+23	Beowulf_UpdateOne_Skin_UnlockCondition	Unleashed Skin Pack acquired

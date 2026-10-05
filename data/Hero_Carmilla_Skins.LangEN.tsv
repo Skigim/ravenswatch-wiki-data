@@ -1,0 +1,25 @@
+# source_table	Hero_Carmilla_Skins~GAM.xls
+# rows	21
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Carmilla_Signature_Skin_Title	Signature Outfit
+1	Carmilla_Signature_Skin_Description	Unlocked by completing 'Life Essence' Talent Quest 
+2	Carmilla_Signature_Skin_UnlockCondition	Completed 'Life Essence' Talent Quest 
+3	Carmilla_Traveler_Skin_Title	Traveler Outfit
+4	Carmilla_Traveler_Skin_Description	Unlocked by reaching Chapter 3 
+5	Carmilla_Traveler_Skin_UnlockCondition	Reached Chapter 3 
+6	Carmilla_Master_Skin_Title	Master Outfit
+7	Carmilla_Master_Skin_Description	Unlocked by completing the game  in Darkness Difficulty
+8	Carmilla_Master_Skin_UnlockCondition	Completed the game in Darkness Difficulty
+9	Carmilla_Hidden_Skin_Title	Hidden Outfit
+10	Carmilla_Hidden_Skin_Description	Hidden Requirements
+11	Carmilla_Hidden_Skin_UnlockCondition	Wings of Desire
+12	Carmilla_Raven_Skin_Title	Ravens Outfit
+13	Carmilla_Raven_Skin_Description	Available in the Ravens Skin Pack
+14	Carmilla_Raven_Skin_UnlockCondition	Ravens Skin Pack Acquired
+15	Carmilla_Nightmare_Skin_Title	Nightmares Outfit
+16	Carmilla_Nightmare_Skin_Description	Available in the Nightmare Skin Pack
+17	Carmilla_Nightmare_Skin_UnlockCondition	Nightmares Skin Pack Acquired
+18	Carmilla_UpdateOne_Skin_Title	Unleashed Outfit
+19	Carmilla_UpdateOne_Skin_Description	Available in the Unleashed Skin Pack
+20	Carmilla_UpdateOne_Skin_UnlockCondition	Unleashed Skin Pack Acquired

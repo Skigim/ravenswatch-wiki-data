@@ -1,0 +1,83 @@
+# source_table	Hero_Melusine_Common~GAM.xls
+# rows	79
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Melusine
+1	Ability_Trait_Name	Siren's Call
+2	Ability_Trait_Desc	• Switch between #SING STANCE@ and #MOVE STANCE@\n• #SING STANCE@ casts a controllable #WISP@ but immobilizes the Hero\n• #MOVE STANCE@ revokes #WISP@ and restores control to the Hero
+3	Ability_Attack_Name	Wisp Attack
+4	Ability_Attack_Desc	• #WISP@ suddenly dashes forward, dealing &{0}~ damage to all enemies passed\n• Automatically enter #SING STANCE@ when cast
+5	Ability_Power_Name	Splatter
+6	Ability_Power_Desc	• #WISP@ pulses a splash of water, dealing &{0}~ damage to all enemies around\n• Automatically enter #SING STANCE@ when cast
+7	Ability_Special_Name	Torrent
+8	Ability_Special_Desc	• Send waves of water forward, dealing up to &{0}~ damage
+9	Ability_Defense_Name	Dive
+10	Ability_Defense_Desc	• Dive into a pool of water, turning #INTANGIBLE@ for a short time\n• Reemerge in #MOVE STANCE@
+11	Ability_Ultimate_1_Name	Water Bomb
+12	Ability_Ultimate_1_Desc	• {0} wraps herself in a water sphere and turns #INVINCIBLE@\n• After a short time or if triggered, the sphere explodes and deals &{1}~ damage to all nearby enemies
+13	Ability_Ultimate_2_Name	Wisp Ballet
+14	Ability_Ultimate_2_Desc	• Summon #{0}@ autonomous #WISPS@ that pursue and attack nearby enemies\n• After #{1}@ seconds, the #WISPS@ cast #{2}@ and then disappear
+15	Skill_Passive_Heal_In_Combat_Name	Soothing Presence
+16	Skill_Passive_Heal_In_Combat__Desc	• When in combat, passively heal &{0}~ Hit Points for all Heroes in the area every #{1}@ seconds
+17	Skill_Passive_Auto_Wisp_Name	Enduring Wisp
+18	Skill_Passive_Auto_Wisp_Desc	• When {0} leaves the #SING STANCE@, #WISP@ remains active and automatically attacks surrounding enemies up to &{1}~ times before then disappearing
+19	Skill_Passive_Detonation_Name	Final Burst
+20	Skill_Passive_Detonation_Desc	• After #{0}@ successful attacks, #WISP@ explodes when it disappears, dealing &{1}~ area damage
+21	Skill_Trait_Weakens_Name	Bewitching Song
+22	Skill_Trait_Weakens_Desc	• When entering #SING STANCE@, apply #WEAK@ to all nearby enemies for &{0}~ seconds
+23	Skill_Trait_Dash_Name	Dance Step
+24	Skill_Trait_Dash_Desc	• #DASH@ can be used in #SING STANCE@ at a $+{0}%* cooldown cost
+25	Skill_Trait_Teleport_Name	Sea Dance
+26	Skill_Trait_Teleport_Desc	• In #SING STANCE@, the #CONTEXTUAL ACTION@ allows for quick teleportation to the #WISP@ (#{0}@ seconds cooldown)\n• Performing this action in combat restores &{1}~ health to all nearby Heroes
+27	Skill_Trait_Armor_Name	Shimmering Scales
+28	Skill_Trait_Armor_Desc	• In #SING STANCE@, {0} gains temporary &+{1}~ #ARMOR@ every second, up to a maximum of &{2}~
+29	Skill_Attack_Amplifies_Name	Submerging Attack
+30	Skill_Attack_Amplifies_Desc	• #ATTACK@ damage increases by &{0}%~ for each enemy hit (up to #{1}@ hits, &+{2}%~)\n• Resets if {3} takes damage or exits #SING STANCE@
+31	Skill_Attack_Shield_Name	Protective Flow
+32	Skill_Attack_Shield_Desc	• Heroes passed by #ATTACK@ gain &{0}~ #SHIELD@ for #{1}@ seconds
+33	Skill_Attack_Beat_Name	Deep Beat
+34	Skill_Attack_Beat_Desc	• For every #{0} ATTACKS@ that hit an enemy, generate a blast all around that deals &{1}%~ of #ATTACK@'s damage\n• Counter resets when exiting #SING STANCE@
+35	Skill_Attack_Speed_Name	Wisp Surge
+36	Skill_Attack_Speed_Desc	• After casting #SPECIAL@, gain &+{0}%~ #ATTACK SPEED@ for #{1}@ seconds
+37	Skill_Power_Chill_Name	Freezing Splash
+38	Skill_Power_Chill_Desc	• #POWER@ applies #CHILLED@ to all enemies hit and gains &+{0}%~ range
+39	Skill_Power_Water_Core_Name	Aftershock
+40	Skill_Power_Water_Core_Desc	• #POWER@ leaves a water core at the casting location that triggers #POWER@ again after #{0}@ seconds for &{1}%~ of its damage
+41	Skill_Power_Geyser_Name	Geyser
+42	Skill_Power_Geyser_Desc	• #POWER@ deals &+{0}%~ damage at its center
+43	Skill_Special_Heal_Name	Spring Water
+44	Skill_Special_Heal_Desc	• Each wave from #SPECIAL@ that hits an enemy restores &{0}~ Health to all Heroes within the area of effect
+45	Skill_Special_Final_Wave_Name	
+46	Skill_Special_Final_Wave_Desc	
+47	Skill_Special_Large_Waves_Name	Tidal Wave
+48	Skill_Special_Large_Waves_Desc	• #SPECIAL@'s waves are &{0}%~ wider and longer
+49	Skill_Special_Ride_Name	
+50	Skill_Special_Ride_Desc	
+51	Skill_Special_Backwards_Name	Backwash
+52	Skill_Special_Backwards_Desc	• When #SPECIAL@ ends, add #{0}@ additional waves that travel backwards and deal &{1}%~ damage each
+53	Skill_Special_Growth_Name	Waterlogging
+54	Skill_Special_Growth_Desc	• #WISP@ gains #{0}@ growth charges for each wave of #SPECIAL@ that hits it (up to a maximum of #{1}@ charges)\n• Each charge increases the damage of the #ATTACK@ by &{2}%~, with each #ATTACK@ consuming one charge
+55	Skill_Defense_Improve_Special_Name	Water Communion
+56	Skill_Defense_Improve_Special_Desc	• #DEFENSE@ removes #SPECIAL@'s cooldown and increases next #SPECIAL@'s damage within #{0}@ seconds by &+{1}%~
+57	Skill_Defense_Power_Name	Power Dive
+58	Skill_Defense_Power_Desc	• #DEFENSE@ triggers #POWER@'s effect with a &+{0}%~ damage increase when {1} dives underwater
+59	Skill_Defense_Hold_Name	Underwater Predation
+60	Skill_Defense_Hold_Desc	• Hold #DEFENSE@ to move quickly underwater. All enemies passed become #VULNERABLE@ for &{0}~ seconds
+61	Skill_Defense_Deals_Damage_Name	Razor Tail
+62	Skill_Defense_Deals_Damage_Desc	• #DEFENSE@ makes {0} strike with her tail, dealing &{1}%~ of #ATTACK@ damage
+63	Skill_Defense_Block_Name	Water Bubble
+64	Skill_Defense_Block_Desc	• After #DEFENSE@ is triggered, {0} is surrounded by a bubble for #{1}@ seconds, absorbing damage for one hit\n• The bubble then explodes and deals &{2}~ area damage
+65	Skill_Ultimate_1_Name	Water Bomb
+66	Skill_Ultimate_1_Desc	• Warp into a movable water sphere then release a giant splash, dealing huge damage to all nearby enemies
+67	Skill_Ultimate_2_Name	Wisp Ballet
+68	Skill_Ultimate_2_Desc	• Channel several autonomous #WISPS@ that track and attack all nearby enemies
+69	Skill_Ultimate_1_Upgrade_Vortex_Name	Vortex Bomb
+70	Skill_Ultimate_1_Upgrade_Vortex_Desc	• #ULTIMATE@'s water sphere attracts nearby enemies and deals &{0}~ damage per second to enemies hit
+71	Skill_Ultimate_1_Upgrade_Heal_Name	Healing Blast
+72	Skill_Ultimate_1_Upgrade_Heal_Desc	• #ULTIMATE@ explosion restores &{0}~ health to all Heroes around and grants them #REGENERATION@ #+{1}@
+73	Skill_Ultimate_2_Upgrade_Spawn_More_Name	Crescendo
+74	Skill_Ultimate_2_Upgrade_Spawn_More_Desc	• While #ULTIMATE@ is channeled, {0} gradually summons up to &{1}~ additional #WISPS@
+75	Skill_Ultimate_2_Upgrade_Sing_Stance_Wisp_Name	Overtone Singing
+76	Skill_Ultimate_2_Upgrade_Sing_Stance_Wisp_Desc	• When entering #SING STANCE@, {0} casts an additional #ULTIMATE@ autonomous #WISP@ that deals &{1}%~ damage 
+77	Hero_Desc	Melusine was already a dangerous siren before the Nightmares impregnated her with a mysterious child. She uses powerful water magic and charming song to summon will-o-wisps to drown anyone with plans to harm her precious cargo. Melusine's atypical fighting style is unsettling to behold. Monsters, fill your ears with wax, lest the melodious mother fill your lungs with brine.
+78	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with The Pied Piper
