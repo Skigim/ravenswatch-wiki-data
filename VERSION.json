@@ -188,6 +188,60 @@
         }
       ],
       "extracted_on": null
+    },
+    "data/Hero_Romeo_Talents.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Compendium checks completed 2026-10-05; maintainer confirmed these talent sources use the last documented repository game version on 2026-10-05. Unlock ranks are decoded from hero progression definitions."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Juliet_Talents.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Compendium checks completed 2026-10-05; maintainer confirmed these talent sources use the last documented repository game version on 2026-10-05. Unlock ranks are decoded from hero progression definitions."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Merlin_Talents.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Compendium checks completed 2026-10-05; maintainer confirmed these talent sources use the last documented repository game version on 2026-10-05. Unlock ranks are decoded from hero progression definitions."
+        }
+      ],
+      "extracted_on": null
     }
   }
 }
