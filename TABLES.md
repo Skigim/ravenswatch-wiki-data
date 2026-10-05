@@ -1,6 +1,6 @@
 # Selected tables
 
-The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent pilot adds two derived numerical tables, for 45 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
+The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent update adds six derived numerical tables (Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine), for 49 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
@@ -48,11 +48,15 @@ The initial publication contains 43 decoded TSV exports, listed first below. The
 | [Melodies_Index.tsv](data/Melodies_Index.tsv) | 12 | `EntitySettings/Objects/Melodies!<Name>` | `a2d89ce5cfe3ca02c9ca15b4f4c9ea5e2be0de8fbd18f9a280d481b1ebce6205` |
 | [Melodies.LangEN.tsv](data/Melodies.LangEN.tsv) | 25 | `Melodies~GAM.xls` | `e977ea1557aa498834a7ad20ab16ecdfb6deee6b5817efb763f31b07f2e1b5ca` |
 
-## Derived numerical talent pilot
+## Derived numerical talent tables
 
-These tables publish the 52 existing wiki pilot rows and their tooltip traces. They are interpreted drafts, with source exceptions and inferred rarity mapping retained; see [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
+These tables publish the verified talent rows and their tooltip traces for Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, and Melusine. They are interpreted drafts, with source exceptions and inferred rarity mapping retained; see [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
 | [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `091c3d3eeb78bb98e0bad9b971cafb112295c1e3ffe9f2cef762649dff1b778c` |
 | [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `974d8cf4ab087136b60ae3534f4f4ffa0fcf712e9f0e4d18b2a67a2a7041274f` |
+| [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `4bcb61f40a62d6af14563c5b35a7db9096a74d3d9ee9561b747004f30066c048` |
+| [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `2b5ca661e8f7d98ea64a8ee99644acc7eb7061d87a2bd29504ceb317facefdaf` |
+| [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `f0543a74dd6c78790df92a5fd4d53ca1e8c36919cc276f0d852f06269821e3e0` |
+| [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `bdf76e7d2d2c1b647642ab2ac85c9ea43a41bf031899d9325332aa2cd1371b48` |

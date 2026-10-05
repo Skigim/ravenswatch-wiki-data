@@ -62,6 +62,78 @@
         }
       ],
       "extracted_on": null
+    },
+    "data/Hero_Beowulf_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Piper_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Aladdin_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Melusine_Talents.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
+        }
+      ],
+      "extracted_on": null
     }
   }
 }
