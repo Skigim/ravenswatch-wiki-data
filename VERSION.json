@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-05-talent-pilot",
+  "snapshot_id": "2026-10-05-talents-verified",
   "snapshot_published_on": "2026-10-05",
   "extracted_on": null,
   "game": "Ravenswatch",
@@ -35,12 +35,12 @@
       "build_id": null,
       "build_date": null,
       "build_revision": null,
-      "version_status": "unverified",
+      "version_status": "verified",
       "version_evidence": [
         {
-          "kind": "source_hashes_and_wiki_revision",
-          "reference": "TALENTS.md; wiki pilot revision 755",
-          "note": "Numeric entity sources are pinned by SHA-256 but are not independently tied to a game build. Initial text-export attribution is retained for unchanged tables."
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
         }
       ],
       "extracted_on": null
@@ -53,12 +53,12 @@
       "build_id": null,
       "build_date": null,
       "build_revision": null,
-      "version_status": "unverified",
+      "version_status": "verified",
       "version_evidence": [
         {
-          "kind": "source_hashes_and_wiki_revision",
-          "reference": "TALENTS.md; wiki pilot revision 755",
-          "note": "Numeric entity sources are pinned by SHA-256 but are not independently tied to a game build. Initial text-export attribution is retained for unchanged tables."
+          "kind": "compendium_and_source_hashes",
+          "reference": "TALENTS.md; live in-game compendium verification",
+          "note": "Verified against in-game compendium on 2026-10-05."
         }
       ],
       "extracted_on": null

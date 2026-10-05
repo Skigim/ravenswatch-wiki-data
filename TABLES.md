@@ -54,5 +54,5 @@ These tables publish the 52 existing wiki pilot rows and their tooltip traces. T
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | `User:Skigim/Talent_pilot` revision 755; Hero_Red tooltip bindings | `4f16245755a33d581316fdc847f82540d032aa2225400b9ead181e4fa11d2f29` |
-| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | `User:Skigim/Talent_pilot` revision 755; Hero_Snow_Queen tooltip bindings | `6ea3db58ea3987f2cfbb80acd02114f75e0f283c07b6cadc7336d1502419ca5d` |
+| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `091c3d3eeb78bb98e0bad9b971cafb112295c1e3ffe9f2cef762649dff1b778c` |
+| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `974d8cf4ab087136b60ae3534f4f4ffa0fcf712e9f0e4d18b2a67a2a7041274f` |
