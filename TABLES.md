@@ -54,9 +54,9 @@ These tables publish the verified talent rows and their tooltip traces for Scarl
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `091c3d3eeb78bb98e0bad9b971cafb112295c1e3ffe9f2cef762649dff1b778c` |
-| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `974d8cf4ab087136b60ae3534f4f4ffa0fcf712e9f0e4d18b2a67a2a7041274f` |
-| [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `4bcb61f40a62d6af14563c5b35a7db9096a74d3d9ee9561b747004f30066c048` |
-| [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `2b5ca661e8f7d98ea64a8ee99644acc7eb7061d87a2bd29504ceb317facefdaf` |
-| [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `f0543a74dd6c78790df92a5fd4d53ca1e8c36919cc276f0d852f06269821e3e0` |
-| [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Verified against in-game compendium (2026-10-05) | `bdf76e7d2d2c1b647642ab2ac85c9ea43a41bf031899d9325332aa2cd1371b48` |
+| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `127c808256a9418925281422c6de27585ef04b399399b07785c58558755a0b01` |
+| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `c34bc09831cb53eef46ad3c1f98e5eede1521438866612a510a84eea78180adf` |
+| [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `bc3c14a11768f1563796b2e2220fdb5cb435f0261da056328e83b07fb469f32b` |
+| [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `3d7e8be699d47875f0b42cdf5fbd968821373f6db86bfc657b7b3987de05a749` |
+| [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `5a7e4d3dcaf1010054d3cd83cf5920f49ebb04fc6f7578f1108890f72308aa88` |
+| [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `f3a3aeb74e74581d6bd3ddf6a14c91482f0a7b78c5a007afb36ca7d343b73377` |
