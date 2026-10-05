@@ -44,3 +44,5 @@ Paths below are game-relative asset identifiers, not distributed source files. T
 ## Publication and display checks
 
 All 52 pilot effects were verified against the local authored numerical draft. The wiki was previewed through DevTools at 1920, 1366, 768 and 390 pixels. Both tables fit without clipped cells at each width; the shared desktop navigation overflows at 768px. The small layout collapses the sidebar. Screenshots and raw entity files are not part of this repository.
+
+The October 5 publication updated Scarlet and The Snow Queen and created Beowulf, The Pied Piper, Aladdin and Melusine talent pages. Each live table was checked for 26 talent rows, four columns, 26 loaded 48px icons and zero redlinks. All six parent hero pages link to their corresponding talent pages.

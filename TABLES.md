@@ -50,7 +50,7 @@ The initial publication contains 43 decoded TSV exports, listed first below. The
 
 ## Derived numerical talent tables
 
-These tables publish the verified talent rows and their tooltip traces for Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, and Melusine. They are interpreted drafts, with source exceptions and inferred rarity mapping retained; see [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
+These tables publish the verified talent rows and their tooltip traces for Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, and Melusine. They include the October 5 maintainer compendium confirmations and decoded unlock ranks; source traces and interpretation history are retained in [TALENTS.md](TALENTS.md). The original text exports above remain unchanged.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
