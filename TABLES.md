@@ -1,6 +1,6 @@
 # Selected tables
 
-The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent update adds twelve derived numerical tables (all 12 heroes: Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine, Geppetto, Sun Wukong, Carmilla, Romeo, Juliet, Merlin), for 55 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
+The initial publication contains 43 decoded TSV exports, listed first below. The October 5 talent update adds twelve derived numerical tables (all 12 heroes: Scarlet, The Snow Queen, Beowulf, The Pied Piper, Aladdin, Melusine, Geppetto, Sun Wukong, Carmilla, Romeo, Juliet, Merlin), for 55 selected TSV files. The October 6 values update adds seventeen numerical value tables, for 72 selected TSV files in total. SHA-256 hashes identify exact file bytes; declared row counts come from each file header.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
@@ -66,3 +66,27 @@ These tables publish the verified talent rows and their tooltip traces for all 1
 | [Hero_Juliet_Talents.tsv](data/Hero_Juliet_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `5e8a81859f2823df08d51ca57eebe34c074547381cfc35de5219a044b914368a` |
 | [Hero_Merlin_Talents.tsv](data/Hero_Merlin_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `627ba3f39cf24305a30ee39d3a6f1a903baacf822dec99bce3ad8f763009b5c1` |
 | [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Verified against in-game compendium and hero progression (2026-10-05) | `f3a3aeb74e74581d6bd3ddf6a14c91482f0a7b78c5a007afb36ca7d343b73377` |
+
+## Numerical value tables
+
+These tables hold decoded ability, Magical Object, Melody and mechanics values with the October 6 maintainer check merged in. Columns, statuses and the check are described in [VALUES.md](VALUES.md). The original text exports above remain unchanged.
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Hero_RED_Abilities.tsv](data/Hero_RED_Abilities.tsv) | 89 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `507a6cad92602718b3a982e10f8525735f0dfe2f718388fa49d248e4e64f3f10` |
+| [Hero_Snow_Queen_Abilities.tsv](data/Hero_Snow_Queen_Abilities.tsv) | 57 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `e2a1e66719f39cb61477ab01cff8cc214d8a53314815b522fb780156629e9b0c` |
+| [Hero_Beowulf_Abilities.tsv](data/Hero_Beowulf_Abilities.tsv) | 53 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `460b0e7afc0b5555cb12e4ec6d73de62a9c616eb03921d12eef1813deeab8300` |
+| [Hero_Piper_Abilities.tsv](data/Hero_Piper_Abilities.tsv) | 73 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `feb33ba8a0439ab6afcb59a2952037d2b76fb04a7c0e2786561e47896fce20da` |
+| [Hero_Aladdin_Abilities.tsv](data/Hero_Aladdin_Abilities.tsv) | 57 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `b42c686da03f7c645c984c5f64882d6ba4119f5d8386f83d0b2b99e5089982f9` |
+| [Hero_Melusine_Abilities.tsv](data/Hero_Melusine_Abilities.tsv) | 51 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `6217a2f110bd8357705c2ca3cce96ae68f5e52e48ecbc57af59c2dab22e561e6` |
+| [Hero_Geppetto_Abilities.tsv](data/Hero_Geppetto_Abilities.tsv) | 58 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `f234e6449d95a58de6e6deeaeea424f09016c5c17d0de976238f01960398d547` |
+| [Hero_SunWukong_Abilities.tsv](data/Hero_SunWukong_Abilities.tsv) | 57 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `b65ccda9a03b62a66f9b64dba07aa54206283eb132a24cc96dcdd10da6f7cdb9` |
+| [Hero_Carmilla_Abilities.tsv](data/Hero_Carmilla_Abilities.tsv) | 76 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `841284d22cd6809e8f2539ae0bea41bcf8d457f87d1fda33f2274295f7ce60a0` |
+| [Hero_Romeo_Abilities.tsv](data/Hero_Romeo_Abilities.tsv) | 58 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `a692ec51fdddda13dc2bd039ac8e8c13a4be6b9de6dfa5a9d0aef05ecc63e7a2` |
+| [Hero_Juliet_Abilities.tsv](data/Hero_Juliet_Abilities.tsv) | 70 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `7bff904bcfeda83c7a443b8b6322dcb7d2186c1500bfefea3b3706587f2a7a16` |
+| [Hero_Merlin_Abilities.tsv](data/Hero_Merlin_Abilities.tsv) | 172 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `506dd4af42d373f2e34b0a9aefaba88672f902c4f791e4f6f831fdbc0b80e64a` |
+| [Magical_Objects_Values.tsv](data/Magical_Objects_Values.tsv) | 315 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `61dcb6aeacfebfa761d933fa47457071aa75fd586a3522186a1cb15570af3ca5` |
+| [Melodies_Values.tsv](data/Melodies_Values.tsv) | 21 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `06bf6d0ec748f66ce264b243deace724ac7db313ccad02c78e66ac3caba5da38` |
+| [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 240 | Corrected numbers table (2026-10-05) with the 2026-10-06 check | `ce97c2b102e3183b360a175d571fd5e3787abd8fee262fec798178b16c7e7831` |
+| [In_Game_Observations.tsv](data/In_Game_Observations.tsv) | 94 | Maintainer readings in the in-game Compendium (2026-10-06) | `d1d58bba05a0d935c50c18dd13f6d2639cab65b3589d349f3e60e1e3c952f08c` |
+| [Fill_Pass_Values.tsv](data/Fill_Pass_Values.tsv) | 65 | Second decoding pass over values missing from the corrected table (2026-10-06) | `8161ee55777b3989a2377b9f34c9845bd548d90a8ae66f8dc2bd73029907293b` |

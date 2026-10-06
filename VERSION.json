@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-05-talents-verified",
-  "snapshot_published_on": "2026-10-05",
+  "snapshot_id": "2026-10-06-values",
+  "snapshot_published_on": "2026-10-06",
   "extracted_on": null,
   "game": "Ravenswatch",
   "game_version": "1.05.01.01.27384",
@@ -239,6 +239,347 @@
           "kind": "compendium_and_source_hashes",
           "reference": "TALENTS.md; live in-game compendium verification",
           "note": "Compendium checks completed 2026-10-05; maintainer confirmed these talent sources use the last documented repository game version on 2026-10-05. Unlock ranks are decoded from hero progression definitions."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_RED_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Snow_Queen_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Beowulf_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Piper_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Aladdin_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Melusine_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Geppetto_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_SunWukong_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Carmilla_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Romeo_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Rows marked 'read in game' were read by the maintainer in the Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Juliet_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Hero_Merlin_Abilities.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "Decoded from source files whose hashes match the exports attributed to this version. The installed build was not independently reverified."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Magical_Objects_Values.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "decoding_record",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "The decoding record leaves the source version unconfirmed; the version fields give the version claimed by the earlier output."
+        },
+        {
+          "kind": "in_game_reading",
+          "reference": "data/In_Game_Observations.tsv",
+          "note": "Six rows were read by the maintainer in the game on this version on 2026-10-06. The other checked rows were accepted without reading."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Melodies_Values.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "decoding_record",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "The decoding record leaves the source version unconfirmed; the version fields give the version claimed by the earlier output."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Mechanics_Values.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "decoding_record",
+          "reference": "VALUES.md; decoding record of 2026-10-05",
+          "note": "The decoding record leaves the source version unconfirmed; the version fields give the version claimed by the earlier output."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/In_Game_Observations.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "in_game_reading",
+          "reference": "VALUES.md",
+          "note": "Values read by the maintainer in the in-game Compendium on this version on 2026-10-06."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Fill_Pass_Values.tsv": {
+      "game_version": "1.05.01.01.27384",
+      "version_display": "1.05.01.01.27384 2026/06/16 #773b656a63",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": null,
+      "build_date": "2026-06-16",
+      "build_revision": "773b656a63",
+      "version_status": "maintainer-confirmed",
+      "version_evidence": [
+        {
+          "kind": "prior_export_attribution",
+          "reference": "VALUES.md; second decoding pass of 2026-10-06",
+          "note": "Decoded from the same source files as the value tables. The method reproduced the 86 in-game readings taken on this version that were available when it ran. Rows for Magical Objects and Melodies share the unconfirmed source attribution of those tables."
         }
       ],
       "extracted_on": null

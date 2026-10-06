@@ -2,13 +2,13 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository is the canonical source for 43 selected decoded TSV exports and twelve derived numerical talent tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for 43 selected decoded TSV exports, twelve derived numerical talent tables and seventeen numerical value tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
 
 The initial 43 text and index exports come from **Steam (PC), version `1.05.01.01.27384`**, with the displayed build date `2026/06/16` and revision marker `#773b656a63`. This source attribution was confirmed by the maintainer on October 5, 2026. Its data snapshot ID is `2026-10-05-initial`; the Steam numeric build ID has not been recorded.
 
-[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The twelve numerical talent tables combine decoded tooltip values, maintainer compendium checks, and decoded unlock progression. Their source version is maintainer-confirmed as the version above. The current snapshot ID is `2026-10-05-talents-verified`. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
+[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The twelve numerical talent tables combine decoded tooltip values, maintainer compendium checks, and decoded unlock progression. Their source version is maintainer-confirmed as the version above. Their snapshot ID is `2026-10-05-talents-verified`. The seventeen numerical value tables were added on October 6, 2026 with in-game readings taken on the same version; [VALUES.md](VALUES.md) and VERSION.json record how far each table's source version is confirmed. The current snapshot ID is `2026-10-06-values`. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
 
 ## Tables
 
@@ -21,12 +21,16 @@ The initial 43 text and index exports come from **Steam (PC), version `1.05.01.0
 | Object and melody indexes | 2 | Entity-to-text-key mappings for the selected objects and melodies |
 | Magical Object sources | 1 | Rarity chances explicitly set on decoded source entities |
 | Numerical talents | 12 | All twelve released heroes: 26 talents each, with effects, unlock ranks, and source traces |
+| Hero ability values | 12 | Trait, ability, ultimate and dash values and cooldowns for each hero, with source traces and the October 6 check |
+| Object, melody and mechanics values | 3 | Magical Object and Melody effect values and shared mechanics settings |
+| In-game readings | 1 | 94 values read by the maintainer in the Compendium on October 6, 2026 |
+| Fill pass | 1 | Second decoding pass over 65 values the corrected table lacked |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
 
 ## Talent publication status
 
-All twelve hero talent pages were published and verified on October 5, 2026 across four batches: 312 talent rows in total. Each page has Icon, Name, Unlocks at and Effect columns, 26 loaded 48px icons, and no table redlinks. All parent hero pages link to their talent pages. [TALENTS.md](TALENTS.md) lists the published pages and verification history. The repository contains 55 selected TSV files: 43 original decoded exports and 12 numerical talent tables.
+All twelve hero talent pages were published and verified on October 5, 2026 across four batches: 312 talent rows in total. Each page has Icon, Name, Unlocks at and Effect columns, 26 loaded 48px icons, and no table redlinks. All parent hero pages link to their talent pages. [TALENTS.md](TALENTS.md) lists the published pages and verification history. The repository contains 72 selected TSV files: 43 original decoded exports, 12 numerical talent tables and 17 numerical value tables.
 
 ## Reading the tables
 
@@ -45,6 +49,8 @@ The exports preserve blank rows, original spelling, game markup, and literal `\n
 | `{0}`, `{1}`, etc. | Runtime substitutions, which can be values or names |
 
 Replace markup with wiki formatting when drafting prose. Runtime placeholders are unresolved in these text exports; do not invent numbers to fill them. The separate [numerical talent tables](TALENTS.md) retain the decoded calculations, Common / Rare / Epic / Legendary order, baseline conditions and verification notes. Their `effect_en` and `notes` columns use literal `\n` line breaks; `tooltip_arguments_json` preserves the traced argument graph in each row. They do not replace the original tooltip text.
+
+The [numerical value tables](VALUES.md) hold the numbers for ability, Magical Object and Melody tooltips. Each row keeps its decoded value, its evidence status and the result of the October 6 in-game check in separate columns. A blank value there means not decoded, not zero.
 
 ## Evidence limits
 
