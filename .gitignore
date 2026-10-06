@@ -67,3 +67,23 @@
 !/data/Hero_Romeo_Talents.tsv
 !/data/Hero_Juliet_Talents.tsv
 !/data/Hero_Merlin_Talents.tsv
+
+# Numerical value tables with the 2026-10-06 in-game check.
+!/VALUES.md
+!/data/Hero_RED_Abilities.tsv
+!/data/Hero_Snow_Queen_Abilities.tsv
+!/data/Hero_Beowulf_Abilities.tsv
+!/data/Hero_Piper_Abilities.tsv
+!/data/Hero_Aladdin_Abilities.tsv
+!/data/Hero_Melusine_Abilities.tsv
+!/data/Hero_Geppetto_Abilities.tsv
+!/data/Hero_SunWukong_Abilities.tsv
+!/data/Hero_Carmilla_Abilities.tsv
+!/data/Hero_Romeo_Abilities.tsv
+!/data/Hero_Juliet_Abilities.tsv
+!/data/Hero_Merlin_Abilities.tsv
+!/data/Magical_Objects_Values.tsv
+!/data/Melodies_Values.tsv
+!/data/Mechanics_Values.tsv
+!/data/In_Game_Observations.tsv
+!/data/Fill_Pass_Values.tsv
