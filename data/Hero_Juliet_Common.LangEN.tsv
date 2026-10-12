@@ -1,5 +1,5 @@
 # source_table	Hero_Juliet_Common~GAM.xls
-# rows	75
+# rows	76
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Juliet
@@ -77,3 +77,4 @@ index	key	text_en
 72	Skill_Ultimate_1_Desc	• {0} rushes towards {1} to perform an #INTANGIBLE@ dance dealing area damage
 73	Skill_Ultimate_2_Name	Poison Flask
 74	Skill_Ultimate_2_Desc	• Throw a poison flask in the air\n• Trigger #ULTIMATE@ again at the right time to shoot the flask and make it explode, dealing damage in a wide area
+75	Skill_Attack_Update6_Burst_Desc	• #ATTACK@ triggered right after #DASH@ shoots &{0}~ times in a row, consuming #{1}@ \AMMO§

@@ -28,9 +28,9 @@ index	key	text_en
 23	Skill_Passive_Taunt_Name	Seductive Provocation 
 24	Skill_Passive_Taunt_Desc	• In combat, standing still makes {0} seduce up to &{1}~ non-boss enemies in front of her, applying #WEAKENED@ and #VULNERABLE@ for #{2}@ seconds\n• Has a #{3}@-second cooldown 
 25	Skill_Dash_Taunt_Name	Seductive Provocation 
-26	Skill_Dash_Taunt_Desc	• Using #DASH@ without specifying a move direction makes {0} seduce up to &{1}~ non-boss enemies in front of her, applying #WEAKENED@ and #VULNERABLE@ to them for #{2}@ seconds
+26	Skill_Dash_Taunt_Desc	• Using #DASH@ without specifying a move direction makes {0} seduce up to #{1}@ non-boss enemies in front of her, applying #WEAKENED@ and #VULNERABLE@ to them for &{2}~ seconds (every #{3}@ seconds max)
 27	Skill_Dash_Blood_Name	Puncture
-28	Skill_Dash_Blood_Desc	• Each enemy passed through by #DASH@ earns &{0}~ $BLOOD*
+28	Skill_Dash_Blood_Desc	• Each enemy passed through while using #DASH@ earns &{0}~ $BLOOD*
 29	Skill_Trait_Life_Tap_Name	Life Tap
 30	Skill_Trait_Life_Tap_Desc	• In #Winged Form@, activating #TRAIT@ again consumes health equivalent to #{0}%@ of max health to recover up to &{1}~ $BLOOD points*\n• This ability cannot be used when below health cost and has a #{2}@-second cooldown
 31	Skill_Trait_Push_Back_Name	Gust

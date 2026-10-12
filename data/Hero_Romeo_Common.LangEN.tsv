@@ -1,5 +1,5 @@
 # source_table	Hero_Romeo_Common~GAM.xls
-# rows	73
+# rows	75
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Romeo
@@ -75,3 +75,5 @@ index	key	text_en
 70	Skill_Ultimate_1_Desc	• {0} rushes towards {1} to perform an #INTANGIBLE@ dance dealing area damage
 71	Skill_Ultimate_2_Name	Black Roses
 72	Skill_Ultimate_2_desc	• Send a swarm of black Roses piercing through enemies
+73	Skill_Attack_Panache_Update6_Desc	• Hitting an enemy with any additional #ATTACK@ move, such as #DASH@ attack or #DEFENSE@'s #Ripost@, grants one #Panache token@ (up to #{0}@) \n• Each #Panache token@ increases #ATTACK@ damage by #{3}%@ and grants &+{1}%~ #ATTACK SPEED@, all #Panache tokens@ are lost when {2} is hit
+74	Skill_Attack_Kick_Update6_Desc	• Adds a kick to #ATTACK@ combo, dealing &{0}~ damage and pushing light enemies back

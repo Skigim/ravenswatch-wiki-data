@@ -1,5 +1,5 @@
 # source_table	Hero_Aladdin_Common~GAM.xls
-# rows	81
+# rows	86
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Aladdin
@@ -83,3 +83,8 @@ index	key	text_en
 78	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with Scarlet
 79	Skill_Trait_Wish_Omnipotence_Name	Wish of Omnipotence
 80	Skill_Trait_Wish_Omnipotence_Desc	• Casting wishes grant #OMNIPOTENCE@ to all nearby Heroes for &{0}~ seconds\n• During #OMNIPOTENCE@, Heroes #POWER@, #SPECIAL@ and #DEFENSE@ have a #{1}@ second(s) cooldown
+81	Skill_Dash_After_Power_Name	Jinn Charge
+82	Skill_Dash_After_Power_Desc	• #DASH@ used after #POWER@ summons the Jinn to charge through enemies and deal &{1}~ damage 
+83	Skill_Special_Retrieved_AOE_Name	Spectral Blades
+84	Skill_Special_Retrieved_AOE_Desc	• Retrieving #SPECIAL@'s blades before they return to {0} triggers a flurry of attacks that can deal up to &{1}~ area damage
+85	Ability_Special_Update6_Desc	• Throw scimitars: They move forward, stop to spin, then return to {0}, dealing up to &{1}~ damage\n• Scimitars gain #ENCHANTMENT@ points for each enemy hit\n• Blades can be recalled sooner by triggering #SPECIAL@ again

@@ -1,5 +1,5 @@
 # source_table	Hero_SunWukong_Common~GAM.xls
-# rows	73
+# rows	74
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Sun Wukong
@@ -75,3 +75,4 @@ index	key	text_en
 70	Skill_Ultimate_2_Omnipotence_Desc	• #ULTIMATE@ transformation grants all heroes around #OMNIPOTENCE@ for &{0}~ seconds\n• During #OMNIPOTENCE@, Heroes' #POWER@, #SPECIAL@ and #DEFENSE@ have a #{1}@ second cooldown
 71	Hero_Desc	Sun Wukong, the Monkey King and Heaven's Equal, lost his power of immortality during a great celebration at the hands of uninvited Nightmares. Still formidable, he relies on his alternating postures, embracing a balanced strategy of Yin and Yang to pound out all ideas of resistance from his foolish foes. One should expect no less from a god.
 72	Book_Page_Hero_Locked_Condition	Complete Chapter 1 with The Snow Queen
+73	Skill_Passive_Objects_Quest_Update6_Desc	• #Quest (x{0}):@ Obtaining a Magical Object with an Epic quality or better grants #+{1} DMG@\n• #Complete:@ Grants &+{2}~ #VITALITY@, but now $only Hero or Magical Object heals* are effective

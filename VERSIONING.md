@@ -4,11 +4,21 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The initial snapshot is `2026-10-05-initial`, published October 5, 2026. The `2026-10-05-talents-verified` snapshot added twelve numerical talent tables (312 talents across all released heroes), for 55 selected TSV files. The current snapshot, `2026-10-06-values`, adds seventeen numerical value tables, for 72 selected TSV files total; each has its own entry in `table_overrides`, and three of them (Magical Objects, Melodies and mechanics values) are recorded as `unverified` because their decoding record leaves the source version unconfirmed. Their source-version attribution is maintainer-confirmed and recorded in `table_overrides`; all twelve wiki talent pages were published and verified on October 5. The original 43 exports keep their prior attribution. On that date, the maintainer identified the source as Steam (PC), with the full displayed version string `1.05.01.01.27384 2026/06/16 #773b656a63`. The record separates the game version `1.05.01.01.27384`, displayed build date `2026-06-16`, and displayed revision marker `773b656a63`, while preserving the full string in `version_display`.
+The current snapshot is `2026-10-12-1.06`, published October 12, 2026. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
 
-Its `version_status` is `maintainer-confirmed`, with that confirmation recorded as evidence. The Steam numeric build ID and extraction date remain unknown (`null`). The displayed build date is not an extraction or snapshot publication date.
+The top-level `version_status` is `unverified`. The build ID and the "Version 1.06" patch notes are recorded as evidence, but the version string the game displays was not recorded. `game_version`, `version_display`, `build_date` and `build_revision` stay `null` until the maintainer confirms that string. When confirmed, record it and change the status to `maintainer-confirmed`; the table bytes and hashes don't change.
 
-The recorded `LiveOps5` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
+`In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` were not re-extracted. They hold readings and a decoding pass made on version 1.05, and their `table_overrides` entries keep that attribution: Steam (PC) `1.05.01.01.27384`, displayed build date `2026-06-16`, revision marker `773b656a63`, maintainer-confirmed.
+
+Earlier snapshots came from version 1.05:
+
+| Snapshot | Published | Contents | Fixed by |
+|---|---|---|---|
+| `2026-10-05-initial` | October 5, 2026 | 43 text and index exports | Tag `snapshot-2026-10-05` |
+| `2026-10-05-talents-verified` | October 5, 2026 | Adds 12 numerical talent tables | Tag `snapshot-2026-10-05.2` |
+| `2026-10-06-values` | October 6, 2026 | Adds 17 numerical value tables | Commit `1118de2` |
+
+The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 
 ## Confirm a source version
 

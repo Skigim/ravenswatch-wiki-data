@@ -2,41 +2,45 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository is the canonical source for 43 selected decoded TSV exports, twelve derived numerical talent tables and seventeen numerical value tables used to write and check wiki articles. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for 77 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables and 18 numerical value tables. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
 
-The initial 43 text and index exports come from **Steam (PC), version `1.05.01.01.27384`**, with the displayed build date `2026/06/16` and revision marker `#773b656a63`. This source attribution was confirmed by the maintainer on October 5, 2026. Its data snapshot ID is `2026-10-05-initial`; the Steam numeric build ID has not been recorded.
+The current snapshot, `2026-10-12-1.06`, comes from **Steam (PC), release 1.06**, Steam build ID `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The version string the game displays was not recorded, so the attribution is `unverified` until the maintainer confirms it.
 
-[VERSION.json](VERSION.json) records the game version and its evidence separately from the data snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The twelve numerical talent tables combine decoded tooltip values, maintainer compendium checks, and decoded unlock progression. Their source version is maintainer-confirmed as the version above. Their snapshot ID is `2026-10-05-talents-verified`. The seventeen numerical value tables were added on October 6, 2026 with in-game readings taken on the same version; [VALUES.md](VALUES.md) and VERSION.json record how far each table's source version is confirmed. The current snapshot ID is `2026-10-06-values`. Use these repository tables directly; cite a commit or snapshot tag when documenting a wiki claim.
+Every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
+
+[VERSION.json](VERSION.json) records the game version and its evidence separately from the snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. Earlier snapshots come from version 1.05. Tags `snapshot-2026-10-05` and `snapshot-2026-10-05.2` fix the first two, and commit `1118de2` holds `2026-10-06-values`. Cite a commit or snapshot tag when documenting a wiki claim.
 
 ## Tables
 
 | Group | Files | Purpose |
 |---|---:|---|
-| Hero Common text | 12 | Hero names, abilities, talent text, backgrounds, and some unlock descriptions |
-| Hero Memoirs text | 12 | Hero memoir titles and story text |
-| Hero Skins text | 12 | Outfit names and descriptions |
+| Hero Common text | 13 | Hero names, abilities, talent text, backgrounds, and some unlock descriptions |
+| Hero Memoirs text | 13 | Hero memoir titles and story text |
+| Hero Skins text | 13 | Outfit names and descriptions |
 | General and section text | 4 | Common UI, enemy, Magical Objects, and Melodies text |
 | Object and melody indexes | 2 | Entity-to-text-key mappings for the selected objects and melodies |
 | Magical Object sources | 1 | Rarity chances explicitly set on decoded source entities |
-| Numerical talents | 12 | All twelve released heroes: 26 talents each, with effects, unlock ranks, and source traces |
-| Hero ability values | 12 | Trait, ability, ultimate and dash values and cooldowns for each hero, with source traces and the October 6 check |
+| Numerical talents | 13 | All 13 heroes: 26 talents each, with effects, unlock ranks, and source traces |
+| Hero ability values | 13 | Trait, ability, ultimate and dash values and cooldowns for each hero, with source traces and the October 6 check |
 | Object, melody and mechanics values | 3 | Magical Object and Melody effect values and shared mechanics settings |
-| In-game readings | 1 | 94 values read by the maintainer in the Compendium on October 6, 2026 |
-| Fill pass | 1 | Second decoding pass over 65 values the corrected table lacked |
+| In-game readings | 1 | 94 values read by the maintainer in the Compendium on October 6, 2026, on version 1.05 |
+| Fill pass | 1 | Second decoding pass over 65 values the 1.05 corrected table lacked |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
 
 ## Talent publication status
 
-All twelve hero talent pages were published and verified on October 5, 2026 across four batches: 312 talent rows in total. Each page has Icon, Name, Unlocks at and Effect columns, 26 loaded 48px icons, and no table redlinks. All parent hero pages link to their talent pages. [TALENTS.md](TALENTS.md) lists the published pages and verification history. The repository contains 72 selected TSV files: 43 original decoded exports, 12 numerical talent tables and 17 numerical value tables.
+All twelve hero talent pages were published and verified on October 5, 2026 across four batches, from the 1.05 tables: 312 talent rows in total. Each page has Icon, Name, Unlocks at and Effect columns, 26 loaded 48px icons, and no table redlinks. All parent hero pages link to their talent pages. [TALENTS.md](TALENTS.md) lists the published pages and verification history.
+
+Build 1.06 replaces five talents and changes the effects of others. Those pages need updating from the 1.06 tables. Kintarō's talent table is new and has no page yet.
 
 ## Reading the tables
 
 Open a TSV as UTF-8 text or import it into a spreadsheet with a tab delimiter. The opening lines beginning with `#` describe the source and row count; the following line contains the column names.
 
-Text tables have `index`, `key`, and `text_en` columns. Their `index` is the original zero-based row index. Match index-table keys to the `key` column of the corresponding text table rather than guessing from display names. Internal hero identifiers include `RED` for Scarlet, `Piper` for The Pied Piper, and `Snow_Queen` for The Snow Queen.
+Text tables have `index`, `key`, and `text_en` columns. Their `index` is the original zero-based row index. Match index-table keys to the `key` column of the corresponding text table rather than guessing from display names. Internal hero identifiers include `RED` for Scarlet, `Piper` for The Pied Piper, `Snow_Queen` for The Snow Queen and `Kintaro` for Kintarō.
 
 The exports preserve blank rows, original spelling, game markup, and literal `\n` escapes. A `\n` in a text cell represents a line break in the game text. Read every bullet before drafting an effect description.
 
@@ -54,9 +58,9 @@ The [numerical value tables](VALUES.md) hold the numbers for ability, Magical Ob
 
 ## Evidence limits
 
-The initial data snapshot was published on October 5, 2026. That date is the snapshot publication date, not a game release or extraction date. See VERSION.json for version attribution; this repository does not claim to represent the latest game state.
+A snapshot date is the date the snapshot was published, not necessarily a game release or extraction date. See VERSION.json for version attribution; this repository does not claim to represent the latest game state.
 
-The Magical Object index records 58 selected objects and the melody index records 12 melodies. Text tables can also contain blank, unused, or retired entries; a text row alone does not establish that an entry ships. The recorded LiveOps5 manifest label applies to the Magical Object index and is distinct from the maintainer-confirmed game version.
+The Magical Object index records 58 selected objects and the melody index records 12 melodies. Text tables can also contain blank, unused, or retired entries; a text row alone does not establish that an entry ships. In 1.06, replaced talent text often sits under a new `_Update6` key while the old key stays in the table. The recorded LiveOps6 manifest label applies to the Magical Object index and is distinct from the game version.
 
 In `Magical_Objects_Sources.tsv`, numeric chances are fractions: `0.5` means 50%. A blank means the entity does not explicitly set that chance; it does not mean zero. Inherited values and Drop Chance Selectors are not decoded. Shops, the Sandman, and camp rewards are outside that table's coverage. Source rows include templates and do not establish which sources are active in-game.
 
