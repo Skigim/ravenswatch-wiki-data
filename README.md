@@ -6,7 +6,7 @@ This repository is the canonical source for 77 selected TSV tables used to write
 
 ## Game version
 
-The current snapshot, `2026-10-12-1.06`, comes from **Steam (PC), release 1.06**, Steam build ID `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The version string the game displays was not recorded, so the attribution is `unverified` until the maintainer confirms it.
+The current snapshot, `2026-10-12-1.06`, comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
 
 Every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
 
