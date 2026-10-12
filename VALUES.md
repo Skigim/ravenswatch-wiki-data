@@ -1,19 +1,19 @@
 # Numerical value tables
 
-The `2026-10-06-values` snapshot adds seventeen tables holding the numbers behind ability, Magical Object and Melody tooltips, plus shared mechanics settings. They combine three kinds of evidence, which stay in separate columns: values decoded from game configuration, values the maintainer read in the game, and a second decoding pass over the values that were still missing.
+These eighteen tables hold the numbers behind ability, Magical Object and Melody tooltips, plus shared mechanics settings. They combine three kinds of evidence, which stay in separate columns: values decoded from game configuration, values the maintainer read in the game, and a second decoding pass over the values that were still missing. The `2026-10-06-values` snapshot added seventeen of them from version 1.05. The `2026-10-12-1.06` snapshot re-extracts sixteen from build 1.06 and adds Kintarō's; see [Build 1.06 re-extraction](#build-106-re-extraction).
 
 | Table | Rows | Contents |
 |---|---:|---|
-| `Hero_<id>_Abilities.tsv` (12 files) | 871 | Trait, ability, ultimate and dash values and cooldowns for each hero |
+| `Hero_<id>_Abilities.tsv` (13 files) | 905 | Trait, ability, ultimate and dash values and cooldowns for each hero |
 | `Magical_Objects_Values.tsv` | 315 | Object effects and collection bonuses, grouped by rarity |
 | `Melodies_Values.tsv` | 21 | Melody effects |
 | `Mechanics_Values.tsv` | 240 | Shared settings: reward sources, difficulties, drops, status effects, prices, resources, stats and timers. Nearly half are unresolved |
 | `In_Game_Observations.tsv` | 94 | Each value read in the game, beside the decoded entry it was compared with |
 | `Fill_Pass_Values.tsv` | 65 | The second decoding pass, with its formulas and evidence notes |
 
-Hero files use the internal hero identifiers listed in the README (`RED`, `Piper`, `Snow_Queen`).
+Hero files use the internal hero identifiers listed in the README (`RED`, `Piper`, `Snow_Queen`, `Kintaro`).
 
-## Columns of the fifteen page tables
+## Columns of the sixteen page tables
 
 Each row is one field of one ability, object, melody or setting. The first sixteen columns are the decoded record and were not changed by the check.
 
@@ -28,7 +28,7 @@ Each row is one field of one ability, object, melody or setting. The first sixte
 | `check_id` | Identifier of the check row this field belongs to. It matches the `id` column of `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Blank when the field was not on the check list |
 | `checked_value` | The figure after the October 6 check: the in-game reading where there is one, otherwise the decoded value, otherwise the fill pass value |
 | `checked_value_source` | `in-game reading`, `decoded`, `decoded-baseline`, or `fill pass (decoded-baseline)` |
-| `maintainer_check` | `read in game: match`, `read in game: differs from decoded value`, `read in game: no decoded value`, or `accepted without reading` |
+| `maintainer_check` | `read in game: match`, `read in game: differs from decoded value`, `read in game: no decoded value`, `accepted without reading`, or `stale: checked on 1.05; decoded value changed in 1.06` |
 | `check_note` | The maintainer's note on that reading, when there is one |
 
 Rows that share a `check_id` are variants of one displayed figure, such as Merlin's cooldowns by selected spell state. Their `checked_value` is the combined figure, with the variants separated by slashes in row order.
@@ -68,7 +68,24 @@ The `evidence` column of that table names working files kept by the maintainer. 
 
 ## Source version
 
-The hero tables were decoded from source files whose hashes match the earlier exports attributed to version `1.05.01.01.27384`. The decoding record for Magical Objects, Melodies and mechanics leaves the source version unconfirmed. Each row's `game_version` wording from the decoding record is summarised in the file's `# source_version` header line, and VERSION.json records the attribution per table. The in-game readings were taken on the version named above.
+The sixteen page tables were decoded from build 1.06, Steam build ID `25174305`. Each file's `# source_version` header line says so. VERSION.json records that attribution as `unverified` until the displayed version string is confirmed. The October 6 readings and the fill pass were made on version `1.05.01.01.27384`. Tables that hold readings name that version in an `# in_game_version` header line. VERSION.json keeps that attribution for `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`.
+
+## Build 1.06 re-extraction
+
+On October 12, 2026, the fifteen 1.05 page tables were decoded again from build 1.06 with the same method. Row order, row identities and columns are unchanged. [CHANGES-1.06.md](CHANGES-1.06.md) lists every changed cell.
+
+**Override files.** Build 1.06 overrides parts of each hero definition with a sparse `Hero_<id>_Update6` definition. The decoder reads the override first and the base definition second, and `source_path` names every file a value came from. When a tooltip uses an overridden component, the decoder uses the override.
+
+**One text key moved.** Aladdin's Enchanted Blades rows point at `Ability_Special_Update6_Desc` (row 85 of `Hero_Aladdin_Common.LangEN.tsv`), which replaces `Ability_Special_Desc` in 1.06.
+
+**Check columns.** The October 6 check columns are carried over unchanged, with one exception. Where a row's decoded value or formula changed in 1.06, `maintainer_check` reads `stale: checked on 1.05; decoded value changed in 1.06`. Its `checked_value` is still the 1.05 figure, so don't use it for 1.06. Ten rows are stale. Internal operand indices renumber in every rebuilt file, so formulas are compared with those indices ignored.
+
+**Kintarō.** `Hero_Kintaro_Abilities.tsv` has no 1.05 check list to follow, so its rows are defined differently:
+
+- One row for each numeric placeholder in each ability's tooltip. The `field` names describe the placeholder.
+- A `cooldown` and a `charges` row for each ability controller.
+
+It has 34 rows: 14 `decoded`, 15 `decoded-baseline` and 5 `unresolved`. Its check columns are empty, because nothing in it was checked in the game.
 
 ## Limits
 

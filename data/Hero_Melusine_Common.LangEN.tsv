@@ -62,7 +62,7 @@ index	key	text_en
 57	Skill_Defense_Power_Name	Power Dive
 58	Skill_Defense_Power_Desc	• #DEFENSE@ triggers #POWER@'s effect with a &+{0}%~ damage increase when {1} dives underwater
 59	Skill_Defense_Hold_Name	Underwater Predation
-60	Skill_Defense_Hold_Desc	• Hold #DEFENSE@ to move quickly underwater. All enemies passed become #VULNERABLE@ for &{0}~ seconds
+60	Skill_Defense_Hold_Desc	• #DEFENSE@ can be held to move more quickly underwater\n• All enemies passed become #VULNERABLE@ for &{0}~ seconds
 61	Skill_Defense_Deals_Damage_Name	Razor Tail
 62	Skill_Defense_Deals_Damage_Desc	• #DEFENSE@ makes {0} strike with her tail, dealing &{1}%~ of #ATTACK@ damage
 63	Skill_Defense_Block_Name	Water Bubble

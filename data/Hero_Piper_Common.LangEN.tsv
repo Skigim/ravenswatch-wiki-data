@@ -1,5 +1,5 @@
 # source_table	Hero_Piper_Common~GAM.xls
-# rows	82
+# rows	83
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	The Pied Piper
@@ -84,3 +84,4 @@ index	key	text_en
 79	Hero_Desc	Once the greatest musician of his generation until cursed by Nightmares, Franz the Pied Piper's songs have become distorted melodies of mass destruction, only pleasant to the ears of the rats that gather round him. When overwhelmed, the critters can be called to the rescue, unleashing a swarm of gnashing teeth.
 80	Ability_Attack_Desc_Night	• Hold to play the flute, sending out piercing notes that deal &{0}~ damage each\n• Does not prevent movement but reduces movement speed
 81	Ability_Power_Desc_Night	• Play a solo note on the flute, sending out #{0}@ waves of #{1}@ piercing notes in a straight line, each one dealing &{2}~ damage\n• Does not prevent movement but reduces movement speed
+82	Skill_Trait_Pets_Within_Special_Update6_Desc	• Rats attacking within #SPECIAL@'s zone deal #+{0}%@ damage and have a &{1}%~ chance to summon a new rat upon death

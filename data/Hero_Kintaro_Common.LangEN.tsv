@@ -1,0 +1,87 @@
+# source_table	Hero_Kintaro_Common~GAM.xls
+# rows	83
+# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+index	key	text_en
+0	Hero_Name	Kintarō
+1	Hero_Desc	Kintarō and his bear Kuma were sent from their mountain home to deliver a message to the witch Baba Yaga. Kintarō fights wildly, joyfully, and without mercy. Kuma fights because he is very, very hungry.\nTogether, these brothers from the forest are formidable wardens. But even when dismounted, Kintaro is a ferocious warrior, and Kuma a mountain that moves.
+2	Ability_Trait_Name	Animal Bond
+3	Ability_Mounted_Trait_Desc	• {0} rides Kuma and heals #INTERNAL DAMAGE@ over time\n• Using #TRAIT@ makes {0} dismount from atop Kuma
+4	Ability_Mounted_Attack_Name	Claw Swipes
+5	Ability_Mounted_Attack_Desc	• Chain together a series of claw swipes, with the final hit dealing #{0}%@ damage\n• The overall combo deals &{1}~ damage in total
+6	Ability_Mounted_Power_Name	Charge
+7	Ability_Mounted_Power_Desc	• Kuma charges forward, dealing &{0}~ damage to everything in its path
+8	Ability_Mounted_Special_Name	Leap
+9	Ability_Mounted_Special_Desc	• {0} leaps off Kuma's back while #INTANGIBLE@ and strikes the ground with his axe, dealing &{1}~ area damage
+10	Ability_Mounted_Defense_Name	Roar
+11	Ability_Mounted_Defense_Desc	• Kuma stands and roars, #BLOCKING@ enemy attacks for #{0}@ seconds
+12	Ability_Ultimate_1_Name	Giant Carp
+13	Ability_Ultimate_1_Desc	• Summons a giant carp in front of {0}, dealing &{1}~ area damage\n• Kintarō then leaps to grab it and slams it into the ground, dealing &{2}~ damage in the area around the point of impact
+14	Ability_Ultimate_2_Name	Rikishi
+15	Ability_Ultimate_2_Desc	• {0} adopts a sumo stance and unleashes a rapid-fire series of palm strikes, dealing up to &{1}~ damage
+16	Ability_Dismounted_Trait_Desc_Keyboard	• {0} fights on foot and takes ${1}%* of the damage sustained by Kuma as #INTERNAL DAMAGE@\n• #TRAIT@ commands Kuma to move to the targeted location\n• Using the #CONTEXTUAL ACTION@ near Kuma prompts {0} to climb back onto his back
+17	Ability_Dismounted_Trait_Desc_Controller	• {0} fights on foot and takes ${1}%* of the damage sustained by Kuma as #INTERNAL DAMAGE@\n• Using the right stick controls Kuma's movement and #TRAIT@ commands him to return close to {0}\n• Using the #CONTEXTUAL ACTION@ near Kuma prompts {0} to climb back onto his back
+18	Ability_Dismounted_Attack_Name	Axe
+19	Ability_Dismounted_Attack_Desc	• {0} chains attacks with his axe, with the final hit dealing #{1}%@ damage\n• The overall combo deals &{2}~ damage in total\n• Kuma automatically attacks nearby enemies with claw swipes
+20	Ability_Dismounted_Power_Name	Whirl and Pound
+21	Ability_Dismounted_Power_Desc	• {0} spins with his axe, lunging forward to deal &{1}~ damage in the area around him\n• Kuma pounds the ground in front of him, dealing up to &{2}~ area damage
+22	Ability_Dismounted_Special_Name	Double Leap
+23	Ability_Dismounted_Special_Desc	• {0} and Kuma each leap to the other's location while #INTANGIBLE@ and strike the ground, each dealing &{1}~ damage in the area around their point of impact
+24	Ability_Dismounted_Defense_Name	Roar and Shout
+25	Ability_Dismounted_Defense_Desc	• {0} shouts while Kuma roars, each #BLOCKING@ enemy attacks for #{1}@ seconds
+26	Book_Page_Hero_Locked_Condition	Available in the Kintarō DLC
+27	Skill_Passive_Move_Speed_Name	Hearty Aura
+28	Skill_Passive_Move_Speed_Desc	• While {0} is riding Kuma, he and all nearby Heroes gain &+{1}%~ #MOVE SPEED@
+29	Skill_Passive_Bear_Combo_Name	Unchained Beast
+30	Skill_Passive_Bear_Combo_Desc	• While {0} is on foot, Kuma can chain attacks the same way he does while {0} is riding him, dealing &+{1}%~ damage in total
+31	Skill_Passive_Armor_Name	Hardened Skin
+32	Skill_Passive_Armor_Desc	• Gain &+{0}~ # #ARMOR@\n• While {1} is on foot, Kuma benefits from  #{2}%@ of {1}'s #ARMOR@
+33	Skill_Passive_Ability_Attack_Name	Energy Discharge
+34	Skill_Passive_Ability_Attack_Desc	• While {0} is on foot, using #POWER@, #SPECIAL@ or #DEFENSE@ triggers an energy discharge between {0} and Kuma, dealing &{1}~ damage to enemies passed through
+35	Skill_Passive_Internal_Damage_Name	Strong-Willed
+36	Skill_Passive_Internal_Damage_Desc	• When {0} is on foot, he takes &{1}%~ of the damage he suffers as #INTERNAL DAMAGE@
+37	Skill_Passive_Damage_Per_Internal_Damage_Name	Berserk
+38	Skill_Passive_Damage_Per_Internal_Damage_Desc	• Gain &+{0}~ #DMG@ for every #{1}%@ of maximum health set as #INTERNAL DAMAGE@
+39	Skill_Dash_Attack_Name	Rush Strikes
+40	Skill_Dash_Attack_Desc	• #ATTACK@ triggered right after #DASH@ quickly strikes twice, with each strike dealing &{0}%~ #ATTACK@ damage
+41	Skill_Trait_Heal_Name	Mend Pet
+42	Skill_Trait_Heal_Desc	• Whenever {0} mounts Kuma, he recovers &{1}~ health\n• This Talent has a #{2}@ second cooldown
+43	Skill_Attack_Quest_Lightning_Name	Raijin Axe
+44	Skill_Attack_Quest_Lightning_Desc	• #Quest (x{0}):@ Spending #{1} Dream Shards@ grants #+{2}@ #Crit Chance@\n• #Complete:@ #ATTACK@ finisher sends #{3}@ lightning strikes to nearby enemies, with each strike dealing &{4}~ damage
+45	Skill_Attack_Chained_Speed_Name	Frenzy
+46	Skill_Attack_Chained_Speed_Desc	• Each #ATTACK@ that hits an enemy grants {0} and Kuma &+{1}%~ #ATTACK SPEED@ (up to #+{2}%@)\n• These bonuses are lost after going #{3}@ seconds without hitting an enemy with an #ATTACK@
+47	Skill_Attack_Bite_Name	Targeted Bite
+48	Skill_Attack_Bite_Desc	• Kuma's #ATTACKS@ have a #{0}%@ chance to turn into a bite, hitting a single target for &{1}~ damage
+49	Skill_Attack_Special_Swipe_Name	Woodcutter's Swipe
+50	Skill_Attack_Special_Swipe_Desc	• {0}'s #ATTACK@, triggered shortly after a #SPECIAL@, performs a sweep of his axe that deals &{1}~ area damage
+51	Skill_Power_Bear_Charge_Name	Stampede
+52	Skill_Power_Bear_Charge_Desc	• When {0} is on foot, moving Kuma causes him to charge in the indicated direction, dealing &{1}%~ #POWER@ damage to enemies hit\n• This talent has a cooldown of #{2}@ seconds
+53	Skill_Power_Chained_Damage_Name	Skewer
+54	Skill_Power_Chained_Damage_Desc	• #POWER@ deals &+{0}%~ damage for each different enemy hit (up to #+{1}%@)
+55	Skill_Power_Throws_Axe_Name	Boomerang Axe
+56	Skill_Power_Throws_Axe_Desc	• When triggering #POWER@, {0} throws his axe, which bounces up to #{1}@ times between nearby enemies, dealing &{2}%~ damage to each target hit
+57	Skill_Power_Hold_Name	Power Charge
+58	Skill_Power_Hold_Desc	• #POWER@ can be held to store up to #3@ levels of charge before it is released\n• Each charge level increases its #Crit Chance@ by &{0}%~
+59	Skill_Special_Delayed_AOE_Name	Shattered Earth
+60	Skill_Special_Delayed_AOE_Desc	• #SPECIAL@ leaves a fractured area that explodes after a short time, dealing &{0}%~ area damage
+61	Skill_Special_Dash_After_Power_Name	Leaping Dash
+62	Skill_Special_Dash_After_Power_Desc	• Using #DASH@ just after #POWER@ makes {0} leap forward and triggers a #SPECIAL@ effect in the area around where he lands, dealing &{1}%~ #SPECIAL@ damage
+63	Skill_Special_Buff_After_Power_Name	Crushing Combo
+64	Skill_Special_Buff_After_Power_Desc	• #SPECIAL@ triggered shortly after #POWER@ gains #+{0}%@ range and deals &+{1}%~ damage
+65	Skill_Defense_Deals_Damage_Name	Deafening Cry
+66	Skill_Defense_Deals_Damage_Desc	• While using #DEFENSE@, Kuma deals up to &{0}~ damage in an area in front of him\n• If {1} is on foot, he applies #VULNERABLE@ to enemies in front of him for &{2}~ seconds
+67	Skill_Defense_Summon_Spirit_Name	Forest Spirits
+68	Skill_Defense_Summon_Spirit_Desc	• Whenever {0} blocks an attack, a Forest Spirit appears around him (up to #{1}@)\n• For each successful #ATTACK@, a Forest Spirit is released, dealing &{2}~ damage, and then disappears
+69	Skill_Defense_Attack_Block_Name	Bold Strike
+70	Skill_Defense_Attack_Block_Desc	• Canceling #DEFENSE@ with an #ATTACK@ triggers a finisher that blocks enemy attacks and deals &{0}%~ damage
+71	Skill_Ultimate_1_Name	Giant Carp Suplex
+72	Skill_Ultimate_1_Desc	• A giant carp emerges from the ground, dealing damage around {0}. {0} wrestles the carp in the air then slams it down to deal more damage in the area around the point of impact.
+73	Skill_Ultimate_2_Name	Rikishi
+74	Skill_Ultimate_2_Desc	• {0} adopts a sumo stance and unleashes a rapid-fire series of palm strikes.
+75	Skill_Ultimate_1_Projectile_Name	Rain of Fish
+76	Skill_Ultimate_1_Projectile_Desc	• #ULTIMATE@ slam launches &{0}~ fishes in the air that then fall to the ground, with each one dealing #{1}@ area damage
+77	Skill_Ultimate_1_Slam_Name	Brutal Taming
+78	Skill_Ultimate_1_Slam_Desc	• During #ULTIMATE@, {0} grabs the carp by the tail and slams it violently against the ground three times, with each strike dealing &{1}%~ area damage
+79	Skill_Ultimate_2_Clap_Name	Nekodamashi
+80	Skill_Ultimate_2_Clap_Desc	• Before channeling his #ULTIMATE@, {0} claps his hands to deal &{1}~ damage and #{2}@ stagger points to enemies in front of him
+81	Skill_Ultimate_2_Heal_Name	Dohyo
+82	Skill_Ultimate_2_Heal_Desc	• Before channeling his #ULTIMATE@, {0} tosses salt into the air to create an arena around him\n• All Heroes within the arena recover health equal to &{1}%~ of their maximum health every second

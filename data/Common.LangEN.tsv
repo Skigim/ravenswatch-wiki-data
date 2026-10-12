@@ -1,5 +1,5 @@
 # source_table	Common~GAM.xls
-# rows	528
+# rows	535
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Common_GameName	Ravenswatch
@@ -461,14 +461,14 @@ index	key	text_en
 456	SaveCompat_Title	Save Loading Error
 457	SaveCompat_Desc	An error has occurred while loading your save file. (Error code: {0})\nPlease check that the version of your game is properly up to date.\nThe auto-save feature has been disabled to prevent data loss.
 458	MinimapMarker_Key	Nightmare Key
-459	Social_Page_DLC_Title	DLC - Mercenaries Skin Pack
-460	Social_Page_DLC_Desc	Wear new Mercenaries Outfits – for The Pied Piper, Snow Queen, Aladdin, Geppetto, and Sun Wukong.
-461	Social_Page_PatchNote_Title	New Update - Songs of Thieves
-462	Social_Page_PatchNote_Desc	Thieves are coming to the land of Reverie in Ravenswatch's latest free update! Find out more about the new content in the full patch notes.
+459	Social_Page_DLC_Title	New DLC – Kintarō
+460	Social_Page_DLC_Desc	Kintarō joins the Ravenswatch! Fight alongside your Bear, or join forces by riding on its back!
+461	Social_Page_PatchNote_Title	New Update - Free Content
+462	Social_Page_PatchNote_Desc	Learn more about reworked Heroes' Talents, balancing changes and quality of life improvements in the full patch notes.
 463	Social_Page_Modal_Community_Desc	Join our community on Discord! 
 464	Social_Page_Modal_PatchNote_Desc	Read the full patch note here:
 465	Book_Page_News_Redirect_Title	NEW MAJOR UPDATE AVAILABLE
-466	Book_Page_News_Redirect_Desc	IT'S AN AMBUSH!\n\nThis new free update to Ravenswatch is shaking up the world of Reverie with the arrival of the Thieves and their formidable stashes. What could they be hiding in their treasure rooms filled with deadly traps? Complete the various Melodies to become even stronger, but watch out for any sticky fingers after your Dream Shards!\n\nMultiplayer pause has also been added, along with a new Mercenaries Skin Pack.\n\nLearn more about the new content in the official trailer and the full patch note.\n\n• The Passtech Games Team
+466	Book_Page_News_Redirect_Desc	KINTARŌ JOINS THE RAVENSWATCH!\n\nPlay as the Golden boy Kintarō, a legendary hero straight from Japanese folklore! Mount Kuma, the Bear, for a fierce and brutal battle against the Nightmares! Or fight side by side with your loyal companion and your incredible strength!\n\nThis paid Hero DLC includes a new character with a unique playstyle and premium Outfits for Ravenswatch's battlefield. \n\nA free update is also now available for all players, which includes a Heroes Talents overhaul and more! Find out about the new hero and the recent changes in the full patch notes.\n\n• The Passtech Games Team
 467	Status_DmgUp	Damage Increased!
 468	Status_PositiveOutcome	Positive Outcome!
 469	Status_NegativeOutcome	Negative Outcome!
@@ -527,6 +527,13 @@ index	key	text_en
 522	Notification_Stingy_Jack_Success	Stingy Jack has been cast down to hell!
 523	Notification_Stingy_Jack_Failed	Stingy Jack has escaped!
 524	Book_Page_Melody_Hidden_Description	Reconstruct this Melody to reveal it 
-525	Menu_Pause_Remaining	Pause(s) remaining: {}
-526	Menu_Pause_Delay_Time_Left	Please wait before resuming the game
-527	Book_Page_Melodies	Melodies
+525	Options_PrivacyPolicyCateg	CONFIDENTIALITY POLICY
+526	Menu_Pause_Remaining	Pause(s) remaining: {}
+527	Menu_Pause_Delay_Time_Left	Please wait before resuming the game
+528	Book_Page_Melodies	Melodies
+529	Options_VoiceChatModeDisabledByGameChat	Voice chat disabled by GameChat
+530	Options_DisplayPing	Display latency
+531	Book_Page_Max_player	Party maximum size
+532	Status_Intangible	Intangible
+533	Status_Invincible	Invincible
+534	Status_Blocking	Blocking

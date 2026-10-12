@@ -1,5 +1,5 @@
 # source_table	Hero_RED_Common~GAM.xls
-# rows	96
+# rows	103
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Scarlet
@@ -98,3 +98,10 @@ index	key	text_en
 93	Skill_Ultimate_2_Heal_Name	Pack Leader 
 94	Skill_Ultimate_2_Heal_Desc	• #Human@: Ash cloud restores &{0}~ hit points per second to all Heroes within\n• #Werewolf@: Eating an enemy applies a &{1}~ to &{2}~ #SHIELD@ to all heroes around (depending on its size)
 95	Hero_Desc	Scarlet discovered she was cursed with lycanthropy while covered in her grandmother's remains. The Little Red of legend grew up in the blink of two very big eyes. A revenge-seeking hunter by day, wielding an arsenal of knives and the occasional bomb, at night she is a brutal monster whose pounce is just as mean as her bite. Oh, what big claws she has.
+96	Skill_Power_Wolf_Quest_Desc_Update6	• #Repeatable Quest@: Each kill with #Werewolf POWER@ earns &+{0}~ #DMG@{1}
+97	Skill_Power_End_AOE_Name	Deadly Combo
+98	Skill_Power_End_AOE_Desc	• #POWER@ ends with an area attack dealing &{0}%~ damage
+99	Skill_Ultimate_Piercing_Shot_Tornado_Name	Focus
+100	Skill_Ultimate_Piercing_Shot_Tornado_Desc	• #Human@: The shotgun fires piercing bullets with greater range, dealing &{0}~ damage\n• #Werewolf@: The gust summons a tornado that remains on the ground, dealing &{1}~ damage per second
+101	Skill_Special_Can_Hold_Update6_Name	Distant Explosions
+102	Skill_Special_Can_Hold_Update6_Desc	• #SPECIAL@ now targets a farther location and deals &+{0}%~ damage \n• #Human@: #SPECIAL@ no longer affects {1} and bomb explodes as soon as it hits the ground

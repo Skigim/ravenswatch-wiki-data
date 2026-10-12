@@ -1,5 +1,5 @@
 # source_table	Hero_Beowulf_Common~GAM.xls
-# rows	76
+# rows	81
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Hero_Name	Beowulf
@@ -78,3 +78,8 @@ index	key	text_en
 73	Skill_Ultimate_2_Upgrade_Fireball_Dash_Name	Fireball
 74	Skill_Ultimate_2_Upgrade_Fireball_Dash_Desc	• In Combat, #DASH@ makes the Wyrm throw a Fireball towards a close enemy, dealing &{0}~ area damage 
 75	Hero_Desc	Beowulf's renown was earned slaying the vile Grendel, Grendel's mother, and a dragon. Honour-bound to raise the spawn of his cursed victim, he trains his drake pup ward in the arts of war. Together a gruesome pair, the sword-and-shield warrior and the toddling fire breather are a force to be feared, even by Nightmares. Their bark is hotter than their bite.
+76	Skill_Special_Loop_Name_Update6	Bladestorm
+77	Skill_Special_Loop_Desc_Update6	• #SPECIAL@ spins &{0}~ more time(s) for #{1}%@ damage each\n• {2} remains #INTANGIBLE@ throughout additional spins
+78	Skill_Special_Finisher More Damage_Name	Maelstrom
+79	Skill_Special_Finisher More Damage_Desc	• #SPECIAL@'s final hit deals &+{0}%~ damage for each different enemy already hit (up to #+{1}%@)
+80	Skill_Trait_Battlecry_Update6_Desc	• #TRAIT@ increases Move Speed by #{2}%@ and grants &{0}~ #SHIELD@ to all Heroes in the area for #{1}@ seconds

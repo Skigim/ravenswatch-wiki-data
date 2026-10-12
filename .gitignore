@@ -7,6 +7,7 @@
 !/TABLES.md
 !/VERSION.json
 !/VERSIONING.md
+!/CHANGES-1.06.md
 !/data/
 /data/*
 !/data/Common.LangEN.tsv
@@ -87,3 +88,10 @@
 !/data/Mechanics_Values.tsv
 !/data/In_Game_Observations.tsv
 !/data/Fill_Pass_Values.tsv
+
+# Kintarō tables from the 2026-10-12 build 1.06 snapshot.
+!/data/Hero_Kintaro_Common.LangEN.tsv
+!/data/Hero_Kintaro_Memoirs.LangEN.tsv
+!/data/Hero_Kintaro_Skins.LangEN.tsv
+!/data/Hero_Kintaro_Talents.tsv
+!/data/Hero_Kintaro_Abilities.tsv

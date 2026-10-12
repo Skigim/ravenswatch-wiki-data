@@ -1,12 +1,12 @@
 # Numerical talent tables
 
-The initial Scarlet and Snow Queen pilot was saved at [revision 755](https://ravenswatch.wiki.gg/wiki/User:Skigim/Talent_pilot?oldid=755). The current snapshot, `2026-10-05-talents-verified`, contains twelve numerical tables covering all released heroes, with 26 talents each (312 rows total). These include the October 5 compendium corrections and decoded unlock ranks. Icons are referenced by wiki filename; no images are included.
+The initial Scarlet and Snow Queen pilot was saved at [revision 755](https://ravenswatch.wiki.gg/wiki/User:Skigim/Talent_pilot?oldid=755). The current snapshot, `2026-10-12-1.06`, contains 13 numerical tables, one for each hero including Kintarō, with 26 talents each (338 rows total). They were re-extracted from build 1.06; see [Build 1.06 re-extraction](#build-106-re-extraction). Icons are referenced by wiki filename; no images are included.
 
 ## Extraction and interpretation
 
 The numeric sources are cooked entity definitions. Each row records original roster order, localization keys and row indices, the controller, plain English numerical effect, unresolved-value notes, tooltip component and byte offset, traced argument graph as JSON, and wiki icon filename. Roster order is not an unlock-rank claim. The JSON records literals, selector properties/values and operation inputs; these are decoded evidence, while the interpretations below remain explicitly identified.
 
-The maintainer confirmed on October 5, 2026 that the current game version for these talent tables is the last documented repository version: Steam (PC) `1.05.01.01.27384`, displayed build date `2026/06/16`, revision `#773b656a63`. This is maintainer attribution, not an independent binary build identification. VERSION.json records this evidence for all twelve tables.
+The `2026-10-05-talents-verified` tables came from Steam (PC) `1.05.01.01.27384`, displayed build date `2026/06/16`, revision `#773b656a63`, as the maintainer confirmed on October 5, 2026. The 1.06 tables come from Steam build ID `25174305`; VERSION.json records that attribution as `unverified` until the displayed version string is confirmed.
 
 - Literal union types 0/1/2 are decoded as float/int/bool, with byte offsets. Values are rounded to remove float32 representation noise.
 - Rarity conditions 0x15fc6bf7 / 0x15fc6bf1 / 0x15fc6bf9 are interpreted as Rare / Epic / Legendary, with the unconditional fallback as Common. This ordering is inferred from consistent four-step selector progression across both heroes. UI localized labels independently establish the Common / Rare / Epic / Legendary order, but do not prove the controller flag identities. The published slash-separated values use this order; the October 5 compendium checks resolved the flagged displayed-value cases. Decoded flag identities remain an interpretation of the source graph.
@@ -16,6 +16,28 @@ The maintainer confirmed on October 5, 2026 that the current game version for th
 - Pirouette's Chilled bonus has a base 0.5 plus an optional Frostbite operand. The row gives 50% and states that Frostbite adds its own bonus.
 - Snowball divides 1 by the initial size (8 / 10 / 12 / 14) for its per-hit reduction. Initial baseline damage multiplies 10 * 5 * size * 0.05.
 - Snow Queen overrides the inherited Shatter Damage Multiplier Default GUID with value 6. Shattering Storm baseline uses 10 * 6 * (1.2 / 1.5 / 1.8 / 2.1).
+- In 1.06, rarity condition 0x15fc6beb is an explicit Common entry. Double Shock uses it: Common -30%, with a default of 0.
+
+## Build 1.06 re-extraction
+
+On October 12, 2026, all twelve tables were rebuilt from build 1.06 and Kintarō's table was added. [CHANGES-1.06.md](CHANGES-1.06.md) lists every changed row.
+
+**Override files.** Build 1.06 doesn't rewrite most hero definitions. Its version manifest maps each hero to a sparse `Hero_<id>_Update6` definition that overrides components by name or GUID. The tooltip traces read the override first and the base definition second. A node read from an override file is tagged with a `source` key in `tooltip_arguments_json`.
+
+**Roster lookup by GUID.** Each roster entry in a hero definition names its talent controller and gives a 16-byte GUID for it. When the name doesn't match a component, the GUID is used. One Kintarō entry needs this: the roster says "Skill Controller Skill Defense Summon Spirit", and the GUID resolves it to "Skill Controller Defense Summon Spirit" (Forest Spirits).
+
+**Unlock ranks.** Ranks are decoded from hero progression definitions, as for 1.05. Three replacement talents (Deadly Combo, Jinn Charge and Spectral Blades) have an unlock condition at level 0, which is met from the start. They're listed at rank 1, like starting talents. Focus unlocks at rank 9 and Maelstrom at rank 7. Kintarō has the same rank layout as the other heroes.
+
+**Which rows keep the compendium check.** A row whose `effect_en` is unchanged since 1.05 keeps it, along with the October 5 compendium check: 267 of the 312 rows for the twelve earlier heroes. The other 45 are datamined only:
+
+- 33 were rendered from the 1.06 trace with the same baseline and order as before.
+- 12 were written by hand, where a value needs interpretation or can't be resolved from the data. Their `notes` say why.
+
+All 26 Kintarō rows are datamined only and haven't been checked in the compendium: 23 rendered and 3 written by hand. Two of his values stay unresolved: Targeted Bite's damage and Skewer's maximum.
+
+**Default values of engine-fed operands.** Some operands are filled in by the engine at runtime; the definition stores a default. In the 1.05 tables, 57 of the 201 compendium-checked rows that match the default render pass through such an operand. So `effect_en` uses the default render, as the compendium does. The value tables are stricter and leave these values unresolved; see [VALUES.md](VALUES.md).
+
+**Trace-only changes.** Byte offsets, roster order and internal operand indices change in almost every row because the files were rebuilt. Merlin's table changes only in these columns.
 
 ## Compendium verification completed October 5, 2026
 
