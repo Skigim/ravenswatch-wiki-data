@@ -4,19 +4,24 @@
   "snapshot_published_on": "2026-10-12",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
-  "game_version": null,
-  "version_display": null,
+  "game_version": "1.06.00.04.27511",
+  "version_display": "1.06.00.04.27511 2026/09/07 #16d45d2f01",
   "platform": "PC",
   "store": "Steam",
   "build_id": "25174305",
-  "build_date": null,
-  "build_revision": null,
-  "version_status": "unverified",
+  "build_date": "2026-09-07",
+  "build_revision": "16d45d2f01",
+  "version_status": "maintainer-confirmed",
   "version_evidence": [
+    {
+      "kind": "maintainer_confirmation",
+      "reference": "Maintainer confirmation on 2026-10-12",
+      "note": "The maintainer read the displayed version string 1.06.00.04.27511 2026/09/07 #16d45d2f01 in the game on the install used for these exports. The displayed revision marker is not a Steam numeric build ID."
+    },
     {
       "kind": "extraction_record",
       "reference": "Steam build ID 25174305",
-      "note": "The tables were extracted on 2026-10-12 from the Steam (PC) install after it updated to release 1.06, with Steam build ID 25174305. The version string the game displays was not recorded, so game_version and version_display stay null until the maintainer confirms it."
+      "note": "The tables were extracted on 2026-10-12 from the Steam (PC) install after it updated to release 1.06, with Steam build ID 25174305."
     },
     {
       "kind": "patch_notes",

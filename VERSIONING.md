@@ -6,7 +6,9 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 The current snapshot is `2026-10-12-1.06`, published October 12, 2026. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
 
-The top-level `version_status` is `unverified`. The build ID and the "Version 1.06" patch notes are recorded as evidence, but the version string the game displays was not recorded. `game_version`, `version_display`, `build_date` and `build_revision` stay `null` until the maintainer confirms that string. When confirmed, record it and change the status to `maintainer-confirmed`; the table bytes and hashes don't change.
+The top-level `version_status` is `maintainer-confirmed`. On October 12, 2026, the maintainer read the displayed version string `1.06.00.04.27511 2026/09/07 #16d45d2f01` on the install used for the exports. The record separates the game version `1.06.00.04.27511`, displayed build date `2026-09-07` and displayed revision marker `16d45d2f01`, and keeps the full string in `version_display`. The Steam build ID `25174305` and the "Version 1.06" patch notes are recorded as further evidence.
+
+The confirmation came after the tables were published. Their `# source_version` header lines still say the displayed version string is unverified. VERSION.json is the version record; correcting the attribution didn't change the table bytes or their hashes.
 
 `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` were not re-extracted. They hold readings and a decoding pass made on version 1.05, and their `table_overrides` entries keep that attribution: Steam (PC) `1.05.01.01.27384`, displayed build date `2026-06-16`, revision marker `773b656a63`, maintainer-confirmed.
 

@@ -68,7 +68,7 @@ The `evidence` column of that table names working files kept by the maintainer. 
 
 ## Source version
 
-The sixteen page tables were decoded from build 1.06, Steam build ID `25174305`. Each file's `# source_version` header line says so. VERSION.json records that attribution as `unverified` until the displayed version string is confirmed. The October 6 readings and the fill pass were made on version `1.05.01.01.27384`. Tables that hold readings name that version in an `# in_game_version` header line. VERSION.json keeps that attribution for `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`.
+The sixteen page tables were decoded from Steam (PC) version `1.06.00.04.27511 2026/09/07 #16d45d2f01`, Steam build ID `25174305`, as the maintainer confirmed on October 12, 2026. Each file's `# source_version` header line names the build ID; it predates the confirmation and still calls the displayed string unverified. VERSION.json is the record. The October 6 readings and the fill pass were made on version `1.05.01.01.27384`. Tables that hold readings name that version in an `# in_game_version` header line. VERSION.json keeps that attribution for `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`.
 
 ## Build 1.06 re-extraction
 

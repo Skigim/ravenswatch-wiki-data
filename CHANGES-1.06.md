@@ -1,6 +1,6 @@
 # Changes in build 1.06
 
-This report compares the `2026-10-06-values` snapshot, taken from version 1.05, with the `2026-10-12-1.06` snapshot. Build 1.06 shipped on October 12, 2026, with the Kintarō DLC. The tables were extracted from the Steam install the same day (Steam build ID 25174305). The version string the game displays was not recorded, so the attribution in [VERSION.json](VERSION.json) is `unverified`.
+This report compares the `2026-10-06-values` snapshot, taken from version 1.05, with the `2026-10-12-1.06` snapshot. Build 1.06 shipped on October 12, 2026, with the Kintarō DLC. The tables were extracted from the Steam install the same day: version `1.06.00.04.27511 2026/09/07 #16d45d2f01`, Steam build ID 25174305. [VERSION.json](VERSION.json) records that attribution as maintainer-confirmed.
 
 The report has four parts:
 
