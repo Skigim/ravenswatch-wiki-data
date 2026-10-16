@@ -62,3 +62,7 @@ not inherit the 1.06 attribution of the existing published tables.
 The original Markdown remains in the private research repository. This
 selection transfers reusable gameplay facts, not research plans, binary
 format documentation, raw game files, or application source.
+
+The later combat tables are documented in [COMBAT.md](COMBAT.md). They are a
+separate bounded evidence selection and do not supply final stats for all
+81 definitions.

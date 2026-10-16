@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-16-enemies",
+  "snapshot_id": "2026-10-16-gameplay-notes",
   "snapshot_published_on": "2026-10-16",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
@@ -123,6 +123,186 @@
           "kind": "prior_documentation",
           "reference": "datamining/enemy_list.md at source commit 77b9e0416a01146a08d232ca465dd1b4b4756aa8",
           "note": "Converted from existing notes only. The source records a 2026-10-13 corpus check, not a game version or extraction date. No fresh extraction or in-game verification was performed."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Combat_Values.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/docs/enemy_combat_fields.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Combat_Picker_Values.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/docs/enemy_combat_fields.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Chapter_Damage_Factors.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/docs/enemy_combat_fields.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Generation_References.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Generation_Weights.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Generation_Quotas.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Generation_Caps.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Tile_Tier_Bands.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Stash_Models.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Map_Generation_Observations.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/tile_generation.md at source commit 0ae8f70b327a3b37b615babd9bd50f1281ac7acc",
+          "note": "Imported from the existing Markdown note only. Conversion date does not establish a game version or a new extraction date."
         }
       ],
       "extracted_on": null

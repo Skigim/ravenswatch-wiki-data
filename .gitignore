@@ -101,3 +101,17 @@
 !/data/Enemy_Definitions.tsv
 !/data/Enemy_Tribe_Map_References.tsv
 !/data/Enemy_Definition_Flags.tsv
+
+# Selected gameplay configuration transcribed from existing notes.
+!/COMBAT.md
+!/MAP_GENERATION.md
+!/data/Enemy_Combat_Values.tsv
+!/data/Enemy_Combat_Picker_Values.tsv
+!/data/Enemy_Chapter_Damage_Factors.tsv
+!/data/Map_Generation_References.tsv
+!/data/Map_Generation_Weights.tsv
+!/data/Map_Generation_Quotas.tsv
+!/data/Map_Generation_Caps.tsv
+!/data/Map_Tile_Tier_Bands.tsv
+!/data/Map_Stash_Models.tsv
+!/data/Map_Generation_Observations.tsv

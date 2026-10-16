@@ -2,15 +2,15 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository is the canonical source for 80 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables and 3 enemy reference tables. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for 90 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables and 7 map-generation tables. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
 
-The current publication, `2026-10-16-enemies`, adds three enemy-reference tables converted from existing notes, with unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
+The current publication, `2026-10-16-gameplay-notes`, includes thirteen gameplay-reference tables converted from existing notes: three enemy-roster tables, three combat-configuration tables and seven map-generation tables. These imports have unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
 
 Of the 77 tables in that earlier extraction, every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
 
-[VERSION.json](VERSION.json) records the game version and its evidence separately from the snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. Earlier snapshots come from version 1.05. Tags `snapshot-2026-10-05` and `snapshot-2026-10-05.2` fix the first two, and commit `1118de2` holds `2026-10-06-values`. Cite a commit or snapshot tag when documenting a wiki claim.
+[VERSION.json](VERSION.json) records the game version and its evidence separately from the snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. The October 5 and 6 snapshots came from version 1.05. Tags `snapshot-2026-10-05` and `snapshot-2026-10-05.2` fix the first two, and commit `1118de2` holds `2026-10-06-values`. Cite a commit or snapshot tag when documenting a wiki claim.
 
 ## Tables
 
@@ -28,6 +28,8 @@ Of the 77 tables in that earlier extraction, every table was re-extracted from 1
 | In-game readings | 1 | 94 values read by the maintainer in the Compendium on October 6, 2026, on version 1.05 |
 | Fill pass | 1 | Second decoding pass over 65 values the 1.05 corrected table lacked |
 | Enemy reference | 3 | Definition names and evidence, tribe/map references, and explicitly documented flags; source version unverified |
+| Enemy combat configuration | 3 | Stored constants, picker roles and authored difficulty factors; no validated final-damage formula |
+| Map generation | 7 | Resource roles, weights, quotas, caps, tier bands, probability models and limited observations |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
 
@@ -80,3 +82,11 @@ Markdown notes, are described in [ENEMIES.md](ENEMIES.md). They preserve
 name uncertainty and distinguish map references from spawn restrictions.
 Their source game version is unverified; the original 77 tables keep their
 previous attribution and exact bytes.
+
+## Combat and map-generation references
+
+[COMBAT.md](COMBAT.md) distinguishes named constants from picker fallbacks
+and configured difficulty factors. [MAP_GENERATION.md](MAP_GENERATION.md)
+distinguishes quotas, caps and relative weights from inferred probabilities
+and the single recorded run observation. Neither conversion gathers new
+game data. The existing 77 text, talent and value tables remain unchanged.

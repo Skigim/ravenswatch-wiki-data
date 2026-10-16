@@ -17,3 +17,11 @@ Submit new table selections separately for review before adding them. TABLES.md 
 Keep this repository limited to selected TSV tables and the documentation and Git configuration needed to use them. Do not commit images, icons, portraits, audio, video, fonts, binaries, game archives, raw decoded game files, game installations, screenshots, upload bundles, credentials, private notes, or local machine paths.
 
 Use the wiki for article prose and uploaded assets. This repository is the reference for the selected data tables.
+
+
+Gameplay-note imports are documented in [ENEMIES.md](ENEMIES.md),
+[COMBAT.md](COMBAT.md), and [MAP_GENERATION.md](MAP_GENERATION.md). Keep
+localized names distinct from descriptive labels, fallback values distinct
+from referenced constants, and configuration distinct from inferred models
+and observations. A dated note without game-version evidence must receive
+an unverified table override rather than inheriting the default 1.06 label.

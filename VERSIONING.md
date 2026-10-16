@@ -4,7 +4,7 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-10-16-enemies`, published October 16, 2026. It adds three enemy reference tables imported from existing notes. Their table overrides keep game-version attribution unverified. The original 77 tables retain their bytes and earlier attribution.
+The current snapshot is `2026-10-16-gameplay-notes`, published October 16, 2026. It contains thirteen tables imported from existing notes: three enemy-reference tables first published in `2026-10-16-enemies`, three combat-configuration tables and seven map-generation tables. Their table overrides keep game-version attribution unverified. The original 77 tables retain their bytes and earlier attribution.
 
 ## Earlier 1.06 extraction record
 
@@ -16,13 +16,15 @@ The confirmation came after the tables were published. Their `# source_version` 
 
 `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` were not re-extracted. They hold readings and a decoding pass made on version 1.05, and their `table_overrides` entries keep that attribution: Steam (PC) `1.05.01.01.27384`, displayed build date `2026-06-16`, revision marker `773b656a63`, maintainer-confirmed.
 
-Earlier snapshots came from version 1.05:
+Snapshot history (the October 5 and 6 snapshots came from version 1.05):
 
 | Snapshot | Published | Contents | Fixed by |
 |---|---|---|---|
 | `2026-10-05-initial` | October 5, 2026 | 43 text and index exports | Tag `snapshot-2026-10-05` |
 | `2026-10-05-talents-verified` | October 5, 2026 | Adds 12 numerical talent tables | Tag `snapshot-2026-10-05.2` |
 | `2026-10-06-values` | October 6, 2026 | Adds 17 numerical value tables | Commit `1118de2` |
+| `2026-10-16-enemies` | October 16, 2026 | Adds 3 enemy reference tables; source game version unverified | Tag `snapshot-2026-10-16` |
+| `2026-10-16-gameplay-notes` | October 16, 2026 | Adds 3 combat and 7 map-generation tables; source game versions unverified | Tag `snapshot-2026-10-16.2` |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 
