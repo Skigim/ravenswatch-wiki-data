@@ -2,13 +2,13 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
-This repository is the canonical source for 77 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables and 18 numerical value tables. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
+This repository is the canonical source for 80 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables and 3 enemy reference tables. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
 
-The current snapshot, `2026-10-12-1.06`, comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
+The current publication, `2026-10-16-enemies`, adds three enemy-reference tables converted from existing notes, with unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
 
-Every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
+Of the 77 tables in that earlier extraction, every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
 
 [VERSION.json](VERSION.json) records the game version and its evidence separately from the snapshot date. [VERSIONING.md](VERSIONING.md) explains how to confirm a version, record updates, and cite a fixed snapshot. Earlier snapshots come from version 1.05. Tags `snapshot-2026-10-05` and `snapshot-2026-10-05.2` fix the first two, and commit `1118de2` holds `2026-10-06-values`. Cite a commit or snapshot tag when documenting a wiki claim.
 
@@ -27,6 +27,7 @@ Every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` an
 | Object, melody and mechanics values | 3 | Magical Object and Melody effect values and shared mechanics settings |
 | In-game readings | 1 | 94 values read by the maintainer in the Compendium on October 6, 2026, on version 1.05 |
 | Fill pass | 1 | Second decoding pass over 65 values the 1.05 corrected table lacked |
+| Enemy reference | 3 | Definition names and evidence, tribe/map references, and explicitly documented flags; source version unverified |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
 
@@ -71,3 +72,11 @@ These source tables describe rarity chances, not the probability of each named o
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes. Use an issue to report a questionable mapping or value, or submit a pull request with the source, game version when known, and relevant conditions. Coordinate article work through the wiki's [contributor guide](https://ravenswatch.wiki.gg/wiki/Help:Contributing).
 
 Ravenswatch game text belongs to its respective rights holders. This repository does not grant an open-source license over extracted game text.
+
+## Enemy reference selection
+
+The three enemy reference tables, converted from existing maintainer
+Markdown notes, are described in [ENEMIES.md](ENEMIES.md). They preserve
+name uncertainty and distinguish map references from spawn restrictions.
+Their source game version is unverified; the original 77 tables keep their
+previous attribution and exact bytes.

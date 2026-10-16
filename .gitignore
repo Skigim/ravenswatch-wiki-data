@@ -95,3 +95,9 @@
 !/data/Hero_Kintaro_Skins.LangEN.tsv
 !/data/Hero_Kintaro_Talents.tsv
 !/data/Hero_Kintaro_Abilities.tsv
+
+# Selected enemy reference tables, approved for publication.
+!/ENEMIES.md
+!/data/Enemy_Definitions.tsv
+!/data/Enemy_Tribe_Map_References.tsv
+!/data/Enemy_Definition_Flags.tsv

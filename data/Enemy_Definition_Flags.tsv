@@ -1,0 +1,13 @@
+# source_document	datamining/enemy_list.md
+# source_document_sha256	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762
+# source_revision	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+# rows	6
+# source_version	unverified; game version and extraction date not established by the source document
+# note	Imported from existing Markdown only; no fresh decoding or in-game verification. See ENEMIES.md.
+definition_id	flag	status	notes	source_document	source_line	source_document_sha256	source_revision
+Devouring_Ghoul	DarkHills	documented-configuration	Enforcement as a spawn restriction was not established.	datamining/enemy_list.md	166	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+Elite_Undead_Hog_Captain	DarkHills	documented-configuration	Enforcement as a spawn restriction was not established.	datamining/enemy_list.md	166	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+Boss_Faceless_Nightmare	ChapterBoss	documented-configuration	The flag identifies no particular chapter by itself.	datamining/enemy_list.md	170	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+Boss_Hand_Nightmare	ChapterBoss	documented-configuration	The flag identifies no particular chapter by itself.	datamining/enemy_list.md	170	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+Boss_Tentacle_Master	ChapterBoss	documented-configuration	The flag identifies no particular chapter by itself.	datamining/enemy_list.md	170	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8
+Elite_Witch_Stake	Standard	documented-configuration	Recorded tag despite the Elite filename prefix; do not infer a complete rank taxonomy.	datamining/enemy_list.md	236	9d2371c28d2b657f0090deef16758ad0e09eab57f0b441d9dd1b0fd501124762	77b9e0416a01146a08d232ca465dd1b4b4756aa8

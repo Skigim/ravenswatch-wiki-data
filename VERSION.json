@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-12-1.06",
-  "snapshot_published_on": "2026-10-12",
+  "snapshot_id": "2026-10-16-enemies",
+  "snapshot_published_on": "2026-10-16",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
   "game_version": "1.06.00.04.27511",
@@ -69,6 +69,60 @@
           "kind": "prior_export_attribution",
           "reference": "VALUES.md; second decoding pass of 2026-10-06",
           "note": "Decoded from the same source files as the value tables. The method reproduced the 86 in-game readings taken on this version that were available when it ran. Rows for Magical Objects and Melodies share the unconfirmed source attribution of those tables."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Definitions.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/enemy_list.md at source commit 77b9e0416a01146a08d232ca465dd1b4b4756aa8",
+          "note": "Converted from existing notes only. The source records a 2026-10-13 corpus check, not a game version or extraction date. No fresh extraction or in-game verification was performed."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Tribe_Map_References.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/enemy_list.md at source commit 77b9e0416a01146a08d232ca465dd1b4b4756aa8",
+          "note": "Converted from existing notes only. The source records a 2026-10-13 corpus check, not a game version or extraction date. No fresh extraction or in-game verification was performed."
+        }
+      ],
+      "extracted_on": null
+    },
+    "data/Enemy_Definition_Flags.tsv": {
+      "game_version": null,
+      "version_display": null,
+      "platform": null,
+      "store": null,
+      "build_id": null,
+      "build_date": null,
+      "build_revision": null,
+      "version_status": "unverified",
+      "version_evidence": [
+        {
+          "kind": "prior_documentation",
+          "reference": "datamining/enemy_list.md at source commit 77b9e0416a01146a08d232ca465dd1b4b4756aa8",
+          "note": "Converted from existing notes only. The source records a 2026-10-13 corpus check, not a game version or extraction date. No fresh extraction or in-game verification was performed."
         }
       ],
       "extracted_on": null

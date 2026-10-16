@@ -1,6 +1,6 @@
 # Selected tables
 
-The repository holds 77 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables and 18 numerical value tables. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 80 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables and 3 enemy reference tables. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
@@ -101,3 +101,16 @@ These tables hold decoded ability, Magical Object, Melody and mechanics values b
 | [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 240 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `ca94fcb1f1dd412480a129b01756dc9bb4c66d91a2a5add504696c5690d754c3` |
 | [In_Game_Observations.tsv](data/In_Game_Observations.tsv) | 94 | Maintainer readings in the in-game Compendium on 1.05 (2026-10-06) | `d1d58bba05a0d935c50c18dd13f6d2639cab65b3589d349f3e60e1e3c952f08c` |
 | [Fill_Pass_Values.tsv](data/Fill_Pass_Values.tsv) | 65 | Second decoding pass over values missing from the 1.05 corrected table (2026-10-06) | `8161ee55777b3989a2377b9f34c9845bd548d90a8ae66f8dc2bd73029907293b` |
+
+## Enemy reference selection
+
+These three tables were added in `2026-10-16-enemies` from existing Markdown
+notes, not newly decoded or checked in game. The earlier 77 tables above
+remain unchanged. Source game version and extraction date remain
+unknown; VERSION.json contains explicit table overrides. See ENEMIES.md.
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Enemy_Definitions.tsv](data/Enemy_Definitions.tsv) | 81 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `048d9fc7fd4de0e43736db234cfabbb1895b4cc28c6d14aa1e22d9f5e78bace0` |
+| [Enemy_Tribe_Map_References.tsv](data/Enemy_Tribe_Map_References.tsv) | 75 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `805062a3712239d95580b3b59814cd390ee6a0e04b942b3d12805fd175f9ae60` |
+| [Enemy_Definition_Flags.tsv](data/Enemy_Definition_Flags.tsv) | 6 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `bbbf661494672f006a7060f1824e32fece71e15f04944c90fc49f132035cc8bb` |

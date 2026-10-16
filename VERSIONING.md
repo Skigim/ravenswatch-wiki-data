@@ -4,7 +4,11 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-10-12-1.06`, published October 12, 2026. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
+The current snapshot is `2026-10-16-enemies`, published October 16, 2026. It adds three enemy reference tables imported from existing notes. Their table overrides keep game-version attribution unverified. The original 77 tables retain their bytes and earlier attribution.
+
+## Earlier 1.06 extraction record
+
+The `2026-10-12-1.06` snapshot was published October 12, 2026. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
 
 The top-level `version_status` is `maintainer-confirmed`. On October 12, 2026, the maintainer read the displayed version string `1.06.00.04.27511 2026/09/07 #16d45d2f01` on the install used for the exports. The record separates the game version `1.06.00.04.27511`, displayed build date `2026-09-07` and displayed revision marker `16d45d2f01`, and keeps the full string in `version_display`. The Steam build ID `25174305` and the "Version 1.06" patch notes are recorded as further evidence.
 
