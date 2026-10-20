@@ -4,9 +4,13 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-10-20-memoir-corrections`, published October 20, 2026. It corrects 17 spelling errors in eight hero memoir tables of the 1.06 export, as of commit `31ddf6e`. The `text_corrections` entry in VERSION.json names the eight tables and the record, `data/Hero_Memoirs_Corrections.tsv`, which lists each change by text key. Nothing was re-extracted, so the source version and `extracted_on` date below still apply to every table. Cite the corrected memoir text as the 1.06 text with spelling corrected.
+The current snapshot is `2026-10-20-memoir-corrections`, published October 20, 2026. It corrects 17 spelling errors in eight hero memoir tables of the 1.06 export, as of commit `31ddf6e`. The `text_corrections` entry in VERSION.json names the eight tables and the record, `data/Hero_Memoirs_Corrections.tsv`, which lists each change by text key. Nothing was re-extracted, so those eight tables keep the 1.06 attribution and `extracted_on` date below. Cite the corrected memoir text as the 1.06 text with spelling corrected.
 
-The previous snapshot, `2026-10-12-1.06`, was published October 12, 2026; commit `31ddf6e` holds its verbatim tables. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
+The previous snapshot, `2026-10-16-gameplay-notes`, was published October 16, 2026. It contains thirteen tables imported from existing notes: three enemy-reference tables first published in `2026-10-16-enemies`, three combat-configuration tables and seven map-generation tables. Their table overrides keep game-version attribution unverified. In that snapshot the original 77 tables kept their bytes and earlier attribution.
+
+## Earlier 1.06 extraction record
+
+The `2026-10-12-1.06` snapshot was published October 12, 2026; commit `31ddf6e` holds its verbatim tables. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
 
 The top-level `version_status` is `maintainer-confirmed`. On October 12, 2026, the maintainer read the displayed version string `1.06.00.04.27511 2026/09/07 #16d45d2f01` on the install used for the exports. The record separates the game version `1.06.00.04.27511`, displayed build date `2026-09-07` and displayed revision marker `16d45d2f01`, and keeps the full string in `version_display`. The Steam build ID `25174305` and the "Version 1.06" patch notes are recorded as further evidence.
 
@@ -14,13 +18,15 @@ The confirmation came after the tables were published. Their `# source_version` 
 
 `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` were not re-extracted. They hold readings and a decoding pass made on version 1.05, and their `table_overrides` entries keep that attribution: Steam (PC) `1.05.01.01.27384`, displayed build date `2026-06-16`, revision marker `773b656a63`, maintainer-confirmed.
 
-Earlier snapshots came from version 1.05:
+Snapshot history (the October 5 and 6 snapshots came from version 1.05):
 
 | Snapshot | Published | Contents | Fixed by |
 |---|---|---|---|
 | `2026-10-05-initial` | October 5, 2026 | 43 text and index exports | Tag `snapshot-2026-10-05` |
 | `2026-10-05-talents-verified` | October 5, 2026 | Adds 12 numerical talent tables | Tag `snapshot-2026-10-05.2` |
 | `2026-10-06-values` | October 6, 2026 | Adds 17 numerical value tables | Commit `1118de2` |
+| `2026-10-16-enemies` | October 16, 2026 | Adds 3 enemy reference tables; source game version unverified | Tag `snapshot-2026-10-16` |
+| `2026-10-16-gameplay-notes` | October 16, 2026 | Adds 3 combat and 7 map-generation tables; source game versions unverified | Tag `snapshot-2026-10-16.2` |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 

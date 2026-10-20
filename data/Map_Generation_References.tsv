@@ -1,0 +1,10 @@
+# source_document	datamining/tile_generation.md
+# source_document_sha256	d1c3dfe5f4e39ab0680281ed8e461ec3d28df0920430e00a2559a50e6c9064f9
+# source_revision	0ae8f70b327a3b37b615babd9bd50f1281ac7acc
+# rows	3
+# source_version	unverified; game version and extraction date not established by the source notes
+# note	Existing Markdown evidence only; no fresh decoding or live check. See MAP_GENERATION.md.
+resource_path_pattern	class_name	role	status	source_document	source_line	source_document_sha256	source_revision
+Definitions/Tiles/<Map>!<tile>.tiledef.ot.DtTileDefinition.gen	oCDtTileDefinition	one placeable tile: its flags, footprint, tier band, and pick weight	documented-configuration	datamining/tile_generation.md	8	d1c3dfe5f4e39ab0680281ed8e461ec3d28df0920430e00a2559a50e6c9064f9	0ae8f70b327a3b37b615babd9bd50f1281ac7acc
+Definitions/Maps/<Map>_LiveOps_Update5.mapdef.ot.DtMapDefinition.gen	oCDtMapDefinition	the pool: which tiledefs this chapter may draw from at all	documented-configuration	datamining/tile_generation.md	9	d1c3dfe5f4e39ab0680281ed8e461ec3d28df0920430e00a2559a50e6c9064f9	0ae8f70b327a3b37b615babd9bd50f1281ac7acc
+Ot/<Map>/Map_<Map>_LiveOps_Update5_TileGeneration.level.ot.GameStream.gen	oCDtEntityCpntTileSpawnerSettings and children	the slots, the per-kind quotas, and the per-flag caps	documented-configuration	datamining/tile_generation.md	10	d1c3dfe5f4e39ab0680281ed8e461ec3d28df0920430e00a2559a50e6c9064f9	0ae8f70b327a3b37b615babd9bd50f1281ac7acc

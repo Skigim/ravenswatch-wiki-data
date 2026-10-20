@@ -1,6 +1,6 @@
 # Selected tables
 
-The repository holds 77 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables and 18 numerical value tables. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 90 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables and 7 map-generation tables. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
@@ -111,3 +111,44 @@ These tables hold decoded ability, Magical Object, Melody and mechanics values b
 | [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 240 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `ca94fcb1f1dd412480a129b01756dc9bb4c66d91a2a5add504696c5690d754c3` |
 | [In_Game_Observations.tsv](data/In_Game_Observations.tsv) | 94 | Maintainer readings in the in-game Compendium on 1.05 (2026-10-06) | `d1d58bba05a0d935c50c18dd13f6d2639cab65b3589d349f3e60e1e3c952f08c` |
 | [Fill_Pass_Values.tsv](data/Fill_Pass_Values.tsv) | 65 | Second decoding pass over values missing from the 1.05 corrected table (2026-10-06) | `8161ee55777b3989a2377b9f34c9845bd548d90a8ae66f8dc2bd73029907293b` |
+
+## Enemy reference selection
+
+These three tables were added in `2026-10-16-enemies` from existing Markdown
+notes, not newly decoded or checked in game. The earlier 77 tables above
+were not changed by that addition. Source game version and extraction date remain
+unknown; VERSION.json contains explicit table overrides. See ENEMIES.md.
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Enemy_Definitions.tsv](data/Enemy_Definitions.tsv) | 81 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `048d9fc7fd4de0e43736db234cfabbb1895b4cc28c6d14aa1e22d9f5e78bace0` |
+| [Enemy_Tribe_Map_References.tsv](data/Enemy_Tribe_Map_References.tsv) | 75 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `805062a3712239d95580b3b59814cd390ee6a0e04b942b3d12805fd175f9ae60` |
+| [Enemy_Definition_Flags.tsv](data/Enemy_Definition_Flags.tsv) | 6 | Existing enemy Markdown note, source commit `77b9e0416a01146a08d232ca465dd1b4b4756aa8` | `bbbf661494672f006a7060f1824e32fece71e15f04944c90fc49f132035cc8bb` |
+
+## Enemy combat configuration
+
+Added in `2026-10-16-gameplay-notes` from existing Markdown evidence only. No fresh game
+extraction or live verification was performed. Game-version overrides are
+unverified; previous tables keep their attribution. See [COMBAT.md](COMBAT.md).
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Enemy_Combat_Values.tsv](data/Enemy_Combat_Values.tsv) | 24 | `datamining/docs/enemy_combat_fields.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `051dc647c5e38727bc209f0d9f6d7d69a8bd32330105c4adae37035a2075e455` |
+| [Enemy_Combat_Picker_Values.tsv](data/Enemy_Combat_Picker_Values.tsv) | 9 | `datamining/docs/enemy_combat_fields.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `32ca684a696825808022dbd110d12d10ba9c9d8e9f8580ba9117e70dca53d571` |
+| [Enemy_Chapter_Damage_Factors.tsv](data/Enemy_Chapter_Damage_Factors.tsv) | 16 | `datamining/docs/enemy_combat_fields.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `95d96e2b9e1a5b85f98e5c59353424f5ad6c0241c8b3b8aecf5b138f5a4feb54` |
+
+## Map generation
+
+Added in `2026-10-16-gameplay-notes` from existing Markdown evidence only. No fresh game
+extraction or live verification was performed. Game-version overrides are
+unverified; previous tables keep their attribution. See [MAP_GENERATION.md](MAP_GENERATION.md).
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Map_Generation_References.tsv](data/Map_Generation_References.tsv) | 3 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `a0af67f074b43ea44660eb47fdd27ab3f025151098b4f564147833e20a3362de` |
+| [Map_Generation_Weights.tsv](data/Map_Generation_Weights.tsv) | 22 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `72084223425b8da56d0fb7173c3b5e5d0f580c3bf77c687311412c436a263cc3` |
+| [Map_Generation_Quotas.tsv](data/Map_Generation_Quotas.tsv) | 45 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `7e7dafa25f6c747240eb97658644b88ec5984ab7309e8edf299d210d3d12e693` |
+| [Map_Generation_Caps.tsv](data/Map_Generation_Caps.tsv) | 52 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `5455c322557b7948d2a5aef55c46cd93d23aa740d12f3e6738e5083acdb2ee95` |
+| [Map_Tile_Tier_Bands.tsv](data/Map_Tile_Tier_Bands.tsv) | 21 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `38e1cb9ec745c1c630d1c98431e689b0d68159d750ed581755589cb030155190` |
+| [Map_Stash_Models.tsv](data/Map_Stash_Models.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `87888b5cb73dd9620a1e72a46cf5404f3bf514c4cf2617bf86246c9272b2aeba` |
+| [Map_Generation_Observations.tsv](data/Map_Generation_Observations.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `7805fa5e50201585a9f3cce9bcc5652bb20e956fe4b9a06dbd0bd11015af7a6a` |
