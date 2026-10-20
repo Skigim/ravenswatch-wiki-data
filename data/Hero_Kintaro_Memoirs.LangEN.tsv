@@ -1,6 +1,6 @@
 # source_table	Hero_Kintaro_Memoirs~GAM.xls
 # rows	22
-# note	English sidecar, positionally paired with key table. Game markup left verbatim.
+# note	English sidecar, positionally paired with key table. Game markup left verbatim. Spelling corrected in 1 place on 2026-10-20; see Hero_Memoirs_Corrections.tsv.
 index	key	text_en
 0	Kintaro_Memoir_Title	The Boy, the Bear, and the Brightest Flower
 1	Kintaro_Memoir1_Title	The Wind Howls, and the Trees Fall Silent
@@ -17,7 +17,7 @@ index	key	text_en
 12	Kintaro_Memoir6_Desc	Empty. No message to be found. Did I lose it? Impossible! Why would you send me here with an empty flower, Yama-Uba? \n\nJust a yamabuki flower. Fully bloomed. The color of the sun absorbed. The only golden bud to see here. All around us is rotten and bare, and twisted. \n\nI think I understand now, old ogress of the wild. This tiny flower shines like the sun bouncing on the river in Ashigara. I know that river. I know the giant carp who swims against its current, trying to ascend the waterfall and transform. I rode that fish. How many times did we wrestle beneath the falls, the mighty koi and I? The carp always tries. I always answer.\n\nAnd I will always be Kintarō, the golden boy of mighty strength! Child of Ashigara who was never meant to carry a message. \n\nI am the message. I am the yamabuki flower who will always bloom. \nI am the sun who will always rise, no matter the clouds.\n
 13	Kintaro_Memoir7_Title	The Golden Child Knows More than the Old Witch
 14	Kintaro_Memoir7_Desc	Old mother of the wild, we defeated your twisted sister. The others can rest and heal. Some talk about what they lost and gained in the battle. \n\nI am unchanged. And I want nothing from the witch who stood before me.\n\nI gave her the yamabuki flower. Open and bright! At first, she laughed. \nI just asked her: \n\n“Do you hear it, old aunt of the shadows? \nThe wind in the trees? \nThe laughter of the monkeys in the river? \nThe breath of the bear? Do you see it, crooked ogress of the West? \nThe glowing dance of the fireflies?\nAnd the sun rising over the plains?”\n\nI just reminded her. All those things that do not change. The shadows can hide them, but only for a moment. The sun always pierces through the clouds! \n\nThe only thing that changed, my Yama-Uba, is that now, I know.
-15	Kintaro_Memoir1_Intro	My Yama-uba\nwrinkles spread across your face\nIike rivers in spring
+15	Kintaro_Memoir1_Intro	My Yama-uba\nwrinkles spread across your face\nlike rivers in spring
 16	Kintaro_Memoir2_Intro	Midnight fireflies\nflickering summer secrets \ndawn forgets their words
 17	Kintaro_Memoir3_Intro	Petals crushed to gold \nground into hot oil, bleeding \nwhat the sun once owned
 18	Kintaro_Memoir4_Intro	Rising chest of fur \nbeware of the sleeping bear \nthe stones do not growl

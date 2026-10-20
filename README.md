@@ -6,7 +6,7 @@ This repository is the canonical source for 90 selected TSV tables used to write
 
 ## Game version
 
-The current publication, `2026-10-16-gameplay-notes`, includes thirteen gameplay-reference tables converted from existing notes: three enemy-roster tables, three combat-configuration tables and seven map-generation tables. These imports have unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
+The current publication, `2026-10-20-memoir-corrections`, corrects 17 spelling errors in eight hero memoir tables of the 1.06 extraction; nothing was re-extracted. The previous publication, `2026-10-16-gameplay-notes`, added thirteen gameplay-reference tables converted from existing notes: three enemy-roster tables, three combat-configuration tables and seven map-generation tables. These imports have unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
 
 Of the 77 tables in that earlier extraction, every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
 
@@ -45,7 +45,7 @@ Open a TSV as UTF-8 text or import it into a spreadsheet with a tab delimiter. T
 
 Text tables have `index`, `key`, and `text_en` columns. Their `index` is the original zero-based row index. Match index-table keys to the `key` column of the corresponding text table rather than guessing from display names. Internal hero identifiers include `RED` for Scarlet, `Piper` for The Pied Piper, `Snow_Queen` for The Snow Queen and `Kintaro` for Kintarō.
 
-The exports preserve blank rows, original spelling, game markup, and literal `\n` escapes. A `\n` in a text cell represents a line break in the game text. Read every bullet before drafting an effect description.
+The exports preserve blank rows, original spelling, game markup, and literal `\n` escapes. The exception is eight hero memoir tables, where 17 spelling errors were corrected on October 20, 2026. [Hero_Memoirs_Corrections.tsv](data/Hero_Memoirs_Corrections.tsv) lists each change. A `\n` in a text cell represents a line break in the game text. Read every bullet before drafting an effect description.
 
 | Markup | Meaning |
 |---|---|
@@ -81,7 +81,7 @@ The three enemy reference tables, converted from existing maintainer
 Markdown notes, are described in [ENEMIES.md](ENEMIES.md). They preserve
 name uncertainty and distinguish map references from spawn restrictions.
 Their source game version is unverified; the original 77 tables keep their
-previous attribution and exact bytes.
+previous attribution and, apart from the memoir spelling corrections, exact bytes.
 
 ## Combat and map-generation references
 
@@ -89,4 +89,4 @@ previous attribution and exact bytes.
 and configured difficulty factors. [MAP_GENERATION.md](MAP_GENERATION.md)
 distinguishes quotas, caps and relative weights from inferred probabilities
 and the single recorded run observation. Neither conversion gathers new
-game data. The existing 77 text, talent and value tables remain unchanged.
+game data. The existing 77 text, talent and value tables were not changed by them.

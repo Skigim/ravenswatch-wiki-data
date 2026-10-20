@@ -96,6 +96,9 @@
 !/data/Hero_Kintaro_Talents.tsv
 !/data/Hero_Kintaro_Abilities.tsv
 
+# Spelling corrections to the hero memoir tables, 2026-10-20.
+!/data/Hero_Memoirs_Corrections.tsv
+
 # Selected enemy reference tables, approved for publication.
 !/ENEMIES.md
 !/data/Enemy_Definitions.tsv
