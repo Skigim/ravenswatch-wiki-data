@@ -4,7 +4,9 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-10-12-1.06`, published October 12, 2026. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
+The current snapshot is `2026-10-20-memoir-corrections`, published October 20, 2026. It corrects 17 spelling errors in eight hero memoir tables of the 1.06 export, as of commit `31ddf6e`. The `text_corrections` entry in VERSION.json names the eight tables and the record, `data/Hero_Memoirs_Corrections.tsv`, which lists each change by text key. Nothing was re-extracted, so the source version and `extracted_on` date below still apply to every table. Cite the corrected memoir text as the 1.06 text with spelling corrected.
+
+The previous snapshot, `2026-10-12-1.06`, was published October 12, 2026; commit `31ddf6e` holds its verbatim tables. It re-extracts 75 of the 77 tables from the Steam (PC) install after the 1.06 update, Steam build ID `25174305`, on the same day. The top-level fields of VERSION.json are the attribution for those 75 tables.
 
 The top-level `version_status` is `maintainer-confirmed`. On October 12, 2026, the maintainer read the displayed version string `1.06.00.04.27511 2026/09/07 #16d45d2f01` on the install used for the exports. The record separates the game version `1.06.00.04.27511`, displayed build date `2026-09-07` and displayed revision marker `16d45d2f01`, and keeps the full string in `version_display`. The Steam build ID `25174305` and the "Version 1.06" patch notes are recorded as further evidence.
 
@@ -21,6 +23,10 @@ Earlier snapshots came from version 1.05:
 | `2026-10-06-values` | October 6, 2026 | Adds 17 numerical value tables | Commit `1118de2` |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
+
+## Text corrections
+
+The text exports are otherwise verbatim. The memoir tables carry spelling corrections only: no wording changes. Each corrected table says so in its `# note` header line. After a new game export, reapply each row of `data/Hero_Memoirs_Corrections.tsv` whose wrong string is still in that key's cell. Drop a row when the game has fixed the text itself. Then update the record's row count, the header notes, the `text_corrections` entry and the TABLES.md hashes.
 
 ## Confirm a source version
 

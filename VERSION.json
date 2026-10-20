@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-10-12-1.06",
-  "snapshot_published_on": "2026-10-12",
+  "snapshot_id": "2026-10-20-memoir-corrections",
+  "snapshot_published_on": "2026-10-20",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
   "game_version": "1.06.00.04.27511",
@@ -29,6 +29,22 @@
       "note": "The patch notes name the release this build installed. They do not give the displayed version string."
     }
   ],
+  "text_corrections": {
+    "corrected_on": "2026-10-20",
+    "based_on_commit": "31ddf6e",
+    "record": "data/Hero_Memoirs_Corrections.tsv",
+    "applies_to": [
+      "data/Hero_Aladdin_Memoirs.LangEN.tsv",
+      "data/Hero_Carmilla_Memoirs.LangEN.tsv",
+      "data/Hero_Geppetto_Memoirs.LangEN.tsv",
+      "data/Hero_Juliet_Memoirs.LangEN.tsv",
+      "data/Hero_Kintaro_Memoirs.LangEN.tsv",
+      "data/Hero_Merlin_Memoirs.LangEN.tsv",
+      "data/Hero_Piper_Memoirs.LangEN.tsv",
+      "data/Hero_Romeo_Memoirs.LangEN.tsv"
+    ],
+    "note": "17 spelling corrections to the 1.06 export, listed in the record. These tables are no longer verbatim exports. Their source version is unchanged."
+  },
   "internal_manifest": {
     "label": "LiveOps6",
     "applies_to": [

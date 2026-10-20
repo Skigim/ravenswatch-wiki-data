@@ -42,7 +42,7 @@ Open a TSV as UTF-8 text or import it into a spreadsheet with a tab delimiter. T
 
 Text tables have `index`, `key`, and `text_en` columns. Their `index` is the original zero-based row index. Match index-table keys to the `key` column of the corresponding text table rather than guessing from display names. Internal hero identifiers include `RED` for Scarlet, `Piper` for The Pied Piper, `Snow_Queen` for The Snow Queen and `Kintaro` for Kintarō.
 
-The exports preserve blank rows, original spelling, game markup, and literal `\n` escapes. A `\n` in a text cell represents a line break in the game text. Read every bullet before drafting an effect description.
+The exports preserve blank rows, original spelling, game markup, and literal `\n` escapes. The exception is eight hero memoir tables, where 17 spelling errors were corrected on October 20, 2026. [Hero_Memoirs_Corrections.tsv](data/Hero_Memoirs_Corrections.tsv) lists each change. A `\n` in a text cell represents a line break in the game text. Read every bullet before drafting an effect description.
 
 | Markup | Meaning |
 |---|---|

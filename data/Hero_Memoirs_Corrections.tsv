@@ -1,0 +1,21 @@
+# source_table	Hero_*_Memoirs.LangEN.tsv
+# rows	17
+# note	Spelling corrections applied to the hero memoir text tables on 2026-10-20, from the 1.06 export at commit 31ddf6e. Each wrong string occurs once in its row. Reapply after a new export only where the wrong string is still present.
+key	wrong	right
+Aladdin_Memoir5_Desc	controrted	contorted
+Carmilla_Memoir2_Desc	whithers	withers
+Carmilla_Memoir3_Desc	crosssed	crossed
+Carmilla_Memoir5_Desc	a ebony	an ebony
+Carmilla_Memoir5_Desc	head long	headlong
+Geppetto_Memoir7_Desc	suprise	surprise
+Juliet_Memoir1_Desc	oe’rcome	o’ercome
+Kintaro_Memoir1_Intro	Iike	like
+Merlin_Memoir3_Desc	againt	against
+Merlin_Memoir4_Desc	sorceror	sorcerer
+Merlin_Memoir6_Desc	Gepetto	Geppetto
+Piper_Memoir2_Title	Disonant	Dissonant
+Piper_Memoir3_Desc	wont of food	want of food
+Romeo_Memoir1_Title	Tis here	'Tis here
+Romeo_Memoir2_Desc	readiy	readily
+Romeo_Memoir3_Desc	Gepetto	Geppetto
+Romeo_Memoir5_Desc	Juilet	Juliet
