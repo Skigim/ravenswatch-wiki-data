@@ -1,10 +1,12 @@
 # Selected tables
 
-The repository holds 90 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables and 7 map-generation tables. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 91 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables and 1 dialogue table. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
 The `2026-10-20-memoir-corrections` snapshot corrects 17 spelling errors in eight hero memoir tables. Nothing was re-extracted. Every other table is unchanged.
+
+The `2026-10-20-dialogue` snapshot adds one dialogue table decoded from the same 1.06 extraction. Every other table is unchanged.
 
 ## Text and index exports
 
@@ -152,3 +154,11 @@ unverified; previous tables keep their attribution. See [MAP_GENERATION.md](MAP_
 | [Map_Tile_Tier_Bands.tsv](data/Map_Tile_Tier_Bands.tsv) | 21 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `38e1cb9ec745c1c630d1c98431e689b0d68159d750ed581755589cb030155190` |
 | [Map_Stash_Models.tsv](data/Map_Stash_Models.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `87888b5cb73dd9620a1e72a46cf5404f3bf514c4cf2617bf86246c9272b2aeba` |
 | [Map_Generation_Observations.tsv](data/Map_Generation_Observations.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `7805fa5e50201585a9f3cce9bcc5652bb20e956fe4b9a06dbd0bd11015af7a6a` |
+
+## Dialogue
+
+Added in `2026-10-20-dialogue`. Decoded from the 1.06 extraction of 2026-10-12: the dialogue text tables, with speakers from the bark players and triggers from the bark setups in the entity settings, or the situation the key names where no trigger was decoded. Not checked in game. See [DIALOGUE.md](DIALOGUE.md).
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) | 5847 | `Hero_<Hero>_Barks~GAM.xls` (13), `NPC_Sandman`, `NPC_Sinbad`, `NPC_Morgan`, `NPC_BabaYaga`, `Map_Dark_Hills_Dialogs`, `Refugees` (spoken rows); EntitySettings bark setups and bark players | `073af62f8b2eae4eb2bb65dbf37c4facdd0fae01269c4e25fc82010067a56422` |

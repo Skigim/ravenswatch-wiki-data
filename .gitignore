@@ -118,3 +118,7 @@
 !/data/Map_Tile_Tier_Bands.tsv
 !/data/Map_Stash_Models.tsv
 !/data/Map_Generation_Observations.tsv
+
+# Dialogue table decoded from the 2026-10-12 build 1.06 extraction.
+!/DIALOGUE.md
+!/data/Dialogue_Lines.tsv
