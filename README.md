@@ -6,7 +6,7 @@ This repository is the canonical source for 92 selected TSV tables used to write
 
 ## Game version
 
-The current publication, `2026-11-10-voice-audio`, adds a table that pairs each spoken line and narrated memoir chapter with its recording in the 1.06 English voice bank. The previous publication, `2026-10-20-dialogue`, added a dialogue table decoded from the 1.06 extraction: spoken lines with their speaker, target and trigger. Before that, `2026-10-20-memoir-corrections`, corrects 17 spelling errors in eight hero memoir tables of the 1.06 extraction; nothing was re-extracted. Before that, `2026-10-16-gameplay-notes` added thirteen gameplay-reference tables converted from existing notes: three enemy-roster tables, three combat-configuration tables and seven map-generation tables. These imports have unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
+The current publication, `2026-11-10-voice-banks`, extends the voice-audio table to the hero banks and `Maps.bank`, which hold 58 more recorded lines, and adds a `bank` column. The previous publication, `2026-11-10-voice-audio`, added that table: each spoken line and narrated memoir chapter with its recording in the 1.06 English voice bank. Before that, `2026-10-20-dialogue` added a dialogue table decoded from the 1.06 extraction: spoken lines with their speaker, target and trigger. Before that, `2026-10-20-memoir-corrections`, corrects 17 spelling errors in eight hero memoir tables of the 1.06 extraction; nothing was re-extracted. Before that, `2026-10-16-gameplay-notes` added thirteen gameplay-reference tables converted from existing notes: three enemy-roster tables, three combat-configuration tables and seven map-generation tables. These imports have unverified source game versions. The earlier `2026-10-12-1.06` extraction comes from **Steam (PC), version `1.06.00.04.27511`**, with the displayed build date `2026/09/07` and revision marker `#16d45d2f01`. Its Steam build ID is `25174305`. The tables were extracted on October 12, 2026, the day 1.06 shipped with the Kintarō DLC. The maintainer confirmed the displayed version string the same day.
 
 Of the 77 tables in that earlier extraction, every table was re-extracted from 1.06 except two. `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv` hold readings and a decoding pass made on Steam (PC) version `1.05.01.01.27384` (displayed build date `2026/06/16`, revision `#773b656a63`), and they keep that attribution. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed between the two versions.
 
@@ -31,7 +31,7 @@ Of the 77 tables in that earlier extraction, every table was re-extracted from 1
 | Enemy combat configuration | 3 | Stored constants, picker roles and authored difficulty factors; no validated final-damage formula |
 | Map generation | 7 | Resource roles, weights, quotas, caps, tier bands, probability models and limited observations |
 | Dialogue | 1 | 5,847 spoken lines from hero barks, NPCs, quest dialogs and refugees, with speaker, target and trigger from game data, or the situation the key names |
-| Voice audio | 1 | Each spoken line and memoir chapter with its clip in the English voice bank (name, position, length), and the clips no text names |
+| Voice audio | 1 | Each spoken line and memoir chapter with its clip in the game's audio banks (bank, name, position, length), and the clips no text names |
 
 See [TABLES.md](TABLES.md) for the exact files, declared row counts, source identifiers, and SHA-256 hashes. Tables are in [data/](data/).
 
@@ -96,7 +96,7 @@ game data. The existing 77 text, talent and value tables were not changed by the
 ## Voice audio
 
 [VOICE.md](VOICE.md) describes the voice-audio table: where each line's recording
-sits in `Audio/Voice_EN.bank`, how lines and clips were paired, and which lines
+sits in the game's audio banks, how lines and clips were paired, and which lines
 have no clip of the same name. Nothing in it was checked by listening.
 
 ## Dialogue
