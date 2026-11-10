@@ -10,6 +10,8 @@ The `2026-10-20-dialogue` snapshot adds one dialogue table decoded from the same
 
 The `2026-11-10-voice-audio` snapshot adds one voice-audio table read from the same 1.06 install. Every other table is unchanged.
 
+The `2026-11-10-voice-banks` snapshot extends that table to the hero banks and `Maps.bank` and adds a `bank` column. Every other table is unchanged.
+
 ## Text and index exports
 
 These are verbatim decoded exports, except the eight memoir tables marked "spelling corrected". 30 of the 43 published in earlier snapshots came out of the 1.06 build byte for byte unchanged. 13 changed, and the three `Hero_Kintaro_*` text tables are new.
@@ -167,8 +169,8 @@ Added in `2026-10-20-dialogue`. Decoded from the 1.06 extraction of 2026-10-12: 
 
 ## Voice audio
 
-Added in `2026-11-10-voice-audio`. Clip names, positions and lengths read on 2026-11-10 from `Audio/Voice_EN.bank` in the 1.06 install (Steam build ID `25174305`, bank unchanged since the 2026-10-12 update), paired with the keys of the dialogue and memoir tables. Not checked by listening. See [VOICE.md](VOICE.md).
+Added in `2026-11-10-voice-audio`; extended to the hero banks and `Maps.bank` in `2026-11-10-voice-banks`. Clip names, positions and lengths read on 2026-11-10 from the audio banks of the 1.06 install (Steam build ID `25174305`), paired with the keys of the dialogue and memoir tables. Not checked by listening. See [VOICE.md](VOICE.md).
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 5992 | `Audio/Voice_EN.bank` (FSB5 sound chunks); `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `1d12cdbec5e593744e4fb7897777b61014538042a5c4b149118462919d4e0f21` |
+| [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 6004 | `Audio/Voice_EN.bank`, `Audio/Hero_<Hero>.bank` (12), `Audio/Maps.bank`; `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `d70c547b7d76a84f77dcc1d45424c15200991c83569f08a53a6c4fe514fcf197` |
