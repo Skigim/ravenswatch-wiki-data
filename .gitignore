@@ -122,3 +122,7 @@
 # Dialogue table decoded from the 2026-10-12 build 1.06 extraction.
 !/DIALOGUE.md
 !/data/Dialogue_Lines.tsv
+
+# Voice lines paired with their clips in the 1.06 voice bank.
+!/VOICE.md
+!/data/Voice_Lines_Audio.tsv

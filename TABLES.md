@@ -1,12 +1,14 @@
 # Selected tables
 
-The repository holds 91 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables and 1 dialogue table. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 92 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table and 1 voice-audio table. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
 The `2026-10-20-memoir-corrections` snapshot corrects 17 spelling errors in eight hero memoir tables. Nothing was re-extracted. Every other table is unchanged.
 
 The `2026-10-20-dialogue` snapshot adds one dialogue table decoded from the same 1.06 extraction. Every other table is unchanged.
+
+The `2026-11-10-voice-audio` snapshot adds one voice-audio table read from the same 1.06 install. Every other table is unchanged.
 
 ## Text and index exports
 
@@ -162,3 +164,11 @@ Added in `2026-10-20-dialogue`. Decoded from the 1.06 extraction of 2026-10-12: 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
 | [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) | 5847 | `Hero_<Hero>_Barks~GAM.xls` (13), `NPC_Sandman`, `NPC_Sinbad`, `NPC_Morgan`, `NPC_BabaYaga`, `Map_Dark_Hills_Dialogs`, `Refugees` (spoken rows); EntitySettings bark setups and bark players | `073af62f8b2eae4eb2bb65dbf37c4facdd0fae01269c4e25fc82010067a56422` |
+
+## Voice audio
+
+Added in `2026-11-10-voice-audio`. Clip names, positions and lengths read on 2026-11-10 from `Audio/Voice_EN.bank` in the 1.06 install (Steam build ID `25174305`, bank unchanged since the 2026-10-12 update), paired with the keys of the dialogue and memoir tables. Not checked by listening. See [VOICE.md](VOICE.md).
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 5992 | `Audio/Voice_EN.bank` (FSB5 sound chunks); `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `1d12cdbec5e593744e4fb7897777b61014538042a5c4b149118462919d4e0f21` |
