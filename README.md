@@ -2,6 +2,12 @@
 
 Selected decoded tables prepared for contributors to the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/).
 
+## Start here
+
+To look something up, open **[browse/](browse/README.md)**. It has readable pages for every hero, Magical Objects, Melodies, enemies and dialogue.
+
+The rest of this page is for people who check or update the data itself.
+
 This repository is the canonical source for 92 selected TSV tables used to write and check wiki articles: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table and 1 voice-audio table. It does not contain game assets, raw game files, archives, decoding tools, or a complete export of the game.
 
 ## Game version
