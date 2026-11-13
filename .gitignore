@@ -126,3 +126,10 @@
 # Voice lines paired with their clips in the 1.06 voice bank.
 !/VOICE.md
 !/data/Voice_Lines_Audio.tsv
+
+# Readable Markdown pages generated from data/ by tools/build_browse.py.
+!/tools/
+/tools/*
+!/tools/build_browse.py
+!/browse/
+!/browse/**

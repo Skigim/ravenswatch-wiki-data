@@ -14,7 +14,7 @@ Submit new table selections separately for review before adding them. TABLES.md 
 
 ## Repository contents
 
-Keep this repository limited to selected TSV tables and the documentation and Git configuration needed to use them. Do not commit images, icons, portraits, audio, video, fonts, binaries, game archives, raw decoded game files, game installations, screenshots, upload bundles, credentials, private notes, or local machine paths.
+Keep this repository limited to selected TSV tables, the documentation and Git configuration needed to use them, and the readable pages in `browse/`. Those pages are generated: after changing any table, run `python tools/build_browse.py` from the repository root and commit the result. Never edit `browse/` by hand. Do not commit images, icons, portraits, audio, video, fonts, binaries, game archives, raw decoded game files, game installations, screenshots, upload bundles, credentials, private notes, or local machine paths.
 
 Use the wiki for article prose and uploaded assets. This repository is the reference for the selected data tables.
 
