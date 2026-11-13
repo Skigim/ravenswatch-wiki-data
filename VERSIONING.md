@@ -4,9 +4,11 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-11-10-voice-banks`, published November 10, 2026. It extends `data/Voice_Lines_Audio.tsv` to the hero banks and `Maps.bank` of the same install, which was still on Steam build ID `25174305`, and adds a `bank` column. The top-level attribution applies. No other table changed.
+The current snapshot is `2026-11-12-starting-talents`, published November 12, 2026. It adds `starting_talent` and `starting_talent_source` columns to the 13 `data/Hero_<id>_Talents.tsv` tables. The values were read on November 12, 2026 from the cooked hero entities of the 1.06 extraction tree and from `Ravenswatch.exe` of the same install, still on Steam build ID `25174305`, so the top-level attribution applies and no table override is needed. TALENTS.md gives the evidence. No other table changed.
 
-The previous snapshot, `2026-11-10-voice-audio`, was also published November 10, 2026. It adds `data/Voice_Lines_Audio.tsv`, read on November 10, 2026 from the English voice bank of the same Steam install as the 2026-10-12 tables. The install's Steam build ID was still `25174305`, and the bank file was last written by the 1.06 update on October 12, so the top-level attribution applies and it needs no table override. No other table changed.
+The previous snapshot, `2026-11-10-voice-banks`, was published November 10, 2026. It extends `data/Voice_Lines_Audio.tsv` to the hero banks and `Maps.bank` of the same install, which was still on Steam build ID `25174305`, and adds a `bank` column. The top-level attribution applies. No other table changed.
+
+Before that, `2026-11-10-voice-audio` was also published November 10, 2026. It adds `data/Voice_Lines_Audio.tsv`, read on November 10, 2026 from the English voice bank of the same Steam install as the 2026-10-12 tables. The install's Steam build ID was still `25174305`, and the bank file was last written by the 1.06 update on October 12, so the top-level attribution applies and it needs no table override. No other table changed.
 
 Before that, `2026-10-20-dialogue` was published October 20, 2026. It adds `data/Dialogue_Lines.tsv`, decoded on October 20, 2026 from the same 1.06 extraction tree as the 2026-10-12 tables, so the top-level attribution applies to it and it needs no table override. Re-exporting five published text tables from that tree reproduced them byte for byte. No other table changed.
 
@@ -37,6 +39,7 @@ Snapshot history (the October 5 and 6 snapshots came from version 1.05):
 | `2026-10-20-dialogue` | October 20, 2026 | Adds 1 dialogue table decoded from the 1.06 extraction | Commit `3a3d35d` |
 | `2026-11-10-voice-audio` | November 10, 2026 | Adds 1 voice-audio table read from the 1.06 install | Commit `078e540` |
 | `2026-11-10-voice-banks` | November 10, 2026 | Extends the voice-audio table to the hero banks and `Maps.bank` | Not yet tagged |
+| `2026-11-12-starting-talents` | November 12, 2026 | Adds starting-talent columns to the 13 numerical talent tables | Not yet tagged |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 

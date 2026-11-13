@@ -12,6 +12,8 @@ The `2026-11-10-voice-audio` snapshot adds one voice-audio table read from the s
 
 The `2026-11-10-voice-banks` snapshot extends that table to the hero banks and `Maps.bank` and adds a `bank` column. Every other table is unchanged.
 
+The `2026-11-12-starting-talents` snapshot adds `starting_talent` and `starting_talent_source` columns to the 13 numerical talent tables, read from the same 1.06 build. The other changes in those tables are a sentence added to the `notes` cell of each starting talent, the `# snapshot_id` header line and a new `# note` header line. Every other table is unchanged.
+
 ## Text and index exports
 
 These are verbatim decoded exports, except the eight memoir tables marked "spelling corrected". 30 of the 43 published in earlier snapshots came out of the 1.06 build byte for byte unchanged. 13 changed, and the three `Hero_Kintaro_*` text tables are new.
@@ -79,19 +81,19 @@ These tables publish 26 talents for each of the 13 heroes, with unlock ranks and
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `5b3ded1e03663ffcbbb0a4f1e6caa86fe454bdfde39950c7c3d4b8a6152ebc7d` |
-| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `cf55f15daa314a4e0e6bf8011a9125e23b12e0382877380c942e7480e982b86f` |
-| [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `6b489b99ddffada65a9bb38ef28b82babeb9d1a44aa7d79cb3d2c6d89aa4cb12` |
-| [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `8c94f5c224d6b71030ec3511dadf5f9adbcf363c1359c78dbf6c55076cf0a286` |
-| [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `ddfa0d2f499c8d90d30baafb1f4c8f964756c0412dd34bf9a6afae4637025130` |
-| [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `de5fa584eddfd8f443a779ce31ab0e8008d7b0c165e347e7a1ae9517228ad5ba` |
-| [Hero_Geppetto_Talents.tsv](data/Hero_Geppetto_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `8882295ccf829e013f95fa21e5050d084879d57eea028aea0553e34a99090602` |
-| [Hero_SunWukong_Talents.tsv](data/Hero_SunWukong_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `d21ce47dede3fa67fbb08c9d132cea84280f448bb4fe29a420acdc4c9551e116` |
-| [Hero_Carmilla_Talents.tsv](data/Hero_Carmilla_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `6577a8069ecc746a76cbf0763543e20a26e4671ea4e4b45001b2c2a3ff1b2ce0` |
-| [Hero_Romeo_Talents.tsv](data/Hero_Romeo_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `de34b505ccd5f08bb4061e11b6e9342a17da9b75b09c895325bcad008d6adc01` |
-| [Hero_Juliet_Talents.tsv](data/Hero_Juliet_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `da94996e634265418fd3410e6f1a14d3c993b03aba226910e8b8477a03a56dac` |
-| [Hero_Merlin_Talents.tsv](data/Hero_Merlin_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `de37a8fcdf46cfa08024a91f66709965632212b388c8dd195036a75b15e35b53` |
-| [Hero_Kintaro_Talents.tsv](data/Hero_Kintaro_Talents.tsv) | 26 | Extracted from build 1.06 (2026-10-12); datamined only | `aacb6e2d6afc618c0d6ca123af9be8c496bc5e146c4cbecd55dab0273b91cf38` |
+| [Hero_RED_Talents.tsv](data/Hero_RED_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `9beb0d5a6bd6339762df13cacb11d62da1fd6f9d39b71f1940483a253bf16ed5` |
+| [Hero_Snow_Queen_Talents.tsv](data/Hero_Snow_Queen_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `1d4ad08bfacc41c85d7ab50059bb415cb3fa0da98d39f0cab42c33f64c53cdf0` |
+| [Hero_Beowulf_Talents.tsv](data/Hero_Beowulf_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `5ba78075a8158f09347849d6f873be9c5fff8760fc12be15bd500ff6b14dd5bb` |
+| [Hero_Piper_Talents.tsv](data/Hero_Piper_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `ed34b5eab63fab2b426ec75fd3aaabbed5add94434bddbd873303577b7bb5f2e` |
+| [Hero_Aladdin_Talents.tsv](data/Hero_Aladdin_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `a78e787e14812939732044b743a5764b2c6a8c712d172f78beb3cb543b3f71d6` |
+| [Hero_Melusine_Talents.tsv](data/Hero_Melusine_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `138aa5d7c2c008343b5ba8261f17b8c0cad25d5e74e16c868bbf01be7c13d5eb` |
+| [Hero_Geppetto_Talents.tsv](data/Hero_Geppetto_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `85bbe86e365dc0eab11fd95a8efc77a9adad5c602c338cabbac2ee7d4d31ba37` |
+| [Hero_SunWukong_Talents.tsv](data/Hero_SunWukong_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `622fafb99cff7eb2ccfb961c96a5f6e7d5d0db9614b1a375a9efc63e1912d249` |
+| [Hero_Carmilla_Talents.tsv](data/Hero_Carmilla_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `f5741a626ef1a0bc3c64e0229a27a14fc85633de031393b9a64b6f4866446fce` |
+| [Hero_Romeo_Talents.tsv](data/Hero_Romeo_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `8b9395c56d7f8cc0b8ed485cef62138c756d2521b60eecb7b3faf2632657565d` |
+| [Hero_Juliet_Talents.tsv](data/Hero_Juliet_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `efa448a3a05644ea3ace4cb51d5727061a116253d46fc09786dc03969e135c8b` |
+| [Hero_Merlin_Talents.tsv](data/Hero_Merlin_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `b1feda8a3a32173af0962f05d5f468744674a98f6d90fd815aa81439a52d068b` |
+| [Hero_Kintaro_Talents.tsv](data/Hero_Kintaro_Talents.tsv) | 26 | Extracted from build 1.06 (2026-10-12); datamined only | `f453234be0d027b1914e266ec6ac4ba6e7916d6007552bf15088d73b87a8dae6` |
 
 ## Numerical value tables
 
