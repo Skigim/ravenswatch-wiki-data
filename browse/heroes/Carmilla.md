@@ -141,22 +141,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Bat Master | When not in combat, DEFENSE grants STEALTH and can be held without consuming BLOOD<br>DEFENSE deals +20 / 25 / 30 / 35% damage<br>STEALTH make Carmilla undetectable by enemies |
-| Boiling Blood | After consuming Health for at least 1 second(s) to fuel an ability, gain REGENERATION +3 / 4 / 5 / 6 |
-| Dispersion | After DEFENSE, bats disperse around Carmilla, dealing 20 / 25 / 30 / 35 area damage as BLEED |
-| Furious Tempest | Consuming BLOOD to fuel POWER gradually increases its damage, up to +40 / 50 / 60 / 70% after 3 seconds of holding |
-| Go for the Throat | Distance covered before SPECIAL's bite increases its damage and Crit Chance, up to +40 / 50 / 60 / 70% |
-| Life Essence | Quest (x30): Killing an enemy with SPECIAL's bite earns VITALITY +1<br>Complete: Repeating this action restores 20 / 25 / 30 / 35 health to Carmilla |
-| Puncture | Each enemy passed through while using DASH earns 8 / 10 / 12 / 14 BLOOD |
-| Razor Claws | ATTACK deals +40 / 50 / 60 / 70% damage as BLEED |
-| Sadism | Critical Hits deal +40 / 60 / 80 / 100% damage on enemies affected by BLEED |
-| Victimization | SPECIAL applies MARKED to bitten enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% damage and spread this status to another nearby enemy when they die |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -180,6 +165,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Bat Master | 1 | When not in combat, DEFENSE grants STEALTH and can be held without consuming BLOOD<br>DEFENSE deals +20 / 25 / 30 / 35% damage<br>STEALTH make Carmilla undetectable by enemies |
+| Boiling Blood | 1 | After consuming Health for at least 1 second(s) to fuel an ability, gain REGENERATION +3 / 4 / 5 / 6 |
+| Dispersion | 1 | After DEFENSE, bats disperse around Carmilla, dealing 20 / 25 / 30 / 35 area damage as BLEED |
+| Furious Tempest | 1 | Consuming BLOOD to fuel POWER gradually increases its damage, up to +40 / 50 / 60 / 70% after 3 seconds of holding |
+| Go for the Throat | 1 | Distance covered before SPECIAL's bite increases its damage and Crit Chance, up to +40 / 50 / 60 / 70% |
+| Life Essence | 1 | Quest (x30): Killing an enemy with SPECIAL's bite earns VITALITY +1<br>Complete: Repeating this action restores 20 / 25 / 30 / 35 health to Carmilla |
+| Puncture | 1 | Each enemy passed through while using DASH earns 8 / 10 / 12 / 14 BLOOD |
+| Razor Claws | 1 | ATTACK deals +40 / 50 / 60 / 70% damage as BLEED |
+| Sadism | 1 | Critical Hits deal +40 / 60 / 80 / 100% damage on enemies affected by BLEED |
+| Victimization | 1 | SPECIAL applies MARKED to bitten enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% damage and spread this status to another nearby enemy when they die |
 | Blood Rage | 2 | Quest(x20): Hitting an enemy with the POWER held for at least 1 second to gain +0.5 DMG<br>Complete: Repeating this action increases POWER explosion damage by +80 / 100 / 120 / 140% |
 | Gust | 2 | TRAIT pushes back nearby enemies and deals 80 / 100 / 120 / 140 area damage |
 | Aggressive Flock | 3 | During DEFENSE, Carmilla casts a bat every 0.5 / 0.35 / 0.3 / 0.25 second(s) that seeks out nearby enemies and pierces through them, dealing 10 damage |

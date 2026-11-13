@@ -124,22 +124,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Burning Kiss | SPECIAL's area of effect gains +25% range, +40 / 50 / 60 / 70% damage and applies IGNITE to hit enemies |
-| Floral Dodge | DEFENSE now creates a POWER Rose dealing 40 / 50 / 60 / 70% damage |
-| Healing Rose | Every 2 times the POWER Rose hits an enemy, it restores 2 / 2.5 / 3 / 3.5 Health to all Heroes around |
-| Kick | Adds a kick to ATTACK combo, dealing 48.4 / 60.5 / 72.6 / 84.7 damage and pushing light enemies back |
-| Kiss the Bride | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Romeo 2 Dream Shard(s) |
-| Panache | Hitting an enemy with any additional ATTACK move, such as DASH attack or DEFENSE's Ripost, grants one Panache token (up to 3)<br>Each Panache token increases ATTACK damage by 20% and grants +4 / 5 / 6 / 7% ATTACK SPEED, all Panache tokens are lost when Romeo is hit |
-| Relentless Assaults | ATTACK used right after POWER triggers DEFENSE's Ripost launching a flurry of attacks, dealing up to 11 damage |
-| Surge of bravery | After SPECIAL's kiss, next 6 / 8 / 10 / 12 ATTACKS gain +30% range and deal +30% damage |
-| Thorns Aura | After using TRAIT or receiving Juliet's TRAIT, an aura of thorns appears around Romeo, dealing 120 / 150 / 180 / 210 area damage per second for 6 seconds |
-| Thorny Rose | When POWER Rose blooms, 5 paths of thorns spread around, dealing 40 / 50 / 60 / 70 damage per second to enemies crossing through |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -163,6 +148,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Burning Kiss | 1 | SPECIAL's area of effect gains +25% range, +40 / 50 / 60 / 70% damage and applies IGNITE to hit enemies |
+| Floral Dodge | 1 | DEFENSE now creates a POWER Rose dealing 40 / 50 / 60 / 70% damage |
+| Healing Rose | 1 | Every 2 times the POWER Rose hits an enemy, it restores 2 / 2.5 / 3 / 3.5 Health to all Heroes around |
+| Kick | 1 | Adds a kick to ATTACK combo, dealing 48.4 / 60.5 / 72.6 / 84.7 damage and pushing light enemies back |
+| Kiss the Bride | 1 | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Romeo 2 Dream Shard(s) |
+| Panache | 1 | Hitting an enemy with any additional ATTACK move, such as DASH attack or DEFENSE's Ripost, grants one Panache token (up to 3)<br>Each Panache token increases ATTACK damage by 20% and grants +4 / 5 / 6 / 7% ATTACK SPEED, all Panache tokens are lost when Romeo is hit |
+| Relentless Assaults | 1 | ATTACK used right after POWER triggers DEFENSE's Ripost launching a flurry of attacks, dealing up to 11 damage |
+| Surge of bravery | 1 | After SPECIAL's kiss, next 6 / 8 / 10 / 12 ATTACKS gain +30% range and deal +30% damage |
+| Thorns Aura | 1 | After using TRAIT or receiving Juliet's TRAIT, an aura of thorns appears around Romeo, dealing 120 / 150 / 180 / 210 area damage per second for 6 seconds |
+| Thorny Rose | 1 | When POWER Rose blooms, 5 paths of thorns spread around, dealing 40 / 50 / 60 / 70 damage per second to enemies crossing through |
 | Love Thread | 2 | Using TRAIT casts a beam towards Juliet for 6 second(s), dealing 265 / 330 / 395 / 460 damage per second to crossed enemies |
 | Secret Weapon | 2 | Quest(x20): Blocking at least once during DEFENSE grants +0.5 DMG<br>Complete: Ripost ATTACK after DEFENSE deals +40 / 50 / 60 / 70% damage per successful block (up to 4 times) |
 | Flash of Steel | 3 | Holding DASH during a dash attack makes Romeo rush back towards his starting location, dealing 120 / 150 / 180 / 210% damage on its path |

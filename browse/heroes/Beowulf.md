@@ -119,22 +119,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Blademaster | After each TRAIT activation, next 3 ATTACKS gain +100% Crit Chance<br>Permanently gain +10 / 12 / 14 / 16% ATTACK speed |
-| Bladestorm | Special performs 2 / 3 / 4 / 5 additional spins for 100% damage each<br>Beowulf remains INTANGIBLE throughout additional spins |
-| Breath of Fire | Wyrm breathes a cone of fire during ATTACK finisher, dealing 200 / 250 / 300 / 350% damage and applying IGNITE to enemies hit |
-| Double Shock | POWER sends out two successive shockwaves, each one dealing -30 / 25 / 20 / 15% damage |
-| Eruption | POWER's shockwaves explode at the end and deal 60 / 75 / 90 / 105% additional damage all around |
-| Explosive Fire | IGNITED enemies explode when they die, dealing 20 / 25 / 30 / 35 damage and applying IGNITE to all nearby enemies |
-| Fiery Seismo | Wyrm SPECIAL's finisher strikes 3 times with a growing radius for 45 / 50 / 55 / 60% damage each |
-| Furnace | IGNITE effects last 2 more seconds and deal +32 / 40 / 48 / 56% damage |
-| Heavy Strikes | ATTACK is slower but cleaves across a wide area and deals +50 / 60 / 70 / 80% damage |
-| Shield Charge | DEFENSE makes Beowulf dash forward and deal +150 / 187.5 / 225 / 262.5% damage along the path |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -158,6 +143,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Blademaster | 1 | After each TRAIT activation, next 3 ATTACKS gain +100% Crit Chance<br>Permanently gain +10 / 12 / 14 / 16% ATTACK speed |
+| Bladestorm | 1 | Special performs 2 / 3 / 4 / 5 additional spins for 100% damage each<br>Beowulf remains INTANGIBLE throughout additional spins |
+| Breath of Fire | 1 | Wyrm breathes a cone of fire during ATTACK finisher, dealing 200 / 250 / 300 / 350% damage and applying IGNITE to enemies hit |
+| Double Shock | 1 | POWER sends out two successive shockwaves, each one dealing -30 / 25 / 20 / 15% damage |
+| Eruption | 1 | POWER's shockwaves explode at the end and deal 60 / 75 / 90 / 105% additional damage all around |
+| Explosive Fire | 1 | IGNITED enemies explode when they die, dealing 20 / 25 / 30 / 35 damage and applying IGNITE to all nearby enemies |
+| Fiery Seismo | 1 | Wyrm SPECIAL's finisher strikes 3 times with a growing radius for 45 / 50 / 55 / 60% damage each |
+| Furnace | 1 | IGNITE effects last 2 more seconds and deal +32 / 40 / 48 / 56% damage |
+| Heavy Strikes | 1 | ATTACK is slower but cleaves across a wide area and deals +50 / 60 / 70 / 80% damage |
+| Shield Charge | 1 | DEFENSE makes Beowulf dash forward and deal +150 / 187.5 / 225 / 262.5% damage along the path |
 | Blazing Runes | 2 | ATTACK and SPECIAL gain +40 / 50 / 60 / 70% Crit Chance against IGNITED enemies |
 | Rampart | 2 | Quest (x20): blocking at least one attack during Defense grants +1.5 Armor<br>Complete: Wyrm Defense heals 50 / 60 / 70 / 80% more in a larger radius |
 | Fire Wings | 3 | Activating TRAIT deals 30 / 35 / 40 / 45 damage all around and applies IGNITE to all enemies hit |

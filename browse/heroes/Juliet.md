@@ -136,22 +136,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Bullet Ballet | DEFENSE shots can ricochet to hit nearby targets, dealing 60 / 75 / 90 / 105% ATTACK damage |
-| Defensive Reload | Reload 3 / 4 / 5 / 6 AMMO after using DEFENSE |
-| Hot Shots | ATTACKS triggered within 2 second(s) after a POWER apply IGNITE to hit enemies and deal +20 / 25 / 30 / 35% damage |
-| Kiss the Groom | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Juliet 2 Dream Shard(s) |
-| Large Chambers | Maximum amount of AMMO is increased by 2<br>ATTACK and POWER damage are increased by 3 / 3.5 / 4 / 4.5% for each missing AMMO |
-| Longshot | POWER gains +50% range and deals +20 / 25 / 30 / 35% damage to enemies hit beyond half the maximum range |
-| Overflowing Passion | SPECIAL restores 6 / 7.5 / 9 / 10.5 Health to all Heroes around whenever it hits at least an enemy |
-| Shadow Round | PERFECT SHOT applies VULNERABLE for 2 / 2.5 / 3 / 3.5 second(s) to hit enemies |
-| Valiant Hearts | TRAIT grants both Romeo and Juliet +20% MOVE SPEED and STRENGTH for 5 / 6.25 / 7.5 / 8.75 second(s) |
-| Volcanic Shots | ATTACK triggered right after DASH shoots 3 / 4 / 5 / 6 times in a row, consuming 3 AMMO |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -175,6 +160,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Bullet Ballet | 1 | DEFENSE shots can ricochet to hit nearby targets, dealing 60 / 75 / 90 / 105% ATTACK damage |
+| Defensive Reload | 1 | Reload 3 / 4 / 5 / 6 AMMO after using DEFENSE |
+| Hot Shots | 1 | ATTACKS triggered within 2 second(s) after a POWER apply IGNITE to hit enemies and deal +20 / 25 / 30 / 35% damage |
+| Kiss the Groom | 1 | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Juliet 2 Dream Shard(s) |
+| Large Chambers | 1 | Maximum amount of AMMO is increased by 2<br>ATTACK and POWER damage are increased by 3 / 3.5 / 4 / 4.5% for each missing AMMO |
+| Longshot | 1 | POWER gains +50% range and deals +20 / 25 / 30 / 35% damage to enemies hit beyond half the maximum range |
+| Overflowing Passion | 1 | SPECIAL restores 6 / 7.5 / 9 / 10.5 Health to all Heroes around whenever it hits at least an enemy |
+| Shadow Round | 1 | PERFECT SHOT applies VULNERABLE for 2 / 2.5 / 3 / 3.5 second(s) to hit enemies |
+| Valiant Hearts | 1 | TRAIT grants both Romeo and Juliet +20% MOVE SPEED and STRENGTH for 5 / 6.25 / 7.5 / 8.75 second(s) |
+| Volcanic Shots | 1 | ATTACK triggered right after DASH shoots 3 / 4 / 5 / 6 times in a row, consuming 3 AMMO |
 | Double Tap | 2 | Hold POWER to trigger 2 shots in a row<br>The second shot deals 60 / 75 / 90 / 105% damage |
 | Guns & Roses | 2 | Quest (x10): Hitting an enemy by exploding Romeo's Rose with a PERFECT SHOT grants +1 DMG<br>Complete: Rose explosions triggered with a PERFECT SHOT gain +50% range and deals +28 / 35 / 42 / 49% damage |
 | Love Sparks | 3 | SPECIAL fires 4 / 5 / 6 / 7 homing projectiles towards nearby enemies, each one dealing 18.75 damage |

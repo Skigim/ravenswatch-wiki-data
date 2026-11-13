@@ -117,22 +117,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Aftershock | POWER leaves a water core at the casting location that triggers POWER again after 1.5 seconds for 40 / 50 / 60 / 70% of its damage |
-| Backwash | When SPECIAL ends, add 3 additional waves that travel backwards and deal 50 / 65 / 80 / 95% damage each |
-| Bewitching Song | When entering SING STANCE, apply WEAK to all nearby enemies for 3 / 4 / 5 / 6 seconds |
-| Deep Beat | For every 4 ATTACKS that hit an enemy, generate a blast all around that deals 100 / 120 / 140 / 160% of ATTACK's damage<br>Counter resets when exiting SING STANCE |
-| Freezing Splash | POWER applies CHILLED to all enemies hit and gains +15 / 20 / 25 / 30% range |
-| Power Dive | DEFENSE triggers POWER's effect with a +20 / 25 / 30 / 35% damage increase when Melusine dives underwater |
-| Protective Flow | Heroes passed by ATTACK gain 8 / 10 / 12 / 14 SHIELD for 6 seconds |
-| Spring Water | Each wave from SPECIAL that hits an enemy restores 2 / 2.5 / 3 / 3.5 Health to all Heroes within the area of effect |
-| Tidal Wave | SPECIAL's waves are 20 / 25 / 30 / 35% wider and longer |
-| Water Bubble | After DEFENSE is triggered, Melusine is surrounded by a bubble for 4 seconds, absorbing damage for one hit<br>The bubble then explodes and deals 60 / 75 / 90 / 105 area damage |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -156,6 +141,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Aftershock | 1 | POWER leaves a water core at the casting location that triggers POWER again after 1.5 seconds for 40 / 50 / 60 / 70% of its damage |
+| Backwash | 1 | When SPECIAL ends, add 3 additional waves that travel backwards and deal 50 / 65 / 80 / 95% damage each |
+| Bewitching Song | 1 | When entering SING STANCE, apply WEAK to all nearby enemies for 3 / 4 / 5 / 6 seconds |
+| Deep Beat | 1 | For every 4 ATTACKS that hit an enemy, generate a blast all around that deals 100 / 120 / 140 / 160% of ATTACK's damage<br>Counter resets when exiting SING STANCE |
+| Freezing Splash | 1 | POWER applies CHILLED to all enemies hit and gains +15 / 20 / 25 / 30% range |
+| Power Dive | 1 | DEFENSE triggers POWER's effect with a +20 / 25 / 30 / 35% damage increase when Melusine dives underwater |
+| Protective Flow | 1 | Heroes passed by ATTACK gain 8 / 10 / 12 / 14 SHIELD for 6 seconds |
+| Spring Water | 1 | Each wave from SPECIAL that hits an enemy restores 2 / 2.5 / 3 / 3.5 Health to all Heroes within the area of effect |
+| Tidal Wave | 1 | SPECIAL's waves are 20 / 25 / 30 / 35% wider and longer |
+| Water Bubble | 1 | After DEFENSE is triggered, Melusine is surrounded by a bubble for 4 seconds, absorbing damage for one hit<br>The bubble then explodes and deals 60 / 75 / 90 / 105 area damage |
 | Submerging Attack | 2 | ATTACK damage increases by 8 / 9 / 10 / 11% for each enemy hit (up to 6 hits, +48 / 54 / 60 / 66%)<br>Resets if Melusine takes damage or exits SING STANCE |
 | Underwater Predation | 2 | DEFENSE can be held to move more quickly underwater<br>All enemies passed become VULNERABLE for 4 / 5 / 6 / 7 seconds |
 | Geyser | 3 | POWER deals +50 / 60 / 70 / 80% damage at its center |

@@ -260,14 +260,12 @@ def ultimate_number(t):
 def talents_section(common, talents):
     upgrades = [t for t in talents if t["name_key"].startswith("Skill_Ultimate")]
     rest = [t for t in talents if t not in upgrades]
-    starting = sorted((t for t in rest if rank(t) == 1), key=lambda t: t["name"])
-    others = sorted((t for t in rest if rank(t) != 1), key=lambda t: (rank(t), t["name"]))
+    # The tables do not record which talents are offered at level 1 of a run,
+    # so there is no Starting talents group until an export provides that.
+    others = sorted(rest, key=lambda t: (rank(t), t["name"]))
 
-    def row(t, with_rank=True):
-        cells = [game_text(t["name"]), game_text(t["effect_en"])]
-        if with_rank:
-            cells.insert(1, plain(t["unlock_rank"]))
-        return cells
+    def row(t):
+        return [game_text(t["name"]), plain(t["unlock_rank"]), game_text(t["effect_en"])]
 
     ult_names = {}
     ultimates = []
@@ -284,9 +282,7 @@ def talents_section(common, talents):
 
     out = ["## Talents\n",
            "Values separated by / are for Common / Rare / Epic / Legendary.\n",
-           "### Starting talents\n",
-           "Talents unlocked at rank 1, not counting ultimate upgrades.\n",
-           table(["Talent", "Effect"], [row(t, with_rank=False) for t in starting]),
+           "**Unlocks at rank** is the hero rank, not the level reached in a run.\n",
            "### Ultimates\n",
            "The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.\n",
            table(["Ultimate", "Description"], ultimates),

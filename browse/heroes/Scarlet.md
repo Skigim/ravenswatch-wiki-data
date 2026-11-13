@@ -185,22 +185,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Aggressive Defense | Deal 60 / 75 / 90 / 105 damage all around when triggering DEFENSE |
-| Cleave | ATTACK has a 25% chance to cleave all around and deal +120 / 150 / 180 / 210% damage |
-| Deadly Combo | POWER ends with an area attack dealing 40 / 50 / 60 / 70% damage |
-| Devourer | Repeatable Quest: Each kill with Werewolf POWER earns +0.4 / 0.5 / 0.6 / 0.7 DMG |
-| Distant Explosions | SPECIAL now targets a farther location and deals +40 / 50 / 60 / 70% damage<br>Human: SPECIAL no longer affects Scarlet and bomb explodes as soon as it hits the ground |
-| Energy | Maximum Combo Points is increased by 2<br>POWER has +4 / 5 / 6 / 7% Crit Chance per Combo Point stored |
-| Evisceration | Each Combo Point spent by POWER applies 16 / 20 / 24 / 28% damage dealt in the form of BLEED |
-| Murderous Intent | DEFENSE instantly bestows 3 Combo Points and lasts 20 / 25 / 30 / 35% longer |
-| Pyromania | SPECIAL applies IGNITE to all enemies hit and gains +40 / 50 / 60 / 70% Crit Chance |
-| Slash Flurry | After using POWER, the next ATTACK within 3 seconds delivers a flurry of 5 slashes with +20 / 30 / 40 / 50% increased damage |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -224,6 +209,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Aggressive Defense | 1 | Deal 60 / 75 / 90 / 105 damage all around when triggering DEFENSE |
+| Cleave | 1 | ATTACK has a 25% chance to cleave all around and deal +120 / 150 / 180 / 210% damage |
+| Deadly Combo | 1 | POWER ends with an area attack dealing 40 / 50 / 60 / 70% damage |
+| Devourer | 1 | Repeatable Quest: Each kill with Werewolf POWER earns +0.4 / 0.5 / 0.6 / 0.7 DMG |
+| Distant Explosions | 1 | SPECIAL now targets a farther location and deals +40 / 50 / 60 / 70% damage<br>Human: SPECIAL no longer affects Scarlet and bomb explodes as soon as it hits the ground |
+| Energy | 1 | Maximum Combo Points is increased by 2<br>POWER has +4 / 5 / 6 / 7% Crit Chance per Combo Point stored |
+| Evisceration | 1 | Each Combo Point spent by POWER applies 16 / 20 / 24 / 28% damage dealt in the form of BLEED |
+| Murderous Intent | 1 | DEFENSE instantly bestows 3 Combo Points and lasts 20 / 25 / 30 / 35% longer |
+| Pyromania | 1 | SPECIAL applies IGNITE to all enemies hit and gains +40 / 50 / 60 / 70% Crit Chance |
+| Slash Flurry | 1 | After using POWER, the next ATTACK within 3 seconds delivers a flurry of 5 slashes with +20 / 30 / 40 / 50% increased damage |
 | Armor Break | 2 | SPECIAL applies VULNERABLE to all enemies hit for 3 / 4 / 5 / 6 seconds |
 | Shadow Strikes | 2 | Quest (x30): ATTACK or POWER triggered during Human DEFENSE gain +0.5% Crit Chance per enemy hit<br>Complete: +20 / 25 / 30 / 35% Crit Damage |
 | True Instincts | 3 | In Human Form, gain +10 / 12 / 14 / 16% Move Speed<br>In Werewolf Form, gain +20 / 25 / 30 / 35% Maximum Health |

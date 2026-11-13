@@ -137,22 +137,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Explosive Blast | DEFENSE deals 45 / 56.2 / 67.5 / 78.75 damage |
-| Explosive Rats | Rats explode when they die and deal 6 / 7.5 / 9 / 10.5 damage all around |
-| Extra Measure | After hitting an enemy with DEFENSE, the next POWER within 3 seconds lasts longer (+2 / 3 / 4 / 5 waves of notes) |
-| Giant Rats | Rats' attacks WEAKEN enemies and deal +20 / 25 / 30 / 35% damage |
-| Grand Finale | When SPECIAL's effect expires, the area of effect explodes and deals 60 / 75 / 90 / 105 damage |
-| Horde | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
-| Quintuplets | POWER plays 5 notes each wave (instead of 3) but each note deals -20 / -15 / -10 / -5% damage |
-| Sforzando | SPECIAL triggers an implosive DEFENSE (pulling enemies inwards) with its range increased by 20 / 25 / 30 / 35% |
-| Sniper | Notes from ATTACK and POWER have a longer range and deal +20 / 25 / 30 / 35% damage if they hit after halfway |
-| Sound Barrier | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -176,6 +161,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Explosive Blast | 1 | DEFENSE deals 45 / 56.2 / 67.5 / 78.75 damage |
+| Explosive Rats | 1 | Rats explode when they die and deal 6 / 7.5 / 9 / 10.5 damage all around |
+| Extra Measure | 1 | After hitting an enemy with DEFENSE, the next POWER within 3 seconds lasts longer (+2 / 3 / 4 / 5 waves of notes) |
+| Giant Rats | 1 | Rats' attacks WEAKEN enemies and deal +20 / 25 / 30 / 35% damage |
+| Grand Finale | 1 | When SPECIAL's effect expires, the area of effect explodes and deals 60 / 75 / 90 / 105 damage |
+| Horde | 1 | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
+| Quintuplets | 1 | POWER plays 5 notes each wave (instead of 3) but each note deals -20 / -15 / -10 / -5% damage |
+| Sforzando | 1 | SPECIAL triggers an implosive DEFENSE (pulling enemies inwards) with its range increased by 20 / 25 / 30 / 35% |
+| Sniper | 1 | Notes from ATTACK and POWER have a longer range and deal +20 / 25 / 30 / 35% damage if they hit after halfway |
+| Sound Barrier | 1 | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
 | Freezing Trap | 2 | Enemies within SPECIAL's area of effect are CHILLED and take +10 / 15 / 20 / 25% damage |
 | Perfect Harmony | 2 | DEFENSE restores 4 / 5 / 6 / 7 Health to all nearby Heroes for each enemy hit (up to 4) |
 | Acoustic Pulses | 3 | SPECIAL deals 8 / 10 / 12 / 14 damage every second |

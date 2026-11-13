@@ -298,22 +298,7 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
-### Starting talents
-
-Talents unlocked at rank 1, not counting ultimate upgrades.
-
-| Talent | Effect |
-|---|---|
-| Arcane Shield | Casting an Arcane Spell (SPECIAL) surrounds Merlin with protection that blocks any attack for 1.2 / 1.5 / 1.8 / 2 seconds |
-| Astrology | Gain +3 Star(s) of Fate<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
-| Brambles Whirlwind | When casting the Giant Brambles Spell, Merlin makes the brambles spin around him, dealing +32 / 40 / 48 / 56% damage all around |
-| Fire Barrage | The Fireball Spell also sends 2 fire missiles (+2 per Rune of POTENCY spent) to nearby enemies, dealing 16 / 20 / 24 / 28 damage each |
-| Grace of Heaven | Casting a Sacred Spell (DEFENSE) reduces TRAIT cooldown by 2 / 2.5 / 3 / 3.5 seconds |
-| Natural Harmony | Hitting at least one enemy with a Nature Spell (POWER) restores 8 / 10 / 12 / 14 health to all nearby Heroes |
-| Runic Might | Quest (x20): In combat, casting a Spell that consumes 3 runes of POTENCY earns +0.5 DMG<br>Complete: Repeating this action makes the Spell cast gain 20 / 25 / 30 / 35% Crit Chance |
-| Sacred Ground | After casting the Blink Spell, a sacred area will appear on the ground for 5 seconds<br>All Heroes inside the area will gain +0.4 / 0.5 / 0.6 / 0.7 DMG |
-| Sacred Strike | After casting a Sacred Spell (DEFENSE), Merlin's next ATTACK will be a finisher that conjures a rune of POTENCY if it hits an enemy and deals 320 / 400 / 480 / 560% damage |
-| Wild Magic | After casting a Nature Spell (POWER), the next 3 ATTACKS also project thorns, dealing 200 / 250 / 300 / 350% damage as BLEED |
+**Unlocks at rank** is the hero rank, not the level reached in a run.
 
 ### Ultimates
 
@@ -337,6 +322,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
+| Arcane Shield | 1 | Casting an Arcane Spell (SPECIAL) surrounds Merlin with protection that blocks any attack for 1.2 / 1.5 / 1.8 / 2 seconds |
+| Astrology | 1 | Gain +3 Star(s) of Fate<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
+| Brambles Whirlwind | 1 | When casting the Giant Brambles Spell, Merlin makes the brambles spin around him, dealing +32 / 40 / 48 / 56% damage all around |
+| Fire Barrage | 1 | The Fireball Spell also sends 2 fire missiles (+2 per Rune of POTENCY spent) to nearby enemies, dealing 16 / 20 / 24 / 28 damage each |
+| Grace of Heaven | 1 | Casting a Sacred Spell (DEFENSE) reduces TRAIT cooldown by 2 / 2.5 / 3 / 3.5 seconds |
+| Natural Harmony | 1 | Hitting at least one enemy with a Nature Spell (POWER) restores 8 / 10 / 12 / 14 health to all nearby Heroes |
+| Runic Might | 1 | Quest (x20): In combat, casting a Spell that consumes 3 runes of POTENCY earns +0.5 DMG<br>Complete: Repeating this action makes the Spell cast gain 20 / 25 / 30 / 35% Crit Chance |
+| Sacred Ground | 1 | After casting the Blink Spell, a sacred area will appear on the ground for 5 seconds<br>All Heroes inside the area will gain +0.4 / 0.5 / 0.6 / 0.7 DMG |
+| Sacred Strike | 1 | After casting a Sacred Spell (DEFENSE), Merlin's next ATTACK will be a finisher that conjures a rune of POTENCY if it hits an enemy and deals 320 / 400 / 480 / 560% damage |
+| Wild Magic | 1 | After casting a Nature Spell (POWER), the next 3 ATTACKS also project thorns, dealing 200 / 250 / 300 / 350% damage as BLEED |
 | Arcanic Rune | 2 | Hitting at least one enemy with an Arcane Spell (SPECIAL) conjures a rune of POTENCY<br>Arcane Spells (SPECIAL) deal +20 / 25 / 30 / 35% damage |
 | Eternal Dream | 2 | Each time Merlin casts his nine different Spells, he gains 30 / 40 / 50 / 60 Dream Shards<br>Does not work within a Safe Zone or during Chapter Boss fights |
 | Lightning Storm | 3 | Every 4 times the Fork of Lightning Spell hits an enemy, a lightning strike will hit a nearby enemy, dealing 12 / 15 / 18 / 21 damage |
