@@ -123,34 +123,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Aerial Catch | Quest (x15): After they hit an enemy, retrieving SPECIAL blades during DEFENSE grants +2 ARMOR<br>Complete: Doing it again grants 12 / 15 / 18 / 21 SHIELD to all nearby Heroes for 6 seconds |
+| Air Dash | DASH can be triggered during DEFENSE's air time <br>Doing so increases ATTACK speed by 15% for 4 / 5 / 6 / 7 second(s) |
+| Healing Blades | When retrieved, SPECIAL's blades heal all Heroes nearby for each enemy hit, up to 7.5 / 9 / 10.5 / 12 Health |
+| Jinn Charge | DASH used after POWER summons the Jinn to charge through enemies and deal 25 / 31.25 / 37.5 / 43.7 damage |
+| Jinn's Fury | POWER strikes 3 times, each one dealing 40 / 45 / 50 / 55% damage |
+| Jinniya's Gift | Gain +1 TRAIT charge<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
+| Major Enchantment | While NOT using ATTACK, passively generate 1 ENCHANTMENT points every 3 / 2.5 / 2.25 / 2 seconds |
+| Shard Blades | While ENCHANTMENT is active on blades, ATTACKS have their range increased by 20 / 25 / 30 / 35% and deal +20% damage |
+| Slide Attack | Using ATTACK while the blades are flying makes you slide and deal 400 / 500 / 600 / 700% of ATTACK's damage along the path |
+| Spectral Blades | Retrieving SPECIAL's blades before they return to Aladdin triggers a flurry of attacks that can deal up to 44 / 55 / 66 / 77 area damage |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Dream Wish | • Consume **`{0}` Dream Shards** to earn an additional **TRAIT** charge |
+| Magic Carpet | • Ride the Magic Carpet, turning **INTANGIBLE** and dealing damage to enemies passed |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Wondrous Wishes | Dream Wish | 1 | All wishes are improved:<br>POWER: deals +50 / 75 / 100 / 125% damage<br>SPECIAL: 40 / 60 / 80 / 100% chance to generate 2 consumables<br>DEFENSE: +100 / 125 / 150 / 175% SHIELD gained |
+| Infinite Wishes | Dream Wish | 9 | Gain +3 TRAIT charges<br>Dream Shards cost for ULTIMATE is reduced by 20 / 30 / 40 / 50% |
+| Dream Stride | Magic Carpet | 6 | Each time ULTIMATE hits an enemy, Aladdin gains 8 / 10 / 12 / 14 Dream Shards<br>ULTIMATE has no cooldown if no enemies are hit |
+| Quick Ride | Magic Carpet | 9 | DASH uses Magic Carpet to deal 40 / 50 / 60 / 70 damage to enemies passed and can be held for up to 1 second(s) |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Acrobatics | 3 | Each enemy passed during DEFENSE grants 3 / 4 / 5 / 6 ENCHANTMENT points |
-| Aerial Catch | 1 | Quest (x15): After they hit an enemy, retrieving SPECIAL blades during DEFENSE grants +2 ARMOR<br>Complete: Doing it again grants 12 / 15 / 18 / 21 SHIELD to all nearby Heroes for 6 seconds |
-| Air Dash | 1 | DASH can be triggered during DEFENSE's air time <br>Doing so increases ATTACK speed by 15% for 4 / 5 / 6 / 7 second(s) |
 | Dive | 2 | Using ATTACK during DEFENSE's jump makes Aladdin dive to the ground, dealing 400 / 500 / 600 / 700% of ATTACK's damage all around |
-| Dream Scimitars | 7 | While ENCHANTMENT is active on blades, ATTACK has a 40 / 50 / 60 / 70% chance of earning Aladdin a Dream Shard upon enemy hit |
-| Dream Stride | 6 | Each time ULTIMATE hits an enemy, Aladdin gains 8 / 10 / 12 / 14 Dream Shards<br>ULTIMATE has no cooldown if no enemies are hit |
-| Enchanted Jinn | 8 | POWER can consume up to 5 ENCHANTMENT points to increase its Crit Chance by 10% per point<br>The maximum number of ENCHANTMENT points is increased by 5 / 10 / 15 / 20 |
-| Healing Blades | 1 | When retrieved, SPECIAL's blades heal all Heroes nearby for each enemy hit, up to 7.5 / 9 / 10.5 / 12 Health |
-| Infinite Wishes | 9 | Gain +3 TRAIT charges<br>Dream Shards cost for ULTIMATE is reduced by 20 / 30 / 40 / 50% |
-| Jinn Charge | 1 | DASH used after POWER summons the Jinn to charge through enemies and deal 25 / 31.25 / 37.5 / 43.7 damage |
-| Jinn's Fury | 1 | POWER strikes 3 times, each one dealing 40 / 45 / 50 / 55% damage |
 | Jinn's Might | 2 | Quest (x20): Hitting an enemy with POWER at maximum charge grants +0.5 DMG<br>Complete: Increases POWER's bonus damage from charge by 40 / 50 / 60 / 70% |
-| Jinniya's Gift | 1 | Gain +1 TRAIT charge<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
-| Leaping Strike | 4 | ATTACK used right after DASH deals 200 / 250 / 300 / 350% damages and strikes twice with ENCHANTMENT |
-| Major Enchantment | 1 | While NOT using ATTACK, passively generate 1 ENCHANTMENT points every 3 / 2.5 / 2.25 / 2 seconds |
-| Master Thief | 8 | Whenever you choose a Common, Rare or Epic Magical Object, you have a 40 / 50 / 60 / 70%/20 / 25 / 30 / 35%/10 / 12 / 14 / 16% chance to get another copy of it |
-| Quick Ride | 9 | DASH uses Magic Carpet to deal 40 / 50 / 60 / 70 damage to enemies passed and can be held for up to 1 second(s) |
-| Sand Vortex | 7 | SPECIAL's blades, when stationary, pull in enemies around them<br>SPECIAL deals +40 / 50 / 60 / 70% damage |
-| Shard Blades | 1 | While ENCHANTMENT is active on blades, ATTACKS have their range increased by 20 / 25 / 30 / 35% and deal +20% damage |
-| Slide Attack | 1 | Using ATTACK while the blades are flying makes you slide and deal 400 / 500 / 600 / 700% of ATTACK's damage along the path |
-| Spectral Blades | 1 | Retrieving SPECIAL's blades before they return to Aladdin triggers a flurry of attacks that can deal up to 44 / 55 / 66 / 77 area damage |
+| Acrobatics | 3 | Each enemy passed during DEFENSE grants 3 / 4 / 5 / 6 ENCHANTMENT points |
 | Spinning Strikes | 3 | After retrieving SPECIAL's blades, next ATTACK within 2 second(s) spins 2 times (twice as many with ENCHANTMENT) and deals +80 / 100 / 120 / 140% damage |
+| Leaping Strike | 4 | ATTACK used right after DASH deals 200 / 250 / 300 / 350% damages and strikes twice with ENCHANTMENT |
 | Swordjinn | 4 | POWER Jinn can catch SPECIAL's blades and deal +80 / 120 / 140 / 160% damage in a wider range |
 | Tornado Jump | 5 | DEFENSE casts a tornado that moves toward Aladdin and deals 40 / 50 / 60 / 70 damage per second for 4 seconds |
 | Wish of Omnipotence | 5 | Casting wishes grant OMNIPOTENCE to all nearby Heroes for 8 / 10 / 12 / 14 seconds<br>During OMNIPOTENCE, Heroes POWER, SPECIAL and DEFENSE have a 0.5 second(s) cooldown |
-| Wondrous Wishes | 1 | All wishes are improved:<br>POWER: deals +50 / 75 / 100 / 125% damage<br>SPECIAL: 40 / 60 / 80 / 100% chance to generate 2 consumables<br>DEFENSE: +100 / 125 / 150 / 175% SHIELD gained |
+| Dream Scimitars | 7 | While ENCHANTMENT is active on blades, ATTACK has a 40 / 50 / 60 / 70% chance of earning Aladdin a Dream Shard upon enemy hit |
+| Sand Vortex | 7 | SPECIAL's blades, when stationary, pull in enemies around them<br>SPECIAL deals +40 / 50 / 60 / 70% damage |
+| Enchanted Jinn | 8 | POWER can consume up to 5 ENCHANTMENT points to increase its Crit Chance by 10% per point<br>The maximum number of ENCHANTMENT points is increased by 5 / 10 / 15 / 20 |
+| Master Thief | 8 | Whenever you choose a Common, Rare or Epic Magical Object, you have a 40 / 50 / 60 / 70%/20 / 25 / 30 / 35%/10 / 12 / 14 / 16% chance to get another copy of it |
 
 ## Outfits
 

@@ -185,34 +185,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Aggressive Defense | Deal 60 / 75 / 90 / 105 damage all around when triggering DEFENSE |
+| Cleave | ATTACK has a 25% chance to cleave all around and deal +120 / 150 / 180 / 210% damage |
+| Deadly Combo | POWER ends with an area attack dealing 40 / 50 / 60 / 70% damage |
+| Devourer | Repeatable Quest: Each kill with Werewolf POWER earns +0.4 / 0.5 / 0.6 / 0.7 DMG |
+| Distant Explosions | SPECIAL now targets a farther location and deals +40 / 50 / 60 / 70% damage<br>Human: SPECIAL no longer affects Scarlet and bomb explodes as soon as it hits the ground |
+| Energy | Maximum Combo Points is increased by 2<br>POWER has +4 / 5 / 6 / 7% Crit Chance per Combo Point stored |
+| Evisceration | Each Combo Point spent by POWER applies 16 / 20 / 24 / 28% damage dealt in the form of BLEED |
+| Murderous Intent | DEFENSE instantly bestows 3 Combo Points and lasts 20 / 25 / 30 / 35% longer |
+| Pyromania | SPECIAL applies IGNITE to all enemies hit and gains +40 / 50 / 60 / 70% Crit Chance |
+| Slash Flurry | After using POWER, the next ATTACK within 3 seconds delivers a flurry of 5 slashes with +20 / 30 / 40 / 50% increased damage |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Hunter's Souvenir / Gusting Roar | • **Human**: Shoot with the shotgun, dealing damage in a wide cone (has **`{0}`** charges)<br>• **Werewolf**: Deal continuous damage in a wide cone for **`{1}`** seconds |
+| Grandmother's Souvenir / In the Belly | • **Human**: Create an ash cloud that makes any Hero within it **INTANGIBLE**<br>• **Werewolf**: Eat the closest non-boss enemy, instantly killing it |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Fiery Maw | Hunter's Souvenir / Gusting Roar | 1 | ULTIMATE gains +30% range, deals +20 / 25 / 30 / 35% damage and applies IGNITE to enemies hit |
+| Focus | Hunter's Souvenir / Gusting Roar | 9 | Human: The shotgun fires piercing bullets with greater range, dealing 350 / 437.5 / 525 / 612.5 damage<br>Werewolf: The gust summons a tornado that remains on the ground, dealing 70 / 87.5 / 105 / 122 damage per second |
+| Bone Cracker | Grandmother's Souvenir / In the Belly | 6 | Human: Ash cloud deals 20 / 25 / 30 / 35 damage per second to enemies inside<br>Werewolf: Devouring an enemy causes it to explode, dealing 50 / 62.5 / 75 / 87.5 to 150 / 187.5 / 225 / 262.5 area damage (depending on its size) |
+| Pack Leader | Grandmother's Souvenir / In the Belly | 9 | Human: Ash cloud restores 5 / 6.25 / 7.5 / 8.7 hit points per second to all Heroes within<br>Werewolf: Eating an enemy applies a 15 / 18.75 / 22.5 / 26.2 to 28 / 35 / 42 / 49 SHIELD to all heroes around (depending on its size) |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Adrenaline | 7 | Each time you spend COMBO POINTS, each point spent:<br>Human: restores 2 / 2.5 / 3 / 3.5 health<br>Werewolf: increases ATTACK SPEED by 4 / 5 / 6 / 7% for 6 seconds |
-| Aggressive Defense | 1 | Deal 60 / 75 / 90 / 105 damage all around when triggering DEFENSE |
 | Armor Break | 2 | SPECIAL applies VULNERABLE to all enemies hit for 3 / 4 / 5 / 6 seconds |
-| Bone Cracker | 6 | Human: Ash cloud deals 20 / 25 / 30 / 35 damage per second to enemies inside<br>Werewolf: Devouring an enemy causes it to explode, dealing 50 / 62.5 / 75 / 87.5 to 150 / 187.5 / 225 / 262.5 area damage (depending on its size) |
-| Cleave | 1 | ATTACK has a 25% chance to cleave all around and deal +120 / 150 / 180 / 210% damage |
-| Deadly Combo | 1 | POWER ends with an area attack dealing 40 / 50 / 60 / 70% damage |
-| Devourer | 1 | Repeatable Quest: Each kill with Werewolf POWER earns +0.4 / 0.5 / 0.6 / 0.7 DMG |
-| Distant Explosions | 1 | SPECIAL now targets a farther location and deals +40 / 50 / 60 / 70% damage<br>Human: SPECIAL no longer affects Scarlet and bomb explodes as soon as it hits the ground |
-| Double Strike | 4 | ATTACK triggered right after DASH triggers a double strike, dealing 400 / 500 / 600 / 700% damage and generating one Combo Point |
-| Energy | 1 | Maximum Combo Points is increased by 2<br>POWER has +4 / 5 / 6 / 7% Crit Chance per Combo Point stored |
-| Evisceration | 1 | Each Combo Point spent by POWER applies 16 / 20 / 24 / 28% damage dealt in the form of BLEED |
-| Explosive Rush | 5 | When at 3 Combo Points or above, POWER triggers SPECIAL effect upon use, dealing 40 / 50 / 60 / 70% of its normal damage amount |
-| Fan of Spikes | 7 | When in combat, DASH can consume a COMBO POINT to send 4 / 5 / 6 / 7 spikes, with each one dealing 100% ATTACK damage to enemies hit |
-| Fiery Maw | 1 | ULTIMATE gains +30% range, deals +20 / 25 / 30 / 35% damage and applies IGNITE to enemies hit |
-| Focus | 9 | Human: The shotgun fires piercing bullets with greater range, dealing 350 / 437.5 / 525 / 612.5 damage<br>Werewolf: The gust summons a tornado that remains on the ground, dealing 70 / 87.5 / 105 / 122 damage per second |
-| Murderous Intent | 1 | DEFENSE instantly bestows 3 Combo Points and lasts 20 / 25 / 30 / 35% longer |
-| On the Hunt | 8 | DEFENSE applies MARKED to the nearest enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% increased damage and spread this status to another nearby enemy when they die |
-| Pack Leader | 9 | Human: Ash cloud restores 5 / 6.25 / 7.5 / 8.7 hit points per second to all Heroes within<br>Werewolf: Eating an enemy applies a 15 / 18.75 / 22.5 / 26.2 to 28 / 35 / 42 / 49 SHIELD to all heroes around (depending on its size) |
-| Pulverize | 4 | SPECIAL hits enemies 30% farther<br>SPECIAL can consume a COMBO POINT to deal +40 / 50 / 60 / 70% damage |
-| Pyromania | 1 | SPECIAL applies IGNITE to all enemies hit and gains +40 / 50 / 60 / 70% Crit Chance |
-| Savagery | 8 | Each time Scarlet earns or spends COMBO POINTS, she gains a charge of Savagery (up to 20), each granting +1 / 1.2 / 1.4 / 1.6 DMG<br>Savagery stacks disappear after 5 seconds if no new stacks are gained |
 | Shadow Strikes | 2 | Quest (x30): ATTACK or POWER triggered during Human DEFENSE gain +0.5% Crit Chance per enemy hit<br>Complete: +20 / 25 / 30 / 35% Crit Damage |
-| Shapeshifter | 5 | TRAIT becomes active (with a 30 / 26 / 22 / 18 seconds cooldown) and heals 20% of Maximum Health when used<br>Maximum Health is reduced by 20% |
-| Slash Flurry | 1 | After using POWER, the next ATTACK within 3 seconds delivers a flurry of 5 slashes with +20 / 30 / 40 / 50% increased damage |
 | True Instincts | 3 | In Human Form, gain +10 / 12 / 14 / 16% Move Speed<br>In Werewolf Form, gain +20 / 25 / 30 / 35% Maximum Health |
 | Wide Attacks | 3 | ATTACK gains +40% range and deals +20 / 25 / 30 / 35% damage |
+| Double Strike | 4 | ATTACK triggered right after DASH triggers a double strike, dealing 400 / 500 / 600 / 700% damage and generating one Combo Point |
+| Pulverize | 4 | SPECIAL hits enemies 30% farther<br>SPECIAL can consume a COMBO POINT to deal +40 / 50 / 60 / 70% damage |
+| Explosive Rush | 5 | When at 3 Combo Points or above, POWER triggers SPECIAL effect upon use, dealing 40 / 50 / 60 / 70% of its normal damage amount |
+| Shapeshifter | 5 | TRAIT becomes active (with a 30 / 26 / 22 / 18 seconds cooldown) and heals 20% of Maximum Health when used<br>Maximum Health is reduced by 20% |
+| Adrenaline | 7 | Each time you spend COMBO POINTS, each point spent:<br>Human: restores 2 / 2.5 / 3 / 3.5 health<br>Werewolf: increases ATTACK SPEED by 4 / 5 / 6 / 7% for 6 seconds |
+| Fan of Spikes | 7 | When in combat, DASH can consume a COMBO POINT to send 4 / 5 / 6 / 7 spikes, with each one dealing 100% ATTACK damage to enemies hit |
+| On the Hunt | 8 | DEFENSE applies MARKED to the nearest enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% increased damage and spread this status to another nearby enemy when they die |
+| Savagery | 8 | Each time Scarlet earns or spends COMBO POINTS, she gains a charge of Savagery (up to 20), each granting +1 / 1.2 / 1.4 / 1.6 DMG<br>Savagery stacks disappear after 5 seconds if no new stacks are gained |
 
 ## Outfits
 

@@ -124,34 +124,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Dummyball | SPECIAL creates a DUMMY when it explodes and deals 155 / 170 / 185 / 200% damage<br>Has no effect if max number of DUMMIES are already active |
+| Explosive Builds | When built by TRAIT, DUMMIES emit a blast, dealing 40 / 50 / 60 / 70 area damage |
+| Forked Lightning | DEFENSE sends bolts of lightning toward DUMMIES, each dealing 40 / 50 / 60 / 70 damage |
+| Heart Ties | DUMMIES gain 40 / 50 / 60 / 70% of Geppetto's VITALITY<br>Geppetto gains +5 ARMOR per active DUMMY |
+| Large Family | Increase maximum active DUMMIES by 1<br>TRAIT has a 10 / 15 / 20 / 25% reduced cooldown |
+| Mourning Rage | Whenever a DUMMY is destroyed, Geppetto and other DUMMIES gain STRENGTH for 4 / 6 / 8 / 10 seconds |
+| Nailing Strike | Adds an additional strike to the ATTACK combo, dealing 400 / 500 / 600 / 700% damage |
+| Oiled Mechanisms | DUMMIES hit by Geppetto's ATTACK immediately attack in their current position, dealing 50 / 60 / 70 / 80% damage |
+| Pogo-Hoppers | DUMMIES move 100 / 133.3 / 166.6 / 200% farther when attacking |
+| Rocket Science | DASH can be held for up to 1 second(s), dealing 32 / 40 / 48 / 56 damage along its path and applying IGNITE to all enemies hit.<br>Crossed DUMMIES catch fire and their attacks deal +25 / 25 / 30 / 35% damage for 5 seconds |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Meca-Puppet | • Create an autonomous **PUPPET** that will attack close targets or follow `{0}` if there are no nearby enemies |
+| Overclock | • Make all **DUMMIES** spin around and track nearby enemies, dealing continuous damage all around |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Bomb Reserve | Meca-Puppet | 1 | When in combat, the Meca-Puppet sends a bomb around itself every 1 second(s), dealing 40 / 50 / 60 / 70 area damage |
+| Master Puppet | Meca-Puppet | 9 | When the Meca-Puppet is built, it consumes any DUMMY built around to gain 32 / 40 / 48 / 56% max. health and deal 16 / 20 / 24 / 28% more damage per DUMMY consumed |
+| High Voltage | Overclock | 6 | After a DUMMY is displaced by POWER, it activates the Overclock effect of the ULTIMATE for 1 / 1.5 / 2 / 2.5 second(s) |
+| Hyperclock | Overclock | 9 | DUMMIES under the Overclock effect overheat, applying IGNITE to hit enemies, and lastly explode to deal 80 / 100 / 120 / 140 area damage |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Bomb Reserve | 1 | When in combat, the Meca-Puppet sends a bomb around itself every 1 second(s), dealing 40 / 50 / 60 / 70 area damage |
-| Clockwork Medicine | 3 | DUMMIES healed by SPECIAL also gain +8 / 10 / 12 / 14 REGENERATION |
-| Dummyball | 1 | SPECIAL creates a DUMMY when it explodes and deals 155 / 170 / 185 / 200% damage<br>Has no effect if max number of DUMMIES are already active |
-| Explosive Builds | 1 | When built by TRAIT, DUMMIES emit a blast, dealing 40 / 50 / 60 / 70 area damage |
-| Family Meeting | 4 | When three or more DUMMIES are active, Geppetto and DUMMIES gain +20 / 25 / 30 / 35% ATTACK SPEED |
-| Fireworks | 3 | Each time a DUMMY regains 30 / 25 / 20 / 15% of its Maximum Health, it shoots a homing missile that deals 15 damage to a nearby enemy |
-| Flash of Genius | 8 | First time this Talent is chosen, instantly create 1 / 2 / 3 / 4 random magical object(s) <br>Each upgrade to this Talent will create an additional item once |
 | Flux Capacitor | 2 | While Geppetto has SHIELD, POWER affects all DUMMIES within range and deals +20 / 25 / 30 / 35% damage |
-| Forked Lightning | 1 | DEFENSE sends bolts of lightning toward DUMMIES, each dealing 40 / 50 / 60 / 70 damage |
-| Heart Ties | 1 | DUMMIES gain 40 / 50 / 60 / 70% of Geppetto's VITALITY<br>Geppetto gains +5 ARMOR per active DUMMY |
-| High Voltage | 6 | After a DUMMY is displaced by POWER, it activates the Overclock effect of the ULTIMATE for 1 / 1.5 / 2 / 2.5 second(s) |
-| Hyperclock | 9 | DUMMIES under the Overclock effect overheat, applying IGNITE to hit enemies, and lastly explode to deal 80 / 100 / 120 / 140 area damage |
-| Large Family | 1 | Increase maximum active DUMMIES by 1<br>TRAIT has a 10 / 15 / 20 / 25% reduced cooldown |
-| Laser Lenses | 4 | When the DEFENSE effect is applied, DUMMIES' next attack shoots lasers from their eyes, dealing 200 / 250 / 300 / 350% ranged damage |
-| Lightning Rod Dummies | 8 | A short time after the DEFENSE effect is applied, DUMMIES are struck by lightning and deal 36 / 45 / 54 / 63 damage around |
-| Magnetic Hammer | 7 | Holding POWER allows Geppetto to pull in a DUMMY in front of him<br>Upon release, the DUMMY that has been pulled in deals +40 / 50 / 60 / 70% damage across a 100% wider area |
-| Master Puppet | 9 | When the Meca-Puppet is built, it consumes any DUMMY built around to gain 32 / 40 / 48 / 56% max. health and deal 16 / 20 / 24 / 28% more damage per DUMMY consumed |
-| Mourning Rage | 1 | Whenever a DUMMY is destroyed, Geppetto and other DUMMIES gain STRENGTH for 4 / 6 / 8 / 10 seconds |
-| Nailing Strike | 1 | Adds an additional strike to the ATTACK combo, dealing 400 / 500 / 600 / 700% damage |
-| Oiled Mechanisms | 1 | DUMMIES hit by Geppetto's ATTACK immediately attack in their current position, dealing 50 / 60 / 70 / 80% damage |
-| Pogo-Hoppers | 1 | DUMMIES move 100 / 133.3 / 166.6 / 200% farther when attacking |
-| Rocket Science | 1 | DASH can be held for up to 1 second(s), dealing 32 / 40 / 48 / 56 damage along its path and applying IGNITE to all enemies hit.<br>Crossed DUMMIES catch fire and their attacks deal +25 / 25 / 30 / 35% damage for 5 seconds |
-| Sharp Noses | 7 | DUMMIES have a 50% chance of attacking with their nose, dealing 160 / 200 / 240 / 280% damage on all enemies they hit |
 | Twin Dummies | 2 | TRAIT has a 55 / 70 / 85 / 100% chance to build two DUMMIES at once |
+| Clockwork Medicine | 3 | DUMMIES healed by SPECIAL also gain +8 / 10 / 12 / 14 REGENERATION |
+| Fireworks | 3 | Each time a DUMMY regains 30 / 25 / 20 / 15% of its Maximum Health, it shoots a homing missile that deals 15 damage to a nearby enemy |
+| Family Meeting | 4 | When three or more DUMMIES are active, Geppetto and DUMMIES gain +20 / 25 / 30 / 35% ATTACK SPEED |
+| Laser Lenses | 4 | When the DEFENSE effect is applied, DUMMIES' next attack shoots lasers from their eyes, dealing 200 / 250 / 300 / 350% ranged damage |
 | Unstable Cores | 5 | 3 seconds after their creation, DUMMIES become unstable<br>If an unstable DUMMY is hit with POWER - or if it is destroyed or dismantled - this will cause it to explode, dealing 70 / 87.5 / 105 / 122.5 area damage |
 | Vacuum Capsule | 5 | DUMMIES hit by SPECIAL are jerked toward the center of the explosion, dealing 40 / 50 / 60 / 70% of POWER damage along the way |
+| Magnetic Hammer | 7 | Holding POWER allows Geppetto to pull in a DUMMY in front of him<br>Upon release, the DUMMY that has been pulled in deals +40 / 50 / 60 / 70% damage across a 100% wider area |
+| Sharp Noses | 7 | DUMMIES have a 50% chance of attacking with their nose, dealing 160 / 200 / 240 / 280% damage on all enemies they hit |
+| Flash of Genius | 8 | First time this Talent is chosen, instantly create 1 / 2 / 3 / 4 random magical object(s) <br>Each upgrade to this Talent will create an additional item once |
+| Lightning Rod Dummies | 8 | A short time after the DEFENSE effect is applied, DUMMIES are struck by lightning and deal 36 / 45 / 54 / 63 damage around |
 
 ## Outfits
 

@@ -108,34 +108,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Deafening Cry | While using DEFENSE, Kuma deals up to 60 / 75 / 90 / 105 damage in an area in front of him<br>If Kintarō is on foot, he applies VULNERABLE to enemies in front of him for 4 / 5 / 6 / 7 seconds |
+| Frenzy | Each ATTACK that hits an enemy grants Kintarō and Kuma +3 / 5 / 7 / 9% ATTACK SPEED (up to +25%)<br>These bonuses are lost after going 3 seconds without hitting an enemy with an ATTACK |
+| Hearty Aura | While Kintarō is riding Kuma, he and all nearby Heroes gain +16 / 20 / 24 / 28% MOVE SPEED |
+| Mend Pet | Whenever Kintarō mounts Kuma, he recovers 8 / 10 / 12 / 14 health<br>This Talent has a 10 second cooldown |
+| Power Charge | POWER can be held to store up to 3 levels of charge before it is released<br>Each charge level increases its Crit Chance by 12 / 15 / 18 / 21% |
+| Rush Strikes | ATTACK triggered right after DASH quickly strikes twice, with each strike dealing 200 / 250 / 300 / 350% ATTACK damage |
+| Shattered Earth | SPECIAL leaves a fractured area that explodes after a short time, dealing 40 / 50 / 60 / 70% area damage |
+| Skewer | POWER deals +40 / 50 / 60 / 70% damage for each different enemy hit, up to a maximum |
+| Stampede | When Kintarō is on foot, moving Kuma causes him to charge in the indicated direction, dealing 80 / 100 / 120 / 140% POWER damage to enemies hit<br>This talent has a cooldown of 5 seconds |
+| Strong-Willed | When Kintarō is on foot, he takes 20 / 25 / 30 / 35% of the damage he suffers as INTERNAL DAMAGE |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Giant Carp Suplex | • A giant carp emerges from the ground, dealing damage around `{0}`. `{0}` wrestles the carp in the air then slams it down to deal more damage in the area around the point of impact. |
+| Rikishi | • `{0}` adopts a sumo stance and unleashes a rapid-fire series of palm strikes. |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Rain of Fish | Giant Carp Suplex | 1 | ULTIMATE slam launches 12 / 15 / 18 / 21 fishes in the air that then fall to the ground, with each one dealing 20 area damage |
+| Brutal Taming | Giant Carp Suplex | 9 | During ULTIMATE, Kintarō grabs the carp by the tail and slams it violently against the ground three times, with each strike dealing 60 / 75 / 90 / 105% area damage |
+| Nekodamashi | Rikishi | 6 | Before channeling his ULTIMATE, Kintarō claps his hands to deal 100 / 125 / 150 / 175 damage and 100 stagger points to enemies in front of him |
+| Dohyo | Rikishi | 9 | Before channeling his ULTIMATE, Kintarō tosses salt into the air to create an arena around him<br>All Heroes within the arena recover health equal to 12 / 15 / 18 / 21% of their maximum health every second |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Berserk | 3 | Gain +0.08 / 0.1 / 0.12 / 0.14 DMG for every 10% of maximum health set as INTERNAL DAMAGE |
-| Bold Strike | 5 | Canceling DEFENSE with an ATTACK triggers a finisher that blocks enemy attacks and deals 200 / 250 / 300 / 350% damage |
-| Boomerang Axe | 3 | When triggering POWER, Kintarō throws his axe, which bounces up to 2 times between nearby enemies, dealing 20 / 25 / 30 / 35% damage to each target hit |
-| Brutal Taming | 9 | During ULTIMATE, Kintarō grabs the carp by the tail and slams it violently against the ground three times, with each strike dealing 60 / 75 / 90 / 105% area damage |
-| Crushing Combo | 7 | SPECIAL triggered shortly after POWER gains +25% range and deals +40 / 50 / 60 / 70% damage |
-| Deafening Cry | 1 | While using DEFENSE, Kuma deals up to 60 / 75 / 90 / 105 damage in an area in front of him<br>If Kintarō is on foot, he applies VULNERABLE to enemies in front of him for 4 / 5 / 6 / 7 seconds |
-| Dohyo | 9 | Before channeling his ULTIMATE, Kintarō tosses salt into the air to create an arena around him<br>All Heroes within the arena recover health equal to 12 / 15 / 18 / 21% of their maximum health every second |
-| Energy Discharge | 7 | While Kintarō is on foot, using POWER, SPECIAL or DEFENSE triggers an energy discharge between Kintarō and Kuma, dealing 40 / 50 / 60 / 70 damage to enemies passed through |
-| Forest Spirits | 8 | Whenever Kintarō blocks an attack, a Forest Spirit appears around him (up to 6)<br>For each successful ATTACK, a Forest Spirit is released, dealing 20 / 25 / 30 / 35 damage, and then disappears |
-| Frenzy | 1 | Each ATTACK that hits an enemy grants Kintarō and Kuma +3 / 5 / 7 / 9% ATTACK SPEED (up to +25%)<br>These bonuses are lost after going 3 seconds without hitting an enemy with an ATTACK |
-| Hardened Skin | 4 | Gain +30 / 45 / 60 / 75 ARMOR<br>While Kintarō is on foot, Kuma benefits from 25% of Kintarō's ARMOR |
-| Hearty Aura | 1 | While Kintarō is riding Kuma, he and all nearby Heroes gain +16 / 20 / 24 / 28% MOVE SPEED |
-| Leaping Dash | 8 | Using DASH just after POWER makes Kintarō leap forward and triggers a SPECIAL effect in the area around where he lands, dealing 40 / 50 / 60 / 70% SPECIAL damage |
-| Mend Pet | 1 | Whenever Kintarō mounts Kuma, he recovers 8 / 10 / 12 / 14 health<br>This Talent has a 10 second cooldown |
-| Nekodamashi | 6 | Before channeling his ULTIMATE, Kintarō claps his hands to deal 100 / 125 / 150 / 175 damage and 100 stagger points to enemies in front of him |
-| Power Charge | 1 | POWER can be held to store up to 3 levels of charge before it is released<br>Each charge level increases its Crit Chance by 12 / 15 / 18 / 21% |
-| Raijin Axe | 5 | Quest (x10): Spending 100 Dream Shards grants +0.01 Crit Chance<br>Complete: ATTACK finisher sends 3 lightning strikes to nearby enemies, with each strike dealing 12 / 15 / 18 / 21 damage |
-| Rain of Fish | 1 | ULTIMATE slam launches 12 / 15 / 18 / 21 fishes in the air that then fall to the ground, with each one dealing 20 area damage |
-| Rush Strikes | 1 | ATTACK triggered right after DASH quickly strikes twice, with each strike dealing 200 / 250 / 300 / 350% ATTACK damage |
-| Shattered Earth | 1 | SPECIAL leaves a fractured area that explodes after a short time, dealing 40 / 50 / 60 / 70% area damage |
-| Skewer | 1 | POWER deals +40 / 50 / 60 / 70% damage for each different enemy hit, up to a maximum |
-| Stampede | 1 | When Kintarō is on foot, moving Kuma causes him to charge in the indicated direction, dealing 80 / 100 / 120 / 140% POWER damage to enemies hit<br>This talent has a cooldown of 5 seconds |
-| Strong-Willed | 1 | When Kintarō is on foot, he takes 20 / 25 / 30 / 35% of the damage he suffers as INTERNAL DAMAGE |
 | Targeted Bite | 2 | Kuma's ATTACKS have a 50% chance to turn into a bite, hitting a single target |
 | Unchained Beast | 2 | While Kintarō is on foot, Kuma can chain attacks the same way he does while Kintarō is riding him, dealing +100 / 125 / 150 / 175% damage in total |
+| Berserk | 3 | Gain +0.08 / 0.1 / 0.12 / 0.14 DMG for every 10% of maximum health set as INTERNAL DAMAGE |
+| Boomerang Axe | 3 | When triggering POWER, Kintarō throws his axe, which bounces up to 2 times between nearby enemies, dealing 20 / 25 / 30 / 35% damage to each target hit |
+| Hardened Skin | 4 | Gain +30 / 45 / 60 / 75 ARMOR<br>While Kintarō is on foot, Kuma benefits from 25% of Kintarō's ARMOR |
 | Woodcutter's Swipe | 4 | Kintarō's ATTACK, triggered shortly after a SPECIAL, performs a sweep of his axe that deals 90 / 112.5 / 135 / 157.5 area damage |
+| Bold Strike | 5 | Canceling DEFENSE with an ATTACK triggers a finisher that blocks enemy attacks and deals 200 / 250 / 300 / 350% damage |
+| Raijin Axe | 5 | Quest (x10): Spending 100 Dream Shards grants +0.01 Crit Chance<br>Complete: ATTACK finisher sends 3 lightning strikes to nearby enemies, with each strike dealing 12 / 15 / 18 / 21 damage |
+| Crushing Combo | 7 | SPECIAL triggered shortly after POWER gains +25% range and deals +40 / 50 / 60 / 70% damage |
+| Energy Discharge | 7 | While Kintarō is on foot, using POWER, SPECIAL or DEFENSE triggers an energy discharge between Kintarō and Kuma, dealing 40 / 50 / 60 / 70 damage to enemies passed through |
+| Forest Spirits | 8 | Whenever Kintarō blocks an attack, a Forest Spirit appears around him (up to 6)<br>For each successful ATTACK, a Forest Spirit is released, dealing 20 / 25 / 30 / 35 damage, and then disappears |
+| Leaping Dash | 8 | Using DASH just after POWER makes Kintarō leap forward and triggers a SPECIAL effect in the area around where he lands, dealing 40 / 50 / 60 / 70% SPECIAL damage |
 
 ## Outfits
 

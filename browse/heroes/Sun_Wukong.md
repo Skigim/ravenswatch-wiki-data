@@ -123,34 +123,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Airbender | POWER can strike up to 1 / 2 / 3 / 4 more time(s) |
+| Celestial Pillar | Adds a crushing blow to the ATTACK combo, dealing 40 / 50 / 60 / 70 damage around the point of impact |
+| Mantra of Balance | When SPECIAL is triggered, it applies a negative status effect to enemies within range:<br>YIN: VULNERABLE for 4 / 5 / 6 / 7 second(s)<br>YANG: WEAKENED for 6 / 8 / 10 / 12 second(s) |
+| Resonance | When the SPECIAL effect expires, all the activation effects of the current STANCE are restarted<br>SPECIAL deals +20 / 25 / 30 / 35% damage |
+| Ringing Beads | While SPECIAL is active, ATTACK makes beads ring, dealing 30 / 35 / 40 / 45% ATTACK damage all around |
+| Sprint | Bestows +10 / 12 / 14 / 16% Move Speed<br>DASH can be held for up to 3 seconds to sprint at high speed |
+| Stick Twirl | ATTACK triggered after a DASH launches a rapid series of 5 strikes, each dealing 60 / 75 / 90 / 105% area damage |
+| Stone Monkey | Quest (x40): Each successful DEFENSE grants +0.5 ARMOR<br>Complete: Each block triggers an attack dealing 100 / 125 / 150 / 175% of the blocked damage as area damage |
+| Thirst for Immortality | Quest (x7): Obtaining a Magical Object with an Epic quality or better grants +2 DMG<br>Complete: Grants +1 / 1.25 / 1.5 / 1.75 VITALITY, but now only Hero or Magical Object heals are effective |
+| Ōm | While SPECIAL is active, beads gradually increase their action radius, up to +24 / 30 / 36 / 42%, and hit all enemies present in the area |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Monkey Clones | • Summons **`{0}`** clones in the area, which will fight nearby enemies and attract their attention |
+| Transfiguration | • `{0}` transforms into a copy of another random hero, with ALL their standard Talents activated, of Epic quality |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Army of Monkeys | Monkey Clones | 1 | ULTIMATE summons 3 / 4 / 5 / 6 additional clones |
+| Mantra of Replication | Monkey Clones | 9 | Whenever SPECIAL is casted, summon 3 Monkey Clone that fight for 8 / 10 / 12 / 14 seconds |
+| Perfect Copy | Transfiguration | 6 | During the ULTIMATE transformation, Sun Wukong can use a random ULTIMATE ability of the Hero copied<br>Transfiguration lasts 4 / 5 / 6 / 7 more seconds |
+| Divine Beverage | Transfiguration | 9 | ULTIMATE transformation grants all heroes around OMNIPOTENCE for 8 / 10 / 12 / 14 seconds<br>During OMNIPOTENCE, Heroes' POWER, SPECIAL and DEFENSE have a 0.5 second cooldown |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Airbender | 1 | POWER can strike up to 1 / 2 / 3 / 4 more time(s) |
-| Army of Monkeys | 1 | ULTIMATE summons 3 / 4 / 5 / 6 additional clones |
-| Celestial Pillar | 1 | Adds a crushing blow to the ATTACK combo, dealing 40 / 50 / 60 / 70 damage around the point of impact |
-| Ch'i Outburst | 8 | After POWER hits at least one enemy, the next ATTACK can be held down to store power then released to deliver an energy beam dealing up to 100 / 125 / 150 / 175% POWER damage to all enemies it passes through |
-| Divine Beverage | 9 | ULTIMATE transformation grants all heroes around OMNIPOTENCE for 8 / 10 / 12 / 14 seconds<br>During OMNIPOTENCE, Heroes' POWER, SPECIAL and DEFENSE have a 0.5 second cooldown |
-| Divine Palm | 5 | Blocking with DEFENSE less than 0.2 second(s) after its activation triggers a perfect block:<br>YIN: restores 4 / 5 / 6 / 7 health to all nearby heroes<br>YANG: deals 40 / 50 / 60 / 70 area damage |
-| Fiery Dragon | 4 | Adds an explosion of fire to the activation effects of YANG STANCE, dealing 55 / 68 / 82 / 96 area damage and inflicting enemies with IGNITE |
-| Fiery Golden Eyes | 8 | At the start of each DAY or NIGHT, reveal 2 point(s) of interest on the map<br>Personal Dream Shards gains are increased by 20 / 25 / 30 / 35% |
-| Focused Strikes | 7 | POWER can be held down to deliver the next strike to the same target and deals +8 / 10 / 12 / 14% damage |
-| Frost Tiger | 4 | Adds an explosion of frost to the activation effects of YIN STANCE, dealing 44 / 55 / 66 / 77 area damage and inflicting enemies with CHILLED |
-| Mantra of Balance | 1 | When SPECIAL is triggered, it applies a negative status effect to enemies within range:<br>YIN: VULNERABLE for 4 / 5 / 6 / 7 second(s)<br>YANG: WEAKENED for 6 / 8 / 10 / 12 second(s) |
-| Mantra of Replication | 9 | Whenever SPECIAL is casted, summon 3 Monkey Clone that fight for 8 / 10 / 12 / 14 seconds |
+| Supreme Polarity | 2 | Switching STANCE increases the power of the new STANCE for 7 seconds:<br>YIN: +4 / 5 / 6 / 7% LIFE ON HIT<br>YANG: deals +20 / 25 / 30 / 35% damage |
+| Thundercloud | 2 | Enemies hit by POWER are soon afterwards struck by lightning, dealing 20 / 25 / 30 / 35% damage all around the point of impact |
 | Mind Fortress | 3 | SHIELD and STRENGTH effects triggered upon TRAIT activation last 60 / 75 / 90 / 100% longer |
 | One-Inch Punch | 3 | ATTACK triggered after a successful DEFENSE launches a powerful punch, dealing 600 / 750 / 900 / 1050% damage |
-| Perfect Copy | 6 | During the ULTIMATE transformation, Sun Wukong can use a random ULTIMATE ability of the Hero copied<br>Transfiguration lasts 4 / 5 / 6 / 7 more seconds |
-| Resonance | 1 | When the SPECIAL effect expires, all the activation effects of the current STANCE are restarted<br>SPECIAL deals +20 / 25 / 30 / 35% damage |
-| Ringing Beads | 1 | While SPECIAL is active, ATTACK makes beads ring, dealing 30 / 35 / 40 / 45% ATTACK damage all around |
-| Sacred Seal | 7 | When SPECIAL ends, orbs sink into the ground to draw a sacred pattern that explodes after a short time, dealing 50 / 62.5 / 75 / 87.5 area damage |
-| Sprint | 1 | Bestows +10 / 12 / 14 / 16% Move Speed<br>DASH can be held for up to 3 seconds to sprint at high speed |
-| Stick Twirl | 1 | ATTACK triggered after a DASH launches a rapid series of 5 strikes, each dealing 60 / 75 / 90 / 105% area damage |
-| Stone Monkey | 1 | Quest (x40): Each successful DEFENSE grants +0.5 ARMOR<br>Complete: Each block triggers an attack dealing 100 / 125 / 150 / 175% of the blocked damage as area damage |
-| Supreme Polarity | 2 | Switching STANCE increases the power of the new STANCE for 7 seconds:<br>YIN: +4 / 5 / 6 / 7% LIFE ON HIT<br>YANG: deals +20 / 25 / 30 / 35% damage |
-| Thirst for Immortality | 1 | Quest (x7): Obtaining a Magical Object with an Epic quality or better grants +2 DMG<br>Complete: Grants +1 / 1.25 / 1.5 / 1.75 VITALITY, but now only Hero or Magical Object heals are effective |
-| Thundercloud | 2 | Enemies hit by POWER are soon afterwards struck by lightning, dealing 20 / 25 / 30 / 35% damage all around the point of impact |
+| Fiery Dragon | 4 | Adds an explosion of fire to the activation effects of YANG STANCE, dealing 55 / 68 / 82 / 96 area damage and inflicting enemies with IGNITE |
+| Frost Tiger | 4 | Adds an explosion of frost to the activation effects of YIN STANCE, dealing 44 / 55 / 66 / 77 area damage and inflicting enemies with CHILLED |
+| Divine Palm | 5 | Blocking with DEFENSE less than 0.2 second(s) after its activation triggers a perfect block:<br>YIN: restores 4 / 5 / 6 / 7 health to all nearby heroes<br>YANG: deals 40 / 50 / 60 / 70 area damage |
 | Way of Awakening | 5 | After 7 successful DEFENSE actions, the next TRAIT activates AWAKENED STANCE for 12 / 15 / 18 / 21 seconds<br>AWAKENED STANCE grants both YIN and YANG effects, without taking any additional damage |
-| Ōm | 1 | While SPECIAL is active, beads gradually increase their action radius, up to +24 / 30 / 36 / 42%, and hit all enemies present in the area |
+| Focused Strikes | 7 | POWER can be held down to deliver the next strike to the same target and deals +8 / 10 / 12 / 14% damage |
+| Sacred Seal | 7 | When SPECIAL ends, orbs sink into the ground to draw a sacred pattern that explodes after a short time, dealing 50 / 62.5 / 75 / 87.5 area damage |
+| Ch'i Outburst | 8 | After POWER hits at least one enemy, the next ATTACK can be held down to store power then released to deliver an energy beam dealing up to 100 / 125 / 150 / 175% POWER damage to all enemies it passes through |
+| Fiery Golden Eyes | 8 | At the start of each DAY or NIGHT, reveal 2 point(s) of interest on the map<br>Personal Dream Shards gains are increased by 20 / 25 / 30 / 35% |
 
 ## Outfits
 

@@ -137,34 +137,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Explosive Blast | DEFENSE deals 45 / 56.2 / 67.5 / 78.75 damage |
+| Explosive Rats | Rats explode when they die and deal 6 / 7.5 / 9 / 10.5 damage all around |
+| Extra Measure | After hitting an enemy with DEFENSE, the next POWER within 3 seconds lasts longer (+2 / 3 / 4 / 5 waves of notes) |
+| Giant Rats | Rats' attacks WEAKEN enemies and deal +20 / 25 / 30 / 35% damage |
+| Grand Finale | When SPECIAL's effect expires, the area of effect explodes and deals 60 / 75 / 90 / 105 damage |
+| Horde | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
+| Quintuplets | POWER plays 5 notes each wave (instead of 3) but each note deals -20 / -15 / -10 / -5% damage |
+| Sforzando | SPECIAL triggers an implosive DEFENSE (pulling enemies inwards) with its range increased by 20 / 25 / 30 / 35% |
+| Sniper | Notes from ATTACK and POWER have a longer range and deal +20 / 25 / 30 / 35% damage if they hit after halfway |
+| Sound Barrier | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Unchained Melody | • Continuously play notes that target the closest enemy<br>• Movement is FORCED but the direction can be controlled |
+| Plague of Rats | • Channel a melody to control a swarm of rats that rushes forward and deals damage over a large area |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Jig | Unchained Melody | 1 | DASH sends 4 / 5 / 6 / 7 ULTIMATE notes to nearby enemies |
+| Rain of Notes | Unchained Melody | 9 | During ULTIMATE, 12 / 15 / 18 / 21 notes per second fall from the sky in the surroundings, each dealing 10 area damage |
+| Vermin Massacre | Plague of Rats | 6 | When ULTIMATE is channeled to completion, the swarm of rats explodes, dealing 200 / 250 / 300 / 350 area damage |
+| Rat King | Plague of Rats | 9 | Each rat summoned has a 10 / 15 / 20 / 25% chance to be a Rat King, capable of attacking twice as much and dealing +150% damage |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Acoustic Pulses | 3 | SPECIAL deals 8 / 10 / 12 / 14 damage every second |
-| Chorus | 7 | Every 1 / 0.8 / 0.65 / 0.55 second(s), the SPECIAL area of effect fires 5 ATTACK notes, targeting the closest enemies |
-| Explosive Blast | 1 | DEFENSE deals 45 / 56.2 / 67.5 / 78.75 damage |
-| Explosive Rats | 1 | Rats explode when they die and deal 6 / 7.5 / 9 / 10.5 damage all around |
-| Extra Measure | 1 | After hitting an enemy with DEFENSE, the next POWER within 3 seconds lasts longer (+2 / 3 / 4 / 5 waves of notes) |
 | Freezing Trap | 2 | Enemies within SPECIAL's area of effect are CHILLED and take +10 / 15 / 20 / 25% damage |
-| Ghost Notes | 8 | For every 10 / 8 / 7 / 6 notes played, a ghost note is sent towards the nearest enemy, dealing 20 area damage |
-| Giant Rats | 1 | Rats' attacks WEAKEN enemies and deal +20 / 25 / 30 / 35% damage |
-| Grand Finale | 1 | When SPECIAL's effect expires, the area of effect explodes and deals 60 / 75 / 90 / 105 damage |
-| Horde | 1 | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
-| Invasive Blast | 7 | Hitting at least one enemy with DEFENSE spawns up to 4 / 5 / 6 / 7 rats, which immediately attack nearby enemies |
-| Jig | 1 | DASH sends 4 / 5 / 6 / 7 ULTIMATE notes to nearby enemies |
-| Leeching Charm | 8 | For every 20 attacks that rats made on enemies, restore 4 / 5 / 6 / 7 health to all nearby heroes |
-| Low Notes | 3 | ATTACK sends bigger notes that deal +60 / 75 / 90 / 105% damage in an area of effect but at a 40% reduced frequency |
-| Music of the Spheres | 5 | DASH leaves a bubbled clef that explodes when hit, sending 4 / 5 / 6 / 7 POWER music notes to enemies around |
 | Perfect Harmony | 2 | DEFENSE restores 4 / 5 / 6 / 7 Health to all nearby Heroes for each enemy hit (up to 4) |
-| Quintuplets | 1 | POWER plays 5 notes each wave (instead of 3) but each note deals -20 / -15 / -10 / -5% damage |
-| Rain of Notes | 9 | During ULTIMATE, 12 / 15 / 18 / 21 notes per second fall from the sky in the surroundings, each dealing 10 area damage |
-| Rat King | 9 | Each rat summoned has a 10 / 15 / 20 / 25% chance to be a Rat King, capable of attacking twice as much and dealing +150% damage |
-| Sforzando | 1 | SPECIAL triggers an implosive DEFENSE (pulling enemies inwards) with its range increased by 20 / 25 / 30 / 35% |
-| Sniper | 1 | Notes from ATTACK and POWER have a longer range and deal +20 / 25 / 30 / 35% damage if they hit after halfway |
-| Sound Barrier | 1 | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
+| Acoustic Pulses | 3 | SPECIAL deals 8 / 10 / 12 / 14 damage every second |
+| Low Notes | 3 | ATTACK sends bigger notes that deal +60 / 75 / 90 / 105% damage in an area of effect but at a 40% reduced frequency |
 | Spinning Solo | 4 | POWER triggered after DASH makes Hero move quicker and has +40 / 50 / 60 / 70% Crit Chance |
 | Stimulant Vibes | 4 | Rats attacking within SPECIAL's zone deal +20% damage and have a 50 / 63 / 75 / 88% chance to summon a new rat upon death |
-| Vermin Massacre | 6 | When ULTIMATE is channeled to completion, the swarm of rats explodes, dealing 200 / 250 / 300 / 350 area damage |
+| Music of the Spheres | 5 | DASH leaves a bubbled clef that explodes when hit, sending 4 / 5 / 6 / 7 POWER music notes to enemies around |
 | Virtuoso | 5 | Move Speed when using ATTACK or POWER is increased by 30%<br>Gain +10 / 15 / 20 / 25% ATTACK Speed |
+| Chorus | 7 | Every 1 / 0.8 / 0.65 / 0.55 second(s), the SPECIAL area of effect fires 5 ATTACK notes, targeting the closest enemies |
+| Invasive Blast | 7 | Hitting at least one enemy with DEFENSE spawns up to 4 / 5 / 6 / 7 rats, which immediately attack nearby enemies |
+| Ghost Notes | 8 | For every 10 / 8 / 7 / 6 notes played, a ghost note is sent towards the nearest enemy, dealing 20 area damage |
+| Leeching Charm | 8 | For every 20 attacks that rats made on enemies, restore 4 / 5 / 6 / 7 health to all nearby heroes |
 
 ## Outfits
 

@@ -244,6 +244,61 @@ def ability_rows(common):
     return rows
 
 
+def rank(t):
+    try:
+        return int(t["unlock_rank"])
+    except (KeyError, ValueError):
+        return 99
+
+
+def ultimate_number(t):
+    """Which ultimate (1 or 2) an upgrade talent belongs to, from its text key or controller."""
+    m = re.match(r"Skill_Ultimate_(\d)_", t["name_key"]) or re.search(r"U\w*timate (\d)", t["controller"])
+    return m.group(1) if m else ""
+
+
+def talents_section(common, talents):
+    upgrades = [t for t in talents if t["name_key"].startswith("Skill_Ultimate")]
+    rest = [t for t in talents if t not in upgrades]
+    starting = sorted((t for t in rest if rank(t) == 1), key=lambda t: t["name"])
+    others = sorted((t for t in rest if rank(t) != 1), key=lambda t: (rank(t), t["name"]))
+
+    def row(t, with_rank=True):
+        cells = [game_text(t["name"]), game_text(t["effect_en"])]
+        if with_rank:
+            cells.insert(1, plain(t["unlock_rank"]))
+        return cells
+
+    ult_names = {}
+    ultimates = []
+    for n in ("1", "2"):
+        name = common.get(f"Skill_Ultimate_{n}_Name") or common.get(f"Ability_Ultimate_{n}_Name")
+        if not name:
+            continue
+        ult_names[n] = game_text(name)
+        desc = (common.get(f"Skill_Ultimate_{n}_Update6_Desc") or common.get(f"Skill_Ultimate_{n}_Desc")
+                or common.get(f"Ability_Ultimate_{n}_Desc", ""))
+        ultimates.append([ult_names[n], game_text(desc)])
+
+    upgrades.sort(key=lambda t: (ultimate_number(t), rank(t), t["name"]))
+
+    out = ["## Talents\n",
+           "Values separated by / are for Common / Rare / Epic / Legendary.\n",
+           "### Starting talents\n",
+           "Talents unlocked at rank 1, not counting ultimate upgrades.\n",
+           table(["Talent", "Effect"], [row(t, with_rank=False) for t in starting]),
+           "### Ultimates\n",
+           "The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.\n",
+           table(["Ultimate", "Description"], ultimates),
+           "### Ultimate upgrades\n",
+           table(["Talent", "Upgrades", "Unlocks at rank", "Effect"],
+                 [[game_text(t["name"]), ult_names.get(ultimate_number(t), ""), plain(t["unlock_rank"]),
+                   game_text(t["effect_en"])] for t in upgrades]),
+           "### Other talents\n",
+           table(["Talent", "Unlocks at rank", "Effect"], [row(t) for t in others])]
+    return "\n".join(out)
+
+
 def skins(skin_text):
     groups = OrderedDict()
     for key, text in skin_text.items():
@@ -298,10 +353,7 @@ def hero_page(hid, name, common, talents_meta, talents, abilities_meta, abilitie
         out.append(f"Baseline for this hero: {plain(abilities_meta['baseline'])}\n")
     out.append(values_section(abilities))
 
-    out.append("## Talents\n")
-    out.append("Values separated by / are for Common / Rare / Epic / Legendary.\n")
-    out.append(table(["Talent", "Unlocks at rank", "Effect"],
-                     [[game_text(t["name"]), plain(t["unlock_rank"]), game_text(t["effect_en"])] for t in talents]))
+    out.append(talents_section(common, talents))
 
     out.append("## Outfits\n")
     out.append(table(["Outfit", "How to unlock", "Description"], skin_rows))

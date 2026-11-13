@@ -141,33 +141,56 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Bat Master | When not in combat, DEFENSE grants STEALTH and can be held without consuming BLOOD<br>DEFENSE deals +20 / 25 / 30 / 35% damage<br>STEALTH make Carmilla undetectable by enemies |
+| Boiling Blood | After consuming Health for at least 1 second(s) to fuel an ability, gain REGENERATION +3 / 4 / 5 / 6 |
+| Dispersion | After DEFENSE, bats disperse around Carmilla, dealing 20 / 25 / 30 / 35 area damage as BLEED |
+| Furious Tempest | Consuming BLOOD to fuel POWER gradually increases its damage, up to +40 / 50 / 60 / 70% after 3 seconds of holding |
+| Go for the Throat | Distance covered before SPECIAL's bite increases its damage and Crit Chance, up to +40 / 50 / 60 / 70% |
+| Life Essence | Quest (x30): Killing an enemy with SPECIAL's bite earns VITALITY +1<br>Complete: Repeating this action restores 20 / 25 / 30 / 35 health to Carmilla |
+| Puncture | Each enemy passed through while using DASH earns 8 / 10 / 12 / 14 BLOOD |
+| Razor Claws | ATTACK deals +40 / 50 / 60 / 70% damage as BLEED |
+| Sadism | Critical Hits deal +40 / 60 / 80 / 100% damage on enemies affected by BLEED |
+| Victimization | SPECIAL applies MARKED to bitten enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% damage and spread this status to another nearby enemy when they die |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Impalement | • Consume all **BLOOD** to launch a series of blood spikes errupting from the ground in front, dealing damage to enemies passed |
+| Blood Lash | • Summon a whip of blood, dealing area damage<br>• Next **`{0}`** **ATTACKS** use the whip to strike in large areas |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Torture of the Pale | Impalement | 1 | At the end of their course, ULTIMATE blood spikes return toward Carmilla, dealing 40 / 50 / 60 / 70% damage |
+| Heartbreak | Impalement | 9 | Add a fourth move to ATTACK combo, impaling enemies in front, dealing 40 / 50 / 60 / 70% ULTIMATE damage |
+| Mistress of Pain | Blood Lash | 6 | Increase maximum number of ATTACKS transformed by ULTIMATE by 6 / 8 / 10 / 12 |
+| Mass Punishment | Blood Lash | 9 | Add a fourth ATTACK to ULTIMATE combo, dealing 240 / 300 / 360 / 420% area damage |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Aggressive Flock | 3 | During DEFENSE, Carmilla casts a bat every 0.5 / 0.35 / 0.3 / 0.25 second(s) that seeks out nearby enemies and pierces through them, dealing 10 damage |
-| Angel and Demon | 7 | When using TRAIT:<br>Day: Restores 20 / 25 / 30 / 35 health to all nearby heroes.<br>Night: Grants STRENGTH to all nearby heroes for 4 / 5 / 6 / 7 seconds. |
-| Bat Master | 1 | When not in combat, DEFENSE grants STEALTH and can be held without consuming BLOOD<br>DEFENSE deals +20 / 25 / 30 / 35% damage<br>STEALTH make Carmilla undetectable by enemies |
 | Blood Rage | 2 | Quest(x20): Hitting an enemy with the POWER held for at least 1 second to gain +0.5 DMG<br>Complete: Repeating this action increases POWER explosion damage by +80 / 100 / 120 / 140% |
-| Blood Reserve | 3 | Increase maximum BLOOD reserve by 20 / 25 / 30 / 35% |
-| Boiling Blood | 1 | After consuming Health for at least 1 second(s) to fuel an ability, gain REGENERATION +3 / 4 / 5 / 6 |
-| Cruel Strike | 7 | After DASH or DEFENSE, the next ATTACK starts with a combo finishing move, dealing +100 / 125 / 150 / 175% damage |
-| Dispersion | 1 | After DEFENSE, bats disperse around Carmilla, dealing 20 / 25 / 30 / 35 area damage as BLEED |
-| Flesh Rip | 4 | POWER has +40 / 50 / 60 / 70% Crit Chance on enemies affected by BLEED |
-| Furious Tempest | 1 | Consuming BLOOD to fuel POWER gradually increases its damage, up to +40 / 50 / 60 / 70% after 3 seconds of holding |
-| Go for the Throat | 1 | Distance covered before SPECIAL's bite increases its damage and Crit Chance, up to +40 / 50 / 60 / 70% |
 | Gust | 2 | TRAIT pushes back nearby enemies and deals 80 / 100 / 120 / 140 area damage |
-| Heartbreak | 9 | Add a fourth move to ATTACK combo, impaling enemies in front, dealing 40 / 50 / 60 / 70% ULTIMATE damage |
-| Injection | 8 | SPECIAL implants a blood seed into the bitten enemy that shortly after triggers an explosion of POWER, dealing 80 / 100 / 120 / 140% area damage |
-| Life Essence | 1 | Quest (x30): Killing an enemy with SPECIAL's bite earns VITALITY +1<br>Complete: Repeating this action restores 20 / 25 / 30 / 35 health to Carmilla |
-| Life Tap | 5 | In Winged Form, activating TRAIT again consumes 15% of maximum health to recover up to 40 / 50 / 60 / 70 BLOOD points.<br>Cannot be used below the health cost; has a 10-second cooldown. |
-| Mass Punishment | 9 | Add a fourth ATTACK to ULTIMATE combo, dealing 240 / 300 / 360 / 420% area damage |
-| Mistress of Pain | 6 | Increase maximum number of ATTACKS transformed by ULTIMATE by 6 / 8 / 10 / 12 |
+| Aggressive Flock | 3 | During DEFENSE, Carmilla casts a bat every 0.5 / 0.35 / 0.3 / 0.25 second(s) that seeks out nearby enemies and pierces through them, dealing 10 damage |
+| Blood Reserve | 3 | Increase maximum BLOOD reserve by 20 / 25 / 30 / 35% |
+| Flesh Rip | 4 | POWER has +40 / 50 / 60 / 70% Crit Chance on enemies affected by BLEED |
 | Onslaught | 4 | After a SPECIAL, the next ATTACK makes Carmilla rush forward, dealing 800 / 1000 / 1200 / 1400% ATTACK damage to enemies passed through |
-| Puncture | 1 | Each enemy passed through while using DASH earns 8 / 10 / 12 / 14 BLOOD |
-| Razor Claws | 1 | ATTACK deals +40 / 50 / 60 / 70% damage as BLEED |
-| Sadism | 1 | Critical Hits deal +40 / 60 / 80 / 100% damage on enemies affected by BLEED |
+| Life Tap | 5 | In Winged Form, activating TRAIT again consumes 15% of maximum health to recover up to 40 / 50 / 60 / 70 BLOOD points.<br>Cannot be used below the health cost; has a 10-second cooldown. |
 | Seductive Provocation | 5 | Using DASH without specifying a move direction makes Carmilla seduce up to 4 non-boss enemies in front of her, applying WEAKENED and VULNERABLE to them for 6 / 7.5 / 9 / 10.5 seconds (every 6 seconds max) |
-| Torture of the Pale | 1 | At the end of their course, ULTIMATE blood spikes return toward Carmilla, dealing 40 / 50 / 60 / 70% damage |
-| Victimization | 1 | SPECIAL applies MARKED to bitten enemy for 4 / 6 / 8 / 10 seconds<br>MARKED targets take +25% damage and spread this status to another nearby enemy when they die |
+| Angel and Demon | 7 | When using TRAIT:<br>Day: Restores 20 / 25 / 30 / 35 health to all nearby heroes.<br>Night: Grants STRENGTH to all nearby heroes for 4 / 5 / 6 / 7 seconds. |
+| Cruel Strike | 7 | After DASH or DEFENSE, the next ATTACK starts with a combo finishing move, dealing +100 / 125 / 150 / 175% damage |
+| Injection | 8 | SPECIAL implants a blood seed into the bitten enemy that shortly after triggers an explosion of POWER, dealing 80 / 100 / 120 / 140% area damage |
 | Wild Heart | 8 | POWER's orb move speed is increased by 100%<br>POWER explosion gains +20 / 25 / 30 / 35% range |
 
 ## Outfits

@@ -136,34 +136,57 @@ Baseline for this hero: Compendium level 1 figures: character damage 10, healing
 
 Values separated by / are for Common / Rare / Epic / Legendary.
 
+### Starting talents
+
+Talents unlocked at rank 1, not counting ultimate upgrades.
+
+| Talent | Effect |
+|---|---|
+| Bullet Ballet | DEFENSE shots can ricochet to hit nearby targets, dealing 60 / 75 / 90 / 105% ATTACK damage |
+| Defensive Reload | Reload 3 / 4 / 5 / 6 AMMO after using DEFENSE |
+| Hot Shots | ATTACKS triggered within 2 second(s) after a POWER apply IGNITE to hit enemies and deal +20 / 25 / 30 / 35% damage |
+| Kiss the Groom | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Juliet 2 Dream Shard(s) |
+| Large Chambers | Maximum amount of AMMO is increased by 2<br>ATTACK and POWER damage are increased by 3 / 3.5 / 4 / 4.5% for each missing AMMO |
+| Longshot | POWER gains +50% range and deals +20 / 25 / 30 / 35% damage to enemies hit beyond half the maximum range |
+| Overflowing Passion | SPECIAL restores 6 / 7.5 / 9 / 10.5 Health to all Heroes around whenever it hits at least an enemy |
+| Shadow Round | PERFECT SHOT applies VULNERABLE for 2 / 2.5 / 3 / 3.5 second(s) to hit enemies |
+| Valiant Hearts | TRAIT grants both Romeo and Juliet +20% MOVE SPEED and STRENGTH for 5 / 6.25 / 7.5 / 8.75 second(s) |
+| Volcanic Shots | ATTACK triggered right after DASH shoots 3 / 4 / 5 / 6 times in a row, consuming 3 AMMO |
+
+### Ultimates
+
+The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
+
+| Ultimate | Description |
+|---|---|
+| Wild Waltz | • `{0}` rushes towards `{1}` to perform an **INTANGIBLE** dance dealing area damage |
+| Poison Flask | • Throw a poison flask in the air<br>• Trigger **ULTIMATE** again at the right time to shoot the flask and make it explode, dealing damage in a wide area |
+
+### Ultimate upgrades
+
+| Talent | Upgrades | Unlocks at rank | Effect |
+|---|---|---|---|
+| Passion Dance | Wild Waltz | 1 | Restore between 4–8 / 5–10 / 6–12 / 7–14 Health per seconds to all Heroes nearby during ULTIMATE’s dance (depending on dance movement speed) |
+| Flashy Ending | Wild Waltz | 9 | Dancing gauge can be filled up according to the synchronization of Romeo and Juliet's movements during ULTIMATE<br>Trigger an explosion at the end of the dance dealing from 270 / 337.5 / 405 / 472.5 to 540 / 675 / 810 / 945 area damage (based on dancing gauge level) |
+| Plague Flask | Poison Flask | 6 | ULTIMATE’s explosion applies MARKED to hit enemies for 4 / 5 / 6 / 7 second(s) |
+| Unstable Concoction | Poison Flask | 9 | Using DASH makes Juliet drop a flask of poison to the ground, dealing 30 / 40 / 50 / 60 damage in a zone |
+
+### Other talents
+
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Blind Shots | 7 | DEFENSE fires 3 / 4 / 5 / 6 more shot(s) than the number of AMMO remaining |
-| Bullet Ballet | 1 | DEFENSE shots can ricochet to hit nearby targets, dealing 60 / 75 / 90 / 105% ATTACK damage |
-| Comforting Presence | 4 | Crossing through a Hero using DASH grants 20 / 25 / 30 / 35 SHIELD for 6 seconds to Juliet and all Heroes crossed |
-| Defensive Reload | 1 | Reload 3 / 4 / 5 / 6 AMMO after using DEFENSE |
 | Double Tap | 2 | Hold POWER to trigger 2 shots in a row<br>The second shot deals 60 / 75 / 90 / 105% damage |
-| Explosive Backstep | 5 | While holding POWER, using ATTACK makes Juliet step back and shoot to the ground, dealing 100 / 125 / 150 / 175% POWER’s damage in a zone |
-| Flashy Ending | 9 | Dancing gauge can be filled up according to the synchronization of Romeo and Juliet's movements during ULTIMATE<br>Trigger an explosion at the end of the dance dealing from 270 / 337.5 / 405 / 472.5 to 540 / 675 / 810 / 945 area damage (based on dancing gauge level) |
 | Guns & Roses | 2 | Quest (x10): Hitting an enemy by exploding Romeo's Rose with a PERFECT SHOT grants +1 DMG<br>Complete: Rose explosions triggered with a PERFECT SHOT gain +50% range and deals +28 / 35 / 42 / 49% damage |
-| Heartbeat | 7 | Using TRAIT or receiving Romeo’s TRAIT triggers a sonic wave dealing 100 / 125 / 150 / 175 damage all around Juliet |
-| Hot Shots | 1 | ATTACKS triggered within 2 second(s) after a POWER apply IGNITE to hit enemies and deal +20 / 25 / 30 / 35% damage |
-| Kiss the Groom | 1 | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Juliet 2 Dream Shard(s) |
-| Knockout | 4 | When Juliet is very close to an enemy, ATTACK turns into a strike using her pistol's butt dealing 400 / 500 / 600 / 700% damage at close range without consuming AMMO (4 seconds cooldown) |
-| Large Chambers | 1 | Maximum amount of AMMO is increased by 2<br>ATTACK and POWER damage are increased by 3 / 3.5 / 4 / 4.5% for each missing AMMO |
-| Longshot | 1 | POWER gains +50% range and deals +20 / 25 / 30 / 35% damage to enemies hit beyond half the maximum range |
 | Love Sparks | 3 | SPECIAL fires 4 / 5 / 6 / 7 homing projectiles towards nearby enemies, each one dealing 18.75 damage |
-| Lucky Shot | 8 | ATTACKS have a 4 / 5 / 6 / 7% chance to turn into a POWER shot |
-| Overflowing Passion | 1 | SPECIAL restores 6 / 7.5 / 9 / 10.5 Health to all Heroes around whenever it hits at least an enemy |
-| Passion Dance | 1 | Restore between 4–8 / 5–10 / 6–12 / 7–14 Health per seconds to all Heroes nearby during ULTIMATE’s dance (depending on dance movement speed) |
-| Plague Flask | 6 | ULTIMATE’s explosion applies MARKED to hit enemies for 4 / 5 / 6 / 7 second(s) |
-| Shadow Round | 1 | PERFECT SHOT applies VULNERABLE for 2 / 2.5 / 3 / 3.5 second(s) to hit enemies |
-| Shrapnel | 8 | Using POWER also triggers a shrapnel burst dealing 40 / 50 / 60 / 70% damage in a cone |
 | Swirling Rose | 3 | ATTACKS hitting Romeo's Roses make them spin, dealing 60 / 75 / 100 / 115% of Juliet's ATTACK damage all around |
-| Unstable Concoction | 9 | Using DASH makes Juliet drop a flask of poison to the ground, dealing 30 / 40 / 50 / 60 damage in a zone |
-| Valiant Hearts | 1 | TRAIT grants both Romeo and Juliet +20% MOVE SPEED and STRENGTH for 5 / 6.25 / 7.5 / 8.75 second(s) |
-| Volcanic Shots | 1 | ATTACK triggered right after DASH shoots 3 / 4 / 5 / 6 times in a row, consuming 3 AMMO |
+| Comforting Presence | 4 | Crossing through a Hero using DASH grants 20 / 25 / 30 / 35 SHIELD for 6 seconds to Juliet and all Heroes crossed |
+| Knockout | 4 | When Juliet is very close to an enemy, ATTACK turns into a strike using her pistol's butt dealing 400 / 500 / 600 / 700% damage at close range without consuming AMMO (4 seconds cooldown) |
+| Explosive Backstep | 5 | While holding POWER, using ATTACK makes Juliet step back and shoot to the ground, dealing 100 / 125 / 150 / 175% POWER’s damage in a zone |
 | Wedding Gifts | 5 | Whenever they obtain a Magical Object, Juliet and Romeo have a 25 / 30 / 35 / 40%/12 / 15 / 17 / 19%/6 / 7 / 8 / 9% chance to gift the other the same common, rare or epic Magical Object |
+| Blind Shots | 7 | DEFENSE fires 3 / 4 / 5 / 6 more shot(s) than the number of AMMO remaining |
+| Heartbeat | 7 | Using TRAIT or receiving Romeo’s TRAIT triggers a sonic wave dealing 100 / 125 / 150 / 175 damage all around Juliet |
+| Lucky Shot | 8 | ATTACKS have a 4 / 5 / 6 / 7% chance to turn into a POWER shot |
+| Shrapnel | 8 | Using POWER also triggers a shrapnel burst dealing 40 / 50 / 60 / 70% damage in a cone |
 
 ## Outfits
 
