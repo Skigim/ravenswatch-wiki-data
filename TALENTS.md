@@ -1,10 +1,10 @@
 # Numerical talent tables
 
-The initial Scarlet and Snow Queen pilot was saved at [revision 755](https://ravenswatch.wiki.gg/wiki/User:Skigim/Talent_pilot?oldid=755). The current snapshot, `2026-10-12-1.06`, contains 13 numerical tables, one for each hero including Kintarō, with 26 talents each (338 rows total). They were re-extracted from build 1.06; see [Build 1.06 re-extraction](#build-106-re-extraction). Icons are referenced by wiki filename; no images are included.
+The initial Scarlet and Snow Queen pilot was saved at [revision 755](https://ravenswatch.wiki.gg/wiki/User:Skigim/Talent_pilot?oldid=755). The current snapshot, `2026-10-12-1.06`, contains 13 numerical tables, one for each hero including Kintarō, with 26 talents each (338 rows total). They were re-extracted from build 1.06; see [Build 1.06 re-extraction](#build-106-re-extraction). The `2026-11-12-starting-talents` snapshot adds two columns that mark the starting talents; see [Starting talents](#starting-talents). Icons are referenced by wiki filename; no images are included.
 
 ## Extraction and interpretation
 
-The numeric sources are cooked entity definitions. Each row records original roster order, localization keys and row indices, the controller, plain English numerical effect, unresolved-value notes, tooltip component and byte offset, traced argument graph as JSON, and wiki icon filename. Roster order is not an unlock-rank claim. The JSON records literals, selector properties/values and operation inputs; these are decoded evidence, while the interpretations below remain explicitly identified.
+The numeric sources are cooked entity definitions. Each row records original roster order, localization keys and row indices, the controller, unlock rank, whether it is a starting talent and where that was read, plain English numerical effect, unresolved-value notes, tooltip component and byte offset, traced argument graph as JSON, and wiki icon filename. Roster order is not an unlock-rank claim. The JSON records literals, selector properties/values and operation inputs; these are decoded evidence, while the interpretations below remain explicitly identified.
 
 The `2026-10-05-talents-verified` tables came from Steam (PC) `1.05.01.01.27384`, displayed build date `2026/06/16`, revision `#773b656a63`, as the maintainer confirmed on October 5, 2026. The 1.06 tables come from Steam (PC) `1.06.00.04.27511`, displayed build date `2026/09/07`, revision `#16d45d2f01`, Steam build ID `25174305`, as the maintainer confirmed on October 12, 2026. The tables' `# source_version` header lines predate that confirmation; VERSION.json is the record.
 
@@ -26,7 +26,7 @@ On October 12, 2026, all twelve tables were rebuilt from build 1.06 and Kintarō
 
 **Roster lookup by GUID.** Each roster entry in a hero definition names its talent controller and gives a 16-byte GUID for it. When the name doesn't match a component, the GUID is used. One Kintarō entry needs this: the roster says "Skill Controller Skill Defense Summon Spirit", and the GUID resolves it to "Skill Controller Defense Summon Spirit" (Forest Spirits).
 
-**Unlock ranks.** Ranks are decoded from hero progression definitions, as for 1.05. Three replacement talents (Deadly Combo, Jinn Charge and Spectral Blades) have an unlock condition at level 0, which is met from the start. They're listed at rank 1, like starting talents. Focus unlocks at rank 9 and Maelstrom at rank 7. Kintarō has the same rank layout as the other heroes.
+**Unlock ranks.** Ranks are decoded from hero progression definitions, as for 1.05. Three replacement talents (Deadly Combo, Jinn Charge and Spectral Blades) have an unlock condition at level 0, which is met from the start. They're listed at rank 1, like the other talents that are unlocked from the start. Focus unlocks at rank 9 and Maelstrom at rank 7. Kintarō has the same rank layout as the other heroes.
 
 **Which rows keep the compendium check.** A row whose `effect_en` is unchanged since 1.05 keeps it, along with the October 5 compendium check: 267 of the 312 rows for the twelve earlier heroes. The other 45 are datamined only:
 
@@ -39,6 +39,29 @@ All 26 Kintarō rows are datamined only and haven't been checked in the compendi
 
 **Trace-only changes.** Byte offsets, roster order and internal operand indices change in almost every row because the files were rebuilt. Merlin's table changes only in these columns.
 
+## Starting talents
+
+Two columns follow `unlock_rank`:
+
+- `starting_talent`: `yes` for the talents dealt into the level 1 offer of a run, `no` for the rest. Every row has a value; none is blank.
+- `starting_talent_source`: the entity file, the skill controller component, its tier value and the byte offset of that value in the cooked entity, for example `Hero_Aladdin.entity, Skill Controller Trait Extra Wish, tier 0 @0x57c24`. Where a `Hero_<id>_Update6` override replaces the component, the override is the source.
+
+Each hero has exactly 4 starting talents: two at rank 1, one at rank 2 and one at rank 5. The other 9 rank 1 talents are unlocked from the start but are not starting talents.
+
+**How the game picks them.** Read from `Ravenswatch.exe` of build 1.06 (Steam build ID `25174305`), in the decompiler unless marked otherwise:
+
+- Every skill controller has a tier: a u32 that `oCDtEntityCpntSkillControllerSettings` reads into `+0x178` (`FUN_1402e6db0`), right after its first two child objects. The deserializer rejects values above 3. The engine names the tiers in a table at `0x140ed54e0`: 0 "Tier I", 1 "Tier II", 2 "Tier Ultimate", 3 "Tier III". In the tables, tier 1 covers the 18 regular talents, tier 3 the 4 ultimate upgrades and tier 0 the 4 starting talents. Both base ultimates are tier 2.
+- An activated skill controller adds itself to one of four pools on the hero controller, picked by its tier (`FUN_1402e8250`).
+- The hero controller has 10 talent slots with fixed tiers, set in its constructor (`FUN_140397250`): slot 0 is tier 0, slots 1–3 and 5–8 are tier 1, slot 4 is tier 2 and slot 9 is tier 3. A run starts with no talents, so the first offer fills slot 0 from the tier 0 pool.
+- The offer builder (`FUN_1403b27e0`) deals `Extra skill choice + 4` cards for a tier 0 slot and `Extra skill choice + 2` for the others, at least 1 (confirmed in the assembly at `0x1403b29aa`–`0x1403b29c9`). `Extra skill choice` is the entity value `0x1a7a3166`, registered with a default of 0 in `FUN_1401d0030`.
+- The builder draws unlocked talents at random. A talent whose hero-rank lock isn't met yet goes to a fallback list instead. For a tier 0 slot, the fallback list fills any remaining cards, sorted by unlock rank (`FUN_1402e9850`, `FUN_1403178f0`). The lock comes from the hero definition entry with the same GUID (`FUN_1402e80c0`).
+
+So with default settings, the level 1 offer is all 4 starting talents, whatever the hero's rank. The data doesn't show how the game displays a starting talent that is still locked.
+
+**What changes it.** The only cooked data that touches `Extra skill choice` is `LessChoices LessSkill Modifier` in `Hero_Common.entity` (int `-1` @`0x9b23c`), part of the Lack of Inspiration game modifier. With it, the level 1 offer is 3 cards: unlocked starting talents at random, then locked ones by unlock rank. The same builder handles rerolls; a reroll leaves out the previous cards when enough others remain.
+
+**Talents that are never offered.** Some heroes have tier 0 controllers that aren't in the hero definition, for example Aladdin's `Skill Controller Trait Fourth Wish`. They aren't in these tables. In every one of them, the byte after the component name is 0; in every roster controller in the hero entity files it is 1. The 1.06 `_Update6` overrides set it to 0 on four controllers that the 1.06 roster no longer uses. This byte reads as the component's enabled flag, which would keep those controllers out of the pools. That reading is inferred from this pattern; the code that checks the flag wasn't traced.
+
 ## Compendium verification completed October 5, 2026
 
 The maintainer manually checked the flagged tooltips in the Antigravity session. These confirmations are applied in the current tables and drafts:
@@ -47,7 +70,7 @@ The maintainer manually checked the flagged tooltips in the Antigravity session.
 2. Scarlet, Devourer, and The Snow Queen, Rupture: quest target 20 at every rarity. Earlier stored selector branches do not alter the confirmed displayed target.
 3. The Snow Queen, Freezing Stars: 32 / 40 / 48 / 56 area damage. The unresolved source GUID remains in the trace, but the displayed value is settled by the compendium check.
 
-Unlock ranks were subsequently decoded from hero progression definitions and added to all twelve tables. Base ultimates are excluded from talent tables; ultimate upgrade talents are included. Each hero has 11 Starting talents, two at each rank 2–5, one at rank 6, two at each rank 7–8, and two at rank 9.
+Unlock ranks were subsequently decoded from hero progression definitions and added to all twelve tables. Base ultimates are excluded from talent tables; ultimate upgrade talents are included. `unlock_rank` is the hero rank that unlocks a talent. Each hero has 11 talents at rank 1, which are unlocked from the start, two at each rank 2–5, one at rank 6, two at each rank 7–8, and two at rank 9. Rank 1 doesn't make a talent a starting talent: only 2 of the 11 are. See [Starting talents](#starting-talents).
 
 Source traces preserve the original graph and interpretation history. Historical unresolved operands are not current publication blockers when the displayed value has been confirmed.
 
