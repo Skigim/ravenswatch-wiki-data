@@ -125,6 +125,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Stone Monkey | 1 | Quest (x40): Each successful DEFENSE grants +0.5 ARMOR<br>Complete: Each block triggers an attack dealing 100 / 125 / 150 / 175% of the blocked damage as area damage |
+| Thirst for Immortality | 1 | Quest (x7): Obtaining a Magical Object with an Epic quality or better grants +2 DMG<br>Complete: Grants +1 / 1.25 / 1.5 / 1.75 VITALITY, but now only Hero or Magical Object heals are effective |
+| Supreme Polarity | 2 | Switching STANCE increases the power of the new STANCE for 7 seconds:<br>YIN: +4 / 5 / 6 / 7% LIFE ON HIT<br>YANG: deals +20 / 25 / 30 / 35% damage |
+| Way of Awakening | 5 | After 7 successful DEFENSE actions, the next TRAIT activates AWAKENED STANCE for 12 / 15 / 18 / 21 seconds<br>AWAKENED STANCE grants both YIN and YANG effects, without taking any additional damage |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -154,17 +165,13 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Ringing Beads | 1 | While SPECIAL is active, ATTACK makes beads ring, dealing 30 / 35 / 40 / 45% ATTACK damage all around |
 | Sprint | 1 | Bestows +10 / 12 / 14 / 16% Move Speed<br>DASH can be held for up to 3 seconds to sprint at high speed |
 | Stick Twirl | 1 | ATTACK triggered after a DASH launches a rapid series of 5 strikes, each dealing 60 / 75 / 90 / 105% area damage |
-| Stone Monkey | 1 | Quest (x40): Each successful DEFENSE grants +0.5 ARMOR<br>Complete: Each block triggers an attack dealing 100 / 125 / 150 / 175% of the blocked damage as area damage |
-| Thirst for Immortality | 1 | Quest (x7): Obtaining a Magical Object with an Epic quality or better grants +2 DMG<br>Complete: Grants +1 / 1.25 / 1.5 / 1.75 VITALITY, but now only Hero or Magical Object heals are effective |
 | Ōm | 1 | While SPECIAL is active, beads gradually increase their action radius, up to +24 / 30 / 36 / 42%, and hit all enemies present in the area |
-| Supreme Polarity | 2 | Switching STANCE increases the power of the new STANCE for 7 seconds:<br>YIN: +4 / 5 / 6 / 7% LIFE ON HIT<br>YANG: deals +20 / 25 / 30 / 35% damage |
 | Thundercloud | 2 | Enemies hit by POWER are soon afterwards struck by lightning, dealing 20 / 25 / 30 / 35% damage all around the point of impact |
 | Mind Fortress | 3 | SHIELD and STRENGTH effects triggered upon TRAIT activation last 60 / 75 / 90 / 100% longer |
 | One-Inch Punch | 3 | ATTACK triggered after a successful DEFENSE launches a powerful punch, dealing 600 / 750 / 900 / 1050% damage |
 | Fiery Dragon | 4 | Adds an explosion of fire to the activation effects of YANG STANCE, dealing 55 / 68 / 82 / 96 area damage and inflicting enemies with IGNITE |
 | Frost Tiger | 4 | Adds an explosion of frost to the activation effects of YIN STANCE, dealing 44 / 55 / 66 / 77 area damage and inflicting enemies with CHILLED |
 | Divine Palm | 5 | Blocking with DEFENSE less than 0.2 second(s) after its activation triggers a perfect block:<br>YIN: restores 4 / 5 / 6 / 7 health to all nearby heroes<br>YANG: deals 40 / 50 / 60 / 70 area damage |
-| Way of Awakening | 5 | After 7 successful DEFENSE actions, the next TRAIT activates AWAKENED STANCE for 12 / 15 / 18 / 21 seconds<br>AWAKENED STANCE grants both YIN and YANG effects, without taking any additional damage |
 | Focused Strikes | 7 | POWER can be held down to deliver the next strike to the same target and deals +8 / 10 / 12 / 14% damage |
 | Sacred Seal | 7 | When SPECIAL ends, orbs sink into the ground to draw a sacred pattern that explodes after a short time, dealing 50 / 62.5 / 75 / 87.5 area damage |
 | Ch'i Outburst | 8 | After POWER hits at least one enemy, the next ATTACK can be held down to store power then released to deliver an energy beam dealing up to 100 / 125 / 150 / 175% POWER damage to all enemies it passes through |

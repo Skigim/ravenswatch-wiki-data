@@ -126,6 +126,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Dummyball | 1 | SPECIAL creates a DUMMY when it explodes and deals 155 / 170 / 185 / 200% damage<br>Has no effect if max number of DUMMIES are already active |
+| Rocket Science | 1 | DASH can be held for up to 1 second(s), dealing 32 / 40 / 48 / 56 damage along its path and applying IGNITE to all enemies hit.<br>Crossed DUMMIES catch fire and their attacks deal +25 / 25 / 30 / 35% damage for 5 seconds |
+| Twin Dummies | 2 | TRAIT has a 55 / 70 / 85 / 100% chance to build two DUMMIES at once |
+| Unstable Cores | 5 | 3 seconds after their creation, DUMMIES become unstable<br>If an unstable DUMMY is hit with POWER - or if it is destroyed or dismantled - this will cause it to explode, dealing 70 / 87.5 / 105 / 122.5 area damage |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -148,7 +159,6 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Dummyball | 1 | SPECIAL creates a DUMMY when it explodes and deals 155 / 170 / 185 / 200% damage<br>Has no effect if max number of DUMMIES are already active |
 | Explosive Builds | 1 | When built by TRAIT, DUMMIES emit a blast, dealing 40 / 50 / 60 / 70 area damage |
 | Forked Lightning | 1 | DEFENSE sends bolts of lightning toward DUMMIES, each dealing 40 / 50 / 60 / 70 damage |
 | Heart Ties | 1 | DUMMIES gain 40 / 50 / 60 / 70% of Geppetto's VITALITY<br>Geppetto gains +5 ARMOR per active DUMMY |
@@ -157,14 +167,11 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Nailing Strike | 1 | Adds an additional strike to the ATTACK combo, dealing 400 / 500 / 600 / 700% damage |
 | Oiled Mechanisms | 1 | DUMMIES hit by Geppetto's ATTACK immediately attack in their current position, dealing 50 / 60 / 70 / 80% damage |
 | Pogo-Hoppers | 1 | DUMMIES move 100 / 133.3 / 166.6 / 200% farther when attacking |
-| Rocket Science | 1 | DASH can be held for up to 1 second(s), dealing 32 / 40 / 48 / 56 damage along its path and applying IGNITE to all enemies hit.<br>Crossed DUMMIES catch fire and their attacks deal +25 / 25 / 30 / 35% damage for 5 seconds |
 | Flux Capacitor | 2 | While Geppetto has SHIELD, POWER affects all DUMMIES within range and deals +20 / 25 / 30 / 35% damage |
-| Twin Dummies | 2 | TRAIT has a 55 / 70 / 85 / 100% chance to build two DUMMIES at once |
 | Clockwork Medicine | 3 | DUMMIES healed by SPECIAL also gain +8 / 10 / 12 / 14 REGENERATION |
 | Fireworks | 3 | Each time a DUMMY regains 30 / 25 / 20 / 15% of its Maximum Health, it shoots a homing missile that deals 15 damage to a nearby enemy |
 | Family Meeting | 4 | When three or more DUMMIES are active, Geppetto and DUMMIES gain +20 / 25 / 30 / 35% ATTACK SPEED |
 | Laser Lenses | 4 | When the DEFENSE effect is applied, DUMMIES' next attack shoots lasers from their eyes, dealing 200 / 250 / 300 / 350% ranged damage |
-| Unstable Cores | 5 | 3 seconds after their creation, DUMMIES become unstable<br>If an unstable DUMMY is hit with POWER - or if it is destroyed or dismantled - this will cause it to explode, dealing 70 / 87.5 / 105 / 122.5 area damage |
 | Vacuum Capsule | 5 | DUMMIES hit by SPECIAL are jerked toward the center of the explosion, dealing 40 / 50 / 60 / 70% of POWER damage along the way |
 | Magnetic Hammer | 7 | Holding POWER allows Geppetto to pull in a DUMMY in front of him<br>Upon release, the DUMMY that has been pulled in deals +40 / 50 / 60 / 70% damage across a 100% wider area |
 | Sharp Noses | 7 | DUMMIES have a 50% chance of attacking with their nose, dealing 160 / 200 / 240 / 280% damage on all enemies they hit |

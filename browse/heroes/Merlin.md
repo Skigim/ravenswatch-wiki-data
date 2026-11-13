@@ -300,6 +300,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Astrology | 1 | Gain +3 Star(s) of Fate<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
+| Runic Might | 1 | Quest (x20): In combat, casting a Spell that consumes 3 runes of POTENCY earns +0.5 DMG<br>Complete: Repeating this action makes the Spell cast gain 20 / 25 / 30 / 35% Crit Chance |
+| Eternal Dream | 2 | Each time Merlin casts his nine different Spells, he gains 30 / 40 / 50 / 60 Dream Shards<br>Does not work within a Safe Zone or during Chapter Boss fights |
+| Trinity | 5 | Quest (x3): Collect Excalibur, Holy Grail or Father Time's Hourglass to gain +2 Stars of Fate<br>Complete: Gain +1 TRAIT charge and all critical damage will increase by +40 / 50 / 60 / 70% |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -323,23 +334,19 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
 | Arcane Shield | 1 | Casting an Arcane Spell (SPECIAL) surrounds Merlin with protection that blocks any attack for 1.2 / 1.5 / 1.8 / 2 seconds |
-| Astrology | 1 | Gain +3 Star(s) of Fate<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
 | Brambles Whirlwind | 1 | When casting the Giant Brambles Spell, Merlin makes the brambles spin around him, dealing +32 / 40 / 48 / 56% damage all around |
 | Fire Barrage | 1 | The Fireball Spell also sends 2 fire missiles (+2 per Rune of POTENCY spent) to nearby enemies, dealing 16 / 20 / 24 / 28 damage each |
 | Grace of Heaven | 1 | Casting a Sacred Spell (DEFENSE) reduces TRAIT cooldown by 2 / 2.5 / 3 / 3.5 seconds |
 | Natural Harmony | 1 | Hitting at least one enemy with a Nature Spell (POWER) restores 8 / 10 / 12 / 14 health to all nearby Heroes |
-| Runic Might | 1 | Quest (x20): In combat, casting a Spell that consumes 3 runes of POTENCY earns +0.5 DMG<br>Complete: Repeating this action makes the Spell cast gain 20 / 25 / 30 / 35% Crit Chance |
 | Sacred Ground | 1 | After casting the Blink Spell, a sacred area will appear on the ground for 5 seconds<br>All Heroes inside the area will gain +0.4 / 0.5 / 0.6 / 0.7 DMG |
 | Sacred Strike | 1 | After casting a Sacred Spell (DEFENSE), Merlin's next ATTACK will be a finisher that conjures a rune of POTENCY if it hits an enemy and deals 320 / 400 / 480 / 560% damage |
 | Wild Magic | 1 | After casting a Nature Spell (POWER), the next 3 ATTACKS also project thorns, dealing 200 / 250 / 300 / 350% damage as BLEED |
 | Arcanic Rune | 2 | Hitting at least one enemy with an Arcane Spell (SPECIAL) conjures a rune of POTENCY<br>Arcane Spells (SPECIAL) deal +20 / 25 / 30 / 35% damage |
-| Eternal Dream | 2 | Each time Merlin casts his nine different Spells, he gains 30 / 40 / 50 / 60 Dream Shards<br>Does not work within a Safe Zone or during Chapter Boss fights |
 | Lightning Storm | 3 | Every 4 times the Fork of Lightning Spell hits an enemy, a lightning strike will hit a nearby enemy, dealing 12 / 15 / 18 / 21 damage |
 | Shooting Stars | 3 | The Starfall Spell applies VULNERABLE to enemies hit for 4 / 5 / 6 / 7 seconds |
 | Freezing Stones | 4 | The Stone Shield Spell applies CHILLED to enemies hit, and its final explosion deals +40 / 50 / 60 / 70% damage |
 | Holy Fire | 4 | The Light Nova Spell deals 28 / 35 / 42 / 49 damage (+100% per rune of POTENCY spent) to enemies hit and applies IGNITE |
 | Elemental Affinity | 5 | All of Merlin's Abilities have +16 / 20 / 24 / 28% Crit Chance on enemies affected by IGNITE or CHILLED status (both can stack) |
-| Trinity | 5 | Quest (x3): Collect Excalibur, Holy Grail or Father Time's Hourglass to gain +2 Stars of Fate<br>Complete: Gain +1 TRAIT charge and all critical damage will increase by +40 / 50 / 60 / 70% |
 | Frost Arcane | 7 | Whenever Frost Orb is touched by Merlin's ATTACK, it emits a blast dealing 20 / 25 / 30 / 35 damage all around |
 | Retaliation | 7 | The Blessing Spell also applies 10 SHIELD for 6 seconds to the Hero affected<br>When this expires or is destroyed, it deals 80 / 100 / 120 / 140 area damage |
 | Celestial Wrath | 8 | TRAIT triggers a lightning strike on up to 4 / 5 / 6 / 7 nearby enemies<br>Lightning strikes deal 80 damage each and are stronger if fewer enemies are hit |

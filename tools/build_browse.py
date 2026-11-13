@@ -260,9 +260,8 @@ def ultimate_number(t):
 def talents_section(common, talents):
     upgrades = [t for t in talents if t["name_key"].startswith("Skill_Ultimate")]
     rest = [t for t in talents if t not in upgrades]
-    # The tables do not record which talents are offered at level 1 of a run,
-    # so there is no Starting talents group until an export provides that.
-    others = sorted(rest, key=lambda t: (rank(t), t["name"]))
+    starting = sorted((t for t in rest if t.get("starting_talent") == "yes"), key=lambda t: (rank(t), t["name"]))
+    others = sorted((t for t in rest if t.get("starting_talent") != "yes"), key=lambda t: (rank(t), t["name"]))
 
     def row(t):
         return [game_text(t["name"]), plain(t["unlock_rank"]), game_text(t["effect_en"])]
@@ -283,6 +282,11 @@ def talents_section(common, talents):
     out = ["## Talents\n",
            "Values separated by / are for Common / Rare / Epic / Legendary.\n",
            "**Unlocks at rank** is the hero rank, not the level reached in a run.\n",
+           "### Starting talents\n",
+           "The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank "
+           "can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. "
+           "See [TALENTS.md](../../TALENTS.md).\n",
+           table(["Talent", "Unlocks at rank", "Effect"], [row(t) for t in starting]),
            "### Ultimates\n",
            "The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.\n",
            table(["Ultimate", "Description"], ultimates),

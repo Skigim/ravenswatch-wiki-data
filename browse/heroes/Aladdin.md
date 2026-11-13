@@ -125,6 +125,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Aerial Catch | 1 | Quest (x15): After they hit an enemy, retrieving SPECIAL blades during DEFENSE grants +2 ARMOR<br>Complete: Doing it again grants 12 / 15 / 18 / 21 SHIELD to all nearby Heroes for 6 seconds |
+| Jinniya's Gift | 1 | Gain +1 TRAIT charge<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
+| Jinn's Might | 2 | Quest (x20): Hitting an enemy with POWER at maximum charge grants +0.5 DMG<br>Complete: Increases POWER's bonus damage from charge by 40 / 50 / 60 / 70% |
+| Wish of Omnipotence | 5 | Casting wishes grant OMNIPOTENCE to all nearby Heroes for 8 / 10 / 12 / 14 seconds<br>During OMNIPOTENCE, Heroes POWER, SPECIAL and DEFENSE have a 0.5 second(s) cooldown |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -147,24 +158,20 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 
 | Talent | Unlocks at rank | Effect |
 |---|---|---|
-| Aerial Catch | 1 | Quest (x15): After they hit an enemy, retrieving SPECIAL blades during DEFENSE grants +2 ARMOR<br>Complete: Doing it again grants 12 / 15 / 18 / 21 SHIELD to all nearby Heroes for 6 seconds |
 | Air Dash | 1 | DASH can be triggered during DEFENSE's air time <br>Doing so increases ATTACK speed by 15% for 4 / 5 / 6 / 7 second(s) |
 | Healing Blades | 1 | When retrieved, SPECIAL's blades heal all Heroes nearby for each enemy hit, up to 7.5 / 9 / 10.5 / 12 Health |
 | Jinn Charge | 1 | DASH used after POWER summons the Jinn to charge through enemies and deal 25 / 31.25 / 37.5 / 43.7 damage |
 | Jinn's Fury | 1 | POWER strikes 3 times, each one dealing 40 / 45 / 50 / 55% damage |
-| Jinniya's Gift | 1 | Gain +1 TRAIT charge<br>Future Talents have a +15 / 25 / 35 / 45% chance of being Rare or above |
 | Major Enchantment | 1 | While NOT using ATTACK, passively generate 1 ENCHANTMENT points every 3 / 2.5 / 2.25 / 2 seconds |
 | Shard Blades | 1 | While ENCHANTMENT is active on blades, ATTACKS have their range increased by 20 / 25 / 30 / 35% and deal +20% damage |
 | Slide Attack | 1 | Using ATTACK while the blades are flying makes you slide and deal 400 / 500 / 600 / 700% of ATTACK's damage along the path |
 | Spectral Blades | 1 | Retrieving SPECIAL's blades before they return to Aladdin triggers a flurry of attacks that can deal up to 44 / 55 / 66 / 77 area damage |
 | Dive | 2 | Using ATTACK during DEFENSE's jump makes Aladdin dive to the ground, dealing 400 / 500 / 600 / 700% of ATTACK's damage all around |
-| Jinn's Might | 2 | Quest (x20): Hitting an enemy with POWER at maximum charge grants +0.5 DMG<br>Complete: Increases POWER's bonus damage from charge by 40 / 50 / 60 / 70% |
 | Acrobatics | 3 | Each enemy passed during DEFENSE grants 3 / 4 / 5 / 6 ENCHANTMENT points |
 | Spinning Strikes | 3 | After retrieving SPECIAL's blades, next ATTACK within 2 second(s) spins 2 times (twice as many with ENCHANTMENT) and deals +80 / 100 / 120 / 140% damage |
 | Leaping Strike | 4 | ATTACK used right after DASH deals 200 / 250 / 300 / 350% damages and strikes twice with ENCHANTMENT |
 | Swordjinn | 4 | POWER Jinn can catch SPECIAL's blades and deal +80 / 120 / 140 / 160% damage in a wider range |
 | Tornado Jump | 5 | DEFENSE casts a tornado that moves toward Aladdin and deals 40 / 50 / 60 / 70 damage per second for 4 seconds |
-| Wish of Omnipotence | 5 | Casting wishes grant OMNIPOTENCE to all nearby Heroes for 8 / 10 / 12 / 14 seconds<br>During OMNIPOTENCE, Heroes POWER, SPECIAL and DEFENSE have a 0.5 second(s) cooldown |
 | Dream Scimitars | 7 | While ENCHANTMENT is active on blades, ATTACK has a 40 / 50 / 60 / 70% chance of earning Aladdin a Dream Shard upon enemy hit |
 | Sand Vortex | 7 | SPECIAL's blades, when stationary, pull in enemies around them<br>SPECIAL deals +40 / 50 / 60 / 70% damage |
 | Enchanted Jinn | 8 | POWER can consume up to 5 ENCHANTMENT points to increase its Crit Chance by 10% per point<br>The maximum number of ENCHANTMENT points is increased by 5 / 10 / 15 / 20 |

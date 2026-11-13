@@ -119,6 +119,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Deep Beat | 1 | For every 4 ATTACKS that hit an enemy, generate a blast all around that deals 100 / 120 / 140 / 160% of ATTACK's damage<br>Counter resets when exiting SING STANCE |
+| Spring Water | 1 | Each wave from SPECIAL that hits an enemy restores 2 / 2.5 / 3 / 3.5 Health to all Heroes within the area of effect |
+| Underwater Predation | 2 | DEFENSE can be held to move more quickly underwater<br>All enemies passed become VULNERABLE for 4 / 5 / 6 / 7 seconds |
+| Sea Dance | 5 | In SING STANCE, the CONTEXTUAL ACTION allows for quick teleportation to the WISP (5 seconds cooldown)<br>Performing this action in combat restores 8 / 10 / 12 / 14 health to all nearby Heroes |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -144,20 +155,16 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Aftershock | 1 | POWER leaves a water core at the casting location that triggers POWER again after 1.5 seconds for 40 / 50 / 60 / 70% of its damage |
 | Backwash | 1 | When SPECIAL ends, add 3 additional waves that travel backwards and deal 50 / 65 / 80 / 95% damage each |
 | Bewitching Song | 1 | When entering SING STANCE, apply WEAK to all nearby enemies for 3 / 4 / 5 / 6 seconds |
-| Deep Beat | 1 | For every 4 ATTACKS that hit an enemy, generate a blast all around that deals 100 / 120 / 140 / 160% of ATTACK's damage<br>Counter resets when exiting SING STANCE |
 | Freezing Splash | 1 | POWER applies CHILLED to all enemies hit and gains +15 / 20 / 25 / 30% range |
 | Power Dive | 1 | DEFENSE triggers POWER's effect with a +20 / 25 / 30 / 35% damage increase when Melusine dives underwater |
 | Protective Flow | 1 | Heroes passed by ATTACK gain 8 / 10 / 12 / 14 SHIELD for 6 seconds |
-| Spring Water | 1 | Each wave from SPECIAL that hits an enemy restores 2 / 2.5 / 3 / 3.5 Health to all Heroes within the area of effect |
 | Tidal Wave | 1 | SPECIAL's waves are 20 / 25 / 30 / 35% wider and longer |
 | Water Bubble | 1 | After DEFENSE is triggered, Melusine is surrounded by a bubble for 4 seconds, absorbing damage for one hit<br>The bubble then explodes and deals 60 / 75 / 90 / 105 area damage |
 | Submerging Attack | 2 | ATTACK damage increases by 8 / 9 / 10 / 11% for each enemy hit (up to 6 hits, +48 / 54 / 60 / 66%)<br>Resets if Melusine takes damage or exits SING STANCE |
-| Underwater Predation | 2 | DEFENSE can be held to move more quickly underwater<br>All enemies passed become VULNERABLE for 4 / 5 / 6 / 7 seconds |
 | Geyser | 3 | POWER deals +50 / 60 / 70 / 80% damage at its center |
 | Water Communion | 3 | DEFENSE removes SPECIAL's cooldown and increases next SPECIAL's damage within 3 seconds by +40 / 50 / 60 / 70% |
 | Razor Tail | 4 | DEFENSE makes Melusine strike with her tail, dealing 400 / 500 / 600 / 700% of ATTACK damage |
 | Soothing Presence | 4 | When in combat, passively heal 4 / 5 / 6 / 7 Hit Points for all Heroes in the area every 5 seconds |
-| Sea Dance | 5 | In SING STANCE, the CONTEXTUAL ACTION allows for quick teleportation to the WISP (5 seconds cooldown)<br>Performing this action in combat restores 8 / 10 / 12 / 14 health to all nearby Heroes |
 | Wisp Surge | 5 | After casting SPECIAL, gain +40 / 50 / 60 / 70% ATTACK SPEED for 3 seconds |
 | Final Burst | 7 | After 3 successful attacks, WISP explodes when it disappears, dealing 40 / 50 / 60 / 70 area damage |
 | Waterlogging | 7 | WISP gains 2 growth charges for each wave of SPECIAL that hits it (up to a maximum of 12 charges)<br>Each charge increases the damage of the ATTACK by 20 / 25 / 30 / 35%, with each ATTACK consuming one charge |

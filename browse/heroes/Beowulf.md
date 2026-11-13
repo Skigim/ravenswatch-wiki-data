@@ -121,6 +121,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Explosive Fire | 1 | IGNITED enemies explode when they die, dealing 20 / 25 / 30 / 35 damage and applying IGNITE to all nearby enemies |
+| Shield Charge | 1 | DEFENSE makes Beowulf dash forward and deal +150 / 187.5 / 225 / 262.5% damage along the path |
+| Rampart | 2 | Quest (x20): blocking at least one attack during Defense grants +1.5 Armor<br>Complete: Wyrm Defense heals 50 / 60 / 70 / 80% more in a larger radius |
+| Draconic Binds | 5 | Quest (x20): Hit at least 2 enemies with a single Wyrm ability to earn +0.5 DMG<br>Complete: Reduces Trait cooldown by 20 / 25 / 30 / 35% and increases Wyrm ability damage by 10 / 12.5 / 15 / 17.5% |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -148,18 +159,14 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Breath of Fire | 1 | Wyrm breathes a cone of fire during ATTACK finisher, dealing 200 / 250 / 300 / 350% damage and applying IGNITE to enemies hit |
 | Double Shock | 1 | POWER sends out two successive shockwaves, each one dealing -30 / 25 / 20 / 15% damage |
 | Eruption | 1 | POWER's shockwaves explode at the end and deal 60 / 75 / 90 / 105% additional damage all around |
-| Explosive Fire | 1 | IGNITED enemies explode when they die, dealing 20 / 25 / 30 / 35 damage and applying IGNITE to all nearby enemies |
 | Fiery Seismo | 1 | Wyrm SPECIAL's finisher strikes 3 times with a growing radius for 45 / 50 / 55 / 60% damage each |
 | Furnace | 1 | IGNITE effects last 2 more seconds and deal +32 / 40 / 48 / 56% damage |
 | Heavy Strikes | 1 | ATTACK is slower but cleaves across a wide area and deals +50 / 60 / 70 / 80% damage |
-| Shield Charge | 1 | DEFENSE makes Beowulf dash forward and deal +150 / 187.5 / 225 / 262.5% damage along the path |
 | Blazing Runes | 2 | ATTACK and SPECIAL gain +40 / 50 / 60 / 70% Crit Chance against IGNITED enemies |
-| Rampart | 2 | Quest (x20): blocking at least one attack during Defense grants +1.5 Armor<br>Complete: Wyrm Defense heals 50 / 60 / 70 / 80% more in a larger radius |
 | Fire Wings | 3 | Activating TRAIT deals 30 / 35 / 40 / 45 damage all around and applies IGNITE to all enemies hit |
 | Scorched Earth | 3 | Wyrm POWER leaves a trail of fire that deals 40 / 50 / 60 / 70 damage over time to enemies standing on it |
 | Retaliation | 4 | After using DEFENSE, the next ATTACK within 2 seconds triggers a two-strike retaliation, with each one dealing 360 / 450 / 540 / 630% damage |
 | Sparkling Shield | 4 | Each attack blocked during DEFENSE inflicts 120 / 150 / 180 / 210% of blocked damage to what is in front of Beowulf. |
-| Draconic Binds | 5 | Quest (x20): Hit at least 2 enemies with a single Wyrm ability to earn +0.5 DMG<br>Complete: Reduces Trait cooldown by 20 / 25 / 30 / 35% and increases Wyrm ability damage by 10 / 12.5 / 15 / 17.5% |
 | Fiery Slash | 5 | ATTACK triggered right after DASH deals 400 / 500 / 600 / 700% damage and applies IGNITE to enemies |
 | Battle Cry | 7 | TRAIT increases Move Speed by 15% and grants 12 / 15 / 18 / 21 SHIELD to all Heroes in the area for 6 seconds |
 | Maelstrom | 7 | SPECIAL's final hit deals +24 / 30 / 36 / 42% damage for each different enemy already hit (up to +120 / 150 / 180 / 210%) |

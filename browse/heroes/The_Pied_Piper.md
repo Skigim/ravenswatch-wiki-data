@@ -139,6 +139,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Horde | 1 | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
+| Sound Barrier | 1 | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
+| Freezing Trap | 2 | Enemies within SPECIAL's area of effect are CHILLED and take +10 / 15 / 20 / 25% damage |
+| Virtuoso | 5 | Move Speed when using ATTACK or POWER is increased by 30%<br>Gain +10 / 15 / 20 / 25% ATTACK Speed |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -166,19 +177,15 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Extra Measure | 1 | After hitting an enemy with DEFENSE, the next POWER within 3 seconds lasts longer (+2 / 3 / 4 / 5 waves of notes) |
 | Giant Rats | 1 | Rats' attacks WEAKEN enemies and deal +20 / 25 / 30 / 35% damage |
 | Grand Finale | 1 | When SPECIAL's effect expires, the area of effect explodes and deals 60 / 75 / 90 / 105 damage |
-| Horde | 1 | Rats spawn in groups of 3 (instead of 2)<br>Increase maximum controllable rats by 6 / 8 / 10 / 12 |
 | Quintuplets | 1 | POWER plays 5 notes each wave (instead of 3) but each note deals -20 / -15 / -10 / -5% damage |
 | Sforzando | 1 | SPECIAL triggers an implosive DEFENSE (pulling enemies inwards) with its range increased by 20 / 25 / 30 / 35% |
 | Sniper | 1 | Notes from ATTACK and POWER have a longer range and deal +20 / 25 / 30 / 35% damage if they hit after halfway |
-| Sound Barrier | 1 | Quest (x20): Gain +1.5 ARMOR whenever DEFENSE hits at least 2 enemies<br>Complete: Doing so again grants 15 / 18 / 21 / 24 SHIELD to all nearby Heroes for 6 seconds |
-| Freezing Trap | 2 | Enemies within SPECIAL's area of effect are CHILLED and take +10 / 15 / 20 / 25% damage |
 | Perfect Harmony | 2 | DEFENSE restores 4 / 5 / 6 / 7 Health to all nearby Heroes for each enemy hit (up to 4) |
 | Acoustic Pulses | 3 | SPECIAL deals 8 / 10 / 12 / 14 damage every second |
 | Low Notes | 3 | ATTACK sends bigger notes that deal +60 / 75 / 90 / 105% damage in an area of effect but at a 40% reduced frequency |
 | Spinning Solo | 4 | POWER triggered after DASH makes Hero move quicker and has +40 / 50 / 60 / 70% Crit Chance |
 | Stimulant Vibes | 4 | Rats attacking within SPECIAL's zone deal +20% damage and have a 50 / 63 / 75 / 88% chance to summon a new rat upon death |
 | Music of the Spheres | 5 | DASH leaves a bubbled clef that explodes when hit, sending 4 / 5 / 6 / 7 POWER music notes to enemies around |
-| Virtuoso | 5 | Move Speed when using ATTACK or POWER is increased by 30%<br>Gain +10 / 15 / 20 / 25% ATTACK Speed |
 | Chorus | 7 | Every 1 / 0.8 / 0.65 / 0.55 second(s), the SPECIAL area of effect fires 5 ATTACK notes, targeting the closest enemies |
 | Invasive Blast | 7 | Hitting at least one enemy with DEFENSE spawns up to 4 / 5 / 6 / 7 rats, which immediately attack nearby enemies |
 | Ghost Notes | 8 | For every 10 / 8 / 7 / 6 notes played, a ghost note is sent towards the nearest enemy, dealing 20 area damage |

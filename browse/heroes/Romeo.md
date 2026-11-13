@@ -126,6 +126,17 @@ Values separated by / are for Common / Rare / Epic / Legendary.
 
 **Unlocks at rank** is the hero rank, not the level reached in a run.
 
+### Starting talents
+
+The talents offered at level 1 of a run. A starting talent not yet unlocked at your hero rank can still fill an empty card. The Lack of Inspiration modifier lowers the offer to 3 cards. See [TALENTS.md](../../TALENTS.md).
+
+| Talent | Unlocks at rank | Effect |
+|---|---|---|
+| Kiss the Bride | 1 | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Romeo 2 Dream Shard(s) |
+| Panache | 1 | Hitting an enemy with any additional ATTACK move, such as DASH attack or DEFENSE's Ripost, grants one Panache token (up to 3)<br>Each Panache token increases ATTACK damage by 20% and grants +4 / 5 / 6 / 7% ATTACK SPEED, all Panache tokens are lost when Romeo is hit |
+| Secret Weapon | 2 | Quest(x20): Blocking at least once during DEFENSE grants +0.5 DMG<br>Complete: Ripost ATTACK after DEFENSE deals +40 / 50 / 60 / 70% damage per successful block (up to 4 times) |
+| Ice Rose | 5 | POWER now throws ice Roses, applying CHILLED to hit enemies<br>POWER deals +32 / 40 / 48 / 56% damage |
+
 ### Ultimates
 
 The talent tables do not include the base ultimates or their unlock ranks; this text is from the hero's text table.
@@ -152,19 +163,15 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 | Floral Dodge | 1 | DEFENSE now creates a POWER Rose dealing 40 / 50 / 60 / 70% damage |
 | Healing Rose | 1 | Every 2 times the POWER Rose hits an enemy, it restores 2 / 2.5 / 3 / 3.5 Health to all Heroes around |
 | Kick | 1 | Adds a kick to ATTACK combo, dealing 48.4 / 60.5 / 72.6 / 84.7 damage and pushing light enemies back |
-| Kiss the Bride | 1 | Quest (x20): Hitting at least one enemy with SPECIAL grants +0.5 Crit Chance<br>Complete: Any enemy hit by SPECIAL has a 40 / 50 / 60 / 70% chance to grant Romeo 2 Dream Shard(s) |
-| Panache | 1 | Hitting an enemy with any additional ATTACK move, such as DASH attack or DEFENSE's Ripost, grants one Panache token (up to 3)<br>Each Panache token increases ATTACK damage by 20% and grants +4 / 5 / 6 / 7% ATTACK SPEED, all Panache tokens are lost when Romeo is hit |
 | Relentless Assaults | 1 | ATTACK used right after POWER triggers DEFENSE's Ripost launching a flurry of attacks, dealing up to 11 damage |
 | Surge of bravery | 1 | After SPECIAL's kiss, next 6 / 8 / 10 / 12 ATTACKS gain +30% range and deal +30% damage |
 | Thorns Aura | 1 | After using TRAIT or receiving Juliet's TRAIT, an aura of thorns appears around Romeo, dealing 120 / 150 / 180 / 210 area damage per second for 6 seconds |
 | Thorny Rose | 1 | When POWER Rose blooms, 5 paths of thorns spread around, dealing 40 / 50 / 60 / 70 damage per second to enemies crossing through |
 | Love Thread | 2 | Using TRAIT casts a beam towards Juliet for 6 second(s), dealing 265 / 330 / 395 / 460 damage per second to crossed enemies |
-| Secret Weapon | 2 | Quest(x20): Blocking at least once during DEFENSE grants +0.5 DMG<br>Complete: Ripost ATTACK after DEFENSE deals +40 / 50 / 60 / 70% damage per successful block (up to 4 times) |
 | Flash of Steel | 3 | Holding DASH during a dash attack makes Romeo rush back towards his starting location, dealing 120 / 150 / 180 / 210% damage on its path |
 | Selfless Defender | 3 | Blocking at least one attack during DEFENSE grants 12 / 15 / 18 / 21 SHIELD for 8 second(s) to all Heroes around |
 | Deadly Brambles | 4 | 4th strike of ATTACK combo implants brambles on enemies, dealing 40 / 50 / 60 / 70 damage over 5 seconds<br>Brambles explode when Romeo implants again on affected enemy or on enemy death, dealing 200 / 250 / 300 / 350% area damage |
 | Fencing Reflex | 4 | Basic ATTACKS can turn into a block when Romeo gets hit (every 5 seconds max)<br>After it blocks, Romeo gains +40 / 50 / 60 / 70% Crit Chance for 4 second(s) |
-| Ice Rose | 5 | POWER now throws ice Roses, applying CHILLED to hit enemies<br>POWER deals +32 / 40 / 48 / 56% damage |
 | Swarm of Petals | 5 | Using POWER also launches a swarm of petals in a cone, pushing back light enemies and dealing 40 / 50 / 60 / 70% damage |
 | Broad Stroke | 7 | ATTACK used right after DASH triggers a broad stroke, dealing 400 / 500 / 600 / 700% damage all around |
 | Wind Spiral | 7 | DEFENSE creates a wind spiral around Romeo dealing up to 60 / 75 / 90 / 105 area damage |
