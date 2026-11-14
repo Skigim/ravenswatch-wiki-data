@@ -83,7 +83,7 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Weak (Global configured default; application overrides may differ) | configured damage dealt modifier | 0.25 | fraction | Decoded |   |
 | Chilled (Global configured default; application overrides may differ) | configured movement modifier | 0.4 | fraction | Decoded (baseline) |   |
 | Chilled (Global configured default; application overrides may differ) | default duration | 5 | seconds | Decoded (baseline) |   |
-| Chilled (Hero\_Snow\_Queen override) | snow queen chilled effect fallback | 0.5 | fraction | Decoded |   |
+| Chilled (Snow Queen picker fallback; active value not confirmed) | snow queen chilled effect fallback | 0.5 | fraction | Decoded |   |
 | Strength (Global configured default; application overrides may differ) | configured damage dealt modifier | 0.25 | fraction | Decoded (baseline) |   |
 | Bleed (Global configured default; application overrides may differ) | default duration | 5 | seconds | Decoded (baseline) |   |
 | Ignite (Global configured default; application overrides may differ) | default duration | 5.5 | seconds | Decoded (baseline) |   |
@@ -126,7 +126,7 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Raven Feather (Core) | revive channel duration | *not decoded* |   | Not decoded |   |
 | Raven Feather (Core) | revived health ratio | *not decoded* |   | Not decoded |   |
 | Altar of Heroes (Core) | feather gain per payment | 1 | feathers | Decoded |   |
-| Altar of Heroes (Core) | xp reward default | 500 | xp | Decoded |   |
+| Altar of Heroes (Selector default; active value not confirmed) | xp reward default | 500 | xp | Decoded |   |
 | Dreamcatcher (Core) | dream shard price reduction literal | 0.1 | fraction | Decoded |   |
 | Nightmare Key (Core) | starting count | *not decoded* |   | Not decoded |   |
 | Nightmare Key (Core) | keys per lock | *not decoded* |   | Not decoded |   |

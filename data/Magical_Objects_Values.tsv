@@ -1,6 +1,7 @@
 # source_table	Magical Objects numerical values
 # rows	315
-# snapshot_id	2026-10-12-1.06
+# snapshot_id	2026-11-13-contributor-claims
+# note	Excalibur legendary_talent_counting_rule updated 2026-11-13 from Ravenswatch.exe 1.06 (Steam build ID 25174305). See CLAIMS.md.
 # status	Decoded values re-extracted from the 1.06 build on 2026-10-12, with the 2026-10-06 check columns carried over (see VALUES.md). Row statuses: decoded 107; decoded-baseline 41; static-text 13; symbolic 30; unresolved 123; decoded-code 1. Check columns: accepted without reading 100; read in game 6; stale: checked on 1.05; decoded value changed in 1.06 1.
 # baseline	Compendium level 1 figures: character damage 10, healing 10, no talents, no Magical Objects.
 # source_version	Steam PC game build 1.06 (Steam build ID 25174305); displayed version string unverified

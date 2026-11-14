@@ -116,9 +116,9 @@ These tables hold decoded ability, Magical Object, Melody and mechanics values b
 | [Hero_Juliet_Abilities.tsv](data/Hero_Juliet_Abilities.tsv) | 70 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `97fd70168ecdcc76479d0bafa864c77048f84e571bd1a72c423f470cdc50c837` |
 | [Hero_Merlin_Abilities.tsv](data/Hero_Merlin_Abilities.tsv) | 172 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `8889cd28e1847c34e565571cb8ae6c2ba3b7608f0306956a84ab21ffaebf6e5c` |
 | [Hero_Kintaro_Abilities.tsv](data/Hero_Kintaro_Abilities.tsv) | 34 | Extracted from build 1.06 (2026-10-12); not checked in game | `116513b4d905d334cc368aebf59079d9c516ca4fb8b33c7b08cf1d04eca9fe9f` |
-| [Magical_Objects_Values.tsv](data/Magical_Objects_Values.tsv) | 315 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `c563c48f9a69ff06e9480db1bb9075bca3b473f2f278b5c217377c173bc57185` |
+| [Magical_Objects_Values.tsv](data/Magical_Objects_Values.tsv) | 315 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `d625b24a5a8e5f388e3a2967a5969075155bf9ee9acc4e4d15f49d7998427b96` |
 | [Melodies_Values.tsv](data/Melodies_Values.tsv) | 21 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `d4d77bee1227a56b1ca41bfbbe2aef9560d95065d63038f56af7287175b1a75d` |
-| [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 247 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `c99c4e623be4b5e1a4ee0ce553924ef878525846c71de30b414f4e00dfb3d5bc` |
+| [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 247 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `8ff55c18ed3f8e8a9a0d8283ddc9962dc7b509792bcae2361d677a43b3143fb1` |
 | [In_Game_Observations.tsv](data/In_Game_Observations.tsv) | 94 | Maintainer readings in the in-game Compendium on 1.05 (2026-10-06) | `d1d58bba05a0d935c50c18dd13f6d2639cab65b3589d349f3e60e1e3c952f08c` |
 | [Fill_Pass_Values.tsv](data/Fill_Pass_Values.tsv) | 65 | Second decoding pass over values missing from the 1.05 corrected table (2026-10-06) | `8161ee55777b3989a2377b9f34c9845bd548d90a8ae66f8dc2bd73029907293b` |
 

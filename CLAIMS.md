@@ -12,16 +12,16 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 - Value: `GlobalValues/Common_Settings/Vulnerable_Value` = 0.25 (observed).
 - Rule: the incoming-damage handler `FUN_1403bce50` (0x1403bce50) computes damage * max(0, 1.0 + Vulnerable + IncreaseDamageTaken + Marked) * ((x + F) - x * F), with F = max(0, 1 - Resistant). Ids: Vulnerable 0x16ede062, IncreaseDamageTaken 0x15efab05, Marked 0x1a40367d, Resistant 0x16ede05e. The same sum is in `FUN_1403d5e70`. The additive grouping is inferred from the pseudocode. The base term is a field read (`param_3+0x13`), not a literal 1.0: inferred. No hero or enemy branch was seen, so +25% is not enemy-only (inferred).
 - Heroes: `Hero_Common` has "Debuff Hero Is Vulnerable" with a "Hero Is Vulnerable Armour Modifier" and listener (offsets 0x30fde, 0x98210). `Hero_Is_Vulnerable_Value` = -100.0 (id 0xba4bf279; its only code reference is the registration at 0x1401d369d). How -100 armour becomes damage was not found (see S5). `Character_Common` carries a shared Vulnerable listener (0x3ffaa), so heroes probably also take +25% (inferred).
-- Rows: Mechanics_Values.tsv 57, 69 (and the existing 0.25 row).
+- Rows: Mechanics_Values.tsv 58, 70 (and the existing 0.25 row).
 
 ### S2 Weakened: confirmed (value and consumer); scope inferred
 - `Weak_Value` = 0.25 (observed). `FUN_1403be100` (0x1403be100): multiplier = max(0, 1.0 + Strength(0x16ede056) + stat 0x19c9c243 - Weak(0x16ede068)), stored at attacker+0xe8. Weak subtracts 0.25 from damage dealt; Strength adds on the same term. The Weak id is inferred from the consumer, because the name string is not adjacent. The handler is the base-character one, not hero-only (inferred).
-- Rows: Mechanics_Values.tsv 58, 70.
+- Rows: Mechanics_Values.tsv 59, 71.
 
 ### S3 Critical Damage: base not found; overflow coefficient found
 - `FUN_1403bfe10` (0x1403bfe10): crit damage = a float at +0x100 of the app-settings singleton (`DAT_1414706b0`, built in `FUN_14021dd50`) plus stat 0x15c82d13. No resource holding that float was located, so +50% is neither confirmed nor contradicted. Boundary: `FUN_1403bfe10`, `FUN_1403bfc30`, `FUN_1403c3220`, `FUN_14021dd50`, `FUN_1401f9b50`.
 - Overflow: `FUN_1403c3220` (0x1403c3220) displays Crit Damage Final = max(0, critChance - 1.0) + critDamage, a 1:1 coefficient (observed constant `DAT_140fc8be0`). That damage code uses the same sum is inferred.
-- Rows: Mechanics_Values.tsv 53 (unresolved, note sharpened), 54.
+- Rows: Mechanics_Values.tsv 54 (unresolved, note sharpened), 55.
 
 ### S4 Damage stat: not found
 - No DMG stat id is registered in the stat table (only Attack power and Deal extra damage). The {0}% is filled from Hero Controller and Character Controller properties read by `Hero_Common` "AP Display Ratio Operation" and the lookups `FUN_14039f3e0` and `FUN_1403bcbc0`. The +1% per point coefficient is not a literal found there. Possible lead: stat 0x19c9c243 in the S2 sum.
@@ -29,11 +29,11 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 
 ### S5 Armor: formula not found
 - The armour display reads Hero Controller property 0x1b8ddfa2 (controller+0x1c98). The armour-to-reduction code was not located; Armour registers with id 0. Observed floor-at-0 clamps: damage dealt (S2), incoming damage (S1), crit overflow (S3). "Armor is the only stat that can go negative" is unverified. The text key Menu_DmgTooltip_Desc_Negative exists, so negative DMG is displayed by design (text only).
-- Rows: Mechanics_Values.tsv 51, 52 (unresolved, notes sharpened).
+- Rows: Mechanics_Values.tsv 52, 53 (unresolved, notes sharpened).
 
 ### S6 Chilled: partly true
 - Defaults 0.4 and 5 s (observed, GlobalValues). The Chilled debuff is defined in `Character_Common`. `Hero_Snow_Queen` overrides: "Chilled Effect Value" picker fallback 0.5 (0x90618) and "Better Frost Chilled Effect Increase Value Selector" = +0.2 for Frost Queen (0x82ad7). Runtime gating was not evaluated. Snow Queen tooltip arguments stay unresolved. Merlin has "Skill Power Defense Chilled Value Selector" (0xc4b83), not decoded. Romeo, Pied Piper, Melusine and Sun Wukong have no Chilled value component by name. Enemy appliers and heroes as victims were not searched.
-- Row: Mechanics_Values.tsv 61.
+- Row: Mechanics_Values.tsv 62.
 
 ### S7 Trapped: partly true
 - `Character_Common` "Debuff Rooted" carries Root -1- Treant and Root -2- Spider flags, a Root Entity Spawner and a ROOT_END sender (names only). `Wolves_Model` has "Attack Bite FX Trapped Tester" and "Played Flag"; the spider model has "Attack Web". Treant roots and the wolf bite relate to Trapped by name; the spider web is also related. Victims are heroes (inferred).
@@ -71,7 +71,7 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 - Feather per payment: "Feather Gain Value" = 1 (offset 0x15043); events ALTAR_FEATHER_GAIN and REVIVE_TOKEN_GAIN. The achievement BuyFeathersFromAltarOfHeroesInASingleRun has threshold 3 on ALTAR_FEATHER_GAIN (see A1).
 - Dreamcatcher is `Magical_Objects/Common/Reduce_All_DS_Price`; its Price Reduction literal is 0.1 (float cdcccc3d at 0xf31). The altar model has a "Reduce All DS price Modifier Listener", so altar prices follow it (inferred).
 - Angry Birds: the NoFeathers modifier reads "Heroes start with no Raven Feather, and none can be recovered", score +15% (observed text). The mechanics come from the description only.
-- Rows: Mechanics_Values.tsv 98, 99, 100; notes on 93-95.
+- Rows: Mechanics_Values.tsv 99, 100, 101; notes on 94-96.
 
 ## Magical Objects and enemies
 
@@ -92,7 +92,7 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 - In the Belly: the tooltip says "Eat the closest non-boss enemy, instantly killing it" (Hero_RED_Abilities.tsv line 66). No Is Boss value appears in Phoenix_Egg strings, so eggs are plausibly non-boss; targeting was not checked.
 - Row: none.
 
-### E2 Enemy page claims: mostly not found
+### E2 Enemy page claims: not found
 - Abu Al Jann stagger bar: `Boss_Jinn` has "Is Stagger Resistant", "Possession Pause Stagger Timer", "Stagger Recovery Speed Selector" and "Leaving Possession Teleport" (names only); not confirmed.
 - Jinn teleporting, day and night behaviour of wolves, spiders and snakes, Alpha wolf up to three Giant Leaps (a "Attack Giant Leap Condition" exists, no repeat count), Sinbad stamina loss: not found.
 - Row: none.
@@ -103,7 +103,7 @@ Rows added to the Map_* tables keep those tables' "unverified" source-version ov
 
 ### M1 Stingy Jack: partly true
 - Rule: Stingy_Jack_Reward_<Map>_T# entries (spawning `Stingy_Jack_Model` on a chest mesh) are listed in `Definitions/Rewards/Camp_Rewards_<Map>_Update5` beside the Basic and Locked chest entries of the same tier. Avalon and Storm Island list T1-T3; Dark Hills lists T2 and T3 only (observed; Avalon entries at 0x50f, 0x640, 0x771). `Reward_GenerateAndDistribute` (0x1401e3340) assigns reward entries to reward-spawner slots by tile-tier band and flags, using the game RNG (inferred). "Any regular chest" is plausible but not shown for every tier or chapter. The per-chest chance was not decoded. Map references that list him as absent are contradicted: the reward lists contain him in all three chapters.
-- Row: Mechanics_Values.tsv 143.
+- Row: Mechanics_Values.tsv 144.
 
 ### M2 Chest: partly true
 - Locked chest copies: `Chest_Model` "Copies Count Value Selector" is keyed on "Chest Starts Locked Value"; its bytes equal the Reroll Price selector (locked 2, default 1) apart from name and class ids (offsets 0xad32 and 0xc35f), so locked gives 2 copies (inferred).
