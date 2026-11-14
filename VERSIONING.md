@@ -4,7 +4,9 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-11-12-starting-talents`, published November 12, 2026. It adds `starting_talent` and `starting_talent_source` columns to the 13 `data/Hero_<id>_Talents.tsv` tables. The values were read on November 12, 2026 from the cooked hero entities of the 1.06 extraction tree and from `Ravenswatch.exe` of the same install, still on Steam build ID `25174305`, so the top-level attribution applies and no table override is needed. TALENTS.md gives the evidence. No other table changed.
+The current snapshot is `2026-11-13-contributor-claims`, published November 13, 2026. It adds `data/Game_Modifiers.tsv`, `data/Challenges.tsv`, `data/Achievements.tsv` and `data/Hero_Skin_Unlocks.tsv`, and adds or sharpens rows in `data/Mechanics_Values.tsv`, `data/Magical_Objects_Values.tsv` and `data/Map_Stash_Models.tsv`. The values were read from the 1.06 extraction tree and from `Ravenswatch.exe` (SHA-256 `b9c3642884a8f3a463782f36c9a3a62bc14c88105315220c733fe6c2229ba904`) of the same install, still on Steam build ID `25174305`, so the top-level attribution applies to the new tables and rows. Rows added to the `Map_*` tables carry their own 1.06 provenance in their cells, while those tables' overrides stay unverified. [CLAIMS.md](CLAIMS.md) records the evidence. No other table changed.
+
+The previous snapshot, `2026-11-12-starting-talents`, was published November 12, 2026. It adds `starting_talent` and `starting_talent_source` columns to the 13 `data/Hero_<id>_Talents.tsv` tables. The values were read on November 12, 2026 from the cooked hero entities of the 1.06 extraction tree and from `Ravenswatch.exe` of the same install, still on Steam build ID `25174305`, so the top-level attribution applies and no table override is needed. TALENTS.md gives the evidence. No other table changed.
 
 The previous snapshot, `2026-11-10-voice-banks`, was published November 10, 2026. It extends `data/Voice_Lines_Audio.tsv` to the hero banks and `Maps.bank` of the same install, which was still on Steam build ID `25174305`, and adds a `bank` column. The top-level attribution applies. No other table changed.
 
@@ -40,6 +42,7 @@ Snapshot history (the October 5 and 6 snapshots came from version 1.05):
 | `2026-11-10-voice-audio` | November 10, 2026 | Adds 1 voice-audio table read from the 1.06 install | Commit `078e540` |
 | `2026-11-10-voice-banks` | November 10, 2026 | Extends the voice-audio table to the hero banks and `Maps.bank` | Not yet tagged |
 | `2026-11-12-starting-talents` | November 12, 2026 | Adds starting-talent columns to the 13 numerical talent tables | Not yet tagged |
+| `2026-11-13-contributor-claims` | November 13, 2026 | Adds 4 tables (modifiers, challenges, achievements, outfit unlocks) and extends 3 value tables from the 1.06 files | Not yet tagged |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 

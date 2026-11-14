@@ -71,7 +71,7 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Armor (Core) | positive armor formula | *not decoded* |   | Not decoded |   |
 | Armor (Core) | negative armor formula | *not decoded* |   | Not decoded |   |
 | Critical Damage (Core) | base crit multiplier | *not decoded* |   | Not decoded |   |
-| Critical Strike Overflow (Core) | overflow conversion coefficient | *not decoded* |   | Not decoded |   |
+| Critical Strike Overflow (Core) | overflow conversion coefficient | 1 | ratio | decoded-code |   |
 | Critical Strike Overflow (Core) | overflow rule | Crit chance above100% transforms into critical damage |   | Fixed text |   |
 
 ### Status Effects
@@ -79,8 +79,11 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Name | Stat | Value | Unit | Status | In-game check |
 |---|---|---|---|---|---|
 | Vulnerable (Global configured default; application overrides may differ) | configured damage taken modifier | 0.25 | fraction | Decoded (baseline) |   |
+| Hero Is Vulnerable (Global configured default; application overrides may differ) | configured hero armour modifier | -100 | armour points | Decoded |   |
+| Weak (Global configured default; application overrides may differ) | configured damage dealt modifier | 0.25 | fraction | Decoded |   |
 | Chilled (Global configured default; application overrides may differ) | configured movement modifier | 0.4 | fraction | Decoded (baseline) |   |
 | Chilled (Global configured default; application overrides may differ) | default duration | 5 | seconds | Decoded (baseline) |   |
+| Chilled (Hero\_Snow\_Queen override) | snow queen chilled effect fallback | 0.5 | fraction | Decoded |   |
 | Strength (Global configured default; application overrides may differ) | configured damage dealt modifier | 0.25 | fraction | Decoded (baseline) |   |
 | Bleed (Global configured default; application overrides may differ) | default duration | 5 | seconds | Decoded (baseline) |   |
 | Ignite (Global configured default; application overrides may differ) | default duration | 5.5 | seconds | Decoded (baseline) |   |
@@ -88,7 +91,8 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Regeneration (Global configured default; application overrides may differ) | default duration | 5 | seconds | Decoded (baseline) |   |
 | Ignite (Decoded owner default) | default raw tick damage coefficient | 0.5 | coefficient | Decoded (baseline) |   |
 | Ignite (Core) | entity default duration | *not decoded* | seconds | Not decoded |   |
-| Vulnerable (Core) | damage taken scope | *not decoded* |   | Not decoded |   |
+| Vulnerable (Core) | damage taken scope | additive term in incoming damage |   | decoded-code |   |
+| Weak (Core) | damage dealt scope | additive term in outgoing damage multiplier |   | decoded-code |   |
 | Chilled (Core) | movement slow formula | *not decoded* |   | Not decoded |   |
 | Chilled (Core) | ability override rule | *not decoded* |   | Not decoded |   |
 | Strength (Core) | damage dealt scope | *not decoded* |   | Not decoded |   |
@@ -121,6 +125,9 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Raven Feather (Core) | consumption per recovery | *not decoded* |   | Not decoded |   |
 | Raven Feather (Core) | revive channel duration | *not decoded* |   | Not decoded |   |
 | Raven Feather (Core) | revived health ratio | *not decoded* |   | Not decoded |   |
+| Altar of Heroes (Core) | feather gain per payment | 1 | feathers | Decoded |   |
+| Altar of Heroes (Core) | xp reward default | 500 | xp | Decoded |   |
+| Dreamcatcher (Core) | dream shard price reduction literal | 0.1 | fraction | Decoded |   |
 | Nightmare Key (Core) | starting count | *not decoded* |   | Not decoded |   |
 | Nightmare Key (Core) | keys per lock | *not decoded* |   | Not decoded |   |
 | Stars of Fate (Chest Starts Locked Value true) | chest reroll cost | 2 | stars of fate | Decoded (baseline) |   |
@@ -182,7 +189,7 @@ Settings shared by all heroes: reward sources, difficulties, drops, status effec
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T1 (Prior canonical explicit entity setting; active reward mapping unresolved) | common entity set chance | 60 | percent | Earlier table |   |
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T1 (Prior canonical explicit entity setting; active reward mapping unresolved) | rare entity set chance | 40 | percent | Earlier table |   |
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T1 (Prior canonical explicit entity setting; active reward mapping unresolved) | epic entity set chance | 0 | percent | Earlier table |   |
-| Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T1 (Core) | active reward mapping and display name | *not decoded* |   | Not decoded |   |
+| Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T1 (Core) | active reward mapping and display name | Avalon T1/T2/T3; Storm Island T1/T2/T3; Dark Hills T2/T3 only | list | Decoded |   |
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T2 (Prior canonical explicit entity setting; active reward mapping unresolved) | common entity set chance | 20 | percent | Earlier table |   |
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T2 (Prior canonical explicit entity setting; active reward mapping unresolved) | rare entity set chance | 50 | percent | Earlier table |   |
 | Enemies/Stingy\_Jack!Stingy\_Jack\_Reward\_Avalon\_T2 (Prior canonical explicit entity setting; active reward mapping unresolved) | epic entity set chance | 30 | percent | Earlier table |   |

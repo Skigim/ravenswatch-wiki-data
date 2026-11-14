@@ -1,6 +1,6 @@
 # Selected tables
 
-The repository holds 92 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table and 1 voice-audio table. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 96 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table, 1 voice-audio table, 2 game-modifier tables and 2 achievement and outfit tables. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
@@ -13,6 +13,8 @@ The `2026-11-10-voice-audio` snapshot adds one voice-audio table read from the s
 The `2026-11-10-voice-banks` snapshot extends that table to the hero banks and `Maps.bank` and adds a `bank` column. Every other table is unchanged.
 
 The `2026-11-12-starting-talents` snapshot adds `starting_talent` and `starting_talent_source` columns to the 13 numerical talent tables, read from the same 1.06 build. The other changes in those tables are a sentence added to the `notes` cell of each starting talent, the `# snapshot_id` header line and a new `# note` header line. Every other table is unchanged.
+
+The `2026-11-13-contributor-claims` snapshot checks contributor claims against the 1.06 files, adds four tables (game modifiers, challenges, achievements and hero outfit unlocks) and adds or sharpens rows in `Mechanics_Values.tsv`, `Magical_Objects_Values.tsv` and `Map_Stash_Models.tsv`. Every other table is unchanged. [CLAIMS.md](CLAIMS.md) records the evidence.
 
 ## Text and index exports
 
@@ -114,9 +116,9 @@ These tables hold decoded ability, Magical Object, Melody and mechanics values b
 | [Hero_Juliet_Abilities.tsv](data/Hero_Juliet_Abilities.tsv) | 70 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `97fd70168ecdcc76479d0bafa864c77048f84e571bd1a72c423f470cdc50c837` |
 | [Hero_Merlin_Abilities.tsv](data/Hero_Merlin_Abilities.tsv) | 172 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `8889cd28e1847c34e565571cb8ae6c2ba3b7608f0306956a84ab21ffaebf6e5c` |
 | [Hero_Kintaro_Abilities.tsv](data/Hero_Kintaro_Abilities.tsv) | 34 | Extracted from build 1.06 (2026-10-12); not checked in game | `116513b4d905d334cc368aebf59079d9c516ca4fb8b33c7b08cf1d04eca9fe9f` |
-| [Magical_Objects_Values.tsv](data/Magical_Objects_Values.tsv) | 315 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `51a813a7ec418dedbb1a94ada224745cce2daba965fb6b786a9e87a11b79c3a1` |
+| [Magical_Objects_Values.tsv](data/Magical_Objects_Values.tsv) | 315 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `c563c48f9a69ff06e9480db1bb9075bca3b473f2f278b5c217377c173bc57185` |
 | [Melodies_Values.tsv](data/Melodies_Values.tsv) | 21 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `d4d77bee1227a56b1ca41bfbbe2aef9560d95065d63038f56af7287175b1a75d` |
-| [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 240 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `ca94fcb1f1dd412480a129b01756dc9bb4c66d91a2a5add504696c5690d754c3` |
+| [Mechanics_Values.tsv](data/Mechanics_Values.tsv) | 247 | Re-extracted from build 1.06 (2026-10-12) with the 2026-10-06 check carried over | `c99c4e623be4b5e1a4ee0ce553924ef878525846c71de30b414f4e00dfb3d5bc` |
 | [In_Game_Observations.tsv](data/In_Game_Observations.tsv) | 94 | Maintainer readings in the in-game Compendium on 1.05 (2026-10-06) | `d1d58bba05a0d935c50c18dd13f6d2639cab65b3589d349f3e60e1e3c952f08c` |
 | [Fill_Pass_Values.tsv](data/Fill_Pass_Values.tsv) | 65 | Second decoding pass over values missing from the 1.05 corrected table (2026-10-06) | `8161ee55777b3989a2377b9f34c9845bd548d90a8ae66f8dc2bd73029907293b` |
 
@@ -158,7 +160,7 @@ unverified; previous tables keep their attribution. See [MAP_GENERATION.md](MAP_
 | [Map_Generation_Quotas.tsv](data/Map_Generation_Quotas.tsv) | 45 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `7e7dafa25f6c747240eb97658644b88ec5984ab7309e8edf299d210d3d12e693` |
 | [Map_Generation_Caps.tsv](data/Map_Generation_Caps.tsv) | 52 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `5455c322557b7948d2a5aef55c46cd93d23aa740d12f3e6738e5083acdb2ee95` |
 | [Map_Tile_Tier_Bands.tsv](data/Map_Tile_Tier_Bands.tsv) | 21 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `38e1cb9ec745c1c630d1c98431e689b0d68159d750ed581755589cb030155190` |
-| [Map_Stash_Models.tsv](data/Map_Stash_Models.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `87888b5cb73dd9620a1e72a46cf5404f3bf514c4cf2617bf86246c9272b2aeba` |
+| [Map_Stash_Models.tsv](data/Map_Stash_Models.tsv) | 7 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `2721cf68507bd2a81dde7b0a1664eb0ed6f71452f501577c2a4655a6b5b232be` |
 | [Map_Generation_Observations.tsv](data/Map_Generation_Observations.tsv) | 4 | `datamining/tile_generation.md` at `0ae8f70b327a3b37b615babd9bd50f1281ac7acc` | `7805fa5e50201585a9f3cce9bcc5652bb20e956fe4b9a06dbd0bd11015af7a6a` |
 
 ## Dialogue
@@ -176,3 +178,14 @@ Added in `2026-11-10-voice-audio`; extended to the hero banks and `Maps.bank` in
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
 | [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 6004 | `Audio/Voice_EN.bank`, `Audio/Hero_<Hero>.bank` (12), `Audio/Maps.bank`; `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `d70c547b7d76a84f77dcc1d45424c15200991c83569f08a53a6c4fe514fcf197` |
+
+## Game modifiers, challenges, achievements and outfits
+
+Added in `2026-11-13-contributor-claims`. Read from the Definitions of the 1.06 extraction tree (Steam build ID `25174305`) and the text tables, and not checked in game. Achievements ship no name or description text, so those columns are empty. See [CLAIMS.md](CLAIMS.md).
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Game_Modifiers.tsv](data/Game_Modifiers.tsv) | 22 | `ChallengesAndGameModifiers~GAM.xls`; `Definitions/GameModifiers/*.gamemodifierdef` | `145256fabc23c393feaf914e40360880a0ce420ac4f72a396076242002a9432c` |
+| [Challenges.tsv](data/Challenges.tsv) | 5 | `ChallengesAndGameModifiers~GAM.xls`; `Definitions/Challenges/*.challengedef` | `5931acd2a6d81bb06602f280eb88b49d9667b1079d7b0548c328de78ed364060` |
+| [Achievements.tsv](data/Achievements.tsv) | 48 | `Definitions/Achievements/*.Achievementdef` | `a430a47702153a379883514a2285183fea84a30e73a28513b22f4eba0891e2e2` |
+| [Hero_Skin_Unlocks.tsv](data/Hero_Skin_Unlocks.tsv) | 113 | `Definitions/Heroes/*.herodef` (SkinProfileDataSettings); `Hero_<Hero>_Skins.LangEN.tsv`; `Common.LangEN.tsv`; hero entity named values | `6f13a8adaaff601683f1d7e0e13715fe390ed7011bfadb9b14bb827cc16fb17a` |
