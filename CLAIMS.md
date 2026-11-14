@@ -44,21 +44,21 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 - Row: none.
 
 ### S9 Move Speed and Sun Wukong Dash: partly true
-- The base Dash uses its own displacement ("Primary Ability Dash Move Speed Operation"), not the Move Speed Ratio stat (0x044dadde). The Dash talent Sprint gives +10/12/14/16% Move Speed (Hero_SunWukong_Talents.tsv line 27; selector "Skill Dash Sprint Move Speed Increase Selector"). The wiki's "Dash" source is therefore the Sprint talent (inferred).
+- From component names, the base Dash uses its own displacement ("Primary Ability Dash Move Speed Operation") and not the Move Speed Ratio stat (0x044dadde): inferred. The Dash talent Sprint gives +10/12/14/16% Move Speed (Hero_SunWukong_Talents.tsv line 27; selector "Skill Dash Sprint Move Speed Increase Selector").
 - Row: none.
 
 ## Difficulty, modifiers and feathers
 
-### D1 Difficulty page: mostly not found
+### D1 Difficulty page: partly true
 - Starting Raven Feathers 6/4/3/2 and XP -10/-20/-30%: not found. The UI has a "Difficulty Xp Modifier" label and String Format (`Play_Book_Page` 0x8f84) but no numbers. `GameModes`, `EnemyCampDifficulties` (six camp tiers, not the four named difficulties), `Play_Book_Page`, `Hero_Common` and `Altar_Of_Heroes_Model` hold no count. Probably code or runtime.
 - Difficulty names and blurbs: confirmed. Common.LangEN.tsv keys Difficulty_Normal/Hard/VeryHard/Nightmare (indexes 240-251) match the page for Adventure, Twilight, Darkness and Nightmare.
 - Unlock order, win conditions, Epilogue requirement: not found. Code strings "Unlock difficulty" (`FUN_1401ce9f0`) and `Modal_Difficulty_Unlocked` exist; the conditions are not decoded.
 - "Dark red skin" for Corrupted enemies: not found (visual).
-- Master Outfit in Darkness: partly true. Common.LangEN.tsv index 364 reads "Unlocked when victorious in Darkness difficulty or above"; the link to the Master outfits is not shown. The Hero_Skin_Unlocks.tsv rows with unlock type "progression condition" read "Completed the game in Darkness Difficulty" (observed text).
+- Master Outfit in Darkness: confirmed (observed text). Every Hero_*_Skins.LangEN.tsv *_Master_Skin_Description reads "Unlocked by completing the game in Darkness Difficulty", and Common.LangEN.tsv index 364 adds "or above": "Unlocked when victorious in Darkness difficulty or above". The Hero_Skin_Unlocks.tsv rows with unlock type "progression condition" carry the same text.
 - Rows: none.
 
-### D2 Modifiers and challenges: confirmed; the page lacks none
-- The page lists 22 modifiers (11 positive, 11 negative), not 20, and the game ships 22 definitions, so none is missing. Names and score percentages match Game_Modifiers.tsv. Wording differences: Solid Heroes "100% Max Health" vs "+100%"; Hyperactive "a extra" vs "1 extra". Positive and negative follow the sign of the score (inferred).
+### D2 Modifiers and challenges: partly true
+- The page lists 22 modifiers (11 positive, 11 negative) and the game ships 22 definitions, so none is missing. Names and score percentages match Game_Modifiers.tsv. Wording differences: Solid Heroes "100% Max Health" vs "+100%"; Hyperactive "a extra" vs "1 extra". Positive and negative follow the sign of the score (inferred).
 - The five challenge presets match Challenges.tsv, including totals +15, 0, 0, +15, +20 (additive combination inferred). Three more challenge titles exist in text with no definition file: Blessed and Cursed, One for All, The Crucible.
 - Master of Challenges: the condition `CompleteChallengesInDarknessDifficulty` stores 2 and 5 (observed); 5 challenges and 2 as the Darkness index are readings (inferred).
 - OCAID: all five named modifiers exist; the community-challenge framing is not game data.
@@ -67,7 +67,7 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 ### D3 Raven Feathers and the Altar of Heroes: partly true
 - Co-op sharing and whose count is used: not found (needs runtime or code).
 - One Altar of Heroes per chapter: the generation recipe sets an Altar_Of_Heroes quota of 1 on each map (observed).
-- Altar reward: `Altar_Of_Heroes_Model` "XP Reward Value Selector" default 500 (int 0x1f4, offset 0x158a8) feeds a Dt Resource Gain named XP Reward (type inferred from names). No Dream Shard reward value was found, so "+100 Dream Shards per player" is not supported. The price: "Price Value Selector" and "Price operation" exist but no numeric price is in the model or the per-map altar entities.
+- Altar reward: `Altar_Of_Heroes_Model` "XP Reward Value Selector" default 500 (int 0x1f4, offset 0x158a8) feeds a Dt Resource Gain named XP Reward (type inferred from names). "+100 Dream Shards per player": not found. The 500 is an XP reward, not Dream Shards, and no Dream Shard value was found. The price: "Price Value Selector" and "Price operation" exist but no numeric price is in the model or the per-map altar entities.
 - Feather per payment: "Feather Gain Value" = 1 (offset 0x15043); events ALTAR_FEATHER_GAIN and REVIVE_TOKEN_GAIN. The achievement BuyFeathersFromAltarOfHeroesInASingleRun has threshold 3 on ALTAR_FEATHER_GAIN (see A1).
 - Dreamcatcher is `Magical_Objects/Common/Reduce_All_DS_Price`; its Price Reduction literal is 0.1 (float cdcccc3d at 0xf31). The altar model has a "Reduce All DS price Modifier Listener", so altar prices follow it (inferred).
 - Angry Birds: the NoFeathers modifier reads "Heroes start with no Raven Feather, and none can be recovered", score +15% (observed text). The mechanics come from the description only.
@@ -78,7 +78,7 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 ### O1 Excalibur: partly true
 - Counting: Excalibur's "Legendary Skill Count Get Value" reads `Hero_Common` "Skill Legendary Count Value" (group Rarity Counters, property id 0x188c1379, offset 0xe0ce8), which `FUN_14039f260` maps to hero-controller+0x11f8. `FUN_1403b21f0` (0x1403b21f0) fills four counters: for each of 10 skill slots (controller+0x1008, stride 0x20) it reads the skill rarity index (uint at skill+0x68, counted only below 4) and increments counter[index]. Counter[3] feeds +0x11f8, so the count is occupied talent slots with rarity index 3; that index 3 is Legendary is inferred from the counter order and name.
 - Damage Value literal 10 (Excalibur entity offset 0x11f8, int) = +10 DMG per counted Legendary Talent; the operation multiplies by the count (inferred).
-- Maximum talents: the slot array holds 10 entries (`FUN_1403a00e0`, `FUN_1403b2100`, `FUN_1403b24c0`). The page says 9 (+90). The bound 10 does not confirm 9; what caps talents at 9 was not found.
+- Maximum talents: the slot array holds 10 entries (`FUN_1403a00e0`, `FUN_1403b2100`, `FUN_1403b24c0`). The page says 9 (+90). The bound 10 does not confirm 9; what caps talents at 9 was not found. The achievement threshold of 9 Legendary Talents (A1) shows 9 is reachable, not that 9 is the cap.
 - Row: Magical_Objects_Values.tsv 317.
 
 ### O2 Trinity: partly true
@@ -116,17 +116,17 @@ Rows added to the Map_* tables keep those tables' "unverified" source-version ov
 - Notes per room (orange 3, red 4): not found. Underground rooms use `Underground_Ruin_*` with "Note Gain Amount Value", Is T1/T2/T3 testers and activity names harpe_<kind>_easy/medium/hard; the per-tier literal was not isolated (Underground_Ruin_Model 0x3033).
 - Traps: confirmed. Dark Hills combat room: Thieves_Trap_Poison. Storm Island: Thieves_Trap_Cannon, with Thieves_Trap_Poison also referenced. Avalon: Thieves_Trap_Avalon_Fire_Zones_Manager plus Thieve_Crystal_Ground_Trap and Thieve_Crystal_Wall_Trap. Damage and stagger not read.
 - Magic Mirror sizes: confirmed. `Thieves_Magic_Mirror` "Nb Choice Selector": Is T1 = 2, Is T2 = 3, Is T3 = 4 (offset 0x1c985; values near 0x1ca7c, 0x1cb5c, 0x1cc3c). The tier-to-colour mapping is not in the file.
-- Green stash guaranteed a Mirror: not supported. The Mirror entrance is a Special-pool tile (weight 0.2, Mirror_Entrance cap 1) drawn among 5 Special slots, separate from the single Thieves_Entrance slot. Its tier band is 0.333-1 on Dark Hills and 0-1 on Avalon and Storm Island (observed). Placement code (`TileSpawn_PlaceTiles`) was not read.
+- Green stash guaranteed a Mirror: not found. The Mirror entrance is a Special-pool tile (weight 0.2, Mirror_Entrance cap 1) drawn among 5 Special slots, separate from the single Thieves_Entrance slot. Its tier band is 0.333-1 on Dark Hills and 0-1 on Avalon and Storm Island (observed). Placement code (`TileSpawn_PlaceTiles`) was not read.
 - At least one stash per chapter: the Thieves_Entrance quota is 1 on all three maps (configured count, not proof of fill).
-- Combat, Cursed and Gold never green: the three entrance tiles have band 0.33-1 on all maps, so never tier 1 (observed); green = tier 1 is inferred.
+- Combat, Cursed and Gold never green: partly true. The three entrance tiles have band 0.33-1 on all maps, so never tier 1 (observed); that tier 1 is green is inferred.
 - Curse mechanics: not found (needs runtime). The Cursed room uses Underground_Ruin_Cursed with harpe_curse_* activity names.
 - Existing weights 0.5/0.4/0.1, Mirror 0.2 and Special 5 are unchanged on 1.06.
 - Rows: Map_Stash_Models.tsv 12, 13, 14.
 
-### M4 Locations: not found (colours); Cyclop claim not supported
+### M4 Locations: not found
 - Spawn-zone colours: not found. Only asset names exist: `Map_Icons_3Pigs_House_Straw/Wood/Stone.png` (Straw 40x40, band 0.1-0.667; Wood 40x40, band 0.333-1; Stone 64x64, band 0.1-1; weight 0.33 each), `Ingredients/Bean.png` for Jack tiles, `Map_Icons_Npc_Quest.png` for Sinbad and Mordred tiles.
 - Chapter 3 quest torch colours: not found. Avalon has Citadel_Torch_Wall objects only; no quest-torch asset by file name.
-- Cyclop "any Point of Interest zone not overlapping Roc Peak": not supported as worded. The Cyclop entrance is 40x40, band 0.3333-1, weight 0.5, flags Story and Cyclop_Cave_Entrance; the Roc entrance is 64x64, weight 0.5. They use different footprint groups; no overlap rule was found.
+- Cyclop "any Point of Interest zone not overlapping Roc Peak": not found. The Cyclop entrance is 40x40, band 0.3333-1, weight 0.5, flags Story and Cyclop_Cave_Entrance; the Roc entrance is 64x64, weight 0.5. They use different footprint groups; no overlap rule was found.
 - Row: none.
 
 ## Achievements and outfits
