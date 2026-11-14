@@ -56,6 +56,7 @@
 
 # User-authorized numerical talent pilot selection.
 !/TALENTS.md
+!/CLAIMS.md
 !/data/Hero_RED_Talents.tsv
 !/data/Hero_Snow_Queen_Talents.tsv
 !/data/Hero_Beowulf_Talents.tsv
@@ -133,3 +134,9 @@
 !/tools/build_browse.py
 !/browse/
 !/browse/**
+
+# Contributor-claim tables read from the 1.06 files (2026-11-13).
+!/data/Game_Modifiers.tsv
+!/data/Challenges.tsv
+!/data/Achievements.tsv
+!/data/Hero_Skin_Unlocks.tsv
