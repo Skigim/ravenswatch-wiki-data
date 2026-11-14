@@ -79,7 +79,7 @@ Value ids are 32-bit hashes registered in `FUN_1401d2a90` (status values) and `F
 - Counting: Excalibur's "Legendary Skill Count Get Value" reads `Hero_Common` "Skill Legendary Count Value" (group Rarity Counters, property id 0x188c1379, offset 0xe0ce8), which `FUN_14039f260` maps to hero-controller+0x11f8. `FUN_1403b21f0` (0x1403b21f0) fills four counters: for each of 10 skill slots (controller+0x1008, stride 0x20) it reads the skill rarity index (uint at skill+0x68, counted only below 4) and increments counter[index]. Counter[3] feeds +0x11f8, so the count is occupied talent slots with rarity index 3; that index 3 is Legendary is inferred from the counter order and name.
 - Damage Value literal 10 (Excalibur entity offset 0x11f8, int) = +10 DMG per counted Legendary Talent; the operation multiplies by the count (inferred).
 - Maximum talents: the slot array holds 10 entries (`FUN_1403a00e0`, `FUN_1403b2100`, `FUN_1403b24c0`). The page says 9 (+90). The bound 10 does not confirm 9; what caps talents at 9 was not found. The achievement threshold of 9 Legendary Talents (A1) shows 9 is reachable, not that 9 is the cap.
-- Row: Magical_Objects_Values.tsv 317.
+- Row: Magical_Objects_Values.tsv 318.
 
 ### O2 Trinity: partly true
 - Starting talent: confirmed (Hero_Merlin_Talents.tsv line 33, tier 0; no edit).
