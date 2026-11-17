@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-11-13-contributor-claims",
-  "snapshot_published_on": "2026-11-13",
+  "snapshot_id": "2026-11-17-1.06.02.01",
+  "snapshot_published_on": "2026-11-17",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
   "game_version": "1.06.00.04.27511",
@@ -322,6 +322,75 @@
         }
       ],
       "extracted_on": null
+    },
+    "data/Hero_Kintaro_Talents.tsv": {
+      "game_version": "1.06.02.01.27530",
+      "version_display": "1.06.02.01.27530 2026/10/26 #50a41728bf",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": "26221048",
+      "build_date": "2026-10-26",
+      "build_revision": "50a41728bf",
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "build_metadata",
+          "reference": "Game log version line, 2026-11-17",
+          "note": "The first line of the game's own log, written when the install used for this export was launched on 2026-11-17, reads 1.06.02.01.27530 2026/10/26 #50a41728bf. The maintainer has not yet read the displayed version string in the game."
+        },
+        {
+          "kind": "extraction_record",
+          "reference": "Steam build ID 26221048",
+          "note": "The table was re-extracted on 2026-11-17 from the Steam (PC) install after Steam verified its files, with Steam build ID 26221048."
+        }
+      ],
+      "extracted_on": "2026-11-17"
+    },
+    "data/Common.LangEN.tsv": {
+      "game_version": "1.06.02.01.27530",
+      "version_display": "1.06.02.01.27530 2026/10/26 #50a41728bf",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": "26221048",
+      "build_date": "2026-10-26",
+      "build_revision": "50a41728bf",
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "build_metadata",
+          "reference": "Game log version line, 2026-11-17",
+          "note": "The first line of the game's own log, written when the install used for this export was launched on 2026-11-17, reads 1.06.02.01.27530 2026/10/26 #50a41728bf. The maintainer has not yet read the displayed version string in the game."
+        },
+        {
+          "kind": "extraction_record",
+          "reference": "Steam build ID 26221048",
+          "note": "The table was re-extracted on 2026-11-17 from the Steam (PC) install after Steam verified its files, with Steam build ID 26221048."
+        }
+      ],
+      "extracted_on": "2026-11-17"
+    },
+    "data/Hero_RED_Skins.LangEN.tsv": {
+      "game_version": "1.06.02.01.27530",
+      "version_display": "1.06.02.01.27530 2026/10/26 #50a41728bf",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": "26221048",
+      "build_date": "2026-10-26",
+      "build_revision": "50a41728bf",
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "build_metadata",
+          "reference": "Game log version line, 2026-11-17",
+          "note": "The first line of the game's own log, written when the install used for this export was launched on 2026-11-17, reads 1.06.02.01.27530 2026/10/26 #50a41728bf. The maintainer has not yet read the displayed version string in the game."
+        },
+        {
+          "kind": "extraction_record",
+          "reference": "Steam build ID 26221048",
+          "note": "The table was re-extracted on 2026-11-17 from the Steam (PC) install after Steam verified its files, with Steam build ID 26221048."
+        }
+      ],
+      "extracted_on": "2026-11-17"
     }
   }
 }

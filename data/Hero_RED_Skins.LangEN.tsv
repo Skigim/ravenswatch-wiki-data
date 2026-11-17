@@ -1,5 +1,5 @@
 # source_table	Hero_RED_Skins~GAM.xls
-# rows	24
+# rows	26
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Scarlet_Signature_Skin_Title	Signature Outfit
@@ -26,3 +26,5 @@ index	key	text_en
 21	Scarlet_Timeless_Skin_Title	Timeless Outfit
 22	Scarlet_Timeless_Skin_Description	Available in the Timeless Skin Pack
 23	Scarlet_Timeless_Skin_UnlockCondition	Timeless Skin Pack Acquired
+24	Scarlet_Signature_Skin_Description_Update6	Unlocked by devouring 20 enemies with the 'Devourer' Talent 
+25	Scarlet_Signature_Skin_UnlockCondition_Update6	Devoured 20 enemies with the 'Devourer' Talent 
