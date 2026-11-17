@@ -1,5 +1,5 @@
 # source_table	Common~GAM.xls
-# rows	535
+# rows	566
 # note	English sidecar, positionally paired with key table. Game markup left verbatim.
 index	key	text_en
 0	Common_GameName	Ravenswatch
@@ -456,7 +456,7 @@ index	key	text_en
 451	Notification_KeyKeeper_Activity_Active_Desc	Kill all enemies without falling at death door.
 452	Notification_KeyKeeper_Activity_Fail_Desc	Failed! A hero of the Ravenswatch has fallen.
 453	Notification_KeyKeeper_Activity_Victory_Desc	Success! The ritual has been neutralized.
-454	Book_Page_Shop	Get
+454	Book_Page_Shop	Get DLC
 455	Astrolab_Choose_Menu	Choose a vision
 456	SaveCompat_Title	Save Loading Error
 457	SaveCompat_Desc	An error has occurred while loading your save file. (Error code: {0})\nPlease check that the version of your game is properly up to date.\nThe auto-save feature has been disabled to prevent data loss.
@@ -537,3 +537,34 @@ index	key	text_en
 532	Status_Intangible	Intangible
 533	Status_Invincible	Invincible
 534	Status_Blocking	Blocking
+535	Book_Page_History	
+536	Book_Page_Hidden_Achievement	
+537	Newly_Unlocked_Achievement	
+538	Difficulty_Madness_1_Title	
+539	Difficulty_Madness_1_Header	
+540	Difficulty_Madness_1_Desc	
+541	Difficulty_Madness_2_Title	
+542	Difficulty_Madness_2_Header	
+543	Difficulty_Madness_2_Desc	
+544	Difficulty_Madness_3_Title	
+545	Difficulty_Madness_3_Header	
+546	Difficulty_Madness_3_Desc	
+547	Difficulty_Madness_4_Title	
+548	Difficulty_Madness_4_Header	
+549	Difficulty_Madness_4_Desc	
+550	Difficulty_Madness_5_Title	
+551	Difficulty_Madness_5_Header	
+552	Difficulty_Madness_5_Desc	
+553	Book_Page_Custom_Title	
+554	Book_Page_Custom_Desc	
+555	Book_Page_Challenges_Title	
+556	Book_Page_Challenges_Desc	
+557	Book_Page_Cook	
+558	Book_Page_Sign	
+559	Book_Page_Unsign	
+560	Book_Page_Warning_ChallengeFound	
+561	Book_Page_Custom_Seed	
+562	Message_Custom_Challenge_Title	
+563	Message_Custom_Challenge_Desc	
+564	Book_Page_Clear	
+565	Options_RightStickAiming	Enable right joystick aiming

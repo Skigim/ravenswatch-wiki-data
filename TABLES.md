@@ -16,13 +16,15 @@ The `2026-11-12-starting-talents` snapshot adds `starting_talent` and `starting_
 
 The `2026-11-13-contributor-claims` snapshot checks contributor claims against the 1.06 files, adds four tables (game modifiers, challenges, achievements and hero outfit unlocks) and adds or sharpens rows in `Mechanics_Values.tsv`, `Magical_Objects_Values.tsv` and `Map_Stash_Models.tsv`. Every other table is unchanged. [CLAIMS.md](CLAIMS.md) records the evidence.
 
+The `2026-11-17-1.06.02.01` snapshot re-extracts three tables from game build 1.06.02.01 (Steam build ID `26221048`): `Common.LangEN.tsv` and `Hero_RED_Skins.LangEN.tsv`, whose English text changed, and `Hero_Kintaro_Talents.tsv`, whose Dohyo tooltip argument changed. VERSION.json gives each of them a table override. The other tables were not re-extracted and keep their earlier attribution.
+
 ## Text and index exports
 
 These are verbatim decoded exports, except the eight memoir tables marked "spelling corrected". 30 of the 43 published in earlier snapshots came out of the 1.06 build byte for byte unchanged. 13 changed, and the three `Hero_Kintaro_*` text tables are new.
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Common.LangEN.tsv](data/Common.LangEN.tsv) | 535 | `Common~GAM.xls` | `5c821888751faff0710c8d98e5f00d1dbebe2888786f81899c06a1fdd9d0f980` |
+| [Common.LangEN.tsv](data/Common.LangEN.tsv) | 566 | `Common~GAM.xls` (build 1.06.02.01) | `607c1c9b86522c8a5f73432fd976e386b1fe2c092883919e4ad252cd778a7556` |
 | [Enemy_Common.LangEN.tsv](data/Enemy_Common.LangEN.tsv) | 18 | `Enemy_Common~GAM.xls` | `2fa656a21181b93555aa6193d374b69630c9e410db98a6319652936dbf3be733` |
 | [Hero_Aladdin_Common.LangEN.tsv](data/Hero_Aladdin_Common.LangEN.tsv) | 86 | `Hero_Aladdin_Common~GAM.xls` | `46e7694abd34e6a1a78e54bc47251c107e62517dd370cfb138c6e39e07273ba9` |
 | [Hero_Aladdin_Memoirs.LangEN.tsv](data/Hero_Aladdin_Memoirs.LangEN.tsv) | 15 | `Hero_Aladdin_Memoirs~GAM.xls` (spelling corrected) | `d9b6292e0c12f28dab67a0cb7bbcee5dbaeca7706f503fcb402be65171c1ac0c` |
@@ -53,7 +55,7 @@ These are verbatim decoded exports, except the eight memoir tables marked "spell
 | [Hero_Piper_Skins.LangEN.tsv](data/Hero_Piper_Skins.LangEN.tsv) | 27 | `Hero_Piper_Skins~GAM.xls` | `ccc5210108b0b67a40f5bef240fd3898481eaf80d32c025e4ed10295e51f1d79` |
 | [Hero_RED_Common.LangEN.tsv](data/Hero_RED_Common.LangEN.tsv) | 103 | `Hero_RED_Common~GAM.xls` | `15d1686fbd9dc9e11abc542693f63fcbaeaab2e3338c22671135a7377cfb3286` |
 | [Hero_RED_Memoirs.LangEN.tsv](data/Hero_RED_Memoirs.LangEN.tsv) | 15 | `Hero_RED_Memoirs~GAM.xls` | `2e687c97e7624c5eda8f5333d37284f47dfcb8dfcde0ae8a80f04ae03842d706` |
-| [Hero_RED_Skins.LangEN.tsv](data/Hero_RED_Skins.LangEN.tsv) | 24 | `Hero_RED_Skins~GAM.xls` | `a95da39d3fbe07ba6a77243eb9cca5cf91e29abf341943c3d0f7ac83ee2a59d0` |
+| [Hero_RED_Skins.LangEN.tsv](data/Hero_RED_Skins.LangEN.tsv) | 26 | `Hero_RED_Skins~GAM.xls` (build 1.06.02.01) | `50b80065f761a4f1ea068c44af05211bd195ff1824b1d0e7a8d0f913c64e3233` |
 | [Hero_Romeo_Common.LangEN.tsv](data/Hero_Romeo_Common.LangEN.tsv) | 75 | `Hero_Romeo_Common~GAM.xls` | `70ed35b44eef487c4b052c02ed7c3bc1f9dce5d9338b41f071f244c5fc21124d` |
 | [Hero_Romeo_Memoirs.LangEN.tsv](data/Hero_Romeo_Memoirs.LangEN.tsv) | 15 | `Hero_Romeo_Memoirs~GAM.xls` (spelling corrected) | `63fe1fbec7e56478eba6ccfdf25d30a09b80c03845b3e736e833f2a84e5f0636` |
 | [Hero_Romeo_Skins.LangEN.tsv](data/Hero_Romeo_Skins.LangEN.tsv) | 20 | `Hero_Romeo_Skins~GAM.xls` | `f30b0b2def0d7cd0ea7c34759e4ad3eaa4727ca8b075eb44cce4544f50e5d7a8` |
@@ -95,7 +97,7 @@ These tables publish 26 talents for each of the 13 heroes, with unlock ranks and
 | [Hero_Romeo_Talents.tsv](data/Hero_Romeo_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `8b9395c56d7f8cc0b8ed485cef62138c756d2521b60eecb7b3faf2632657565d` |
 | [Hero_Juliet_Talents.tsv](data/Hero_Juliet_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `efa448a3a05644ea3ace4cb51d5727061a116253d46fc09786dc03969e135c8b` |
 | [Hero_Merlin_Talents.tsv](data/Hero_Merlin_Talents.tsv) | 26 | Re-extracted from build 1.06 (2026-10-12); unchanged rows keep the 2026-10-05 compendium check | `b1feda8a3a32173af0962f05d5f468744674a98f6d90fd815aa81439a52d068b` |
-| [Hero_Kintaro_Talents.tsv](data/Hero_Kintaro_Talents.tsv) | 26 | Extracted from build 1.06 (2026-10-12); datamined only | `f453234be0d027b1914e266ec6ac4ba6e7916d6007552bf15088d73b87a8dae6` |
+| [Hero_Kintaro_Talents.tsv](data/Hero_Kintaro_Talents.tsv) | 26 | Re-extracted from build 1.06.02.01 (2026-11-17); datamined only | `32beb88183808a7ab228b60ebfae824f03a5c4bbaf9c3ef442b1db02e89d7a91` |
 
 ## Numerical value tables
 
