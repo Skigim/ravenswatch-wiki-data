@@ -1,0 +1,11 @@
+# source_table	ChallengesAndGameModifiers~GAM.xls; Definitions/Challenges/*.challengedef
+# rows	5
+# snapshot_id	2026-11-13-contributor-claims
+# source_version	Steam PC game build 1.06.00.04.27511 (Steam build ID 25174305), read from the 1.06 extraction tree and Ravenswatch.exe of the same install
+# note	One row per shipped ChallengeDefinition (5). Modifier list is the ordered list of GameModifier resource references in the file. total_score_fraction is the sum of the listed modifiers' score_fraction (computed here; the challenge files store no score of their own, so additive combination is inferred). Three more challenge titles exist in the text table with no definition file: Challenge_AllIn_Title (Blessed and Cursed), Challenge_TeamUp_Title (One for All), Challenge_TheCrucible_Title (The Crucible).
+definition	title_key	title_en	modifier_count	modifiers_definition	modifiers_title_en	total_score_fraction	total_score_percent	title_index	source_path
+DodgeIt	Challenge_DodgeIt_Title	Untouchable	3	DashLowCooldown; LessHealing; StrongerLowLifeEnemies	Light Feet; Disease; Berserker Foes	0.15	+15%	6	Definitions/Challenges/DodgeIt.challengedef.ot.allengeDefinition.gen
+MoonlightSonata	Challenge_MoonlightSonata_Title	Black Moon	3	NightOnly; OneFreeReroll; AllEnemiesTainted	Solar Eclipse; Rain of Stars; Corruption	0.0	0%	4	Definitions/Challenges/MoonlightSonata.challengedef.ot.allengeDefinition.gen
+PowerOfTheSun	Challenge_PowerOfTheSun_Title	Power of the Sun	4	DayOnly; HigherPrices; NoFountains; OneLegendaryMOAtStart	Eternal Sun; Inflation; Dried-up Fountains; Legacy	0.0	0%	3	Definitions/Challenges/PowerOfTheSun.challengedef.ot.allengeDefinition.gen
+RushHour	Challenge_RushHour_Title	Adrenaline	3	OneLessDayNightCycle; MoreExperience; LoseHpWhenNotInCombat	Oppressive Nightmare; Quick Learner; Bloodlust	0.15	+15%	0	Definitions/Challenges/RushHour.challengedef.ot.allengeDefinition.gen
+TerraIncognita	Challenge_TerraIncognita_Title	Terra Incognita	5	LessChoices; NoMinimap; NoFeathers; NoBossTimer; OneChapter	Lack of Inspiration; Shadowy Fog; Angry Birds; Explorer; Single Chapter	0.2	+20%	1	Definitions/Challenges/TerraIncognita.challengedef.ot.allengeDefinition.gen

@@ -380,7 +380,7 @@
 | Nibelungen Ring | repeated copy stacking rule | *not decoded* |   | Not decoded |   |
 | Sun Crown | repeated copy stacking rule | *not decoded* |   | Not decoded |   |
 | Philosopher's Stone | repeated copy stacking rule | *not decoded* |   | Not decoded |   |
-| Excalibur | legendary talent counting rule | *not decoded* |   | Not decoded |   |
+| Excalibur | legendary talent counting rule | number of occupied talent slots whose rarity index is 3 |   | decoded-code |   |
 | Sun Crown | rarity tier increase | *not decoded* | tiers | Not decoded |   |
 | Sun Crown | rarity upgrade cap | *not decoded* | tiers | Not decoded |   |
 | Philosopher's Stone | orb accumulation rule | *not decoded* |   | Not decoded |   |
