@@ -6,6 +6,8 @@
 
 ### DAY 0
 
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir1_Desc.ogg)
+
 To understand my story, you've got to hear it from the beginning. I loved my gran. Sure, we argued a lot. She was always yelling at me for not wearing dresses and getting my clothes dirty. She didn’t like me learning to hunt and shoot. Thought it wasn’t “ladylike”.
  
 I’d blow up at her and would go out to the woods to get some air. Always loved the woods. Something about being around all those trees calmed me. 
@@ -15,6 +17,8 @@ That is, until that last time. We had a big blow-up. A major one. I stormed out.
 After I’d calmed down a little, I felt bad about what I’d said to Gran. Started picking flowers to say sorry. Then that damn wolf showed up.
 
 ### NIGHT 1
+
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir2_Desc.ogg)
 
 I could tell something was wrong with it. I fought it off, but not before it got its teeth into my arm. Bandaged it as best I could. Hurt like hell. Felt like there was fire in my veins. I raced home to warn Gran about the wolf. 
 
@@ -27,6 +31,8 @@ When I came to my senses, there was blood everywhere. Gran had been attacked by 
 I caught a glimpse of myself in the mirror by the door and saw with horror that I was the wolf!
 
 ### NIGHT 2
+
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir3_Desc.ogg)
 
 The trees couldn't calm my nerves. I found a hole and curled up inside. Maybe it was a nightmare. I'd wake up in the morning and it'd all be over. 
 
@@ -42,6 +48,8 @@ At night, I hunted.
 
 ### DAY 75
 
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir4_Desc.ogg)
+
 With every Nightmare I killed, the beast inside me grew. Sometimes the thrill of the hunt was too strong. The wolf took over. I'd wake up covered in blood, thrumming with excitement.
 
 That's how I was when I met Gramps for the first time. I mean Beowulf. He's a grump, but I like him. Reminds me of Gran. Anyway, when he found me, I was all banged up from a brawl with one of those tentacle things. He wanted to help, but I wouldn't let him. Tried to chase him off. Thing is, he didn't run. He wasn't scared of me or my beast. He's got a beast of his own.
@@ -53,6 +61,8 @@ We hunted together after that. I joined him in the Ravenswatch to kill Nightmare
 But the beast grew stronger, too.
 
 ### NIGHT 165
+
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir5_Desc.ogg)
 
 With each transformation, I was more aware of the beast's thoughts. What was once a whisper became a howl. Even when dawn came again and I was myself again, the beast was there, too.
 
@@ -66,6 +76,8 @@ I heard a rumor that Baba Yaga might be able to help me. I clung to that hope wi
 
 ### DAY 189
 
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir6_Desc.ogg)
+
 When I finally found Baba Yaga, I was exhausted. Fighting the monsters without and the beast within had worn me down.
 
 But the Witch didn't have the cure I'd been promised. Instead, she revealed she was the source of the nightmares that plagued Reverie.
@@ -75,6 +87,8 @@ I got so mad. Furious. Tears of anger welled up in my eyes. I'd been tricked, ju
 I'd found my own cure for my affliction, even though it wasn't what I'd hoped for.
 
 ### NIGHT 189
+
+Audio: [Listen to narration](../../audio/Scarlet/Memoirs/Scarlet_Memoir7_Desc.ogg)
 
 I let go completely and unleashed the beast within. We fought for Gran, for my old self, for all the victims of those damn nightmares.
 
@@ -91,6 +105,6 @@ I may never go back to being the girl I once was, but at last I'm the huntress I
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_RED_Memoirs.LangEN.tsv`](../../data/Hero_RED_Memoirs.LangEN.tsv).
+Source: [`Hero_RED_Memoirs.LangEN.tsv`](../../data/Hero_RED_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

@@ -181,6 +181,6 @@ The talent tables do not include the base ultimates or their unlock ranks; this 
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
 Source: [`Hero_Kintaro_Common.LangEN.tsv`](../../data/Hero_Kintaro_Common.LangEN.tsv), [`Hero_Kintaro_Abilities.tsv`](../../data/Hero_Kintaro_Abilities.tsv), [`Hero_Kintaro_Talents.tsv`](../../data/Hero_Kintaro_Talents.tsv), [`Hero_Kintaro_Skins.LangEN.tsv`](../../data/Hero_Kintaro_Skins.LangEN.tsv).
-Game version: Game build 1.06 (Steam build ID 25174305); the displayed version string is unverified. See VERSION.json.
+Game version: Game build 1.06.02.01 (Steam build ID 26221048); the version string was read from the game log and is not confirmed by the maintainer. See VERSION.json.
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

@@ -6,6 +6,8 @@
 
 ### The Wind Howls, and the Trees Fall Silent
 
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir1_Desc.ogg)
+
 My Yama-uba, old ogress of the wild. I speak to you in my thoughts because here no one hears me.
 
 You raised me like the old mountain Ashigara shelters the forest. You watched me from above among the birds and trees, where the wilderness was free and untamed like me! The animals were my brothers and sisters. I raced deer, laughed with monkeys in the river’s flow. And Kuma taught me to wrestle bears whose shadows swallowed his own. We made the ground tremble with our laughs when I rode him.
@@ -19,6 +21,8 @@ You entrusted us with a message enclosed in a flower and sent us away.
 So I bear Ashigara’s hope, I remember your face and long for my return.
 
 ### A Glowing Firefly Is a Lonely Light
+
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir2_Desc.ogg)
 
 My Yama-Uba. I have seen forests at night. I have met villagers who lost everything. And I have fought fierce beasts who knew no laws!
 If you would see what I am seeing here, would you even believe your eyes? 
@@ -37,6 +41,8 @@ We are visitors in this land that does not know your watchful eyes, and we will 
 
 ### The Brightest Flower Grows in the Shade
 
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir3_Desc.ogg)
+
 Yama-Uba. I remember the day you picked the little golden flower! The mountain and the wind were playing their game: the malicious wind pushed the clouds' shadows across the hillside grass, but the mountain's shadow swallowed them whole. Kuma and I wrestled. You were picking flowers. 
 Some you gently plucked from their stem, others you ignored. It only took you one look!
 In the shades of the cliffside, you picked the flower who stole the sun’s color. Tightly closed, not yet bloomed. You gently put it in your satchel and refused to tell me if this one was to harm or heal. You only said: 
@@ -50,6 +56,8 @@ Then the wind howled from the West, and you gave me the flower. It was still sle
 Old ogress of the wild, I know your mischievous eye! And I know better than to ask why the old mountain challenges the wind.
 
 ### A Sleeping Bear Is More Dangerous than a Woken One
+
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir4_Desc.ogg)
 
 I hid the yamabuki flower in Kuma’s fur! 
 
@@ -66,6 +74,8 @@ We endure the bare hills and howling islands of this Westland, but we have not f
 
 ### A Wriggling Snake Is Slower than the Rising Sun
 
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir5_Desc.ogg)
+
 Yama-Uba. I fight for a reason none of them share. They swore to defeat Baba Yaga. I was sent to bring her a flower.
 
 Do you remember the spirit who took the shape of a giant snake to strangle you while you slept? The yōkai sneaked through the high grass when I jumped in front of it and chopped it to pieces before it could wriggle! 
@@ -80,6 +90,8 @@ Empty.
 
 ### A Flower that Blooms Is Never Empty
 
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir6_Desc.ogg)
+
 Empty. No message to be found. Did I lose it? Impossible! Why would you send me here with an empty flower, Yama-Uba? 
 
 Just a yamabuki flower. Fully bloomed. The color of the sun absorbed. The only golden bud to see here. All around us is rotten and bare, and twisted. 
@@ -92,6 +104,8 @@ I am the message. I am the yamabuki flower who will always bloom.
 I am the sun who will always rise, no matter the clouds.
 
 ### The Golden Child Knows More than the Old Witch
+
+Audio: [Listen to narration](../../audio/Kintaro/Memoirs/Kintaro_Memoir7_Desc.ogg)
 
 Old mother of the wild, we defeated your twisted sister. The others can rest and heal. Some talk about what they lost and gained in the battle. 
 
@@ -116,6 +130,6 @@ The only thing that changed, my Yama-Uba, is that now, I know.
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Kintaro_Memoirs.LangEN.tsv`](../../data/Hero_Kintaro_Memoirs.LangEN.tsv).
+Source: [`Hero_Kintaro_Memoirs.LangEN.tsv`](../../data/Hero_Kintaro_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

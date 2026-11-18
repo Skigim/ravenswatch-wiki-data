@@ -6,6 +6,8 @@
 
 ### Times Forgotten
 
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir1_Desc.ogg)
+
 Once upon a time, I was a happy man. I had everything a humble tinkerer could ever want: a warm workshop, a good reputation, a loving wife, and my greatest treasure of all: a living, laughing son. 
 
 My boy was a farcer, he was, good at scaring, good at hiding and good at all manner of pranks. Red pepper in my stew, rock salt in my shoes, tacks and needles on my chair, and all anger erased by the power of his laugh. His mirth was contagious, the kind to make ribs ache from too much bellowing. 
@@ -16,6 +18,8 @@ Alas, this sad story I must tell. I have learned that tears unshed hide from us 
 
 ### An Experiment Gone Awry
 
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir2_Desc.ogg)
+
 Years of labor and experimentation had led to the unveiling of my masterpiece. The Mayor of Sugarland had asked me for a town clock that would only need winding once a year. I surpassed myself. My town clock not only told the time, but performed a ballet every hour on the hour, danced by autonomous plum fairies to the symphony of an orchestra of animal musicians. 
 
 The mayor stood smiling beside my family as he pulled the lever to unleash the springs of my clever contraption. The clock began to tick, and then whistle and whirl itself to life, as per my careful design. Then it suddenly screeched a sound that was not part of my invention.
@@ -23,6 +27,8 @@ The mayor stood smiling beside my family as he pulled the lever to unleash the s
 Black shadows rose within the tower, and to their chorus my dancers drew knives they should not have had, and my musicians bared teeth I had not made for them. The clock continued ticking as those gathered at the assembly fell dying one by one. Shaking free from my fear during what seemed like an eternity, I took the dead mayor's cane and wedged it into a central gear. The clock died while the Nightmares feasted on our misery.
 
 ### Too Early to Mourn
+
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir3_Desc.ogg)
 
 Night had not yet come when the town militia finally chased the Nightmares from Sugarland. I remember the red sky, glowing like a dying ember through grey ash. My son's body lay where it had fallen, amongst the bodies of the assembly. 
 
@@ -34,6 +40,8 @@ Once my dead had been buried, I packed my equipment and set out to find the Rave
 
 ### Living Deadly Toys
 
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir4_Desc.ogg)
+
 I had taken pieces and parts from my clock tower with me to study what had gone wrong. The Nightmares had gifted the automatons of my creation with something strange, a pulse of sorts. The metal in their bodies had been magnetized by some kind of electric source, giving them an autonomy akin to a living being. 
 
 Though I did not yet know how to bring about this effect on my own, I had ample supply from the dancers and musicians of my perverted machine to bring doom upon my family. I began to tinker with these pieces and build new playthings of my own. My new toys were not made for children, but rather to avenge their deaths.
@@ -41,6 +49,8 @@ Though I did not yet know how to bring about this effect on my own, I had ample 
 Equipped with explosive powders, corrosive acids and poisonous blades, I began to build a metal regiment that Nightmares would learn to fear. My creatures had no heart or soul to stay their hand from the cold tasks at hand. They would do for me what my human heart prevented me from doing myself. My little scoundrels could kill without mercy. I needed only to ask.
 
 ### Master Tinkerer of the Watch
+
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir5_Desc.ogg)
 
 I built weapons for the other wardens of the Watch, my favorite a flute for the Piper. My scoundrels performed their duty without question nor complaint. The Nightmares and creatures of the darkness began to fear them, for wherever one came walking, that meant the Ravenswatch were near. 
 
@@ -50,6 +60,8 @@ My automatons took damage without pain in these endless fights, and I began to t
 
 ### The Waking of the Scoundrels
 
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir6_Desc.ogg)
+
 Though I had seen my scoundrels accomplish many great things, they never stopped surprising me. One morning I noticed that they had begun to share my bunk, though whether to protect me in my sleep or for fear of passing the night alone I am not certain. When the scoundrel I had come to call Cheery-eye brought me a piece of wood to kindle the fire, I was reminded of my son for the first time in uncounted nights. 
 
 I began to take careful notice of my scoundrels' comings and goings. They reminded me of children, minus the mischief, which was the only thing that let me know they were not human. It appeared that they liked me, and though I knew them indestructible, for I could always fix them when they were broken, I found myself worrying for their well-being.
@@ -57,6 +69,8 @@ I began to take careful notice of my scoundrels' comings and goings. They remind
 I taught them other tricks besides killing and destruction. Cheery-eye learned to bake a pie. They were not human, I knew it, and their life was due to a dark metal that had given them a simulacre of life. But still, every morning, I would find them near my bed.
 
 ### Learning to Laugh Again
+
+Audio: [Listen to narration](../../audio/Geppetto/Memoirs/Geppetto_Memoir7_Desc.ogg)
 
 Baba Yaga's laughter was not the contagious sort. It was that of someone crazed and desperate, driven to madness by too many shattered dreams. When I finally got the best of her, I asked a simple question. Why do you seek to destroy our peaceful world?
 
@@ -71,6 +85,6 @@ I slept that night for the first time with happy dreams of my son and wife. In t
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Geppetto_Memoirs.LangEN.tsv`](../../data/Hero_Geppetto_Memoirs.LangEN.tsv).
+Source: [`Hero_Geppetto_Memoirs.LangEN.tsv`](../../data/Hero_Geppetto_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

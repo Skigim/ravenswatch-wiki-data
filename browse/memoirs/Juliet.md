@@ -6,6 +6,8 @@
 
 ### A cruel twist of fate
 
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir1_Desc.ogg)
+
 Most Faithful Nurse,
 
 Would that mine hand had not cause to pen these doleful lines, yet cruel, capricious Fortune doth mock me. Romeo liveth, though I dare not call it a blessing.
@@ -20,6 +22,8 @@ Write to me, dear Nurse, though I know not what comfort thou mayst send. If thou
 Your loving Juliet
 
 ### An ill-fated star
+
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir2_Desc.ogg)
 
 Most Faithful Nurse,
 
@@ -37,6 +41,8 @@ Your despondent Juliet
 
 ### A desperate bargain
 
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir3_Desc.ogg)
+
 Most Faithful Nurse,
 
 I rage, I weep, I plead with Heaven, yet no word of comfort nor sign of hope cometh to ease my troubled heart. I resign myself to the idea that Jove has abandoned me to my fate. I, and I alone, am the sole mistress of my destiny.
@@ -50,6 +56,8 @@ Dearest Nurse, if I should fail in my quest, know that I love thee well, and tha
 Your wrathful Juliet
 
 ### A day without end
+
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir4_Desc.ogg)
 
 Most Faithful Nurse,
 
@@ -67,6 +75,8 @@ Your melancholy Juliet
 
 ### A glimmer of hope
 
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir5_Desc.ogg)
+
 Most Faithful Nurse,
 
 A curious thing hath befallen us. I know not whether ‘tis Fate or mere chance, but for the first time in an age, I feel the stirrings of hope. Not the wild, desperate hope that drove me to seek Baba Yaga’s cruel mercy, nor the hollow hope that dawn might restore remembrance to Romeo’s eyes.
@@ -83,6 +93,8 @@ Your hopeful Juliet
 
 ### An awakening
 
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir6_Desc.ogg)
+
 Most Faithful Nurse,
 
 O, how blind I have been! How tightly I did cling to what I had lost that I did not see the future unspooling before me. The grief that hath weighed upon my breast was never for Romeo—it was for a dream that cannot be and which I could not let go.
@@ -96,6 +108,8 @@ Dear Nurse, I would have thee know that I am well. At long last, I am ready to w
 Your grateful Juliet
 
 ### A new dream
+
+Audio: [Listen to narration](../../audio/Juliet/Memoirs/Juliet_Memoir7_Desc.ogg)
 
 Most Faithful Nurse,
 
@@ -118,6 +132,6 @@ Your loving Juliet
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Juliet_Memoirs.LangEN.tsv`](../../data/Hero_Juliet_Memoirs.LangEN.tsv).
+Source: [`Hero_Juliet_Memoirs.LangEN.tsv`](../../data/Hero_Juliet_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

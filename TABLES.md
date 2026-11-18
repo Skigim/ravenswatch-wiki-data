@@ -18,6 +18,8 @@ The `2026-11-13-contributor-claims` snapshot checks contributor claims against t
 
 The `2026-11-17-1.06.02.01` snapshot re-extracts three tables from game build 1.06.02.01 (Steam build ID `26221048`): `Common.LangEN.tsv` and `Hero_RED_Skins.LangEN.tsv`, whose English text changed, and `Hero_Kintaro_Talents.tsv`, whose Dohyo tooltip argument changed. VERSION.json gives each of them a table override. The other tables were not re-extracted and keep their earlier attribution.
 
+The `2026-11-18-voice-audio-files` snapshot extracts all 5,593 voice and memoir audio clips from the 1.06 audio banks as categorized Ogg Vorbis (`.ogg`) files under `audio/`, and adds `category` and `audio_file` columns to `Dialogue_Lines.tsv` and `Voice_Lines_Audio.tsv`. Every other table is unchanged.
+
 ## Text and index exports
 
 These are verbatim decoded exports, except the eight memoir tables marked "spelling corrected". 30 of the 43 published in earlier snapshots came out of the 1.06 build byte for byte unchanged. 13 changed, and the three `Hero_Kintaro_*` text tables are new.
@@ -167,19 +169,19 @@ unverified; previous tables keep their attribution. See [MAP_GENERATION.md](MAP_
 
 ## Dialogue
 
-Added in `2026-10-20-dialogue`. Decoded from the 1.06 extraction of 2026-10-12: the dialogue text tables, with speakers from the bark players and triggers from the bark setups in the entity settings, or the situation the key names where no trigger was decoded. Not checked in game. See [DIALOGUE.md](DIALOGUE.md).
+Added in `2026-10-20-dialogue`; updated in `2026-11-18-voice-audio-files` to add `category` and `audio_file` columns linking voiced lines to `audio/`. Decoded from the 1.06 extraction of 2026-10-12: the dialogue text tables, with speakers from the bark players and triggers from the bark setups in the entity settings, or the situation the key names where no trigger was decoded. Not checked in game. See [DIALOGUE.md](DIALOGUE.md).
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) | 5847 | `Hero_<Hero>_Barks~GAM.xls` (13), `NPC_Sandman`, `NPC_Sinbad`, `NPC_Morgan`, `NPC_BabaYaga`, `Map_Dark_Hills_Dialogs`, `Refugees` (spoken rows); EntitySettings bark setups and bark players | `073af62f8b2eae4eb2bb65dbf37c4facdd0fae01269c4e25fc82010067a56422` |
+| [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) | 5847 | `Hero_<Hero>_Barks~GAM.xls` (13), `NPC_Sandman`, `NPC_Sinbad`, `NPC_Morgan`, `NPC_BabaYaga`, `Map_Dark_Hills_Dialogs`, `Refugees` (spoken rows); EntitySettings bark setups and bark players | `6bdef6ce82e5c75bf13631753c36144a4b27baf0bd4d3eddb0af1396f75608b5` |
 
 ## Voice audio
 
-Added in `2026-11-10-voice-audio`; extended to the hero banks and `Maps.bank` in `2026-11-10-voice-banks`. Clip names, positions and lengths read on 2026-11-10 from the audio banks of the 1.06 install (Steam build ID `25174305`), paired with the keys of the dialogue and memoir tables. Not checked by listening. See [VOICE.md](VOICE.md).
+Added in `2026-11-10-voice-audio`; extended to the hero banks and `Maps.bank` in `2026-11-10-voice-banks`; extracted to categorized `.ogg` files under `audio/` with `category` and `audio_file` columns in `2026-11-18-voice-audio-files`. Clip names, positions and lengths read on 2026-11-10 from the audio banks of the 1.06 install (Steam build ID `25174305`), paired with the keys of the dialogue and memoir tables. Not checked by listening. See [VOICE.md](VOICE.md).
 
 | File | Declared rows | Source identifier | SHA-256 |
 |---|---:|---|---|
-| [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 6004 | `Audio/Voice_EN.bank`, `Audio/Hero_<Hero>.bank` (12), `Audio/Maps.bank`; `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `d70c547b7d76a84f77dcc1d45424c15200991c83569f08a53a6c4fe514fcf197` |
+| [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) | 6004 | `Audio/Voice_EN.bank`, `Audio/Hero_<Hero>.bank` (12), `Audio/Maps.bank`; `data/Dialogue_Lines.tsv`; `data/Hero_<Hero>_Memoirs.LangEN.tsv` (13) | `11fe9f81ff93bc35b7f95dc6d87135d47400e2757e3006451bb277d35de18329` |
 
 ## Game modifiers, challenges, achievements and outfits
 

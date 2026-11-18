@@ -6,6 +6,8 @@
 
 ### A plea to Vivian, my captor and my cage
 
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir1_Desc.ogg)
+
 I know these words were written by my hand, 
 some centuries past before thee, Vivian, 
 did trap me in a tomb of amber stone.
@@ -33,6 +35,8 @@ friend unto the Otherworld beyond.
 
 ### Prophecies are curses garbed in brighter clothes
 
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir2_Desc.ogg)
+
 This verse I wrote four centuries past and had
 forgotten every word. 'Til Morgan Fey 
 unrolled the scroll and asked me what would follow.
@@ -59,6 +63,8 @@ unsung." Dear Vivian return to me, I cannot
 help without my power of prophecy.
 
 ### How songs rewritten curse this wretched age
+
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir3_Desc.ogg)
 
 My prophecie when read without my soothing 
 sight, give pause to ponder whether weed 
@@ -88,6 +94,8 @@ Your erstwhile wizard sage of Raven's Watch
 
 ### Alas, Cassandra's prophecies were given no import
 
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir4_Desc.ogg)
+
 Again 'tis I who wrote that cryptic verse
 some centuries ago. And only now 
 is meaning met. Cassandra comes to mind.
@@ -114,6 +122,8 @@ And so my Vivian, I beg for mercy
 not for me but those who need truesight.
 
 ### The witch of nightmares holds all keys
+
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir5_Desc.ogg)
 
 I dreamt a dream last night, a songe sent by
 my devil father speaking with his guile.
@@ -143,6 +153,8 @@ away and save what's left of Reverie.
 
 ### Heroes born to destinies unknown
 
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir6_Desc.ogg)
+
 Sweet Vivian I have returned a victor
 o'er the witch. Our Baba Yaga fought
 with savage fury, equal to my spells.
@@ -169,6 +181,8 @@ I must ponder this predicament
 until I've learned the lesson meant for me.
 
 ### What future can we have when all is writ
+
+Audio: [Listen to narration](../../audio/Merlin/Memoirs/Merlin_Memoir7_Desc.ogg)
 
 At last I now can see just why you locked
 your mentor fast in stone. Our fleshly commerce
@@ -200,6 +214,6 @@ for thee, my harp and legendary wit.
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Merlin_Memoirs.LangEN.tsv`](../../data/Hero_Merlin_Memoirs.LangEN.tsv).
+Source: [`Hero_Merlin_Memoirs.LangEN.tsv`](../../data/Hero_Merlin_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

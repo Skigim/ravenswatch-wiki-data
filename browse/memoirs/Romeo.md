@@ -6,6 +6,8 @@
 
 ### 'Tis here begins your morning named dismay
 
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir1_Desc.ogg)
+
 Dear Romeo, 
 
 Oh Romeo, 'tis thee
@@ -34,6 +36,8 @@ transpired. since tragic death you both beguiled.
 Thy Romeo Montagues of Memory Lost
 
 ### Our Family Feud is All the More to Blame
+
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir2_Desc.ogg)
 
 Dear Romeo, again I write to me,
 
@@ -65,6 +69,8 @@ Thine Romeo of Montagues of Family Fought
 
 ### A Sword of Fortune Vowed to Ravenswatch
 
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir3_Desc.ogg)
+
 Dear Romeo, bold Romeo lend ear,
  
 At last we've read enough to know these letters
@@ -95,6 +101,8 @@ Thy Romeo of Heralded Ravenswatch
 
 ### Eternal Love Expires Sans Mortal Age
 
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir4_Desc.ogg)
+
 Dear Romeo, sad Romeo, shed tears,
 
 A melancholy lurks amidst the glee
@@ -123,6 +131,8 @@ that happiness comes never sans its cost.
 Thine Romeo of Drying Eyes
 
 ### The Final Quest to Slay the Wretched Witch
+
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir5_Desc.ogg)
 
 Dear Romeo, brave Romeo the bold,
 
@@ -154,6 +164,8 @@ Romeo Montagues of Rightful Quest
 
 ### The Witch Is Found the Bullet Buried Deep
 
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir6_Desc.ogg)
+
 Dear Romeo of Witchly Battle Wrought,
 
 The plan was simple, carefully thought, to slay
@@ -183,6 +195,8 @@ the run. Our deadly dance has just begun.
 Thy Romeo wed Capulet of Battle Won
 
 ### No Love Has Worth Lest Rife with Hesitation
+
+Audio: [Listen to narration](../../audio/Romeo/Memoirs/Romeo_Memoir7_Desc.ogg)
 
 Oh Romeo, true Romeo, at last,
 
@@ -217,6 +231,6 @@ Mine Romeo of Lifted Heart
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Romeo_Memoirs.LangEN.tsv`](../../data/Hero_Romeo_Memoirs.LangEN.tsv).
+Source: [`Hero_Romeo_Memoirs.LangEN.tsv`](../../data/Hero_Romeo_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

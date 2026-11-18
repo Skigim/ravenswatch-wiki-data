@@ -6,6 +6,8 @@
 
 ### I Do Not Believe in Nevermore
 
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir1_Desc.ogg)
+
 My precious Laura,
 
 My heart had nearly ceased its beating before you wandered so gracefully into my dull and awkward routine. I had read countless stories, and even more poems, about the power of love, but no word, no rhyme, had prepared my soul for the tremor your presence set to rippling through my bones. 
@@ -20,6 +22,8 @@ Your eternal love, Carmilla
 
 ### To Grow Old Together
 
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir2_Desc.ogg)
+
 My precious Laura,
 
 I still feel the warmth of your mischievous gaze each time I miss a button on my blouse or poorly straighten my collar. For twelve short years you were there every morn to assure I looked my best. It was for you and you alone I reddened my lips with carmine. When one walks with a flower it is best to stride in blossom.
@@ -32,6 +36,8 @@ Your eternal love, Carmilla
 
 ### A Farewell to Daylight
 
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir3_Desc.ogg)
+
 My precious Laura,
 
 I had never turned another person before you, either willing or against their will. I was not even sure that I could. I am a day walker, a dhampire, a rare breed of monster that is made in their vampire mother's womb. I was born with this thirst for blood, and never knew the taste of a mother's milk. Your devastation was killing you. Your family castle burned. All those that had raised you nearly dead or worse. And so I let you drink my blood and turned you into a monster.
@@ -43,6 +49,8 @@ Even when we realized that you could no longer support daylight, it did not dimi
 Your eternal love, Carmilla
 
 ### The Blood of Vengeance Tastes Bittersweet
+
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir4_Desc.ogg)
 
 My precious Laura,
 
@@ -60,6 +68,8 @@ Your eternal love, Carmilla
 
 ### The Flame that Shines Brightest
 
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir5_Desc.ogg)
+
 My precious Laura,
 
 I searched for days with the Watch all of our secret hiding places and nights our favorite hunting grounds. You were nowhere to be found.
@@ -76,6 +86,8 @@ Your eternal love, Carmilla
 
 ### Farewell to All That Is Human
 
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir6_Desc.ogg)
+
 My precious Laura,
 
 Our friends of the Watch left me alone to mourn your betrayal, though I know they shared my pain. I was inconsolable for weeks, wishing I had the disposition to take my own life. An easier darker path began to tease my mind. I could simply join you and the witch, abandoning my human nature, to become a horror alongside the woman I loved.
@@ -89,6 +101,8 @@ I buried you in your family vault alongside the tombs of those who had raised yo
 Your eternal love, Carmilla
 
 ### Ageless Endings and New Beginnings
+
+Audio: [Listen to narration](../../audio/Carmilla/Memoirs/Carmilla_Memoir7_Desc.ogg)
 
 My precious Laura,
 
@@ -108,6 +122,6 @@ Your eternal love, Carmilla
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Carmilla_Memoirs.LangEN.tsv`](../../data/Hero_Carmilla_Memoirs.LangEN.tsv).
+Source: [`Hero_Carmilla_Memoirs.LangEN.tsv`](../../data/Hero_Carmilla_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

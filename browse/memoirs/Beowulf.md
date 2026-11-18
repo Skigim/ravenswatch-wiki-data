@@ -6,6 +6,8 @@
 
 ### Stanza I - The Great Warrior
 
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir1_Desc.ogg)
+
 Skalds call me Beowulf in ballad and song
 Ocean spawned fury, a sword-wielding storm
 Foul kingdoms I've cowered, their misers laid low
@@ -22,6 +24,8 @@ Proudly I went to save village defiled
 By Nightmare made dragon, by drake made wild
 
 ### Stanza II - Drake's Final Breath
+
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir2_Desc.ogg)
 
 We tether our oars in festering fog
 Shadows cling fiendish, the dew made sod
@@ -45,6 +49,8 @@ Out pops a pup, from a clutch of drake eggs
 
 ### Stanza III - Beowulf's Bane
 
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir3_Desc.ogg)
+
 Squeezing drake's neck, my hand disobeys
 I have slain the pup's mother in fury, in vain
 A Nightmare had mastered the drake's willed spirit
@@ -61,6 +67,8 @@ I offer the pup, they offer a test
 "Rid Reverie of Nightmares, join our brave quest"
 
 ### Stanza IV - Warrior Made Warden
+
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir4_Desc.ogg)
 
 A warden's badge I agree to take
 In hopes of redemption for the drake's sake
@@ -79,6 +87,8 @@ And raise the child of the dragon I'd killed
 
 ### Stanza V - A Viking Nursemaid
 
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir5_Desc.ogg)
+
 Bards call me Beowulf, father to drake
 Mocking my memory, my foolish mistake
 Slaying a dragon and sparing her spawn
@@ -96,6 +106,8 @@ Has carried out this foul deed, her reason uncertain
 
 ### Stanza VI - A Warrior Learns Fear
 
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir6_Desc.ogg)
+
 We gather our gear, my curs'd pup and I
 The Witch we will slaughter, ensuring she dies
 To settle our score, to pay for her curse
@@ -112,6 +124,8 @@ My son is but stunned and still breathes fire
 I turn to Baba Yaga, but her body is gone
 
 ### Stanza VII - Warden Witchbane
+
+Audio: [Listen to narration](../../audio/Beowulf/Memoirs/Beowulf_Memoir7_Desc.ogg)
 
 Cradled pup sleeps by my sewn side
 He snores, we snore, like waves at high tide
@@ -133,6 +147,6 @@ Man and Monster, fighting as one
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Beowulf_Memoirs.LangEN.tsv`](../../data/Hero_Beowulf_Memoirs.LangEN.tsv).
+Source: [`Hero_Beowulf_Memoirs.LangEN.tsv`](../../data/Hero_Beowulf_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

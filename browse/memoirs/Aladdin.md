@@ -6,6 +6,8 @@
 
 ### Chapter 1
 
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir1_Desc.ogg)
+
 My friend, let my story serve as a cautionary tale, if it should serve as one at all. 
 
 Life is made of equal parts joy and sorrow; the greater the one, the deeper the other. 
@@ -20,6 +22,8 @@ Her dark-rimmed eyes shone, luminous as stars. Her teeth were like pearls, and h
 
 ### Chapter 2
 
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir2_Desc.ogg)
+
 One calm and tranquil morning, a traveling merchant appeared at the palace. 
 
 Badra invited him in to rest and offered him a cup of wine to soothe his weary soul. He thanked her for her hospitality and offered her a beautiful lamp as a parting gift.
@@ -29,6 +33,8 @@ The moment my beloved laid her delicate finger on the lamp, a storm of sparks su
 Badra's ruby lips parted to call for help, but no sound escaped them. She was aspirated into the lamp, which slammed shut with an ominous clang.
 
 ### Chapter 3
+
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir3_Desc.ogg)
 
 In a panic, I tried to pry open the lamp by force, but to no avail. I called the wisest astrologers and magicians to open the lamp, but they assured me in hushed tones there was nothing they could do. 
 
@@ -41,6 +47,8 @@ This cannot be, and it will not be. I am Aladdin, and I am master of my own fate
 I decided to seek out the mysterious witch, Baba Yaga, who is rumored to be the most powerful being in all of Reverie, and enlist her help in restoring my beloved Badra to her true form.
 
 ### Chapter 4
+
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir4_Desc.ogg)
 
 I ventured from our palace in search of the illustrious witch. But I am not a navigator, like Sinbad, and I erred through Reverie like a sleepwalker. 
 
@@ -58,6 +66,8 @@ My best chance of finding her was by staying with my friend.
 
 ### Chapter 5
 
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir5_Desc.ogg)
+
 The days slipped by like pearls on a silken thread. I never felt closer to Badra than in those quiet moments when I would regale her with the details of the day's battles.
 
 The night brought with it shadows, images that would disturb my slumber. They slipped away from me upon waking like sand through my fingers: Badra, her face contorted in anger. Badra, screaming in pain. Crimson bloodstains on the carpet. Badra, wrapped in a shroud.
@@ -70,6 +80,8 @@ Or was it something worse?
 
 ### Chapter 6
 
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir6_Desc.ogg)
+
 My encounter with the famed Baba Yaga did not go as I had envisioned. Instead of freeing my beloved from her lamp, the witch claimed Badra's fate was beyond her power. Badra could not be freed from the lamp, as she was not in the lamp: Badra was dead.
 
 I refused to believe her; I had seen Badra disappear into the lamp, smelled the magician's sulfur and seen the sparks.
@@ -79,6 +91,8 @@ Baba Yaga cackled her evil laugh. Those images were tricks of the mind to lead m
 Upon hearing her words, the floodgates in my mind opened, and memories of Badra came rushing in. I was overcome with emotion: in keeping out the memories of sadness, I had been holding back on moments of joy as well.
 
 ### Chapter 7
+
+Audio: [Listen to narration](../../audio/Aladdin/Memoirs/Aladdin_Memoir7_Desc.ogg)
 
 The Witch's taunts released me from the dream that had a hold on my reality. I let go of the dream of Badra I had been clinging to, lest it turn into a nightmare like those I had been fighting.
 
@@ -93,6 +107,6 @@ Together, my beloved and I shall rid the world of the shadows, and one day she a
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Aladdin_Memoirs.LangEN.tsv`](../../data/Hero_Aladdin_Memoirs.LangEN.tsv).
+Source: [`Hero_Aladdin_Memoirs.LangEN.tsv`](../../data/Hero_Aladdin_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

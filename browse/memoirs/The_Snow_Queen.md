@@ -6,6 +6,8 @@
 
 ### Part I
 
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir1_Desc.ogg)
+
 In the days before the Darkness covered the land, my kingdom was a very different place. The sun shone warm, the hills were verdant, and the fields were fertile. Our people were peaceful and joyous, with few causes for concern and many causes for celebration.
 
 I acceded to the throne after the death of my parents, King Kai and Queen Gerda. From the moment the mantle of rulership was clasped around my shoulders, I swore to protect the kingdom from harm just as I would protect my own family. For indeed, following my parents' untimely death, I was left in charge of my infant sister, Lily.
@@ -13,6 +15,8 @@ I acceded to the throne after the death of my parents, King Kai and Queen Gerda.
 I ruled the kingdom with a fair and gentle hand, the same way I raised Lily, and both flourished. I used my healing powers to keep illness and evil at bay. Our nation prospered under my benevolent stewardship.
 
 ### Part II
+
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir2_Desc.ogg)
 
 In the seventh year of my reign, when the roses were in bloom and the people were preparing to celebrate summertide, disaster struck. A winter storm rose in a single night, bringing with it a blizzard that left a blanket of snow over the land. Nightmares rode in on the wind, torturing those they met and turning their minds to madness.
 
@@ -23,6 +27,8 @@ The destruction was devastating. Nary a trace of vegetation was left: there was 
 The wounded were brought to the palace. I went from one sickbed to the next, providing such healing as I could. It was my duty as Queen to come to the aid of all those in need. After healing the last citizen, as I yearned for respite, my faithful aide whispered urgently: "Come quickly. It's your sister."
 
 ### Part III
+
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir3_Desc.ogg)
 
 Lily's face was contorted, and she raged wildly. When I went to her bedside, Lily shrieked and lacerated me with a blade of ice hidden in her bedclothes. It shattered, and a sharp pain shot through my breast. 
 
@@ -36,6 +42,8 @@ For indeed, the winter was never-ending. Day after day, the sun rose over the gl
 
 ### Part IV
 
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir4_Desc.ogg)
+
 Whispered rumors came to my ears. Dark mutterings in corners. Some thought I was to blame: they spoke of a royal curse. They thought my malediction proof of some dark stain in my family's past that had brought this evil down on our kingdom. 
 
 I could not permit such ill misgivings to fester in the darkness. I gathered my people and made a formal proclamation: I myself would set out to find the source of the evil and put a stop to it, to return our kingdom to its true state. I swore that, as their monarch, I would not rest until I had restored peace and tranquility to our land once again. 
@@ -44,17 +52,23 @@ With that, I left my council to rule in my stead, and I set out on my own to rig
 
 ### Part V
 
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir5_Desc.ogg)
+
 In my journeys, I encountered the warriors of the Ravenswatch, who also strove to chase the nightmares from our lands. I agreed to join their ranks and fight alongside them, as long as they served my purposes. I aimed to find the source of the darkness and cast it out. If the Ravenswatch could help further my aims, all the better.
 
 However, I had not anticipated the band of misfits and eccentrics such an organization would contain. Among the ranks of the Watch I found a few kindred spirits, but most were fools and weaklings who would be of no use to me. Time and again, I found myself carrying the heaviest share of our burden.
 
 ### Part VI
 
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir6_Desc.ogg)
+
 When I finally found the source of the darkness, I discovered Baba Yaga was its source. Emboldened by my righteous vengeance, I vanquished my foe and ended her reign of terror. 
 
 As my wrath abated, I looked around and caught a glimpse of myself in a looking glass. With horror, I realized that what I saw was not the triumph of good over evil. What I saw, instead, was one cold-hearted queen standing over the dead, broken body of another. But to what end? To claim her place and reign in her stead? Is that what I had been after all this time?
 
 ### Part VII
+
+Audio: [Listen to narration](../../audio/The_Snow_Queen/Memoirs/SnowQueen_Memoir7_Desc.ogg)
 
 Vengeance for vengeance's sake is hollow, I realized. Baba Yaga's death would not return my dear Lily to me, nor would the nightmares disappear along with her. Reverie had been changed forever, and we must change with it. I must change with it.
 
@@ -69,6 +83,6 @@ This shall be Lily's legacy.
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Snow_Queen_Memoirs.LangEN.tsv`](../../data/Hero_Snow_Queen_Memoirs.LangEN.tsv).
+Source: [`Hero_Snow_Queen_Memoirs.LangEN.tsv`](../../data/Hero_Snow_Queen_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

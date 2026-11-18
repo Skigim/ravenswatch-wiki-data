@@ -69,6 +69,15 @@ Some clips with no text row have names close to these lines. They are not paired
 
 Romeo and Juliet also have untexted clips named `Special_1` to `Special_3` in `Voice_EN.bank`. They are not the `SpecialCalled_by_` lines, which are in `Hero_RomeoJuliet.bank`.
 
+## Extracted audio files and categorization
+
+All 5,593 paired and untexted clips in [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) (5,436 dialogue clips, 91 memoir narrations, and 66 untexted clips) are extracted from the 1.06 FMOD banks (`fmod.dll` PCM decode + `libvorbis` 48 kHz `.ogg` encode) into `audio/<Speaker>/<Category>/<File>.ogg` across 22 speaker directories:
+
+- 14 hero directories (`Aladdin`, `Beowulf`, `Carmilla`, `Geppetto`, `Juliet`, `Kintaro`, `Melusine`, `Merlin`, `The_Pied_Piper`, `Romeo`, `Scarlet`, `Scarlet_Wolf`, `The_Snow_Queen`, `Sun_Wukong`);
+- 8 NPC and world speaker directories (`The_Sandman`, `Sinbad`, `Castaway`, `Morgan`, `Baba_Yaga`, `Jack`, `Three_Little_Pigs`, `Refugees`).
+
+Both [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) and [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) include `category` (human-readable situation/quest/combat category) and `audio_file` (relative path to the `.ogg` file under `audio/`, blank for the 411 unvoiced lines). The generated pages under [browse/dialogue/](browse/dialogue/README.md) and [browse/memoirs/](browse/README.md) link directly to each `.ogg` clip.
+
 ## Limits
 
 - Nothing was checked by listening or in game. The game's FMOD library loaded 21 clips from `Voice_EN.bank` and `Hero_RomeoJuliet.bank` under the names this table gives them, with matching lengths.

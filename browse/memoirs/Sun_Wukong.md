@@ -6,6 +6,8 @@
 
 ### Heaven's Equal
 
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir1_Desc.ogg)
+
 Who better to tell the story of the fall of Sun Wukong than Sun Wukong himself? I am named Heaven's Equal by immortal demons and eternal queens alike. I mastered the 72 powers of transformation. I escaped the mythical mountain after five hundred years in chains. I know the names of every monkey ever born. I am the Monkey King, the greatest warrior to ever walk the worlds of Reverie.
 
 My brush weaves words as gracefully as my staff wreaks havoc. I am the equal of all poets. This is my tale to tell. This is the magnificent story of the tainting of my crown by jealous, fiendish rivals which led to my great demise, doomed to walk among mortals and their shattered dreams. 
@@ -14,6 +16,8 @@ It is said that every great warrior needs a great foe, just as a good carpenter 
 
 ### A Thousand Dancing Shades
 
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir2_Desc.ogg)
+
 The dead go, the living stay. So was it written on my palace walls, where I ruled with mirth and marvel. To live is to dance in celebration of all the treasures the heavens have bestowed upon us. In my palace, music filled the air like petals grace the wind, announcing the coming of cherries and plums. The only law I set to enforce was that of constant celebration.
 
 Sorcerers received open invitations, so long as they could dance or sing or amuse us with some trick worthy of my palace. In my zealous generosity, I had forgotten a teaching of my master: "You cannot live near cinnabar without becoming red, nor ink without becoming black." Would I have remembered this, I would not have opened my doors to a sorceress dressed in black and her thousand shadow dancers.
@@ -21,6 +25,8 @@ Sorcerers received open invitations, so long as they could dance or sing or amus
 The promise of seeing a thousand shadows dance seemed worthy of my halls, which were so brightly lit that all normal shadows had been chased away by the exuberant lights. The only payment the sorceress asked for was the right to kiss my crown. And so out they poured from her chest to greet my guests. So much blackness from a box was thrilling, until the shades ripped through my entourage, and put an end to our festivities.
 
 ### The Curse of Heaven's Equal
+
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir3_Desc.ogg)
 
 As morning light dispersed the darkness from my tarnished halls, and lust of battle fled my veins, I was taken with a pain I had never before felt. My immortal blood dripped from several wounds I had taken in the fight that would not heal. My foes had fled, their dark deed done. My guests were dead or gone.
 
@@ -32,6 +38,8 @@ I laughed at the man and went on my way. I am Sun Wukong, Heaven's Equal. I do n
 
 ### Heaven's Equal Knows No Equal
 
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir4_Desc.ogg)
+
 Days went by, and I could find no trace of the sorceress who had cursed my crown. I came to feel that the shadow dancers feared me and so refused to fight. I then remembered a teaching of my master. "Sit by the river long enough, and the bodies of your enemies will come floating in the current."
 
 After seven eternal minutes of waiting that nearly drove me mad, a beautiful woman came by, her hand spitting ice, freezing the stream so she could cross. I quickly went to her and asked if she were a goddess. She replied in haste: "I am a queen. I have not time for conversation; I am chasing a Nightmare."
@@ -39,6 +47,8 @@ After seven eternal minutes of waiting that nearly drove me mad, a beautiful wom
 I jumped to follow her, despite her forebodings, and for a moment I thought she might turn me to ice. "I am Sun Wukong, Heaven's Equal and the King of all Monkeys. I am on a quest to defeat the thousand shadow dancers of an evil dark sorceress. She has cursed me and made me mortal." The queen stared at me with a glare that could have frozen an ocean before saying words that put a fire into my heart: "You can join me, so long as you can keep up."
 
 ### A God's Shame Shines Brighter
+
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir5_Desc.ogg)
 
 I had been made mortal by a treacherous sorceress, but my prowess in battle is the broth of legend's soup. I am cast of the iron reserved for statues at the heavens' gates. Monsters I destroyed. Nightmares I chased. Witchly plans I foiled. Yet still the wardens showed me little respect and would not make me their king.
 
@@ -48,6 +58,8 @@ I lunged, tail flying, facing three Nightmares with nothing but my staff. For th
 
 ### A Mortal's Fight Is Greater
 
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir6_Desc.ogg)
+
 The next day, my tail had lost its bounce, and my head weighed heavy on my shoulders. The skies cried drops of heavy tears, for when a god knows shame, the heavens weep. It was then that I heard the screams of villagers and, without thinking, ran to defend them. I laid low a dozen monsters and a Nightmare that day – and caught a glimpse of the sorceress who had kissed my crown. My foe was Baba Yaga. My vengeance had a name!
 
 After that battle, much to my surprise, the wardens of the Watch began to treat me with measured dignity. The piper boy played a song for me. The old warrior chanted a poem. Nyss, the mortal sorceress, took my godly paw and shook it proudly. She told me that I was a fool, but a brave one, that had saved a dozen souls of Reverie that day. "This time," she added, "you knew you could die."
@@ -55,6 +67,8 @@ After that battle, much to my surprise, the wardens of the Watch began to treat 
 Like a riddle from my master, Nyss's words gave me pause. Are these humans in their mortal bodies braver than we gods? They fight always knowing that each moment might be their last. Their lives a tiny pebble thrown into a giant ocean, their tiny ripples fighting tide and waves to change the fate of Reverie. I remembered then my master saying something about a butterfly causing a cyclone... or might it have been the sneeze of a dog?
 
 ### A Witch's Putrid Kiss Unkissed
+
+Audio: [Listen to narration](../../audio/Sun_Wukong/Memoirs/SunWukong_Memoir7_Desc.ogg)
 
 I found Baba Yaga and had her life at my mercy. I ordered her to remove the curse upon my crown, to take back her putrid kiss. She laughed at me and told me she was proud. I, the Monkey King, Heaven's Equal, had defeated her in the body of a mortal. What greater fate was there than that? She would gladly now remove my curse so that I might return to my former life of deathless glory.
 
@@ -67,6 +81,6 @@ I was now the greatest hero of Reverie. A god made mortal, a warrior worthy of a
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_SunWukong_Memoirs.LangEN.tsv`](../../data/Hero_SunWukong_Memoirs.LangEN.tsv).
+Source: [`Hero_SunWukong_Memoirs.LangEN.tsv`](../../data/Hero_SunWukong_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

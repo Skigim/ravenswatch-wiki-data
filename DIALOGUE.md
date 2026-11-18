@@ -40,6 +40,8 @@ A hero, NPC or refugee speaks through a bark player. Each bark player names a te
 | `trigger_situation`, `situation_basis` | For `key name` rows only: the situation the key names, and where that reading comes from (see below) |
 | `trigger_entities`, `trigger_setups` | The entities that hold the matching bark setups, and each setup's group path and name |
 | `trigger_chain` | The nearest components upstream of each bark setup (see below) |
+| `category` | High-level situation, quest, or combat category used to group lines and organize extracted clips under `audio/` |
+| `audio_file` | Relative path to the categorized Ogg Vorbis clip under `audio/` (from [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv)), or blank for the 411 lines with no matching clip |
 
 `target_basis` is one of three sources, tried in this order:
 

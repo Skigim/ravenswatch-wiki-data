@@ -6,6 +6,8 @@
 
 ### 1st Verse
 
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir1_Desc.ogg)
+
 A feisty fish I've always been
 My joy; my songs, my sea
 Lovers were my favorite dish
@@ -24,6 +26,8 @@ Child, I need to leave you
 Before you eat my heart
 
 ### 2nd Verse
+
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir2_Desc.ogg)
 
 Still I bore a sadness
 No children had I borne
@@ -44,6 +48,8 @@ Before you eat my heart
 
 ### 3rd Verse
 
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir3_Desc.ogg)
+
 That night, while I lay dreaming
 Dark shadows took my sleep
 The morn I was with foundling
@@ -62,6 +68,8 @@ Child, I need to leave you
 Before you eat my heart
 
 ### 4th Verse
+
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir4_Desc.ogg)
 
 I carried my precious cargo
 To the crows at Ravenswatch
@@ -82,6 +90,8 @@ Before you eat my heart
 
 ### 5th Verse
 
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir5_Desc.ogg)
+
 I slew nightly Baba's horrors
 Unseelie eyes I gouged
 The killer in me surfaced
@@ -101,6 +111,8 @@ Before you eat my heart
 
 ### 6th Verse
 
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir6_Desc.ogg)
+
 Yet friends I'd made believed in me
 A scarlet wolf and grumpy king
 In Ravenswatch I tamed that beast
@@ -119,6 +131,8 @@ Child, I need to leave you
 Before you eat my heart
 
 ### 7th Verse
+
+Audio: [Listen to narration](../../audio/Melusine/Memoirs/Melusine_Memoir7_Desc.ogg)
 
 Baba Yaga would not claim my child
 I called upon her first
@@ -142,6 +156,6 @@ Before you eat my heart
 - **Bold** words are highlighted in the game.
 - `{0}`, `{1}` and so on are numbers or names the game fills in while you play.
 
-Source: [`Hero_Melusine_Memoirs.LangEN.tsv`](../../data/Hero_Melusine_Memoirs.LangEN.tsv).
+Source: [`Hero_Melusine_Memoirs.LangEN.tsv`](../../data/Hero_Melusine_Memoirs.LangEN.tsv), [`Voice_Lines_Audio.tsv`](../../data/Voice_Lines_Audio.tsv).
 
 *This page is generated from the TSV files in [data/](../../data/) by `tools/build_browse.py`. Do not edit it by hand; fix the data and re-run the script.*

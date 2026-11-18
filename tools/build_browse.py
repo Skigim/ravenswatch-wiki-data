@@ -36,7 +36,7 @@ GENERATED_NOTE = (
 
 # ---------------------------------------------------------------- reading
 
-def read_table(name):
+def read_table(name, quoting=csv.QUOTE_MINIMAL):
     """Return (meta, rows) for data/<name>. meta holds the '# key<TAB>value' lines."""
     meta = OrderedDict()
     lines = []
@@ -47,7 +47,7 @@ def read_table(name):
                 meta[key.strip()] = value.strip()
             else:
                 lines.append(line)
-    rows = list(csv.DictReader(lines, delimiter="\t"))
+    rows = list(csv.DictReader(lines, delimiter="\t", quoting=quoting))
     return meta, rows
 
 
@@ -135,6 +135,23 @@ def rel_source(files, depth):
 
 def note(depth):
     return GENERATED_NOTE.replace("](../data/)", "](" + "../" * depth + "data/)")
+
+
+def audio_link(rel_path, depth, label="Listen"):
+    """Return a relative Markdown link to an audio file with parentheses URL-escaped."""
+    if not rel_path:
+        return ""
+    url = rel_path.replace("(", "%28").replace(")", "%29")
+    return f"[{label}]({'../' * depth}{url})"
+
+
+def when_text(r):
+    """Return a readable trigger description for a Dialogue_Lines row."""
+    if r.get("trigger_situation"):
+        return plain(r["trigger_situation"])
+    if r.get("bark"):
+        return plain(r["bark"].replace("_", " "))
+    return ""
 
 
 # ---------------------------------------------------------------- values tables
@@ -309,22 +326,28 @@ def skins(skin_text):
              game_text(g.get("Description", ""))] for g in groups.values()]
 
 
-def memoir_page(hero_name, memoir_text, file):
+def memoir_page(hero_name, memoir_text, file, memoir_audio):
     out = [f"# {hero_name}: memoir\n", f"[← {hero_name}](../heroes/{slug(hero_name)}.md) · [All tables](../README.md)\n"]
     title = next((t for k, t in memoir_text.items() if re.match(r".+_Memoir_Title$", k)), "")
     if title:
         out.append(f"## {plain(title)}\n")
     chapters = OrderedDict()
     for key, text in memoir_text.items():
-        m = re.match(r".+_Memoir(\d+)_(Title|Desc)$", key)
+        m = re.match(r"(.+_Memoir(\d+))_(Title|Desc)$", key)
         if m:
-            chapters.setdefault(int(m.group(1)), {})[m.group(2)] = text
+            ch = chapters.setdefault(int(m.group(2)), {})
+            ch[m.group(3)] = text
+            if m.group(3) == "Desc":
+                ch["DescKey"] = key
     for n in sorted(chapters):
         ch = chapters[n]
         out.append(f"### {plain(ch.get('Title', f'Chapter {n}'))}\n")
+        af = memoir_audio.get(ch.get("DescKey", ""), "")
+        if af:
+            out.append(f"Audio: {audio_link(af, 2, 'Listen to narration')}\n")
         out.append(game_text(ch.get("Desc", ""), newline="\n") + "\n")
     out.append(TEXT_KEY)
-    out.append(rel_source([file], 2) + "\n")
+    out.append(rel_source([file, "Voice_Lines_Audio.tsv"], 2) + "\n")
     out.append(note(2))
     return "\n".join(out)
 
@@ -370,6 +393,12 @@ def hero_page(hid, name, common, talents_meta, talents, abilities_meta, abilitie
 
 
 def build_heroes():
+    _, voice_rows = read_table("Voice_Lines_Audio.tsv", quoting=csv.QUOTE_NONE)
+    memoir_audio = {
+        r["key"]: r["audio_file"]
+        for r in voice_rows
+        if r.get("audio_status") == "memoir narration" and r.get("audio_file")
+    }
     heroes = []
     for hid in HERO_IDS:
         common = text_by_key(f"Hero_{hid}_Common.LangEN.tsv")
@@ -386,7 +415,7 @@ def build_heroes():
         write(OUT / "heroes" / f"{slug(name)}.md",
               hero_page(hid, name, common, t_meta, talents, a_meta, abilities, skin_rows, bool(memoir)))
         if memoir:
-            write(OUT / "memoirs" / f"{slug(name)}.md", memoir_page(name, memoir, memoir_file))
+            write(OUT / "memoirs" / f"{slug(name)}.md", memoir_page(name, memoir, memoir_file, memoir_audio))
     return [name for name, _, _ in heroes]
 
 
@@ -499,36 +528,99 @@ def build_reference(title, intro, doc, files, out_name):
 
 # ---------------------------------------------------------------- dialogue
 
+DIR_TO_PAGE_SPEAKER = {
+    "Aladdin": "Aladdin",
+    "Beowulf": "Beowulf",
+    "Carmilla": "Carmilla",
+    "Geppetto": "Geppetto",
+    "Juliet": "Juliet",
+    "Kintaro": "Kintarō",
+    "Melusine": "Melusine",
+    "Merlin": "Merlin",
+    "The_Pied_Piper": "The Pied Piper",
+    "Romeo": "Romeo",
+    "Scarlet": "Scarlet",
+    "Scarlet_Wolf": "Scarlet",
+    "The_Snow_Queen": "The Snow Queen",
+    "Sun_Wukong": "Sun Wukong",
+    "The_Sandman": "The Sandman, Dream Dealer",
+    "Sinbad": "Sinbad",
+    "Morgan": "Morgan",
+    "Baba_Yaga": "Baba Yaga / ???",
+    "Jack": "Jack",
+    "Castaway": "Unknown speaker",
+    "Three_Little_Pigs": "Unknown speaker",
+}
+
+
 def build_dialogue(hero_names):
-    _, rows = read_table("Dialogue_Lines.tsv")
+    _, rows = read_table("Dialogue_Lines.tsv", quoting=csv.QUOTE_NONE)
+    _, voice_rows = read_table("Voice_Lines_Audio.tsv", quoting=csv.QUOTE_NONE)
     by_speaker = defaultdict(list)
     for r in rows:
         by_speaker[(r.get("speaker") or "").strip() or "Unknown speaker"].append(r)
 
+    untexted_by_speaker = defaultdict(list)
+    for r in voice_rows:
+        if r.get("audio_status") == "clip has no text row" and r.get("audio_file"):
+            sdir = r["audio_file"].split("/")[1]
+            untexted_by_speaker[DIR_TO_PAGE_SPEAKER[sdir]].append(r)
+
     def lines_table(items, with_speaker=False):
         body = []
         for r in items:
-            row = [game_text(r["text_en"]), plain(r.get("trigger_situation", "")), plain(r.get("target", ""))]
+            row = [
+                game_text(r["text_en"]),
+                when_text(r),
+                plain(r.get("target", "")),
+                audio_link(r.get("audio_file", ""), 2),
+            ]
             if with_speaker:
                 row.insert(0, plain(r["speaker"]) or "*unknown*")
             body.append(row)
-        headers = ["Line", "When", "Said to"]
+        headers = ["Line", "When", "Said to", "Audio"]
         if with_speaker:
             headers.insert(0, "Speaker")
         return table(headers, body)
 
+    def categorized_sections(items, untexted):
+        groups = OrderedDict()
+        for r in items:
+            groups.setdefault(r.get("category") or "Other", []).append(r)
+        parts = []
+        for cat, cat_items in groups.items():
+            parts.append(f"## {plain(cat)}\n\n{lines_table(cat_items)}")
+        if untexted:
+            body = [
+                [
+                    plain(c.get("clip_name", "")),
+                    plain(c.get("category", "")),
+                    plain(c.get("seconds", "")),
+                    audio_link(c.get("audio_file", ""), 2),
+                ]
+                for c in untexted
+            ]
+            parts.append(
+                "## Untexted audio clips\n\n"
+                "Clips in the game's audio banks that have no matching row in `Dialogue_Lines.tsv`.\n\n"
+                + table(["Clip", "Category", "Length (s)", "Audio"], body)
+            )
+        return "\n".join(parts)
+
     index = ["# Dialogue\n", "[All tables](../README.md)\n",
-             "Spoken lines from the game, grouped by speaker. **When** describes the situation that triggers the line; "
-             "see [DIALOGUE.md](../../DIALOGUE.md) for how it was worked out.\n",
+             "Spoken lines from the game, grouped by speaker and category, with links to the extracted `.ogg` clips in `audio/`. **When** describes the situation that triggers the line; "
+             "see [DIALOGUE.md](../../DIALOGUE.md) and [VOICE.md](../../VOICE.md) for how triggers and clips were paired.\n",
              "## Heroes\n"]
     hero_set = set(hero_names)
     for name in hero_names:
         items = by_speaker.get(name, [])
-        if items:
-            index.append(f"- [{name}]({slug(name)}.md) ({len(items)} lines)")
+        untexted = untexted_by_speaker.pop(name, [])
+        if items or untexted:
+            count_note = f"{len(items)} lines" + (f", {len(untexted)} untexted clips" if untexted else "")
+            index.append(f"- [{name}]({slug(name)}.md) ({count_note})")
             page = [f"# {name}: dialogue\n", "[All dialogue](README.md) · "
-                    f"[{name}](../heroes/{slug(name)}.md)\n", lines_table(items), "\n" + TEXT_KEY,
-                    rel_source(["Dialogue_Lines.tsv"], 2), note(2)]
+                    f"[{name}](../heroes/{slug(name)}.md)\n", categorized_sections(items, untexted), "\n" + TEXT_KEY,
+                    rel_source(["Dialogue_Lines.tsv", "Voice_Lines_Audio.tsv"], 2), note(2)]
             write(OUT / "dialogue" / f"{slug(name)}.md", "\n".join(page))
     others = [(k, v) for k, v in by_speaker.items() if k not in hero_set]
     others.sort(key=lambda kv: (-len(kv[1]), kv[0]))
@@ -536,19 +628,23 @@ def build_dialogue(hero_names):
     small = []
     for speaker, items in others:
         if len(items) >= 20:
-            index.append(f"- [{plain(speaker)}]({slug(speaker)}.md) ({len(items)} lines)")
-            page = [f"# {plain(speaker)}: dialogue\n", "[All dialogue](README.md)\n", lines_table(items),
-                    "\n" + TEXT_KEY, rel_source(["Dialogue_Lines.tsv"], 2), note(2)]
+            untexted = untexted_by_speaker.pop(speaker, [])
+            count_note = f"{len(items)} lines" + (f", {len(untexted)} untexted clips" if untexted else "")
+            index.append(f"- [{plain(speaker)}]({slug(speaker)}.md) ({count_note})")
+            page = [f"# {plain(speaker)}: dialogue\n", "[All dialogue](README.md)\n",
+                    categorized_sections(items, untexted),
+                    "\n" + TEXT_KEY, rel_source(["Dialogue_Lines.tsv", "Voice_Lines_Audio.tsv"], 2), note(2)]
             write(OUT / "dialogue" / f"{slug(speaker)}.md", "\n".join(page))
         else:
             small.extend(items)
+    assert not untexted_by_speaker, f"Unplaced untexted clips: {list(untexted_by_speaker)}"
     if small:
         index.append(f"- [Everyone else](Others.md) ({len(small)} lines)")
         page = ["# Other speakers: dialogue\n", "[All dialogue](README.md)\n",
                 "Speakers with fewer than 20 lines.\n", lines_table(small, with_speaker=True),
-                "\n" + TEXT_KEY, rel_source(["Dialogue_Lines.tsv"], 2), note(2)]
+                "\n" + TEXT_KEY, rel_source(["Dialogue_Lines.tsv", "Voice_Lines_Audio.tsv"], 2), note(2)]
         write(OUT / "dialogue" / "Others.md", "\n".join(page))
-    index += ["", rel_source(["Dialogue_Lines.tsv"], 2), note(2)]
+    index += ["", rel_source(["Dialogue_Lines.tsv", "Voice_Lines_Audio.tsv"], 2), note(2)]
     write(OUT / "dialogue" / "README.md", "\n".join(index))
 
 
@@ -561,8 +657,9 @@ def build_index(hero_names):
            "## Heroes\n",
            "Each page has the hero's abilities, ability values, talents and outfits.\n",
            " · ".join(f"[{n}](heroes/{slug(n)}.md)" for n in hero_names) + "\n",
-           "Memoirs: " + " · ".join(f"[{n}](memoirs/{slug(n)}.md)" for n in hero_names
-                                     if (OUT / "memoirs" / f"{slug(n)}.md").exists()) + "\n",
+           "Memoirs (with links to narrated `.ogg` audio): " + " · ".join(
+               f"[{n}](memoirs/{slug(n)}.md)" for n in hero_names
+               if (OUT / "memoirs" / f"{slug(n)}.md").exists()) + "\n",
            "## Items and effects\n",
            "- [Magical Objects](magical-objects.md)",
            "- [Melodies](melodies.md)",
@@ -571,11 +668,11 @@ def build_index(hero_names):
            "- [Enemies](enemies.md)",
            "- [Enemy combat settings](combat.md)",
            "- [Map generation](map-generation.md)\n",
-           "## Dialogue\n",
-           "- [Spoken lines by speaker](dialogue/README.md)\n",
+           "## Dialogue & voice audio\n",
+           "- [Spoken lines by speaker and category](dialogue/README.md) (with links to categorized `.ogg` clips in `audio/`)\n",
            "## Not shown here\n",
            "These tables are for checking the data and have no readable page. Open the TSV directly:\n",
-           "- [`Voice_Lines_Audio.tsv`](../data/Voice_Lines_Audio.tsv): where each line's recording sits in the audio files",
+           "- [`Voice_Lines_Audio.tsv`](../data/Voice_Lines_Audio.tsv): index of every voice and memoir clip, its category, bank position, and `.ogg` path",
            "- [`In_Game_Observations.tsv`](../data/In_Game_Observations.tsv) and [`Fill_Pass_Values.tsv`](../data/Fill_Pass_Values.tsv): the evidence behind the **In-game check** column",
            "- [`Magical_Objects_Sources.tsv`](../data/Magical_Objects_Sources.tsv): rarity chances set on reward sources",
            "- [`Common.LangEN.tsv`](../data/Common.LangEN.tsv) and [`Enemy_Common.LangEN.tsv`](../data/Enemy_Common.LangEN.tsv): general interface and enemy text",
