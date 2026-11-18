@@ -14,9 +14,9 @@ Submit new table selections separately for review before adding them. TABLES.md 
 
 ## Repository contents
 
-Keep this repository limited to selected TSV tables, the documentation and Git configuration needed to use them, the categorized voice-line `.ogg` clips under `audio/`, and the readable pages in `browse/`. Those pages are generated: after changing any table, run `python tools/build_browse.py` from the repository root and commit the result. Never edit `browse/` by hand. Do not commit images, icons, portraits, raw audio/video, fonts, binaries, game archives, raw decoded game files, game installations, screenshots, upload bundles, credentials, private notes, or local machine paths.
+Keep this repository limited to selected TSV tables, the documentation and Git configuration needed to use them, selected reference media (audio/video clips, images, icons, portraits, and verification screenshots), and the readable pages in `browse/`. Those pages are generated: after changing any table, run `python tools/build_browse.py` from the repository root and commit the result. Never edit `browse/` by hand. Do not commit fonts, binaries, game archives, raw decoded game files, game installations, credentials, private notes, or local machine paths.
 
-Use the wiki for article prose and uploaded assets. This repository is the reference for the selected data tables.
+Use the wiki for article prose. This repository is the reference for the selected data tables and supporting media.
 
 
 Gameplay-note imports are documented in [ENEMIES.md](ENEMIES.md),
@@ -28,4 +28,4 @@ an unverified table override rather than inheriting the default 1.06 label.
 
 ## Copyright and fair use
 
-All extracted *Ravenswatch* text, dialogue, voice recordings, and game data belong to **Passtech Games** and **Nacon**. Material in this repository is hosted solely for non-commercial, educational, and encyclopedic documentation on the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/) under fair use (17 U.S.C. § 107). See the [copyright and fair use notice in README.md](README.md#copyright-and-fair-use-notice).
+All extracted *Ravenswatch* text, dialogue, voice recordings, images, video, and game data belong to **Passtech Games** and **Nacon**. Material in this repository is hosted solely for non-commercial, educational, and encyclopedic documentation on the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/) under fair use (17 U.S.C. § 107). See the [copyright and fair use notice in README.md](README.md#copyright-and-fair-use-notice).
