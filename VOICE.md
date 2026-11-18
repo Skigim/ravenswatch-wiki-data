@@ -78,6 +78,8 @@ All 5,593 paired and untexted clips in [Voice_Lines_Audio.tsv](data/Voice_Lines_
 
 Both [Voice_Lines_Audio.tsv](data/Voice_Lines_Audio.tsv) and [Dialogue_Lines.tsv](data/Dialogue_Lines.tsv) include `category` (human-readable situation/quest/combat category) and `audio_file` (relative path to the `.ogg` file under `audio/`, blank for the 411 unvoiced lines). The generated pages under [browse/dialogue/](browse/dialogue/README.md) and [browse/memoirs/](browse/README.md) link directly to each `.ogg` clip.
 
+All voice recordings belong to **Passtech Games**, **Nacon**, and their respective voice performers, and are included solely for non-commercial encyclopedic documentation on the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/) under fair use (17 U.S.C. § 107); see [README.md](README.md#copyright-and-fair-use-notice).
+
 ## Limits
 
 - Nothing was checked by listening or in game. The game's FMOD library loaded 21 clips from `Voice_EN.bank` and `Hero_RomeoJuliet.bank` under the names this table gives them, with matching lengths.

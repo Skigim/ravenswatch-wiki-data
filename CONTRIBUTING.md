@@ -25,3 +25,7 @@ localized names distinct from descriptive labels, fallback values distinct
 from referenced constants, and configuration distinct from inferred models
 and observations. A dated note without game-version evidence must receive
 an unverified table override rather than inheriting the default 1.06 label.
+
+## Copyright and fair use
+
+All extracted *Ravenswatch* text, dialogue, voice recordings, and game data belong to **Passtech Games** and **Nacon**. Material in this repository is hosted solely for non-commercial, educational, and encyclopedic documentation on the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/) under fair use (17 U.S.C. § 107). See the [copyright and fair use notice in README.md](README.md#copyright-and-fair-use-notice).

@@ -82,7 +82,11 @@ These source tables describe rarity chances, not the probability of each named o
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes. Use an issue to report a questionable mapping or value, or submit a pull request with the source, game version when known, and relevant conditions. Coordinate article work through the wiki's [contributor guide](https://ravenswatch.wiki.gg/wiki/Help:Contributing).
 
-Ravenswatch game text belongs to its respective rights holders. This repository does not grant an open-source license over extracted game text.
+## Copyright and fair use notice
+
+*Ravenswatch* and all extracted game text, dialogue, voice recordings, and data tables in this repository are the copyrighted property and trademarks of **Passtech Games** and **Nacon** (and their respective licensors and voice performers). This repository is an unofficial community data reference prepared for the [Ravenswatch Wiki](https://ravenswatch.wiki.gg/) and is not affiliated with, endorsed by, or sponsored by Passtech Games or Nacon.
+
+Extracted game text and voice-line audio clips (`audio/`) are provided solely for non-commercial, informational, archival, research, and encyclopedic documentation purposes under the **fair use** doctrine of United States copyright law (17 U.S.C. § 107) and equivalent fair-dealing provisions in other jurisdictions. This repository does not grant an open-source or commercial license over extracted game text or audio assets. Any request by the copyright holders to modify or remove material will be honored promptly.
 
 ## Enemy reference selection
 
