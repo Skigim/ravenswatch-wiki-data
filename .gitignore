@@ -142,3 +142,8 @@
 !/data/Challenges.tsv
 !/data/Achievements.tsv
 !/data/Hero_Skin_Unlocks.tsv
+
+# Minimap and POI iconography PNGs and index table (2026-11-19).
+!/images/
+!/images/**
+!/data/Minimap_Images.tsv

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "2026-11-18-voice-audio-files",
-  "snapshot_published_on": "2026-11-18",
+  "snapshot_id": "2026-11-19-minimap-images",
+  "snapshot_published_on": "2026-11-19",
   "extracted_on": "2026-10-12",
   "game": "Ravenswatch",
   "game_version": "1.06.00.04.27511",
@@ -391,6 +391,24 @@
         }
       ],
       "extracted_on": "2026-11-17"
+    },
+    "data/Minimap_Images.tsv": {
+      "game_version": "1.06.02.01.27530",
+      "version_display": "1.06.02.01.27530 2026/10/26 #50a41728bf",
+      "platform": "PC",
+      "store": "Steam",
+      "build_id": "26221048",
+      "build_date": "2026-10-26",
+      "build_revision": "50a41728bf",
+      "version_status": "verified",
+      "version_evidence": [
+        {
+          "kind": "build_metadata",
+          "reference": "Game log version line, 2026-11-17",
+          "note": "The 141 cooked Ui/MiniMap textures from 1.05 and 1.06 are byte-for-byte identical in build 1.06.02.01.27530 (Steam build ID 26221048), plus Minimap_IconHigh_Kintaro.png decoded from that build's Ui/MiniMap."
+        }
+      ],
+      "extracted_on": "2026-11-19"
     }
   }
 }

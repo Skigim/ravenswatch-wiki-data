@@ -21,6 +21,7 @@ Memoirs (with links to narrated `.ogg` audio): [Aladdin](memoirs/Aladdin.md) · 
 - [Enemies](enemies.md)
 - [Enemy combat settings](combat.md)
 - [Map generation](map-generation.md)
+- [Minimap & POI iconography](minimap-icons.md)
 
 ## Dialogue & voice audio
 

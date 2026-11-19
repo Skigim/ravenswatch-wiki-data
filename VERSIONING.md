@@ -4,7 +4,9 @@ VERSION.json is the version record for the tables in this repository. A game ver
 
 ## Current record
 
-The current snapshot is `2026-11-18-voice-audio-files`, published November 18, 2026. It extracts all 5,593 voice and memoir audio clips from the 1.06 FMOD banks (`Audio/Voice_EN.bank`, the 12 `Audio/Hero_<Hero>.bank` files, and `Audio/Maps.bank`, Steam build ID `25174305`, already cataloged on 2026-11-10) into categorized Ogg Vorbis (`.ogg`) files under `audio/`, adds `category` and `audio_file` columns to `data/Voice_Lines_Audio.tsv` and `data/Dialogue_Lines.tsv`, and links them in `browse/`. The source audio attribution stays 1.06 (`25174305`). Every other table is unchanged.
+The current snapshot is `2026-11-19-minimap-images`, published November 19, 2026. It adds the 142 minimap, chapter-map, and Point of Interest (POI) icon PNGs under `images/ui/minimap/` (141 cooked textures verified byte-for-byte identical across 1.05, 1.06, and 1.06.02.01 plus Kintarō's high-res map pin decoded from build 1.06.02.01, Steam build ID `26221048`), along with `data/Minimap_Images.tsv` and `browse/minimap-icons.md`. Its `table_overrides` entry is `verified` for `1.06.02.01.27530`. Every other table is unchanged.
+
+The previous snapshot, `2026-11-18-voice-audio-files`, was published November 18, 2026. It extracts all 5,593 voice and memoir audio clips from the 1.06 FMOD banks (`Audio/Voice_EN.bank`, the 12 `Audio/Hero_<Hero>.bank` files, and `Audio/Maps.bank`, Steam build ID `25174305`, already cataloged on 2026-11-10) into categorized Ogg Vorbis (`.ogg`) files under `audio/`, adds `category` and `audio_file` columns to `data/Voice_Lines_Audio.tsv` and `data/Dialogue_Lines.tsv`, and links them in `browse/`. The source audio attribution stays 1.06 (`25174305`). Every other table is unchanged.
 
 The previous snapshot, `2026-11-17-1.06.02.01`, was published November 17, 2026. It re-extracts three tables from the Steam (PC) install after it updated to version 1.06.02.01, Steam build ID `26221048`: `data/Common.LangEN.tsv`, `data/Hero_RED_Skins.LangEN.tsv` and `data/Hero_Kintaro_Talents.tsv`. The game log written by that install on the day of the export reads `1.06.02.01.27530 2026/10/26 #50a41728bf`. That log line and the Steam build ID tie the three tables to the build, so their `table_overrides` entries are `verified`. The other tables were not relabeled. No other table changed.
 
@@ -49,6 +51,7 @@ Snapshot history (the October 5 and 6 snapshots came from version 1.05):
 | `2026-11-13-contributor-claims` | November 13, 2026 | Adds 4 tables (modifiers, challenges, achievements, outfit unlocks) and extends 3 value tables from the 1.06 files | Not yet tagged |
 | `2026-11-17-1.06.02.01` | November 17, 2026 | Re-extracts 3 tables (common text, Scarlet outfit text, Kintarō talents) from build 1.06.02.01 | Not yet tagged |
 | `2026-11-18-voice-audio-files` | November 18, 2026 | Extracts all 5,593 voice/memoir clips to categorized `.ogg` files under `audio/` and links `category` and `audio_file` in `Voice_Lines_Audio.tsv`, `Dialogue_Lines.tsv`, and `browse/` | Not yet tagged |
+| `2026-11-19-minimap-images` | November 19, 2026 | Adds 142 minimap and POI icon PNGs under `images/ui/minimap/`, `data/Minimap_Images.tsv`, and `browse/minimap-icons.md` | Not yet tagged |
 
 The recorded `LiveOps6` label applies to the Magical Object index's selected entry list. It does not establish a public patch number, the source version of every table, or the current version of the installed game.
 

@@ -526,6 +526,40 @@ def build_reference(title, intro, doc, files, out_name):
     write(OUT / out_name, "\n".join(out))
 
 
+def build_minimap_images():
+    _, rows = read_table("Minimap_Images.tsv", quoting=csv.QUOTE_NONE)
+    groups = OrderedDict()
+    for r in rows:
+        groups.setdefault(r["category"], []).append(r)
+
+    out = [
+        "# Minimap & POI iconography\n",
+        "[All tables](README.md) · [Map generation](map-generation.md)\n",
+        "All 142 Point of Interest icons, quest markers, hero map pins, chapter maps, and minimap UI overlays under [`images/ui/minimap/`](../images/ui/minimap/).\n",
+    ]
+    for category, items in groups.items():
+        out.append(f"## {plain(category)}\n")
+        width = "160" if category == "Chapter Maps & Minimap UI" else "40"
+        body = []
+        for r in items:
+            alt = plain(r["label"]).replace('"', "&quot;")
+            preview = f'<img src="../{r["file"]}" width="{width}" alt="{alt}">'
+            size_str = f"{r['width']}×{r['height']}"
+            file_link = f"[`{r['file'].removeprefix('images/ui/minimap/')}`](../{r['file']})"
+            body.append([
+                preview,
+                plain(r["label"]),
+                plain(r["variant"]),
+                plain(r["resolution_tier"]),
+                size_str,
+                file_link,
+            ])
+        out.append(table(["Icon", "Name", "Variant", "Tier", "Size", "File"], body))
+    out.append(rel_source(["Minimap_Images.tsv"], 1))
+    out.append(note(1))
+    write(OUT / "minimap-icons.md", "\n".join(out))
+
+
 # ---------------------------------------------------------------- dialogue
 
 DIR_TO_PAGE_SPEAKER = {
@@ -667,7 +701,8 @@ def build_index(hero_names):
            "## World\n",
            "- [Enemies](enemies.md)",
            "- [Enemy combat settings](combat.md)",
-           "- [Map generation](map-generation.md)\n",
+           "- [Map generation](map-generation.md)",
+           "- [Minimap & POI iconography](minimap-icons.md)\n",
            "## Dialogue & voice audio\n",
            "- [Spoken lines by speaker and category](dialogue/README.md) (with links to categorized `.ogg` clips in `audio/`)\n",
            "## Not shown here\n",
@@ -696,12 +731,14 @@ def main():
                     ["Enemy_Combat_Values.tsv", "Enemy_Combat_Picker_Values.tsv", "Enemy_Chapter_Damage_Factors.tsv"],
                     "combat.md")
     build_reference("Map generation",
-                    "Resource roles, weights, quotas, caps, tier bands and probability models used when maps are built.",
+                    "Resource roles, weights, quotas, caps, tier bands and probability models used when maps are built. "
+                    "See also [Minimap & POI iconography](minimap-icons.md).",
                     "MAP_GENERATION.md",
                     ["Map_Generation_References.tsv", "Map_Generation_Weights.tsv", "Map_Generation_Quotas.tsv",
                      "Map_Generation_Caps.tsv", "Map_Tile_Tier_Bands.tsv", "Map_Stash_Models.tsv",
                      "Map_Generation_Observations.tsv"],
                     "map-generation.md")
+    build_minimap_images()
     build_dialogue(hero_names)
     build_index(hero_names)
     print(f"Wrote {sum(1 for _ in OUT.rglob('*.md'))} pages to {OUT}")

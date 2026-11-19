@@ -2,7 +2,7 @@
 
 [All tables](README.md)
 
-Resource roles, weights, quotas, caps, tier bands and probability models used when maps are built. See [MAP_GENERATION.md](../MAP_GENERATION.md) for what each column means and what the data cannot show.
+Resource roles, weights, quotas, caps, tier bands and probability models used when maps are built. See also [Minimap & POI iconography](minimap-icons.md). See [MAP_GENERATION.md](../MAP_GENERATION.md) for what each column means and what the data cannot show.
 
 ## Map Generation References
 

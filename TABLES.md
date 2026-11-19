@@ -1,6 +1,6 @@
 # Selected tables
 
-The repository holds 96 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table, 1 voice-audio table, 2 game-modifier tables and 2 achievement and outfit tables. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
+The repository holds 97 selected TSV files: 46 decoded text and index exports, 13 numerical talent tables, 18 numerical value tables, 3 enemy reference tables, 3 combat-configuration tables, 7 map-generation tables, 1 dialogue table, 1 voice-audio table, 2 game-modifier tables, 2 achievement and outfit tables, and 1 minimap-iconography index. It also holds one corrections record. SHA-256 hashes identify exact file bytes. Declared row counts come from each file header.
 
 The `2026-10-12-1.06` snapshot re-extracts every table from game build 1.06, except `In_Game_Observations.tsv` and `Fill_Pass_Values.tsv`. Those two hold evidence gathered on 1.05 and are unchanged. The snapshot adds five tables for Kintarō. [CHANGES-1.06.md](CHANGES-1.06.md) lists every row that changed. [VERSION.json](VERSION.json) records the source version of each table.
 
@@ -19,6 +19,8 @@ The `2026-11-13-contributor-claims` snapshot checks contributor claims against t
 The `2026-11-17-1.06.02.01` snapshot re-extracts three tables from game build 1.06.02.01 (Steam build ID `26221048`): `Common.LangEN.tsv` and `Hero_RED_Skins.LangEN.tsv`, whose English text changed, and `Hero_Kintaro_Talents.tsv`, whose Dohyo tooltip argument changed. VERSION.json gives each of them a table override. The other tables were not re-extracted and keep their earlier attribution.
 
 The `2026-11-18-voice-audio-files` snapshot extracts all 5,593 voice and memoir audio clips from the 1.06 audio banks as categorized Ogg Vorbis (`.ogg`) files under `audio/`, and adds `category` and `audio_file` columns to `Dialogue_Lines.tsv` and `Voice_Lines_Audio.tsv`. Every other table is unchanged.
+
+The `2026-11-19-minimap-images` snapshot adds the 142 minimap, chapter-map, and Point of Interest (POI) icon PNGs under `images/ui/minimap/` (141 unchanged across 1.05/1.06/1.06.02.01 plus Kintarō's high-res map pin decoded from build 1.06.02.01) along with `data/Minimap_Images.tsv` and `browse/minimap-icons.md`. Every other table is unchanged.
 
 ## Text and index exports
 
@@ -193,3 +195,11 @@ Added in `2026-11-13-contributor-claims`. Read from the Definitions of the 1.06 
 | [Challenges.tsv](data/Challenges.tsv) | 5 | `ChallengesAndGameModifiers~GAM.xls`; `Definitions/Challenges/*.challengedef` | `5931acd2a6d81bb06602f280eb88b49d9667b1079d7b0548c328de78ed364060` |
 | [Achievements.tsv](data/Achievements.tsv) | 48 | `Definitions/Achievements/*.Achievementdef` | `a430a47702153a379883514a2285183fea84a30e73a28513b22f4eba0891e2e2` |
 | [Hero_Skin_Unlocks.tsv](data/Hero_Skin_Unlocks.tsv) | 113 | `Definitions/Heroes/*.herodef` (SkinProfileDataSettings); `Hero_<Hero>_Skins.LangEN.tsv`; `Common.LangEN.tsv`; hero entity named values | `6f13a8adaaff601683f1d7e0e13715fe390ed7011bfadb9b14bb827cc16fb17a` |
+
+## Minimap and POI iconography
+
+Added in `2026-11-19-minimap-images`. Catalogs all 142 PNG files under `images/ui/minimap/` (141 cooked `Ui/MiniMap` textures verified byte-for-byte identical across 1.05/1.06/1.06.02.01 plus Kintarō's high-res map pin decoded from build 1.06.02.01, Steam build ID `26221048`), paired with official `Common.LangEN.tsv` / `Hero_*_Common.LangEN.tsv` text keys where present.
+
+| File | Declared rows | Source identifier | SHA-256 |
+|---|---:|---|---|
+| [Minimap_Images.tsv](data/Minimap_Images.tsv) | 142 | `Ui/MiniMap/*` (build 1.06.02.01.27530); `data/Common.LangEN.tsv`; `data/Hero_*_Common.LangEN.tsv` | `b99896297fddb2868684b497dbceb491ac72a45f0fa490dce8477a0206be8884` |
